@@ -1,6 +1,6 @@
 # Touhouwiki-kr
 
-<https://touhou-kr.github.io/touhouwiki-kr/>
+<https://wealthygogi.github.io/touhouwiki-kr/>
 
 # Website
 

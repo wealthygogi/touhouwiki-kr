@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "touhou-kr", // Usually your GitHub org/user name.
+  organizationName: "wealthygogi", // Usually your GitHub org/user name.
   projectName: "touhouwiki-kr", // Usually your repo name.
   trailingSlash: false,
 
@@ -40,7 +40,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/touhou-kr/touhouwiki-kr/tree/main/",
+          editUrl: "https://github.com/wealthygogi/touhouwiki-kr/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -66,7 +66,7 @@ const config: Config = {
           label: "동방",
         },
         {
-          href: "https://github.com/touhou-kr/touhouwiki-kr",
+          href: "https://github.com/wealthygogi/touhouwiki-kr",
           label: "GitHub",
           position: "right",
         },
