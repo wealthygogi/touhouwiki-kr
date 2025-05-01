@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "키리사메 마리사"
-description: "동방췌몽상의 주인공 중 한 명"
+description: "평범한 마법사"
 ---
 
 import kirisameMarisa from './img/kirisame_marisa.png';

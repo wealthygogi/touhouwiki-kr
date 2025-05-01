@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "하쿠레이 레이무"
-description: "동방췌몽상의 주인공 중 한 명"
+description: "낙원의 멋진 무녀"
 ---
 
 import hakureiReimu from './img/hakurei_reimu.png';

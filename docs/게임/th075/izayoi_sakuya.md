@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: "이자요이 사쿠야"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "홍마관의 메이드"
 ---
 
 import izayoiSakuya from './img/izayoi_sakuya.png';

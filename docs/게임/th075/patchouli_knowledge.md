@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: "파츄리 널릿지"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "움직이지 않는 대도서관"
 ---
 
 import patchouliKnowledge from './img/patchouli_knowledge.png';

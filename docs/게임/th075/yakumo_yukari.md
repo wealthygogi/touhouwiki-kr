@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: "야쿠모 유카리"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "환상의 경계"
 ---
 
 import yakumoYukari from './img/yakumo_yukari.png';

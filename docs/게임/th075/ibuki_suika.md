@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: "이부키 스이카"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "모이는 꿈, 환상, 그리고 백귀야행"
 ---
 
 import ibukiSuika from './img/ibuki_suika.png';

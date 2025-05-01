@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: "콘파쿠 요우무"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "생명의 이도류"
 ---
 
 import konpakuYoumu from './img/konpaku_youmu.png';

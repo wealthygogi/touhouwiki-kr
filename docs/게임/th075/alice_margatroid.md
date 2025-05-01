@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: "앨리스 마가트로이드"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "칠색의 인형사"
 ---
 
 import aliceMargatroid from './img/alice_margatroid.png';

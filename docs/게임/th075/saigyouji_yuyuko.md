@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: "사이교우지 유유코"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "천의무봉의 망령"
 ---
 
 import saigyoujiYuyuko from './img/saigyouji_yuyuko.png';

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: "레밀리아 스칼렛"
-description: "동방췌몽상의 등장 캐릭터 중 한 명"
+description: "붉은 악마"
 ---
 
 import remiliaScarlet from './img/remilia_scarlet.png';
