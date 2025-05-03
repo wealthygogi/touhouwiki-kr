@@ -61,9 +61,15 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "gameSidebar",
           position: "left",
-          label: "동방",
+          label: "게임",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "musicSidebar",
+          position: "left",
+          label: "음악",
         },
         {
           href: "https://github.com/wealthygogi/touhouwiki-kr",
