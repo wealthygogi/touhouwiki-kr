@@ -6,8 +6,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "웰시고기 일기장",
-  tagline: "동방 굿",
-  favicon: "img/favicon.ico",
+  tagline: "touhouwiki-kr project",
+  favicon: "img/sanae.ico",
 
   // Set the production url of your site here
   url: "https://touhouwiki-kr.github.io",
@@ -56,7 +56,7 @@ const config: Config = {
       title: "웰시고기 일기장",
       logo: {
         alt: "웰시고기 일기장",
-        src: "img/logo.svg",
+        src: "img/sanae.svg",
       },
       items: [
         {
