@@ -1,5 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+title: "봉래인형 ~ Dolls in Pseudo Paradise"
+description: "蓬莱人形 ~ Dolls in Pseudo Paradise"
 ---
 
 # 봉래인형

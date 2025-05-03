@@ -1,0 +1,11 @@
+{
+  "label": "대전 격투 게임",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "fighting_game/intro",
+    "description": "동방 프로젝트의 캐릭터들이 등장하는 대전 격투 게임입니다. 이 게임은 황혼프론티어에서 제작하였으며, 동방 프로젝트의 캐릭터들이 등장하는 대전 격투 게임입니다."
+  }
+}
