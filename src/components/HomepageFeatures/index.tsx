@@ -12,25 +12,59 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "글 출처",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>https://www.thpatch.net/</>,
+    Svg: () => (
+      <img
+        src={require("@site/static/img/AbstractCactus_Logo_03.png").default}
+        alt="Abstract Cactus Logo"
+        style={{ maxWidth: "100px" }}
+      />
+    ),
+    description: (
+      <a
+        href="https://www.thpatch.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://www.thpatch.net/
+      </a>
+    ),
   },
   {
     title: "그림 출처",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
-    description: <>https://x.com/dairi155</>,
+    Svg: () => (
+      <img
+        src={require("@site/static/img/image.png").default}
+        alt="Docusaurus Tree"
+        style={{ maxWidth: "100px" }}
+      />
+    ),
+    description: (
+      <a
+        href="https://x.com/dairi155"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://x.com/dairi155
+      </a>
+    ),
   },
   {
     title: "License",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: () => (
+      <img
+        src={require("@site/static/img/cc-by-sa.png").default}
+        alt="CC BY-SA 4.0"
+        style={{ maxWidth: "100px", marginBottom: "0.5rem" }}
+      />
+    ),
     description: (
-      <>
-        <img
-          src={require("@site/static/img/cc-by-sa.png").default}
-          alt="CC BY-SA 4.0"
-          style={{ maxWidth: "100px", marginBottom: "0.5rem" }}
-        />
-      </>
+      <a
+        href="https://creativecommons.org/licenses/by/4.0/deed.en"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        CC BY-SA 4.0
+      </a>
     ),
   },
 ];
