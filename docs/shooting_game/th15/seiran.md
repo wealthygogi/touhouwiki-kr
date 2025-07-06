@@ -1,5 +1,5 @@
 ---
-sidbar_position: 5
+sidebar_position: 5
 title: "세이란"
 description: "옥색의 이글 래빗"
 ---
