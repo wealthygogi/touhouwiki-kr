@@ -6,7 +6,7 @@ description: "낙원의 멋진 무녀"
 
 import hakureiReimu from './img/hakurei_reimu.png';
 
-## 하쿠레이 레이무 (博麗靈夢, Hakurei Reimu)
+## 하쿠레이 레이무 (博麗霊夢, Hakurei Reimu)
 
 <img src={hakureiReimu} alt="하쿠레이 레이무" style={{width: 250}} />
 
