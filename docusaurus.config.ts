@@ -72,6 +72,12 @@ const config: Config = {
           label: "음악",
         },
         {
+          type: "docSidebar",
+          sidebarId: "gachaGameSidebar",
+          position: "left",
+          label: "가챠",
+        },
+        {
           href: "https://github.com/wealthygogi/touhouwiki-kr",
           label: "GitHub",
           position: "right",
