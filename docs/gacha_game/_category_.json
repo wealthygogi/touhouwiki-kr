@@ -1,9 +1,0 @@
-{
-  "label": "랜덤 뽑기 게임",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "slug": "random_game/intro",
-    "description": "게임, 캐릭터를 랜덤으로 뽑아보세요!"
-  }
-}
