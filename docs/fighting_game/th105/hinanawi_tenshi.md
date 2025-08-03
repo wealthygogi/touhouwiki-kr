@@ -1,5 +1,5 @@
 ---
-sidbar_position: 5
+sidebar_position: 5
 title: "히나나위 텐시"
 description: "비상비비상천의 아가씨, 대지와 기질을 다루는 천인."
 ---
