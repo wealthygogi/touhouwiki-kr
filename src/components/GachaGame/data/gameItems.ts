@@ -78,14 +78,14 @@ export const GAME_ITEMS: GachaItem[] = [
   },
 
   // 격투 게임
-  {
-    id: "th075",
-    name: "동방췌몽상",
-    description: "동방췌몽상 ~ Immaterial and Missing Power.",
-  },
-  {
-    id: "th105",
-    name: "동방비상천",
-    description: "동방비상천 ~ Scarlet Weather Rhapsody.",
-  },
+  // {
+  //   id: "th075",
+  //   name: "동방췌몽상",
+  //   description: "동방췌몽상 ~ Immaterial and Missing Power.",
+  // },
+  // {
+  //   id: "th105",
+  //   name: "동방비상천",
+  //   description: "동방비상천 ~ Scarlet Weather Rhapsody.",
+  // },
 ];
