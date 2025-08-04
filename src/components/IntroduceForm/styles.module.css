@@ -1,0 +1,511 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.formContainer {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* 왼쪽 컬럼 */
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileImageSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileImageBox {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  position: relative;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #f0f0f0;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.fileInput {
+  width: 100%;
+  max-width: 200px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.backgroundImageSection {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.backgroundImageSection label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 중앙 컬럼 */
+.middleColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 오른쪽 컬럼 */
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formSection label {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+.textInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  color: #333;
+}
+
+.textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  color: #333;
+  resize: vertical;
+  min-height: 120px;
+  font-family: inherit;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+
+.checkboxLabel input[type="radio"],
+.checkboxLabel input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.sideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.seriesSection {
+  margin-bottom: 15px;
+}
+
+.seriesSection h4 {
+  margin: 0 0 8px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.checkboxGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.generateButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.generateButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.generateButton:active {
+  transform: translateY(0);
+}
+
+/* 이미지 리사이징 모달 */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modalContent h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.modalContent p {
+  margin: 0 0 20px 0;
+  color: #666;
+}
+
+.cropContainer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cancelButton {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancelButton:hover {
+  background: #e5e5e5;
+}
+
+.saveButton {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.saveButton:hover {
+  background: #0056b3;
+}
+
+.opacityControl {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.opacityControl label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.opacitySlider {
+  width: 100%;
+  max-width: 300px;
+  height: 6px;
+  border-radius: 3px;
+  background: #ddd;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.opacitySlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.opacitySlider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  border: none;
+}
+
+/* PDF 생성용 숨겨진 폼 */
+.hiddenForm {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 800px;
+  height: 600px;
+  background: white;
+  padding: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.imageForm {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  height: 560px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.imageForm > * {
+  position: relative;
+  z-index: 1;
+}
+
+.imageForm h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  flex: 1;
+  align-items: stretch;
+}
+
+.imageLeftColumn,
+.imageMiddleColumn,
+.imageRightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.imageProfileImage {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin-bottom: 15px;
+}
+
+.imageProfileImage img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  background-color: #f0f0f0 !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-position: center !important;
+  flex-shrink: 0 !important;
+}
+
+.imageField {
+  font-size: 11px;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.pdfField strong {
+  color: #000;
+}
+
+.imageTextarea {
+  margin-top: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.imageCheckbox {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 3px;
+  font-size: 10px;
+}
+
+.imageCheckboxGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.imageRadioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.imageRadio {
+  display: inline-block;
+  font-size: 10px;
+  margin-right: 6px;
+}
+
+.imageTextValue {
+  margin-top: 4px;
+  font-size: 11px;
+  word-wrap: break-word;
+  line-height: 1.3;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 1024px) {
+  .formGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rightColumn {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sideBySide {
+    grid-template-columns: 1fr;
+  }
+
+  .checkboxGrid {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .formContainer {
+    padding: 20px;
+  }
+
+  .formContainer h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .checkboxGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .profileImageBox {
+    width: 120px;
+    height: 120px;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .generateButton {
+    padding: 12px 24px;
+    font-size: 14px;
+    width: 200px;
+  }
+}

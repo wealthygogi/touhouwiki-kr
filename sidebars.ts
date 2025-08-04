@@ -72,6 +72,11 @@ const sidebars: SidebarsConfig = {
       id: "gacha",
       label: "가챠",
     },
+    {
+      type: "doc",
+      id: "introduce",
+      label: "자기소개서",
+    },
   ],
 };
 

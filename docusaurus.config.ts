@@ -75,7 +75,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "gachaGameSidebar",
           position: "left",
-          label: "가챠",
+          label: "가챠/자기소개서",
         },
         {
           href: "https://github.com/wealthygogi/touhouwiki-kr",
