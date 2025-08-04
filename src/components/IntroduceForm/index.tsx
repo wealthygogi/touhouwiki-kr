@@ -1009,14 +1009,20 @@ const IntroduceForm: React.FC = () => {
               <div className={styles.imageField}>
                 <strong>애정 캐릭터:</strong>
                 <div className={styles.imageTextValue}>
-                  {formData.favoriteCharacter}
+                  {formData.favoriteCharacter.split("\n").map((line, index) => (
+                    <div key={index}>{line}</div>
+                  ))}
                 </div>
               </div>
 
               {/* 커플링 / 조합 */}
               <div className={styles.imageField}>
                 <strong>커플링 / 조합:</strong>
-                <div className={styles.imageTextValue}>{formData.pairing}</div>
+                <div className={styles.imageTextValue}>
+                  {formData.pairing.split("\n").map((line, index) => (
+                    <div key={index}>{line}</div>
+                  ))}
+                </div>
               </div>
 
               {/* 자유서술란 */}

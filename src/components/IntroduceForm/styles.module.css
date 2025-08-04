@@ -451,6 +451,14 @@
   line-height: 1.3;
 }
 
+.imageTextValue > div {
+  margin-bottom: 2px;
+}
+
+.imageTextValue > div:last-child {
+  margin-bottom: 0;
+}
+
 /* 반응형 디자인 */
 @media (max-width: 1024px) {
   .formGrid {
