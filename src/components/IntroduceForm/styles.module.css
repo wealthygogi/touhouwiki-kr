@@ -25,6 +25,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-bottom: 30px;
+  align-items: start;
 }
 
 /* 왼쪽 컬럼 */
@@ -39,6 +40,8 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .profileImageBox {
@@ -90,7 +93,7 @@
 .middleColumn {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 /* 오른쪽 컬럼 */
@@ -98,6 +101,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-height: 0;
 }
 
 .formSection {
@@ -106,10 +110,20 @@
   gap: 8px;
 }
 
-.formSection label {
+.formSection h3 {
   font-weight: bold;
   color: #333;
   font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.formSection h4 {
+  font-weight: bold;
+  color: #555;
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  padding: 0;
 }
 
 .textInput {
@@ -131,6 +145,8 @@
   resize: vertical;
   min-height: 120px;
   font-family: inherit;
+  overflow-y: auto;
+  max-height: 400px;
 }
 
 .checkboxGroup {
@@ -161,7 +177,7 @@
 }
 
 .seriesSection {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .seriesSection h4 {
@@ -353,10 +369,31 @@
 
 .imageForm h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
   color: #333;
+}
+
+.imageForm h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.imageForm h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+  color: #333;
+}
+
+.imageForm h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  color: #555;
 }
 
 .imageGrid {
@@ -367,8 +404,20 @@
   align-items: stretch;
 }
 
-.imageLeftColumn,
-.imageMiddleColumn,
+.imageLeftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.imageMiddleColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: space-between;
+}
+
 .imageRightColumn {
   display: flex;
   flex-direction: column;
@@ -405,8 +454,26 @@
   margin-bottom: 8px;
 }
 
-.pdfField strong {
-  color: #000;
+.imageField > div {
+  margin-bottom: 10px;
+}
+
+.imageField > div:last-child {
+  margin-bottom: 0;
+}
+
+.imageField h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  color: #333;
+}
+
+.imageField h4 {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  color: #555;
 }
 
 .imageTextarea {

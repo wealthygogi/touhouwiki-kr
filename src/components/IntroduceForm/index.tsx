@@ -32,6 +32,7 @@ interface FormData {
     other: string;
   };
   dislikedContent: string;
+  dislikedContentDetail: string;
   favoriteCharacter: string;
   pairing: string;
   freeDescription: string;
@@ -41,6 +42,7 @@ interface FormData {
     favoriteCharacter: number;
     pairing: number;
     freeDescription: number;
+    dislikedContentDetail: number;
   };
 }
 
@@ -73,6 +75,7 @@ const IntroduceForm: React.FC = () => {
       other: "",
     },
     dislikedContent: "",
+    dislikedContentDetail: "",
     favoriteCharacter: "",
     pairing: "",
     freeDescription: "",
@@ -82,6 +85,7 @@ const IntroduceForm: React.FC = () => {
       favoriteCharacter: 120,
       pairing: 120,
       freeDescription: 150,
+      dislikedContentDetail: 100,
     },
   });
 
@@ -451,7 +455,7 @@ const IntroduceForm: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.formContainer}>
-        <h2>동방프로젝트 자기소개표</h2>
+        <h2>☯️ 동방프로젝트 자기소개표</h2>
 
         <div className={styles.formGrid}>
           {/* 왼쪽 컬럼 */}
@@ -479,7 +483,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 이름 */}
             <div className={styles.formSection}>
-              <label>이름</label>
+              <h3>👤 닉네임</h3>
               <input
                 type="text"
                 value={formData.name}
@@ -490,7 +494,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 연령대 */}
             <div className={styles.formSection}>
-              <label>연령대</label>
+              <h3>🎂 연령대</h3>
               <div className={styles.checkboxGroup}>
                 {["미성년자", "성인", "비공개"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -511,7 +515,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* FUB FREE */}
             <div className={styles.formSection}>
-              <label>FUB FREE</label>
+              <h3>🆓 FUB FREE</h3>
               <div className={styles.checkboxGroup}>
                 {["Y", "N"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -532,7 +536,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 이별은 */}
             <div className={styles.formSection}>
-              <label>이별은</label>
+              <h3>👋 이별은</h3>
               <div className={styles.checkboxGroup}>
                 {["언팔", "블언블", "블락"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -553,7 +557,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 타장르 언급 */}
             <div className={styles.formSection}>
-              <label>타장르 언급</label>
+              <h3>🎭 타장르 언급</h3>
               <div className={styles.checkboxGroup}>
                 {["많음", "중간", "적음/없음"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -577,10 +581,10 @@ const IntroduceForm: React.FC = () => {
           <div className={styles.middleColumn}>
             {/* 주력 시리즈 */}
             <div className={styles.formSection}>
-              <label>주력 시리즈</label>
+              <h3>📚 주력 시리즈</h3>
 
               <div className={styles.seriesSection}>
-                <h4>구작</h4>
+                <h4>📖 구작</h4>
                 <div className={styles.checkboxGrid}>
                   {oldWorksOptions.map((option) => (
                     <label key={option} className={styles.checkboxLabel}>
@@ -598,7 +602,7 @@ const IntroduceForm: React.FC = () => {
               </div>
 
               <div className={styles.seriesSection}>
-                <h4>신작</h4>
+                <h4>🆕 신작</h4>
                 <div className={styles.checkboxGrid}>
                   {newWorksOptions.map((option) => (
                     <label key={option} className={styles.checkboxLabel}>
@@ -616,7 +620,7 @@ const IntroduceForm: React.FC = () => {
               </div>
 
               <div className={styles.seriesSection}>
-                <h4>그 외</h4>
+                <h4>📝 그 외</h4>
                 <input
                   type="text"
                   value={formData.mainSeries.others}
@@ -633,7 +637,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 계정 유형 */}
             <div className={styles.formSection}>
-              <label>계정 유형</label>
+              <h3>💻 계정 유형</h3>
               <div className={styles.checkboxGrid}>
                 {[
                   { key: "writing", label: "글" },
@@ -677,7 +681,7 @@ const IntroduceForm: React.FC = () => {
                       handleAccountTypeChange("fangirling", e.target.checked)
                     }
                   />
-                  앓이
+                  😍 앓이
                 </label>
                 <input
                   type="text"
@@ -693,7 +697,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 불호소재 / 지뢰 */}
             <div className={styles.formSection}>
-              <label>불호소재 / 지뢰</label>
+              <h3>⚠️ 불호소재 / 지뢰</h3>
               <div className={styles.checkboxGroup}>
                 {["없음", "있음"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -710,11 +714,38 @@ const IntroduceForm: React.FC = () => {
                   </label>
                 ))}
               </div>
+              {formData.dislikedContent === "있음" && (
+                <div
+                  className={styles.formSection}
+                  style={{ marginTop: "15px" }}
+                >
+                  <h4>📝 상세 내용</h4>
+                  <textarea
+                    value={formData.dislikedContentDetail}
+                    onChange={(e) =>
+                      handleInputChange("dislikedContentDetail", e.target.value)
+                    }
+                    className={styles.textarea}
+                    rows={3}
+                    style={{
+                      height: formData.textAreaHeights.dislikedContentDetail,
+                    }}
+                    onMouseUp={(e) => {
+                      const target = e.target as HTMLTextAreaElement;
+                      handleTextAreaResize(
+                        "dislikedContentDetail",
+                        target.scrollHeight
+                      );
+                    }}
+                    placeholder="불호하는 소재나 지뢰를 자세히 적어주세요"
+                  />
+                </div>
+              )}
             </div>
 
             {/* 해결방법 */}
             <div className={styles.formSection}>
-              <label>해결방법</label>
+              <h3>🛠️ 해결방법</h3>
               <div className={styles.checkboxGroup}>
                 {["뮤트", "블락", "직멘 아니면 OK"].map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
@@ -738,7 +769,7 @@ const IntroduceForm: React.FC = () => {
           <div className={styles.rightColumn}>
             {/* 애정 캐릭터 */}
             <div className={styles.formSection}>
-              <label>애정 캐릭터</label>
+              <h3>💖 애정 캐릭터</h3>
               <textarea
                 value={formData.favoriteCharacter}
                 onChange={(e) =>
@@ -759,7 +790,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 커플링 / 조합 */}
             <div className={styles.formSection}>
-              <label>커플링 / 조합</label>
+              <h3>💕 커플링 / 조합</h3>
               <textarea
                 value={formData.pairing}
                 onChange={(e) => handleInputChange("pairing", e.target.value)}
@@ -775,7 +806,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 자유서술란 */}
             <div className={styles.formSection}>
-              <label>자유서술란</label>
+              <h3>✍️ 자유서술란</h3>
               <textarea
                 value={formData.freeDescription}
                 onChange={(e) =>
@@ -823,13 +854,16 @@ const IntroduceForm: React.FC = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <h1>동방프로젝트 자기소개표</h1>
+          <h1>☯️ 동방프로젝트 자기소개표</h1>
 
           <div className={styles.imageGrid}>
             {/* 왼쪽 컬럼 */}
             <div className={styles.imageLeftColumn}>
               {/* 프로필 이미지 */}
-              <div className={styles.imageProfileImage}>
+              <div
+                className={styles.imageProfileImage}
+                style={{ alignSelf: "center" }}
+              >
                 {formData.profileImage && (
                   <img
                     src={formData.profileImage}
@@ -848,13 +882,13 @@ const IntroduceForm: React.FC = () => {
 
               {/* 이름 */}
               <div className={styles.imageField}>
-                <strong>이름:</strong>
+                <h3>👤 이름:</h3>
                 <div className={styles.imageTextValue}>{formData.name}</div>
               </div>
 
               {/* 연령대 */}
               <div className={styles.imageField}>
-                <strong>연령대:</strong>
+                <h3>🎂 연령대:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["미성년자", "성인", "비공개"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -866,7 +900,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* FUB FREE */}
               <div className={styles.imageField}>
-                <strong>FUB FREE:</strong>
+                <h3>🆓 FUB FREE:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["Y", "N"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -878,7 +912,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 이별은 */}
               <div className={styles.imageField}>
-                <strong>이별은:</strong>
+                <h3>👋 이별은:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["언팔", "블언블", "블락"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -890,7 +924,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 타장르 언급 */}
               <div className={styles.imageField}>
-                <strong>타장르 언급:</strong>
+                <h3>🎭 타장르 언급:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["많음", "중간", "적음/없음"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -905,9 +939,9 @@ const IntroduceForm: React.FC = () => {
             <div className={styles.imageMiddleColumn}>
               {/* 주력 시리즈 */}
               <div className={styles.imageField}>
-                <strong>주력 시리즈</strong>
+                <h3>📚 주력 시리즈</h3>
                 <div>
-                  <strong>구작:</strong>
+                  <h4>📖 구작:</h4>
                   <div className={styles.imageCheckboxGrid}>
                     {oldWorksOptions.map((option) => (
                       <span key={option} className={styles.imageCheckbox}>
@@ -920,7 +954,7 @@ const IntroduceForm: React.FC = () => {
                   </div>
                 </div>
                 <div>
-                  <strong>신작:</strong>
+                  <h4>🆕 신작:</h4>
                   <div className={styles.imageCheckboxGrid}>
                     {newWorksOptions.map((option) => (
                       <span key={option} className={styles.imageCheckbox}>
@@ -933,7 +967,7 @@ const IntroduceForm: React.FC = () => {
                   </div>
                 </div>
                 <div>
-                  <strong>그 외:</strong>
+                  <h4>📝 그 외:</h4>
                   <div className={styles.imageTextValue}>
                     {formData.mainSeries.others || "없음"}
                   </div>
@@ -942,7 +976,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 계정 유형 */}
               <div className={styles.imageField}>
-                <strong>계정 유형:</strong>
+                <h3>💻 계정 유형:</h3>
                 <div className={styles.imageCheckboxGrid}>
                   {[
                     { key: "writing", label: "글" },
@@ -956,7 +990,7 @@ const IntroduceForm: React.FC = () => {
                     { key: "likes", label: "마음" },
                     { key: "daily", label: "일상" },
                     { key: "timeline", label: "탐라대화" },
-                    { key: "fangirling", label: "앓이" },
+                    { key: "fangirling", label: "😍 앓이" },
                   ].map((item) => (
                     <span key={item.key} className={styles.imageCheckbox}>
                       {(formData.accountType[
@@ -970,7 +1004,7 @@ const IntroduceForm: React.FC = () => {
                 </div>
                 {formData.accountType.other && (
                   <div>
-                    <strong>기타:</strong>
+                    <h4>기타:</h4>
                     <div className={styles.imageTextValue}>
                       {formData.accountType.other}
                     </div>
@@ -980,7 +1014,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 불호소재 / 지뢰 */}
               <div className={styles.imageField}>
-                <strong>불호소재 / 지뢰:</strong>
+                <h3>⚠️ 불호소재 / 지뢰:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["없음", "있음"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -988,11 +1022,20 @@ const IntroduceForm: React.FC = () => {
                     </span>
                   ))}
                 </div>
+                {formData.dislikedContent === "있음" &&
+                  formData.dislikedContentDetail && (
+                    <div>
+                      <h4>📝 상세 내용:</h4>
+                      <div className={styles.imageTextValue}>
+                        ({formData.dislikedContentDetail})
+                      </div>
+                    </div>
+                  )}
               </div>
 
               {/* 해결방법 */}
               <div className={styles.imageField}>
-                <strong>해결방법:</strong>
+                <h3>🛠️ 해결방법:</h3>
                 <div className={styles.imageRadioGroup}>
                   {["뮤트", "블락", "직멘 아니면 OK"].map((option) => (
                     <span key={option} className={styles.imageRadio}>
@@ -1007,7 +1050,7 @@ const IntroduceForm: React.FC = () => {
             <div className={styles.imageRightColumn}>
               {/* 애정 캐릭터 */}
               <div className={styles.imageField}>
-                <strong>애정 캐릭터:</strong>
+                <h3>💖 애정 캐릭터:</h3>
                 <div className={styles.imageTextValue}>
                   {formData.favoriteCharacter.split("\n").map((line, index) => (
                     <div key={index}>{line}</div>
@@ -1017,7 +1060,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 커플링 / 조합 */}
               <div className={styles.imageField}>
-                <strong>커플링 / 조합:</strong>
+                <h3>💕 커플링 / 조합:</h3>
                 <div className={styles.imageTextValue}>
                   {formData.pairing.split("\n").map((line, index) => (
                     <div key={index}>{line}</div>
@@ -1027,7 +1070,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 자유서술란 */}
               <div className={styles.imageField}>
-                <strong>자유서술란:</strong>
+                <h3>✍️ 자유서술란:</h3>
                 <div
                   className={styles.imageTextarea}
                   style={{
