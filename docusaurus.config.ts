@@ -73,9 +73,9 @@ const config: Config = {
         },
         {
           type: "docSidebar",
-          sidebarId: "gachaGameSidebar",
+          sidebarId: "toySidebar",
           position: "left",
-          label: "가챠/자기소개서",
+          label: "장난감",
         },
         {
           href: "https://github.com/wealthygogi/touhouwiki-kr",
