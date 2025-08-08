@@ -11,6 +11,7 @@ interface FormData {
   parting: string;
   otherGenres: string;
   solution: string;
+  language: string; // 언어 선택 추가
   mainSeries: {
     oldWorks: string[];
     newWorks: string[];
@@ -54,6 +55,7 @@ const IntroduceForm: React.FC = () => {
     parting: "",
     otherGenres: "",
     solution: "",
+    language: "한국어", // 기본값 설정
     mainSeries: {
       oldWorks: [],
       newWorks: [],
@@ -116,29 +118,225 @@ const IntroduceForm: React.FC = () => {
   });
   const [backgroundImageRef, setBackgroundImageRef] =
     useState<HTMLImageElement | null>(null);
-  const [backgroundOpacity, setBackgroundOpacity] = useState(0.3);
+  const [backgroundOpacity, setBackgroundOpacity] = useState(0.1);
 
   const imageFormRef = useRef<HTMLDivElement>(null);
 
-  const oldWorksOptions = ["영이전", "봉마록", "몽시공", "환상향", "괴기담"];
+  // 언어별 작품명 매핑
+  const seriesNames = {
+    한국어: {
+      oldWorks: ["영이전", "봉마록", "몽시공", "환상향", "괴기담"],
+      newWorks: [
+        "홍마향",
+        "요요몽",
+        "영야초",
+        "화영총",
+        "풍신록",
+        "지령전",
+        "성련선",
+        "신령묘",
+        "휘침성",
+        "감주전",
+        "천공장",
+        "귀형수",
+        "홍룡동",
+        "수왕원",
+        "금상경",
+      ],
+    },
+    일본어: {
+      oldWorks: ["靈異伝", "封魔録", "夢時空", "幻想郷", "怪綺談"],
+      newWorks: [
+        "紅魔郷",
+        "妖々夢",
+        "永夜抄",
+        "花映塚",
+        "風神録",
+        "地霊殿",
+        "星蓮船",
+        "神霊廟",
+        "輝針城",
+        "紺珠伝",
+        "天空璋",
+        "鬼形獣",
+        "虹龍洞",
+        "獣王園",
+        "錦上京",
+      ],
+    },
+    영어: {
+      oldWorks: ["01 HRtP", "02 SoEW", "03 PoDD", "04 LLS", "05 MS"],
+      newWorks: [
+        "06 EoSD",
+        "07 PCB",
+        "08 IN",
+        "09 PoFV",
+        "10 MoF",
+        "11 SA",
+        "12 UFO",
+        "13 TD",
+        "14 DDC",
+        "15 LoLK",
+        "16 HSiFS",
+        "17 WBaWC",
+        "18 UM",
+        "19 WBaWC",
+        "20 FW",
+      ],
+    },
+  };
 
-  const newWorksOptions = [
-    "홍마향",
-    "요요몽",
-    "영야초",
-    "화영총",
-    "풍신록",
-    "지령전",
-    "성련선",
-    "신령묘",
-    "휘침성",
-    "감주전",
-    "천공장",
-    "귀형수",
-    "홍룡동",
-    "수왕원",
-    "금상경",
-  ];
+  // 언어별 UI 텍스트 매핑
+  const uiTexts = {
+    한국어: {
+      title: "☯️ 동방프로젝트 자기소개표",
+      name: "👤 닉네임",
+      ageGroup: "🎂 연령대",
+      fubFree: "🆓 FUB FREE",
+      parting: "👋 이별은",
+      otherGenres: "🎭 타장르 언급",
+      mainSeries: "📚 주력 시리즈",
+      oldWorks: "📖 구작",
+      newWorks: "🆕 신작",
+      others: "📝 그 외",
+      accountType: "💻 계정 유형",
+      writing: "글",
+      drawing: "그림",
+      gaming: "게임",
+      story: "썰",
+      consumption: "소비",
+      subscription: "구독",
+      cosplay: "코스",
+      retweet: "RT",
+      likes: "마음",
+      daily: "일상",
+      timeline: "탐라대화",
+      fangirling: "앓이",
+      other: "기타",
+      dislikedContent: "⚠️ 불호소재 / 지뢰",
+      dislikedContentDetail: "📝 상세 내용",
+      solution: "🛠️ 해결방법",
+      favoriteCharacter: "💖 애정 캐릭터",
+      pairing: "💕 커플링 / 조합",
+      freeDescription: "✍️ 자유서술란",
+      backgroundImage: "배경 이미지 업로드",
+      language: "🌐 Language",
+      download: "자기소개서 다운로드",
+      ageOptions: ["미성년자", "성인", "비공개"],
+      fubOptions: ["Y", "N"],
+      partingOptions: ["언팔", "블언블", "블락"],
+      genreOptions: ["많음", "중간", "적음/없음"],
+      solutionOptions: ["뮤트", "블락", "직멘 아니면 OK"],
+      none: "없음",
+      exists: "있음",
+      notExists: "없음",
+      dislikedContentOptions: ["없음", "있음"],
+      dislikedContentDetailPlaceholder:
+        "불호하는 소재나 지뢰를 자세히 적어주세요",
+    },
+    일본어: {
+      title: "☯️ 東方プロジェクト自己紹介表",
+      name: "👤 ニックネーム",
+      ageGroup: "🎂 年齢層",
+      fubFree: "🆓 FUB FREE",
+      parting: "👋 別れは",
+      otherGenres: "🎭 他ジャンル言及",
+      mainSeries: "📚 主力シリーズ",
+      oldWorks: "📖 旧作",
+      newWorks: "🆕 新作",
+      others: "📝 その他",
+      accountType: "💻 アカウントタイプ",
+      writing: "作文",
+      drawing: "絵",
+      gaming: "ゲーム",
+      story: "エピソード",
+      consumption: "消費",
+      subscription: "購読",
+      cosplay: "コスプレ",
+      retweet: "RT",
+      likes: "いいね",
+      daily: "日常",
+      timeline: "TL会話",
+      fangirling: "推し活",
+      other: "その他",
+      dislikedContent: "⚠️ 苦手な題材 / 地雷",
+      dislikedContentDetail: "📝 詳細内容",
+      solution: "🛠️ 解決方法",
+      favoriteCharacter: "💖 推しキャラ",
+      pairing: "💕 カップリング / 組み合わせ",
+      freeDescription: "✍️ 自由記述欄",
+      backgroundImage: "背景画像アップロード",
+      language: "🌐 Language",
+      download: "自己紹介表ダウンロード",
+      ageOptions: ["未成年", "成人", "非公開"],
+      fubOptions: ["Y", "N"],
+      partingOptions: ["アンフォロー", "B解", "ブロック"],
+      genreOptions: ["多い", "普通", "少ない/なし"],
+      solutionOptions: ["ミュート", "ブロック", "DMでなければOK"],
+      none: "なし",
+      exists: "あり",
+      notExists: "なし",
+      dislikedContentOptions: ["なし", "あり"],
+      dislikedContentDetailPlaceholder:
+        "苦手な題材や地雷を詳しく書いてください",
+    },
+    영어: {
+      title: "☯️ Touhou Project Self-Introduction Form",
+      name: "👤 Nickname",
+      ageGroup: "🎂 Age Group",
+      fubFree: "🆓 FUB FREE",
+      parting: "👋 Parting",
+      otherGenres: "🎭 Other Genres Mention",
+      mainSeries: "📚 Main Series",
+      oldWorks: "📖 Old Works",
+      newWorks: "🆕 New Works",
+      others: "📝 Others",
+      accountType: "💻 Account Type",
+      writing: "Writing",
+      drawing: "Drawing",
+      gaming: "Gaming",
+      story: "Story",
+      consumption: "Consumption",
+      subscription: "Subscription",
+      cosplay: "Cosplay",
+      retweet: "RT",
+      likes: "Likes",
+      daily: "Daily",
+      timeline: "Timeline Chat",
+      fangirling: "Fangirling",
+      other: "Other",
+      dislikedContent: "⚠️ Disliked Content / Triggers",
+      dislikedContentDetail: "📝 Details",
+      solution: "🛠️ Solution",
+      favoriteCharacter: "💖 Favorite Character",
+      pairing: "💕 Coupling / Combination",
+      freeDescription: "✍️ Free Description",
+      backgroundImage: "Background Image Upload",
+      language: "🌐 Language",
+      download: "Download Self-Introduction",
+      ageOptions: ["Minor", "Adult", "Private"],
+      fubOptions: ["Y", "N"],
+      partingOptions: ["Unfollow", "Block/Unfollow", "Block"],
+      genreOptions: ["Many", "Some", "Few/None"],
+      solutionOptions: ["Mute", "Block", "No DMs, OK."],
+      none: "None",
+      exists: "Yes",
+      notExists: "No",
+      dislikedContentOptions: ["No", "Yes"],
+      dislikedContentDetailPlaceholder:
+        "Please describe your disliked content or triggers in detail",
+    },
+  };
+
+  const currentTexts =
+    uiTexts[formData.language as keyof typeof uiTexts] || uiTexts.한국어;
+
+  const oldWorksOptions =
+    seriesNames[formData.language as keyof typeof seriesNames]?.oldWorks ||
+    seriesNames.한국어.oldWorks;
+  const newWorksOptions =
+    seriesNames[formData.language as keyof typeof seriesNames]?.newWorks ||
+    seriesNames.한국어.newWorks;
 
   const handleInputChange = (field: keyof FormData, value: any) => {
     setFormData((prev) => ({
@@ -158,6 +356,54 @@ const IntroduceForm: React.FC = () => {
         [type]: prev.mainSeries[type].includes(value)
           ? prev.mainSeries[type].filter((item) => item !== value)
           : [...prev.mainSeries[type], value],
+      },
+    }));
+  };
+
+  // 구작/신작 전체 선택/해제
+  const handleToggleAllSeries = (type: "oldWorks" | "newWorks") => {
+    const options = type === "oldWorks" ? oldWorksOptions : newWorksOptions;
+    const currentSelected = formData.mainSeries[type];
+
+    setFormData((prev) => ({
+      ...prev,
+      mainSeries: {
+        ...prev.mainSeries,
+        [type]: currentSelected.length === options.length ? [] : options,
+      },
+    }));
+  };
+
+  // 계정 유형 전체 선택/해제
+  const handleToggleAllAccountTypes = () => {
+    const accountTypeKeys = [
+      "writing",
+      "drawing",
+      "gaming",
+      "story",
+      "consumption",
+      "subscription",
+      "cosplay",
+      "retweet",
+      "likes",
+      "daily",
+      "timeline",
+      "fangirling",
+    ] as const;
+
+    const currentSelected = accountTypeKeys.filter(
+      (key) => formData.accountType[key]
+    );
+
+    const allSelected = currentSelected.length === accountTypeKeys.length;
+
+    setFormData((prev) => ({
+      ...prev,
+      accountType: {
+        ...prev.accountType,
+        ...Object.fromEntries(
+          accountTypeKeys.map((key) => [key, !allSelected])
+        ),
       },
     }));
   };
@@ -364,6 +610,10 @@ const IntroduceForm: React.FC = () => {
     if (!imageFormRef.current) return;
 
     try {
+      // 폼의 실제 스크롤 가능한 높이를 계산
+      const scrollHeight = imageFormRef.current.scrollHeight;
+      const dynamicHeight = Math.max(600, scrollHeight); // 여백 제거
+
       // 배경 이미지가 있는 경우 투명도 처리를 위해 별도 처리
       if (formData.backgroundImage) {
         // 임시로 배경 이미지를 제거하고 캡처
@@ -376,7 +626,11 @@ const IntroduceForm: React.FC = () => {
           allowTaint: true,
           backgroundColor: "#f5f5f5",
           width: 800,
-          height: 600,
+          height: dynamicHeight,
+          scrollX: 0,
+          scrollY: 0,
+          windowWidth: 800,
+          windowHeight: dynamicHeight,
         });
 
         // 배경 이미지 복원
@@ -414,7 +668,7 @@ const IntroduceForm: React.FC = () => {
 
             // 이미지 다운로드
             const link = document.createElement("a");
-            link.download = "동방프로젝트_자기소개서.png";
+            link.download = "introduce_me.png";
             link.href = canvas.toDataURL("image/png");
             link.click();
           }
@@ -423,7 +677,7 @@ const IntroduceForm: React.FC = () => {
         bgImage.onerror = () => {
           // 배경 이미지 로드 실패 시 원본 캡처
           const link = document.createElement("a");
-          link.download = "동방프로젝트_자기소개서.png";
+          link.download = "introduce_me.png";
           link.href = canvas.toDataURL("image/png");
           link.click();
         };
@@ -437,12 +691,16 @@ const IntroduceForm: React.FC = () => {
           allowTaint: true,
           backgroundColor: "#f5f5f5",
           width: 800,
-          height: 600,
+          height: dynamicHeight,
+          scrollX: 0,
+          scrollY: 0,
+          windowWidth: 800,
+          windowHeight: dynamicHeight,
         });
 
         // 이미지 다운로드
         const link = document.createElement("a");
-        link.download = "동방프로젝트_자기소개서.png";
+        link.download = "introduce_me.png";
         link.href = canvas.toDataURL("image/png");
         link.click();
       }
@@ -455,7 +713,20 @@ const IntroduceForm: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.formContainer}>
-        <h2>☯️ 동방프로젝트 자기소개표</h2>
+        <h2>{currentTexts.title}</h2>
+
+        <div className={styles.languageSection}>
+          <label>{currentTexts.language}</label>
+          <select
+            value={formData.language}
+            onChange={(e) => handleInputChange("language", e.target.value)}
+            className={styles.languageSelect}
+          >
+            <option value="한국어">한국어</option>
+            <option value="일본어">日本語</option>
+            <option value="영어">English</option>
+          </select>
+        </div>
 
         <div className={styles.formGrid}>
           {/* 왼쪽 컬럼 */}
@@ -483,7 +754,7 @@ const IntroduceForm: React.FC = () => {
 
             {/* 이름 */}
             <div className={styles.formSection}>
-              <h3>👤 닉네임</h3>
+              <h3>{currentTexts.name}</h3>
               <input
                 type="text"
                 value={formData.name}
@@ -494,9 +765,9 @@ const IntroduceForm: React.FC = () => {
 
             {/* 연령대 */}
             <div className={styles.formSection}>
-              <h3>🎂 연령대</h3>
+              <h3>{currentTexts.ageGroup}</h3>
               <div className={styles.checkboxGroup}>
-                {["미성년자", "성인", "비공개"].map((option) => (
+                {currentTexts.ageOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -515,9 +786,9 @@ const IntroduceForm: React.FC = () => {
 
             {/* FUB FREE */}
             <div className={styles.formSection}>
-              <h3>🆓 FUB FREE</h3>
+              <h3>{currentTexts.fubFree}</h3>
               <div className={styles.checkboxGroup}>
-                {["Y", "N"].map((option) => (
+                {currentTexts.fubOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -536,9 +807,9 @@ const IntroduceForm: React.FC = () => {
 
             {/* 이별은 */}
             <div className={styles.formSection}>
-              <h3>👋 이별은</h3>
+              <h3>{currentTexts.parting}</h3>
               <div className={styles.checkboxGroup}>
-                {["언팔", "블언블", "블락"].map((option) => (
+                {currentTexts.partingOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -557,9 +828,9 @@ const IntroduceForm: React.FC = () => {
 
             {/* 타장르 언급 */}
             <div className={styles.formSection}>
-              <h3>🎭 타장르 언급</h3>
+              <h3>{currentTexts.otherGenres}</h3>
               <div className={styles.checkboxGroup}>
-                {["많음", "중간", "적음/없음"].map((option) => (
+                {currentTexts.genreOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -581,10 +852,16 @@ const IntroduceForm: React.FC = () => {
           <div className={styles.middleColumn}>
             {/* 주력 시리즈 */}
             <div className={styles.formSection}>
-              <h3>📚 주력 시리즈</h3>
+              <h3>{currentTexts.mainSeries}</h3>
 
               <div className={styles.seriesSection}>
-                <h4>📖 구작</h4>
+                <h4
+                  className={styles.clickableTitle}
+                  onClick={() => handleToggleAllSeries("oldWorks")}
+                  title="클릭하여 전체 선택/해제"
+                >
+                  {currentTexts.oldWorks}
+                </h4>
                 <div className={styles.checkboxGrid}>
                   {oldWorksOptions.map((option) => (
                     <label key={option} className={styles.checkboxLabel}>
@@ -602,7 +879,13 @@ const IntroduceForm: React.FC = () => {
               </div>
 
               <div className={styles.seriesSection}>
-                <h4>🆕 신작</h4>
+                <h4
+                  className={styles.clickableTitle}
+                  onClick={() => handleToggleAllSeries("newWorks")}
+                  title="클릭하여 전체 선택/해제"
+                >
+                  {currentTexts.newWorks}
+                </h4>
                 <div className={styles.checkboxGrid}>
                   {newWorksOptions.map((option) => (
                     <label key={option} className={styles.checkboxLabel}>
@@ -620,7 +903,7 @@ const IntroduceForm: React.FC = () => {
               </div>
 
               <div className={styles.seriesSection}>
-                <h4>📝 그 외</h4>
+                <h4>{currentTexts.others}</h4>
                 <input
                   type="text"
                   value={formData.mainSeries.others}
@@ -637,20 +920,27 @@ const IntroduceForm: React.FC = () => {
 
             {/* 계정 유형 */}
             <div className={styles.formSection}>
-              <h3>💻 계정 유형</h3>
-              <div className={styles.checkboxGrid}>
+              <h3
+                className={styles.clickableTitle}
+                onClick={handleToggleAllAccountTypes}
+                title="클릭하여 전체 선택/해제"
+              >
+                {currentTexts.accountType}
+              </h3>
+              <div className={styles.accountTypeGrid}>
                 {[
-                  { key: "writing", label: "글" },
-                  { key: "drawing", label: "그림" },
-                  { key: "gaming", label: "게임" },
-                  { key: "story", label: "썰" },
-                  { key: "consumption", label: "소비" },
-                  { key: "subscription", label: "구독" },
-                  { key: "cosplay", label: "코스" },
-                  { key: "retweet", label: "RT" },
-                  { key: "likes", label: "마음" },
-                  { key: "daily", label: "일상" },
-                  { key: "timeline", label: "탐라대화" },
+                  { key: "writing", label: currentTexts.writing },
+                  { key: "drawing", label: currentTexts.drawing },
+                  { key: "gaming", label: currentTexts.gaming },
+                  { key: "story", label: currentTexts.story },
+                  { key: "consumption", label: currentTexts.consumption },
+                  { key: "subscription", label: currentTexts.subscription },
+                  { key: "cosplay", label: currentTexts.cosplay },
+                  { key: "retweet", label: currentTexts.retweet },
+                  { key: "likes", label: currentTexts.likes },
+                  { key: "daily", label: currentTexts.daily },
+                  { key: "timeline", label: currentTexts.timeline },
+                  { key: "fangirling", label: currentTexts.fangirling },
                 ].map((item) => (
                   <label key={item.key} className={styles.checkboxLabel}>
                     <input
@@ -672,20 +962,10 @@ const IntroduceForm: React.FC = () => {
                 ))}
               </div>
 
-              <div className={styles.formSection}>
-                <label className={styles.checkboxLabel}>
-                  <input
-                    type="checkbox"
-                    checked={formData.accountType.fangirling}
-                    onChange={(e) =>
-                      handleAccountTypeChange("fangirling", e.target.checked)
-                    }
-                  />
-                  😍 앓이
-                </label>
+              <div className={styles.accountTypeExtra}>
                 <input
                   type="text"
-                  placeholder="기타 :"
+                  placeholder={currentTexts.other}
                   value={formData.accountType.other}
                   onChange={(e) =>
                     handleAccountTypeChange("other", e.target.value)
@@ -697,9 +977,9 @@ const IntroduceForm: React.FC = () => {
 
             {/* 불호소재 / 지뢰 */}
             <div className={styles.formSection}>
-              <h3>⚠️ 불호소재 / 지뢰</h3>
+              <h3>{currentTexts.dislikedContent}</h3>
               <div className={styles.checkboxGroup}>
-                {["없음", "있음"].map((option) => (
+                {currentTexts.dislikedContentOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -714,40 +994,52 @@ const IntroduceForm: React.FC = () => {
                   </label>
                 ))}
               </div>
-              {formData.dislikedContent === "있음" && (
+              {formData.dislikedContent === currentTexts.exists && (
                 <div
                   className={styles.formSection}
                   style={{ marginTop: "15px" }}
                 >
-                  <h4>📝 상세 내용</h4>
+                  <h4>{currentTexts.dislikedContentDetail}</h4>
                   <textarea
                     value={formData.dislikedContentDetail}
-                    onChange={(e) =>
-                      handleInputChange("dislikedContentDetail", e.target.value)
-                    }
+                    onChange={(e) => {
+                      if (e.target.value.length <= 100) {
+                        handleInputChange(
+                          "dislikedContentDetail",
+                          e.target.value
+                        );
+                      }
+                    }}
                     className={styles.textarea}
                     rows={3}
+                    maxLength={100}
                     style={{
-                      height: formData.textAreaHeights.dislikedContentDetail,
+                      height: Math.min(
+                        formData.textAreaHeights.dislikedContentDetail,
+                        200
+                      ),
+                      maxHeight: "200px",
+                      overflowY: "auto",
                     }}
                     onMouseUp={(e) => {
                       const target = e.target as HTMLTextAreaElement;
-                      handleTextAreaResize(
-                        "dislikedContentDetail",
-                        target.scrollHeight
-                      );
+                      const newHeight = Math.min(target.scrollHeight, 200);
+                      handleTextAreaResize("dislikedContentDetail", newHeight);
                     }}
-                    placeholder="불호하는 소재나 지뢰를 자세히 적어주세요"
+                    placeholder={currentTexts.dislikedContentDetailPlaceholder}
                   />
+                  <div className={styles.charCount}>
+                    {formData.dislikedContentDetail.length}/100
+                  </div>
                 </div>
               )}
             </div>
 
             {/* 해결방법 */}
             <div className={styles.formSection}>
-              <h3>🛠️ 해결방법</h3>
+              <h3>{currentTexts.solution}</h3>
               <div className={styles.checkboxGroup}>
-                {["뮤트", "블락", "직멘 아니면 OK"].map((option) => (
+                {currentTexts.solutionOptions.map((option) => (
                   <label key={option} className={styles.checkboxLabel}>
                     <input
                       type="radio"
@@ -769,63 +1061,104 @@ const IntroduceForm: React.FC = () => {
           <div className={styles.rightColumn}>
             {/* 애정 캐릭터 */}
             <div className={styles.formSection}>
-              <h3>💖 애정 캐릭터</h3>
+              <h3>{currentTexts.favoriteCharacter}</h3>
               <textarea
                 value={formData.favoriteCharacter}
-                onChange={(e) =>
-                  handleInputChange("favoriteCharacter", e.target.value)
-                }
+                onChange={(e) => {
+                  if (e.target.value.length <= 100) {
+                    handleInputChange("favoriteCharacter", e.target.value);
+                  }
+                }}
                 className={styles.textarea}
                 rows={3}
-                style={{ height: formData.textAreaHeights.favoriteCharacter }}
+                maxLength={100}
+                style={{
+                  height: Math.min(
+                    formData.textAreaHeights.favoriteCharacter,
+                    200
+                  ),
+                  maxHeight: "200px",
+                  overflowY: "auto",
+                }}
                 onMouseUp={(e) => {
                   const target = e.target as HTMLTextAreaElement;
-                  handleTextAreaResize(
-                    "favoriteCharacter",
-                    target.scrollHeight
-                  );
+                  const newHeight = Math.min(target.scrollHeight, 200);
+                  handleTextAreaResize("favoriteCharacter", newHeight);
                 }}
+                placeholder={`${currentTexts.favoriteCharacter} (최대 100자)`}
               />
+              <div className={styles.charCount}>
+                {formData.favoriteCharacter.length}/100
+              </div>
             </div>
 
             {/* 커플링 / 조합 */}
             <div className={styles.formSection}>
-              <h3>💕 커플링 / 조합</h3>
+              <h3>{currentTexts.pairing}</h3>
               <textarea
                 value={formData.pairing}
-                onChange={(e) => handleInputChange("pairing", e.target.value)}
+                onChange={(e) => {
+                  if (e.target.value.length <= 100) {
+                    handleInputChange("pairing", e.target.value);
+                  }
+                }}
                 className={styles.textarea}
                 rows={3}
-                style={{ height: formData.textAreaHeights.pairing }}
+                maxLength={100}
+                style={{
+                  height: Math.min(formData.textAreaHeights.pairing, 200),
+                  maxHeight: "200px",
+                  overflowY: "auto",
+                }}
                 onMouseUp={(e) => {
                   const target = e.target as HTMLTextAreaElement;
-                  handleTextAreaResize("pairing", target.scrollHeight);
+                  const newHeight = Math.min(target.scrollHeight, 200);
+                  handleTextAreaResize("pairing", newHeight);
                 }}
+                placeholder={`${currentTexts.pairing} (최대 100자)`}
               />
+              <div className={styles.charCount}>
+                {formData.pairing.length}/100
+              </div>
             </div>
 
             {/* 자유서술란 */}
             <div className={styles.formSection}>
-              <h3>✍️ 자유서술란</h3>
+              <h3>{currentTexts.freeDescription}</h3>
               <textarea
                 value={formData.freeDescription}
-                onChange={(e) =>
-                  handleInputChange("freeDescription", e.target.value)
-                }
+                onChange={(e) => {
+                  if (e.target.value.length <= 300) {
+                    handleInputChange("freeDescription", e.target.value);
+                  }
+                }}
                 className={styles.textarea}
                 rows={10}
-                style={{ height: formData.textAreaHeights.freeDescription }}
+                maxLength={300}
+                style={{
+                  height: Math.min(
+                    formData.textAreaHeights.freeDescription,
+                    300
+                  ),
+                  maxHeight: "300px",
+                  overflowY: "auto",
+                }}
                 onMouseUp={(e) => {
                   const target = e.target as HTMLTextAreaElement;
-                  handleTextAreaResize("freeDescription", target.scrollHeight);
+                  const newHeight = Math.min(target.scrollHeight, 300);
+                  handleTextAreaResize("freeDescription", newHeight);
                 }}
+                placeholder={`${currentTexts.freeDescription} (최대 300자)`}
               />
+              <div className={styles.charCount}>
+                {formData.freeDescription.length}/300
+              </div>
             </div>
           </div>
         </div>
 
         <div className={styles.backgroundImageSection}>
-          <label>배경 이미지 업로드</label>
+          <label>{currentTexts.backgroundImage}</label>
           <input
             type="file"
             accept="image/*"
@@ -836,7 +1169,7 @@ const IntroduceForm: React.FC = () => {
 
         <div className={styles.buttonContainer}>
           <button onClick={generateImage} className={styles.generateButton}>
-            자기소개서 다운로드
+            {currentTexts.download}
           </button>
         </div>
       </div>
@@ -854,7 +1187,7 @@ const IntroduceForm: React.FC = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <h1>☯️ 동방프로젝트 자기소개표</h1>
+          <h1>{currentTexts.title}</h1>
 
           <div className={styles.imageGrid}>
             {/* 왼쪽 컬럼 */}
@@ -882,15 +1215,15 @@ const IntroduceForm: React.FC = () => {
 
               {/* 이름 */}
               <div className={styles.imageField}>
-                <h3>👤 이름:</h3>
+                <h3>{currentTexts.name}:</h3>
                 <div className={styles.imageTextValue}>{formData.name}</div>
               </div>
 
               {/* 연령대 */}
               <div className={styles.imageField}>
-                <h3>🎂 연령대:</h3>
+                <h3>{currentTexts.ageGroup}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["미성년자", "성인", "비공개"].map((option) => (
+                  {currentTexts.ageOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.ageGroup === option ? "●" : "○"} {option}
                     </span>
@@ -900,9 +1233,9 @@ const IntroduceForm: React.FC = () => {
 
               {/* FUB FREE */}
               <div className={styles.imageField}>
-                <h3>🆓 FUB FREE:</h3>
+                <h3>{currentTexts.fubFree}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["Y", "N"].map((option) => (
+                  {currentTexts.fubOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.fubFree === option ? "●" : "○"} {option}
                     </span>
@@ -912,9 +1245,9 @@ const IntroduceForm: React.FC = () => {
 
               {/* 이별은 */}
               <div className={styles.imageField}>
-                <h3>👋 이별은:</h3>
+                <h3>{currentTexts.parting}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["언팔", "블언블", "블락"].map((option) => (
+                  {currentTexts.partingOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.parting === option ? "●" : "○"} {option}
                     </span>
@@ -924,9 +1257,9 @@ const IntroduceForm: React.FC = () => {
 
               {/* 타장르 언급 */}
               <div className={styles.imageField}>
-                <h3>🎭 타장르 언급:</h3>
+                <h3>{currentTexts.otherGenres}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["많음", "중간", "적음/없음"].map((option) => (
+                  {currentTexts.genreOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.otherGenres === option ? "●" : "○"} {option}
                     </span>
@@ -939,9 +1272,9 @@ const IntroduceForm: React.FC = () => {
             <div className={styles.imageMiddleColumn}>
               {/* 주력 시리즈 */}
               <div className={styles.imageField}>
-                <h3>📚 주력 시리즈</h3>
+                <h3>{currentTexts.mainSeries}</h3>
                 <div>
-                  <h4>📖 구작:</h4>
+                  <h4>{currentTexts.oldWorks}:</h4>
                   <div className={styles.imageCheckboxGrid}>
                     {oldWorksOptions.map((option) => (
                       <span key={option} className={styles.imageCheckbox}>
@@ -954,7 +1287,7 @@ const IntroduceForm: React.FC = () => {
                   </div>
                 </div>
                 <div>
-                  <h4>🆕 신작:</h4>
+                  <h4>{currentTexts.newWorks}:</h4>
                   <div className={styles.imageCheckboxGrid}>
                     {newWorksOptions.map((option) => (
                       <span key={option} className={styles.imageCheckbox}>
@@ -967,30 +1300,30 @@ const IntroduceForm: React.FC = () => {
                   </div>
                 </div>
                 <div>
-                  <h4>📝 그 외:</h4>
+                  <h4>{currentTexts.others}:</h4>
                   <div className={styles.imageTextValue}>
-                    {formData.mainSeries.others || "없음"}
+                    {formData.mainSeries.others || currentTexts.none}
                   </div>
                 </div>
               </div>
 
               {/* 계정 유형 */}
               <div className={styles.imageField}>
-                <h3>💻 계정 유형:</h3>
+                <h3>{currentTexts.accountType}:</h3>
                 <div className={styles.imageCheckboxGrid}>
                   {[
-                    { key: "writing", label: "글" },
-                    { key: "drawing", label: "그림" },
-                    { key: "gaming", label: "게임" },
-                    { key: "story", label: "썰" },
-                    { key: "consumption", label: "소비" },
-                    { key: "subscription", label: "구독" },
-                    { key: "cosplay", label: "코스" },
-                    { key: "retweet", label: "RT" },
-                    { key: "likes", label: "마음" },
-                    { key: "daily", label: "일상" },
-                    { key: "timeline", label: "탐라대화" },
-                    { key: "fangirling", label: "😍 앓이" },
+                    { key: "writing", label: currentTexts.writing },
+                    { key: "drawing", label: currentTexts.drawing },
+                    { key: "gaming", label: currentTexts.gaming },
+                    { key: "story", label: currentTexts.story },
+                    { key: "consumption", label: currentTexts.consumption },
+                    { key: "subscription", label: currentTexts.subscription },
+                    { key: "cosplay", label: currentTexts.cosplay },
+                    { key: "retweet", label: currentTexts.retweet },
+                    { key: "likes", label: currentTexts.likes },
+                    { key: "daily", label: currentTexts.daily },
+                    { key: "timeline", label: currentTexts.timeline },
+                    { key: "fangirling", label: currentTexts.fangirling },
                   ].map((item) => (
                     <span key={item.key} className={styles.imageCheckbox}>
                       {(formData.accountType[
@@ -1004,7 +1337,7 @@ const IntroduceForm: React.FC = () => {
                 </div>
                 {formData.accountType.other && (
                   <div>
-                    <h4>기타:</h4>
+                    <h4>{currentTexts.other}:</h4>
                     <div className={styles.imageTextValue}>
                       {formData.accountType.other}
                     </div>
@@ -1014,20 +1347,24 @@ const IntroduceForm: React.FC = () => {
 
               {/* 불호소재 / 지뢰 */}
               <div className={styles.imageField}>
-                <h3>⚠️ 불호소재 / 지뢰:</h3>
+                <h3>{currentTexts.dislikedContent}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["없음", "있음"].map((option) => (
+                  {currentTexts.dislikedContentOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.dislikedContent === option ? "●" : "○"} {option}
                     </span>
                   ))}
                 </div>
-                {formData.dislikedContent === "있음" &&
+                {formData.dislikedContent === currentTexts.exists &&
                   formData.dislikedContentDetail && (
                     <div>
-                      <h4>📝 상세 내용:</h4>
+                      <h4>{currentTexts.dislikedContentDetail}:</h4>
                       <div className={styles.imageTextValue}>
-                        ({formData.dislikedContentDetail})
+                        {formData.dislikedContentDetail
+                          .split("\n")
+                          .map((line, index) => (
+                            <div key={index}>{line}</div>
+                          ))}
                       </div>
                     </div>
                   )}
@@ -1035,9 +1372,9 @@ const IntroduceForm: React.FC = () => {
 
               {/* 해결방법 */}
               <div className={styles.imageField}>
-                <h3>🛠️ 해결방법:</h3>
+                <h3>{currentTexts.solution}:</h3>
                 <div className={styles.imageRadioGroup}>
-                  {["뮤트", "블락", "직멘 아니면 OK"].map((option) => (
+                  {currentTexts.solutionOptions.map((option) => (
                     <span key={option} className={styles.imageRadio}>
                       {formData.solution === option ? "●" : "○"} {option}
                     </span>
@@ -1050,7 +1387,7 @@ const IntroduceForm: React.FC = () => {
             <div className={styles.imageRightColumn}>
               {/* 애정 캐릭터 */}
               <div className={styles.imageField}>
-                <h3>💖 애정 캐릭터:</h3>
+                <h3>{currentTexts.favoriteCharacter}:</h3>
                 <div className={styles.imageTextValue}>
                   {formData.favoriteCharacter.split("\n").map((line, index) => (
                     <div key={index}>{line}</div>
@@ -1060,7 +1397,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 커플링 / 조합 */}
               <div className={styles.imageField}>
-                <h3>💕 커플링 / 조합:</h3>
+                <h3>{currentTexts.pairing}:</h3>
                 <div className={styles.imageTextValue}>
                   {formData.pairing.split("\n").map((line, index) => (
                     <div key={index}>{line}</div>
@@ -1070,7 +1407,7 @@ const IntroduceForm: React.FC = () => {
 
               {/* 자유서술란 */}
               <div className={styles.imageField}>
-                <h3>✍️ 자유서술란:</h3>
+                <h3>{currentTexts.freeDescription}:</h3>
                 <div
                   className={styles.imageTextarea}
                   style={{
@@ -1208,9 +1545,9 @@ const IntroduceForm: React.FC = () => {
               <input
                 id="opacity-slider"
                 type="range"
-                min="0.1"
-                max="1.0"
-                step="0.1"
+                min="0.05"
+                max="0.3"
+                step="0.05"
                 value={backgroundOpacity}
                 onChange={(e) =>
                   setBackgroundOpacity(parseFloat(e.target.value))

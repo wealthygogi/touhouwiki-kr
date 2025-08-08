@@ -89,6 +89,41 @@
   color: #333;
 }
 
+.languageSection {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.languageSection label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.languageSelect {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.languageSelect:hover {
+  border-color: #667eea;
+}
+
+.languageSelect:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
 /* 중앙 컬럼 */
 .middleColumn {
   display: flex;
@@ -149,6 +184,13 @@
   max-height: 400px;
 }
 
+.charCount {
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
 .checkboxGroup {
   display: flex;
   flex-direction: column;
@@ -186,10 +228,41 @@
   font-size: 14px;
 }
 
+.clickableTitle {
+  cursor: pointer;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.clickableTitle:hover {
+  color: #667eea !important;
+  text-decoration: underline;
+}
+
+.clickableTitle:active {
+  color: #5a67d8 !important;
+}
+
 .checkboxGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 8px;
+}
+
+.accountTypeGrid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+  gap: 8px !important;
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+
+.accountTypeExtra {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin-top: 10px !important;
+  width: 100% !important;
 }
 
 .buttonContainer {
@@ -344,7 +417,7 @@
   left: -9999px;
   top: -9999px;
   width: 800px;
-  height: 600px;
+  min-height: 600px;
   background: white;
   padding: 20px;
   font-family: "Noto Sans KR", sans-serif;
@@ -354,8 +427,8 @@
   background: #f5f5f5;
   padding: 15px;
   border-radius: 8px;
-  height: 560px;
-  overflow: hidden;
+  min-height: 560px;
+  overflow: visible;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -516,6 +589,7 @@
   font-size: 11px;
   word-wrap: break-word;
   line-height: 1.3;
+  white-space: pre-wrap;
 }
 
 .imageTextValue > div {
