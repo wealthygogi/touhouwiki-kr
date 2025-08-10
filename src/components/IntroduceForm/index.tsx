@@ -246,7 +246,7 @@ const IntroduceForm: React.FC = () => {
       newWorks: "🆕 新作",
       others: "📝 その他",
       accountType: "💻 アカウントタイプ",
-      writing: "作文",
+      writing: "字書き",
       drawing: "絵",
       gaming: "ゲーム",
       story: "エピソード",
