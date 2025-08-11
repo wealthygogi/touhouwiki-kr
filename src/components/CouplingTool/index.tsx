@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import type { PlacedCharacter, PlacedText } from "./types";
 import { games } from "./data/games";
 
-const CouplingTool: React.FC = () => {
+const CharacterTool: React.FC = () => {
   const [selectedGame, setSelectedGame] = useState<string>("");
   const [selectedCharacter, setSelectedCharacter] = useState<string>("");
   const [placedCharacters, setPlacedCharacters] = useState<PlacedCharacter[]>(
@@ -758,7 +758,7 @@ const CouplingTool: React.FC = () => {
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement("a");
                 link.href = url;
-                link.download = "touhou-coupling.png";
+                link.download = "character-canvas.png";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -1191,4 +1191,4 @@ const CouplingTool: React.FC = () => {
   );
 };
 
-export default CouplingTool;
+export default CharacterTool;
