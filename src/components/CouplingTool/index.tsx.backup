@@ -1,0 +1,1129 @@
+import React, { useState, useRef, useCallback, useEffect } from "react";
+import styles from "./styles.module.css";
+
+interface Character {
+  id: string;
+  name: string;
+  image: string;
+  game: string;
+}
+
+interface PlacedCharacter {
+  id: string;
+  character: Character;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  isSelected: boolean;
+  isResizing: boolean;
+  resizeHandle: string | null;
+}
+
+interface PlacedText {
+  id: string;
+  text: string;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  fontSize: number;
+  color: string;
+  isSelected: boolean;
+  isResizing: boolean;
+  resizeHandle: string | null;
+}
+
+interface GameData {
+  id: string;
+  name: string;
+  characters: Character[];
+}
+
+const CouplingTool: React.FC = () => {
+  const [selectedGame, setSelectedGame] = useState<string>("");
+  const [selectedCharacter, setSelectedCharacter] = useState<string>("");
+  const [placedCharacters, setPlacedCharacters] = useState<PlacedCharacter[]>(
+    []
+  );
+  const [placedTexts, setPlacedTexts] = useState<PlacedText[]>([]);
+  const [textInput, setTextInput] = useState<string>("");
+  const [textColor, setTextColor] = useState<string>("#000000");
+  const [zoom, setZoom] = useState(1);
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragTarget, setDragTarget] = useState<string | null>(null);
+  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
+  const [isResizing, setIsResizing] = useState(false);
+  const [resizeTarget, setResizeTarget] = useState<string | null>(null);
+  const [resizeStart, setResizeStart] = useState({
+    x: 0,
+    y: 0,
+    width: 0,
+    height: 0,
+  });
+  const [isPanning, setIsPanning] = useState(false);
+  const [panStart, setPanStart] = useState({ x: 0, y: 0 });
+  const canvasRef = useRef<HTMLDivElement>(null);
+
+  // 이미지 경로 생성 함수
+  const getImagePath = (gameId: string, imageName: string) => {
+    // Docusaurus의 올바른 정적 파일 접근 방법 사용
+    try {
+      const imageModule = require(`@site/static/img/${gameId}/${imageName}`);
+      const path = imageModule.default;
+      console.log(`이미지 경로 생성: ${path}`);
+      return path;
+    } catch (error) {
+      console.error(
+        `이미지 로드 실패 (require): ${gameId}/${imageName}`,
+        error
+      );
+      // fallback으로 상대 경로 사용
+      return `/img/${gameId}/${imageName}`;
+    }
+  };
+
+  // 게임 데이터 (실제로는 동적으로 로드할 수 있음)
+  const games: GameData[] = [
+    {
+      id: "th08",
+      name: "동방영야초",
+      characters: [
+        {
+          id: "hakurei_reimu",
+          name: "하쿠레이 레이무",
+          image: getImagePath("th08", "hakurei_reimu.png"),
+          game: "th08",
+        },
+        {
+          id: "kirisame_marisa",
+          name: "키리사메 마리사",
+          image: getImagePath("th08", "kirisame_marisa.png"),
+          game: "th08",
+        },
+        {
+          id: "houraisan_kaguya",
+          name: "호라이산 카구야",
+          image: getImagePath("th08", "houraisan_kaguya.png"),
+          game: "th08",
+        },
+        {
+          id: "huziwara_no_mokou",
+          name: "후지와라노 모코우",
+          image: getImagePath("th08", "huziwara_no_mokou.png"),
+          game: "th08",
+        },
+        {
+          id: "inaba_tewi",
+          name: "이나바 테위",
+          image: getImagePath("th08", "inaba_tewi.png"),
+          game: "th08",
+        },
+        {
+          id: "izayoi_sakuya",
+          name: "이자요이 사쿠야",
+          image: getImagePath("th08", "izayoi_sakuya.png"),
+          game: "th08",
+        },
+        {
+          id: "kamishirasawa_keine",
+          name: "카미시라사와 케이네",
+          image: getImagePath("th08", "kamishirasawa_keine.png"),
+          game: "th08",
+        },
+        {
+          id: "konpaku_youmu",
+          name: "콘파쿠 요우무",
+          image: getImagePath("th08", "konpaku_youmu.png"),
+          game: "th08",
+        },
+        {
+          id: "mystia_lorelei",
+          name: "미스티아 로렐라이",
+          image: getImagePath("th08", "mystia_lorelei.png"),
+          game: "th08",
+        },
+        {
+          id: "reisen_udongein_inaba",
+          name: "레이센 우동게인 이나바",
+          image: getImagePath("th08", "reisen_udongein_inaba.png"),
+          game: "th08",
+        },
+        {
+          id: "remilia_scarlet",
+          name: "레밀리아 스칼렛",
+          image: getImagePath("th08", "remilia_scarlet.png"),
+          game: "th08",
+        },
+        {
+          id: "saigyouji_yuyuko",
+          name: "사이교우지 유유코",
+          image: getImagePath("th08", "saigyouji_yuyuko.png"),
+          game: "th08",
+        },
+        {
+          id: "wriggle_nightbug",
+          name: "리글 나이트버그",
+          image: getImagePath("th08", "wriggle_nightbug.png"),
+          game: "th08",
+        },
+        {
+          id: "yagokoro_eirin",
+          name: "야고코로 에이린",
+          image: getImagePath("th08", "yagokoro_eirin.png"),
+          game: "th08",
+        },
+        {
+          id: "yakumo_yukari",
+          name: "야쿠모 유카리",
+          image: getImagePath("th08", "yakumo_yukari.png"),
+          game: "th08",
+        },
+      ],
+    },
+    {
+      id: "th09",
+      name: "동방화영총",
+      characters: [
+        {
+          id: "cirno",
+          name: "치르노",
+          image: getImagePath("th09", "cirno.png"),
+          game: "th09",
+        },
+        {
+          id: "hakurei_reimu",
+          name: "하쿠레이 레이무",
+          image: getImagePath("th09", "hakurei_reimu.png"),
+          game: "th09",
+        },
+        {
+          id: "inaba_tewi",
+          name: "이나바 테위",
+          image: getImagePath("th09", "inaba_tewi.png"),
+          game: "th09",
+        },
+        {
+          id: "izayoi_sakuya",
+          name: "이자요이 사쿠야",
+          image: getImagePath("th09", "izayoi_sakuya.png"),
+          game: "th09",
+        },
+        {
+          id: "kazami_yuuka",
+          name: "카자미 유우카",
+          image: getImagePath("th09", "kazami_yuuka.png"),
+          game: "th09",
+        },
+        {
+          id: "kirisame_marisa",
+          name: "키리사메 마리사",
+          image: getImagePath("th09", "kirisame_marisa.png"),
+          game: "th09",
+        },
+        {
+          id: "konpaku_youmu",
+          name: "콘파쿠 요우무",
+          image: getImagePath("th09", "konpaku_youmu.png"),
+          game: "th09",
+        },
+        {
+          id: "lunasa_prismriver",
+          name: "루나사 프리즘리버",
+          image: getImagePath("th09", "lunasa_prismriver.png"),
+          game: "th09",
+        },
+        {
+          id: "lyrica_prismriver",
+          name: "리리카 프리즘리버",
+          image: getImagePath("th09", "lyrica_prismriver.png"),
+          game: "th09",
+        },
+        {
+          id: "merlin_prismriver",
+          name: "메를린 프리즘리버",
+          image: getImagePath("th09", "merlin_prismriver.png"),
+          game: "th09",
+        },
+        {
+          id: "mystia_lorelei",
+          name: "미스티아 로렐라이",
+          image: getImagePath("th09", "mystia_lorelei.png"),
+          game: "th09",
+        },
+        {
+          id: "onozuka_komachi",
+          name: "오노즈카 코마치",
+          image: getImagePath("th09", "onozuka_komachi.png"),
+          game: "th09",
+        },
+        {
+          id: "reisen_udongein_inaba",
+          name: "레이센 우동게인 이나바",
+          image: getImagePath("th09", "reisen_udongein_inaba.png"),
+          game: "th09",
+        },
+        {
+          id: "shameimaru_aya",
+          name: "샤메이마루 아야",
+          image: getImagePath("th09", "shameimaru_aya.png"),
+          game: "th09",
+        },
+        {
+          id: "shiki_eiki_yamaxanadu",
+          name: "시키 에이키 야마잔나두",
+          image: getImagePath("th09", "shiki_eiki_yamaxanadu.png"),
+          game: "th09",
+        },
+      ],
+    },
+    // 더 많은 게임들을 추가할 수 있습니다
+  ];
+
+  const currentGame = games.find((game) => game.id === selectedGame);
+
+  const handleGameChange = (gameId: string) => {
+    setSelectedGame(gameId);
+    setSelectedCharacter("");
+  };
+
+  const handleCharacterChange = (characterId: string) => {
+    setSelectedCharacter(characterId);
+  };
+
+  const addCharacterToCanvas = () => {
+    if (!selectedCharacter || !currentGame) return;
+
+    const character = currentGame.characters.find(
+      (c) => c.id === selectedCharacter
+    );
+    if (!character) return;
+
+    const newPlacedCharacter: PlacedCharacter = {
+      id: `${character.id}_${Date.now()}`,
+      character,
+      x: 100,
+      y: 100,
+      width: 100,
+      height: 100,
+      isSelected: false,
+      isResizing: false,
+      resizeHandle: null,
+    };
+
+    setPlacedCharacters((prev) => [...prev, newPlacedCharacter]);
+  };
+
+  const removeCharacter = (id: string) => {
+    setPlacedCharacters((prev) => prev.filter((char) => char.id !== id));
+  };
+
+  // 텍스트 추가 함수
+  const addText = () => {
+    if (!textInput.trim()) return;
+
+    const fontSize = 64; // 기본 폰트 크기를 4배로 증가
+    const textWidth = textInput.length * fontSize * 0.6;
+    const textHeight = fontSize * 1.2;
+
+    const newText: PlacedText = {
+      id: `text_${Date.now()}`,
+      text: textInput.trim(),
+      x: 200,
+      y: 200,
+      width: textWidth,
+      height: textHeight,
+      fontSize: fontSize,
+      color: textColor,
+      isSelected: false,
+      isResizing: false,
+      resizeHandle: null,
+    };
+
+    setPlacedTexts((prev) => [...prev, newText]);
+    setTextInput("");
+  };
+
+  // 텍스트 삭제 함수
+  const removeText = (id: string) => {
+    setPlacedTexts((prev) => prev.filter((text) => text.id !== id));
+  };
+
+  // 텍스트 선택 함수
+  const handleTextClick = (textId: string) => {
+    setPlacedTexts((prev) =>
+      prev.map((text) => ({
+        ...text,
+        isSelected: text.id === textId,
+        resizeHandle: null,
+      }))
+    );
+    // 다른 요소들의 선택 해제
+    setPlacedCharacters((prev) =>
+      prev.map((char) => ({
+        ...char,
+        isSelected: false,
+        resizeHandle: null,
+      }))
+    );
+  };
+
+  const handleMouseDown = useCallback(
+    (e: React.MouseEvent, characterId: string) => {
+      const character = placedCharacters.find((c) => c.id === characterId);
+      if (!character) return;
+
+      setIsDragging(true);
+      setDragTarget(characterId);
+      setDragOffset({
+        x: e.clientX - character.x,
+        y: e.clientY - character.y,
+      });
+
+      // 선택 상태 변경 및 resizeHandle 설정
+      setPlacedCharacters((prev) =>
+        prev.map((c) => ({
+          ...c,
+          isSelected: c.id === characterId,
+          resizeHandle: null,
+        }))
+      );
+
+      // 텍스트 선택 해제
+      setPlacedTexts((prev) =>
+        prev.map((text) => ({
+          ...text,
+          isSelected: false,
+          resizeHandle: null,
+        }))
+      );
+    },
+    [placedCharacters]
+  );
+
+  // 텍스트 드래그 시작
+  const handleTextMouseDown = useCallback(
+    (e: React.MouseEvent, textId: string) => {
+      const text = placedTexts.find((t) => t.id === textId);
+      if (!text) return;
+
+      setIsDragging(true);
+      setDragTarget(textId);
+      setDragOffset({
+        x: e.clientX - text.x,
+        y: e.clientY - text.y,
+      });
+
+      // 텍스트 선택
+      handleTextClick(textId);
+    },
+    [placedTexts]
+  );
+
+  // 텍스트 리사이징 시작
+  const handleTextResizeStart = useCallback(
+    (e: React.MouseEvent, textId: string, handle: string) => {
+      e.stopPropagation();
+      const text = placedTexts.find((t) => t.id === textId);
+      if (!text) return;
+
+      setIsResizing(true);
+      setResizeTarget(textId);
+      setResizeStart({
+        x: e.clientX,
+        y: e.clientY,
+        width: text.width,
+        height: text.height,
+      });
+
+      // 텍스트 선택 및 resizeHandle 설정
+      setPlacedTexts((prev) =>
+        prev.map((t) => ({
+          ...t,
+          isSelected: t.id === textId,
+          resizeHandle: t.id === textId ? handle : null,
+        }))
+      );
+
+      // 캐릭터 선택 해제
+      setPlacedCharacters((prev) =>
+        prev.map((char) => ({
+          ...char,
+          isSelected: false,
+          resizeHandle: null,
+        }))
+      );
+    },
+    [placedTexts]
+  );
+
+  // 패닝 시작 (손잡이 커서 모드)
+  const handlePanStart = useCallback((e: React.MouseEvent) => {
+    setIsPanning(true);
+    setPanStart({ x: e.clientX, y: e.clientY });
+  }, []);
+
+  // 패닝 종료
+  const handlePanEnd = useCallback(() => {
+    setIsPanning(false);
+  }, []);
+
+  const handleMouseUp = useCallback(() => {
+    setIsDragging(false);
+    setDragTarget(null);
+    setIsResizing(false);
+    setResizeTarget(null);
+    setIsPanning(false);
+
+    // 리사이징이 끝났을 때 resizeHandle 초기화
+    setPlacedCharacters((prev) =>
+      prev.map((char) => ({
+        ...char,
+        resizeHandle: null,
+      }))
+    );
+
+    setPlacedTexts((prev) =>
+      prev.map((text) => ({
+        ...text,
+        resizeHandle: null,
+      }))
+    );
+  }, []);
+
+  const handleResizeStart = useCallback(
+    (e: React.MouseEvent, characterId: string, handle: string) => {
+      e.stopPropagation();
+      const character = placedCharacters.find((c) => c.id === characterId);
+      if (!character) return;
+
+      setIsResizing(true);
+      setResizeTarget(characterId);
+      setResizeStart({
+        x: e.clientX,
+        y: e.clientY,
+        width: character.width,
+        height: character.height,
+      });
+
+      // 선택 상태 변경 및 resizeHandle 설정
+      setPlacedCharacters((prev) =>
+        prev.map((c) => ({
+          ...c,
+          isSelected: c.id === characterId,
+          resizeHandle: c.id === characterId ? handle : null,
+        }))
+      );
+    },
+    [placedCharacters]
+  );
+
+  // 빈 공간 클릭 시 언포커싱
+  const handleCanvasClick = useCallback((e: React.MouseEvent) => {
+    // 캔버스 배경을 직접 클릭한 경우에만 언포커싱
+    // e.target이 캔버스 자체이거나 캔버스 컨텐츠인 경우 언포커싱
+    if (
+      e.target === e.currentTarget ||
+      e.target === canvasRef.current ||
+      (e.target as HTMLElement).classList.contains(styles.canvas) ||
+      (e.target as HTMLElement).classList.contains(styles.canvasContent)
+    ) {
+      console.log("빈 공간 클릭 - 언포커싱 실행");
+      setPlacedCharacters((prev) =>
+        prev.map((char) => ({
+          ...char,
+          isSelected: false,
+          resizeHandle: null,
+        }))
+      );
+      setPlacedTexts((prev) =>
+        prev.map((text) => ({
+          ...text,
+          isSelected: false,
+          resizeHandle: null,
+        }))
+      );
+    }
+  }, []);
+
+  // 레이어 순서 조정 함수들
+  const bringToFront = useCallback((id: string) => {
+    setPlacedCharacters((prev) => {
+      const charIndex = prev.findIndex((char) => char.id === id);
+      if (charIndex === -1) return prev;
+
+      const newChars = [...prev];
+      const [char] = newChars.splice(charIndex, 1);
+      newChars.push(char);
+      return newChars;
+    });
+
+    setPlacedTexts((prev) => {
+      const textIndex = prev.findIndex((text) => text.id === id);
+      if (textIndex === -1) return prev;
+
+      const newTexts = [...prev];
+      const [text] = newTexts.splice(textIndex, 1);
+      newTexts.push(text);
+      return newTexts;
+    });
+  }, []);
+
+  const sendToBack = useCallback((id: string) => {
+    setPlacedCharacters((prev) => {
+      const charIndex = prev.findIndex((char) => char.id === id);
+      if (charIndex === -1) return prev;
+
+      const newChars = [...prev];
+      const [char] = newChars.splice(charIndex, 1);
+      newChars.unshift(char);
+      return newChars;
+    });
+
+    setPlacedTexts((prev) => {
+      const textIndex = prev.findIndex((text) => text.id === id);
+      if (textIndex === -1) return prev;
+
+      const newTexts = [...prev];
+      const [text] = newTexts.splice(textIndex, 1);
+      newTexts.unshift(text);
+      return newTexts;
+    });
+  }, []);
+
+  const bringForward = useCallback((id: string) => {
+    setPlacedCharacters((prev) => {
+      const charIndex = prev.findIndex((char) => char.id === id);
+      if (charIndex === -1 || charIndex === prev.length - 1) return prev;
+
+      const newChars = [...prev];
+      [newChars[charIndex], newChars[charIndex + 1]] = [
+        newChars[charIndex + 1],
+        newChars[charIndex],
+      ];
+      return newChars;
+    });
+
+    setPlacedTexts((prev) => {
+      const textIndex = prev.findIndex((text) => text.id === id);
+      if (textIndex === -1 || textIndex === prev.length - 1) return prev;
+
+      const newTexts = [...prev];
+      [newTexts[textIndex], newTexts[textIndex + 1]] = [
+        newTexts[textIndex + 1],
+        newTexts[textIndex],
+      ];
+      return newTexts;
+    });
+  }, []);
+
+  const sendBackward = useCallback((id: string) => {
+    setPlacedCharacters((prev) => {
+      const charIndex = prev.findIndex((char) => char.id === id);
+      if (charIndex === -1 || charIndex === 0) return prev;
+
+      const newChars = [...prev];
+      [newChars[charIndex], newChars[charIndex - 1]] = [
+        newChars[charIndex - 1],
+        newChars[charIndex],
+      ];
+      return newChars;
+    });
+
+    setPlacedTexts((prev) => {
+      const textIndex = prev.findIndex((text) => text.id === id);
+      if (textIndex === -1 || textIndex === 0) return prev;
+
+      const newTexts = [...prev];
+      [newTexts[textIndex], newTexts[textIndex - 1]] = [
+        newTexts[textIndex - 1],
+        newTexts[textIndex],
+      ];
+      return newTexts;
+    });
+  }, []);
+
+  const handleMouseMove = useCallback(
+    (e: React.MouseEvent) => {
+      if (isResizing && resizeTarget) {
+        // 리사이징 처리
+        const deltaX = e.clientX - resizeStart.x;
+        const deltaY = e.clientY - resizeStart.y;
+
+        // 텍스트 리사이징 처리
+        if (resizeTarget.startsWith("text_")) {
+          setPlacedTexts((prev) =>
+            prev.map((text) => {
+              if (text.id === resizeTarget) {
+                let newFontSize = text.fontSize;
+                let newX = text.x;
+                let newY = text.y;
+
+                // 리사이즈 핸들에 따른 폰트 크기 조절
+                if (text.resizeHandle?.includes("e")) {
+                  newFontSize = Math.max(32, text.fontSize + deltaX * 0.5);
+                }
+                if (text.resizeHandle?.includes("w")) {
+                  newFontSize = Math.max(32, text.fontSize - deltaX * 0.5);
+                  // 왼쪽 핸들일 때는 x 위치도 조정
+                  newX = text.x + (text.fontSize - newFontSize) * 0.3;
+                }
+                if (text.resizeHandle?.includes("s")) {
+                  newFontSize = Math.max(32, text.fontSize + deltaY * 0.5);
+                }
+                if (text.resizeHandle?.includes("n")) {
+                  newFontSize = Math.max(32, text.fontSize - deltaY * 0.5);
+                  // 위쪽 핸들일 때는 y 위치도 조정
+                  newY = text.y + (text.fontSize - newFontSize) * 0.3;
+                }
+
+                // 폰트 크기에 따른 텍스트 크기 자동 계산
+                const newWidth = text.text.length * newFontSize * 0.6;
+                const newHeight = newFontSize * 1.2;
+
+                return {
+                  ...text,
+                  x: newX,
+                  y: newY,
+                  width: newWidth,
+                  height: newHeight,
+                  fontSize: newFontSize,
+                };
+              }
+              return text;
+            })
+          );
+        } else {
+          // 캐릭터 리사이징 처리 (기존 코드)
+          setPlacedCharacters((prev) =>
+            prev.map((char) => {
+              if (char.id === resizeTarget) {
+                let newWidth = resizeStart.width;
+                let newHeight = resizeStart.height;
+                let newX = char.x;
+                let newY = char.y;
+
+                if (char.resizeHandle?.includes("e")) {
+                  newWidth = Math.max(50, resizeStart.width + deltaX);
+                }
+                if (char.resizeHandle?.includes("w")) {
+                  newWidth = Math.max(50, resizeStart.width - deltaX);
+                  newX = char.x + (resizeStart.width - newWidth);
+                }
+                if (char.resizeHandle?.includes("s")) {
+                  newHeight = Math.max(50, resizeStart.height + deltaY);
+                }
+                if (char.resizeHandle?.includes("n")) {
+                  newHeight = Math.max(50, resizeStart.height - deltaY);
+                  newY = char.y + (resizeStart.height - newHeight);
+                }
+
+                return {
+                  ...char,
+                  x: newX,
+                  y: newY,
+                  width: newWidth,
+                  height: newHeight,
+                };
+              }
+              return char;
+            })
+          );
+        }
+      } else if (isDragging && dragTarget) {
+        // 드래그 처리
+        if (dragTarget.startsWith("text_")) {
+          // 텍스트 드래그 처리
+          setPlacedTexts((prev) =>
+            prev.map((text) => {
+              if (text.id === dragTarget) {
+                return {
+                  ...text,
+                  x: e.clientX - dragOffset.x,
+                  y: e.clientY - dragOffset.y,
+                };
+              }
+              return text;
+            })
+          );
+        } else {
+          // 캐릭터 드래그 처리 (기존 코드)
+          setPlacedCharacters((prev) =>
+            prev.map((char) => {
+              if (char.id === dragTarget) {
+                return {
+                  ...char,
+                  x: e.clientX - dragOffset.x,
+                  y: e.clientY - dragOffset.y,
+                };
+              }
+              return char;
+            })
+          );
+        }
+      } else if (isPanning) {
+        // 패닝 처리 (줌 후 화면 이동)
+        const deltaX = e.clientX - panStart.x;
+        const deltaY = e.clientY - panStart.y;
+
+        // 모든 요소들의 위치를 이동
+        setPlacedCharacters((prev) =>
+          prev.map((char) => ({
+            ...char,
+            x: char.x + deltaX,
+            y: char.y + deltaY,
+          }))
+        );
+
+        setPlacedTexts((prev) =>
+          prev.map((text) => ({
+            ...text,
+            x: text.x + deltaX,
+            y: text.y + deltaY,
+          }))
+        );
+
+        setPanStart({ x: e.clientX, y: e.clientY });
+      }
+    },
+    [
+      isDragging,
+      dragTarget,
+      dragOffset,
+      isResizing,
+      resizeTarget,
+      resizeStart,
+      isPanning,
+      panStart,
+    ]
+  );
+
+  const handleWheel = useCallback((e: React.WheelEvent) => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+    setZoom((prev) => Math.max(0.1, Math.min(3, prev * delta)));
+  }, []);
+
+  // PNG 다운로드 함수
+  const downloadCanvasAsPNG = () => {
+    if (!canvasRef.current) return;
+
+    // html2canvas 라이브러리를 사용하여 캔버스를 이미지로 변환
+    import("html2canvas")
+      .then((html2canvas) => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+
+        // 격자 배경을 일시적으로 제거
+        const canvasElement = canvas.querySelector(
+          `.${styles.canvas}`
+        ) as HTMLElement;
+
+        let originalBackgroundImage: string | null = null;
+        let originalBackgroundSize: string | null = null;
+
+        if (canvasElement) {
+          // 원본 스타일 저장
+          originalBackgroundImage = canvasElement.style.backgroundImage;
+          originalBackgroundSize = canvasElement.style.backgroundSize;
+          
+          // 격자 배경 완전 제거 (CSS 클래스 + 인라인 스타일 + !important)
+          canvasElement.classList.add(styles.forceNoGrid);
+          canvasElement.style.setProperty('background-image', 'none', 'important');
+          canvasElement.style.setProperty('background-size', 'auto', 'important');
+          canvasElement.style.setProperty('background', 'none', 'important');
+          console.log("격자 배경 제거됨 (CSS 클래스 + 인라인 스타일 + !important)");
+        }
+
+        // 잠시 대기 후 스크린샷 촬영 (배경 변경이 적용되도록)
+        setTimeout(() => {
+          html2canvas
+            .default(canvas, {
+              backgroundColor: "#ffffff",
+              scale: 2, // 고해상도로 렌더링
+              useCORS: true,
+              allowTaint: true,
+              logging: true, // 디버깅을 위해 로그 활성화
+            })
+            .then((canvas) => {
+              // 격자 배경 복원
+              if (canvasElement) {
+                if (originalBackgroundImage) {
+                  canvasElement.style.setProperty('background-image', originalBackgroundImage, 'important');
+                }
+                if (originalBackgroundSize) {
+                  canvasElement.style.setProperty('background-size', originalBackgroundSize, 'important');
+                }
+                console.log("격자 배경 복원됨 (인라인 스타일 + !important)");
+              }
+
+              // 캔버스를 blob으로 변환
+              canvas.toBlob((blob) => {
+                if (blob) {
+                  // 다운로드 링크 생성
+                  const url = URL.createObjectURL(blob);
+                  const link = document.createElement("a");
+                  link.href = url;
+                  link.download = "touhou-coupling.png";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                  URL.revokeObjectURL(url);
+                  console.log("PNG 다운로드 완료");
+                }
+              }, "image/png");
+            })
+            .catch((error) => {
+              console.error("html2canvas 렌더링 실패:", error);
+              // 에러 발생 시에도 배경 복원
+              if (canvasElement) {
+                if (originalBackgroundImage) {
+                  canvasElement.style.setProperty('background-image', originalBackgroundImage, 'important');
+                }
+                if (originalBackgroundSize) {
+                  canvasElement.style.setProperty('background-size', originalBackgroundSize, 'important');
+                }
+              }
+              alert("이미지 생성에 실패했습니다.");
+            });
+        }, 200); // 200ms로 증가 (더 확실한 적용을 위해)
+      })
+      .catch((error) => {
+        console.error("html2canvas 로드 실패:", error);
+        alert(
+          "이미지 다운로드에 실패했습니다. html2canvas 라이브러리를 설치해주세요."
+        );
+      });
+  };
+
+  // Delete 키로 선택된 요소 삭제
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.key === "Delete" || e.key === "Backspace") {
+        // 선택된 캐릭터 삭제
+        const selectedCharacter = placedCharacters.find(
+          (char) => char.isSelected
+        );
+        if (selectedCharacter) {
+          removeCharacter(selectedCharacter.id);
+          return;
+        }
+
+        // 선택된 텍스트 삭제
+        const selectedText = placedTexts.find((text) => text.isSelected);
+        if (selectedText) {
+          removeText(selectedText.id);
+          return;
+        }
+      }
+    },
+    [placedCharacters, placedTexts]
+  );
+
+  useEffect(() => {
+    if (selectedCharacter) {
+      addCharacterToCanvas();
+      setSelectedCharacter("");
+    }
+  }, [selectedCharacter]);
+
+  useEffect(() => {
+    // 키보드 이벤트 리스너 추가
+    document.addEventListener("keydown", handleKeyDown);
+
+    // 컴포넌트 언마운트 시 이벤트 리스너 제거
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [handleKeyDown]);
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.controls}>
+        <div className={styles.selectGroup}>
+          <label htmlFor="game-select">게임 선택:</label>
+          <select
+            id="game-select"
+            value={selectedGame}
+            onChange={(e) => handleGameChange(e.target.value)}
+            className={styles.select}
+          >
+            <option value="">게임을 선택하세요</option>
+            {games.map((game) => (
+              <option key={game.id} value={game.id}>
+                {game.name}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className={styles.selectGroup}>
+          <label htmlFor="character-select">캐릭터 선택:</label>
+          <select
+            id="character-select"
+            value={selectedCharacter}
+            onChange={(e) => handleCharacterChange(e.target.value)}
+            className={styles.select}
+            disabled={!selectedGame}
+          >
+            <option value="">캐릭터를 선택하세요</option>
+            {currentGame?.characters.map((character) => (
+              <option key={character.id} value={character.id}>
+                {character.name}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {/* 텍스트 추가 컨트롤 */}
+        <div className={styles.textControls}>
+          <div className={styles.textInputGroup}>
+            <input
+              type="text"
+              value={textInput}
+              onChange={(e) => setTextInput(e.target.value)}
+              placeholder="텍스트를 입력하세요"
+              className={styles.textInput}
+              onKeyPress={(e) => e.key === "Enter" && addText()}
+            />
+            <input
+              type="color"
+              value={textColor}
+              onChange={(e) => setTextColor(e.target.value)}
+              className={styles.colorPicker}
+              title="텍스트 색상 선택"
+            />
+            <button onClick={addText} className={styles.addTextButton}>
+              텍스트 추가
+            </button>
+          </div>
+        </div>
+
+        {/* 다운로드 버튼 */}
+        <button onClick={downloadCanvasAsPNG} className={styles.downloadButton}>
+          📥 PNG 다운로드
+        </button>
+      </div>
+
+      <div className={styles.canvasContainer}>
+        <div
+          ref={canvasRef}
+          className={styles.canvas}
+          onMouseMove={handleMouseMove}
+          onMouseUp={handleMouseUp}
+          onWheel={handleWheel}
+          onClick={handleCanvasClick}
+        >
+          <div
+            className={styles.canvasContent}
+            style={{ transform: `scale(${zoom})` }}
+            onClick={handleCanvasClick}
+          >
+            {placedCharacters.map((character) => (
+              <div
+                key={character.id}
+                className={`${styles.placedCharacter} ${
+                  character.isSelected ? styles.selected : ""
+                }`}
+                style={{
+                  left: character.x,
+                  top: character.y,
+                  width: character.width,
+                  height: character.height,
+                }}
+                onMouseDown={(e) => handleMouseDown(e, character.id)}
+              >
+                <img
+                  src={character.character.image}
+                  alt={character.character.name}
+                  className={styles.characterImage}
+                  onLoad={(e) => {
+                    console.log("이미지 로드 성공:", character.character.image);
+                    e.currentTarget.style.display = "block";
+                  }}
+                  onError={(e) => {
+                    console.error(
+                      "이미지 로드 실패:",
+                      character.character.image
+                    );
+                    e.currentTarget.style.display = "none";
+                    // 이미지 로드 실패 시 대체 텍스트 표시
+                    const parent = e.currentTarget.parentElement;
+                    if (parent) {
+                      const fallbackText = document.createElement("div");
+                      fallbackText.className = styles.fallbackText;
+                      fallbackText.textContent = character.character.name;
+                      parent.appendChild(fallbackText);
+                    }
+                  }}
+                />
+
+                {/* 선택된 캐릭터에만 삭제 버튼과 레이어 순서 조정 버튼 표시 */}
+                {character.isSelected && (
+                  <>
+                    <button
+                      className={styles.removeButton}
+                      onClick={() => removeCharacter(character.id)}
+                      title="삭제"
+                    >
+                      ×
+                    </button>
+
+                    {/* 레이어 순서 조정 버튼들 */}
+                    <div className={styles.layerControls}>
+                      <button
+                        className={styles.layerButton}
+                        onClick={() => bringToFront(character.id)}
+                        title="맨 앞으로"
+                      >
+                        ⬆️
+                      </button>
+                      <button
+                        className={styles.layerButton}
+                        onClick={() => bringForward(character.id)}
+                        title="앞으로"
+                      >
+                        ⬆
+                      </button>
+                      <button
+                        className={styles.layerButton}
+                        onClick={() => sendBackward(character.id)}
+                        title="뒤로"
+                      >
+                        ⬇
+                      </button>
+                      <button
+                        className={styles.layerButton}
+                        onClick={() => sendToBack(character.id)}
+                        title="맨 뒤로"
+                      >
+                        ⬇️
+                      </button>
+                    </div>
+                  </>
+                )}
+
+                {/* 리사이즈 핸들들 */}
+                {character.isSelected && (
+                  <>
+                    {/* 모서리 핸들들 */}
+                    <div
+                      className={`${styles.resizeHandle} ${styles.resizeHandleNw}`}
+                      onMouseDown={(e) =>
+                        handleResizeStart(e, character.id, "nw")
+                      }
+                    />
+                    <div
+                      className={`${styles.resizeHandle} ${styles.resizeHandleNe}`}
+                      onMouseDown={(e) =>
+                        handleResizeStart(e, character.id, "ne")
+                      }
+                    />
+                    <div
+                      className={`${styles.resizeHandle} ${styles.resizeHandleSw}`}
+                      onMouseDown={(e) =>
+                        handleResizeStart(e, character.id, "sw")
+                      }
+                    />
+                    <div
+                      className={`

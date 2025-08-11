@@ -1,0 +1,455 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+/* 텍스트 컨트롤 스타일 */
+.textControls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textInputGroup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.textInput {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 200px;
+  background: white;
+  color: #495057;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+}
+
+.addTextButton {
+  padding: 8px 16px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addTextButton:hover {
+  background: #218838;
+}
+
+/* 다운로드 버튼 스타일 */
+.downloadButton {
+  padding: 8px 16px;
+  background: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.downloadButton:hover {
+  background: #138496;
+}
+
+.selectGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.selectGroup label {
+  font-weight: 600;
+  color: #495057;
+  font-size: 14px;
+}
+
+.select {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 200px;
+  background: white;
+  color: #495057;
+}
+
+.select option {
+  color: #495057;
+  background: white;
+  padding: 8px;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.select:disabled {
+  background: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.canvasContainer {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  user-select: none;
+}
+
+.canvas:active {
+  cursor: default;
+}
+
+/* PNG 다운로드용 격자 제거 클래스 */
+.canvas.noGrid {
+  background-image: none !important;
+  background-size: auto !important;
+}
+
+/* 더 강력한 격자 제거 (인라인 스타일과 함께 사용) */
+.canvas.forceNoGrid {
+  background: none !important;
+  background-image: none !important;
+  background-size: auto !important;
+  background-color: transparent !important;
+}
+
+/* PNG 다운로드 전용 격자 완전 제거 */
+.canvas.pngExport {
+  background: transparent !important;
+  background-image: none !important;
+  background-size: auto !important;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-attachment: scroll !important;
+}
+
+/* 최강력 격자 제거 (모든 배경 속성 무효화) */
+.canvas.ultimateNoGrid {
+  background: transparent !important;
+  background-image: none !important;
+  background-size: auto !important;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-attachment: scroll !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-blend-mode: normal !important;
+}
+
+.canvasContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-origin: top left;
+  user-select: none;
+}
+
+.placedCharacter {
+  position: absolute;
+  cursor: grab;
+  user-select: none;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border-color 0.2s ease;
+}
+
+.placedCharacter:hover {
+  border-color: #007bff;
+}
+
+.placedCharacter.selected {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* 리사이즈 핸들 스타일 */
+.resizeHandle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #007bff;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.resizeHandle:hover {
+  background: #0056b3;
+  transform: scale(1.2);
+}
+
+/* 모서리 핸들들 */
+.resizeHandleNw {
+  top: -4px;
+  left: -4px;
+  cursor: nw-resize;
+}
+
+.resizeHandleNe {
+  top: -4px;
+  right: -4px;
+  cursor: ne-resize;
+}
+
+.resizeHandleSw {
+  bottom: -4px;
+  left: -4px;
+  cursor: sw-resize;
+}
+
+.resizeHandleSe {
+  bottom: -4px;
+  right: -4px;
+  cursor: se-resize;
+}
+
+/* 중간 핸들들 */
+.resizeHandleN {
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: n-resize;
+}
+
+.resizeHandleS {
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: s-resize;
+}
+
+.resizeHandleW {
+  left: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: w-resize;
+}
+
+.resizeHandleE {
+  right: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: e-resize;
+}
+
+.characterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  display: block;
+}
+
+.fallbackText {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #6c757d;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  word-break: break-word;
+}
+
+.removeButton {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background: #dc3545;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.removeButton:hover {
+  background: #c82333;
+  transform: scale(1.1);
+}
+
+.removeButton:active {
+  transform: scale(0.95);
+}
+
+/* 텍스트 요소 스타일 */
+.placedText {
+  position: absolute;
+  cursor: grab;
+  user-select: none;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  min-width: 20px;
+  min-height: 20px;
+  background: transparent;
+}
+
+.placedText:hover {
+  border-color: #007bff;
+}
+
+.placedText.selected {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* 레이어 순서 조정 버튼 스타일 */
+.layerControls {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  display: flex;
+  gap: 4px;
+  z-index: 15;
+}
+
+.layerButton {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  background: #17a2b8;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.layerButton:hover {
+  background: #138496;
+  transform: scale(1.1);
+}
+
+.layerButton:active {
+  transform: scale(0.95);
+}
+
+/* 텍스트 내용 스타일 */
+.placedText > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+  padding: 15px;
+  background: #e9ecef;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.info p {
+  margin: 5px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .selectGroup {
+    width: 100%;
+  }
+
+  .select {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .canvasContainer {
+    height: 400px;
+  }
+}
+
+/* 드래그 중일 때 커서 변경 */
+.canvas.dragging {
+  cursor: grabbing;
+}
+
+.placedCharacter.dragging {
+  cursor: grabbing;
+  z-index: 1000;
+}
