@@ -1,0 +1,1331 @@
+{
+  "games": {
+    "th06": {
+      "id": "th06",
+      "title": "동방홍마향 ~ the Embodiment of Scarlet Devil.",
+      "metadata": {
+        "title_ko": "동방홍마향 ~ the Embodiment of Scarlet Devil.",
+        "title_en": "Touhou Scarlet Devil Land ~ The Embodiment of Scarlet Devil",
+        "title_jp": "東方紅魔郷　～ the Embodiment of Scarlet Devil",
+        "release_year": 2002,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "ルーミア",
+          "english": "Rumia",
+          "korean": "루미아"
+        },
+        {
+          "japanese": "大妖精",
+          "english": "Daiyousei",
+          "korean": "대요정"
+        },
+        {
+          "japanese": "チルノ",
+          "english": "Cirno",
+          "korean": "치르노"
+        },
+        {
+          "japanese": "紅 美鈴",
+          "english": "Hong Meiling",
+          "korean": "홍 메이링"
+        },
+        {
+          "japanese": "小悪魔",
+          "english": "Koakuma",
+          "korean": "소악마"
+        },
+        {
+          "japanese": "パチュリー・ノーレッジ",
+          "english": "Patchouli Knowledge",
+          "korean": "파츄리 널릿지"
+        },
+        {
+          "japanese": "十六夜 咲夜",
+          "english": "Izayoi Sakuya",
+          "korean": "이자요이 사쿠야"
+        },
+        {
+          "japanese": "レミリア・スカーレット",
+          "english": "Remilia Scarlet",
+          "korean": "레밀리아 스칼렛"
+        },
+        {
+          "japanese": "フランドール・スカーレット",
+          "english": "Flandre Scarlet",
+          "korean": "플랑드르 스칼렛"
+        }
+      ]
+    },
+    "th07": {
+      "id": "th07",
+      "title": "동방요요몽 ~ Perfect Cherry Blossom.",
+      "metadata": {
+        "title_ko": "동방요요몽 ~ Perfect Cherry Blossom.",
+        "title_en": "Touhou Ghostly Dream ~ Perfect Cherry Blossom",
+        "title_jp": "東方妖々夢　～ Perfect Cherry Blossom",
+        "release_year": 2003,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "レティ・ホワイトロック",
+          "english": "Letty Whiterock",
+          "korean": "레티 화이트락"
+        },
+        {
+          "japanese": "橙",
+          "english": "Chen",
+          "korean": "첸"
+        },
+        {
+          "japanese": "アリス・マーガトロイド",
+          "english": "Alice Margatroid",
+          "korean": "앨리스 마가트로이드"
+        },
+        {
+          "japanese": "リリーホワイト",
+          "english": "Lily White",
+          "korean": "릴리 화이트"
+        },
+        {
+          "japanese": "メルラン・プリズムリバー",
+          "english": "Merlin Prismriver",
+          "korean": "메를랑 프리즘리버"
+        },
+        {
+          "japanese": "リリカ・プリズムリバー",
+          "english": "Lyrica Prismriver",
+          "korean": "리리카 프리즘리버"
+        },
+        {
+          "japanese": "魂魄 妖夢",
+          "english": "Konpaku Youmu",
+          "korean": "콘파쿠 요우무"
+        },
+        {
+          "japanese": "西行寺 幽々子",
+          "english": "Saigyouji Yuyuko",
+          "korean": "사이교우지 유유코"
+        },
+        {
+          "japanese": "八雲 藍",
+          "english": "Yakumo Ran",
+          "korean": "야쿠모 란"
+        },
+        {
+          "japanese": "八雲 紫",
+          "english": "Yakumo Yukari",
+          "korean": "야쿠모 유카리"
+        }
+      ]
+    },
+    "th08": {
+      "id": "th08",
+      "title": "동방영야초 ~ Imperishable Night.",
+      "metadata": {
+        "title_ko": "동방영야초 ~ Imperishable Night.",
+        "title_en": "Touhou Eternal Night Vignette ~ Imperishable Night",
+        "title_jp": "東方永夜抄　～ Imperishable Night",
+        "release_year": 2004,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "リグル・ナイトバグ",
+          "english": "Wriggle Nightbug",
+          "korean": "리글 나이트버그"
+        },
+        {
+          "japanese": "ミスティア・ローレライ",
+          "english": "Mystia Lorelei",
+          "korean": "미스티아 로렐라이"
+        },
+        {
+          "japanese": "上白沢 慧音",
+          "english": "Kamishirasawa Keine",
+          "korean": "카미시라사와 케이네"
+        },
+        {
+          "japanese": "因幡 てゐ",
+          "english": "Inaba Tewi",
+          "korean": "이나바 테위"
+        },
+        {
+          "japanese": "鈴仙・優曇華院・イナバ",
+          "english": "Reisen Udongein Inaba",
+          "korean": "레이센 우동게인 이나바"
+        },
+        {
+          "japanese": "八意 永琳",
+          "english": "Yagokoro Eirin",
+          "korean": "야고코로 에이린"
+        },
+        {
+          "japanese": "蓬莱山 輝夜",
+          "english": "Houraisan Kaguya",
+          "korean": "호라이산 카구야"
+        },
+        {
+          "japanese": "藤原 妹紅",
+          "english": "Fujiwara no Mokou",
+          "korean": "후지와라노 모코우"
+        }
+      ]
+    },
+    "th075": {
+      "id": "th075",
+      "title": "동방췌몽상 ~ Immaterial and Missing Power.",
+      "metadata": {
+        "title_ko": "동방췌몽상 ~ Immaterial and Missing Power.",
+        "title_en": "Touhou Gathering Reverie ~ Immaterial and Missing Power",
+        "title_jp": "東方萃夢想　～ Immaterial and Missing Power",
+        "release_year": 2004,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "伊吹 萃香",
+          "english": "Ibuki Suika",
+          "korean": "이부키 스이카"
+        }
+      ]
+    },
+    "th095": {
+      "id": "th095",
+      "title": "동방문화첩 ~ Shoot the Bullet.",
+      "metadata": {
+        "title_ko": "동방문화첩 ~ Shoot the Bullet.",
+        "title_en": "Touhou Word Flower Album ~ Shoot the Bullet",
+        "title_jp": "東方文花帖　～ Shoot the Bullet",
+        "release_year": 2006,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "射命丸 文",
+          "english": "Shameimaru Aya",
+          "korean": "샤메이마루 아야"
+        }
+      ]
+    },
+    "th09": {
+      "id": "th09",
+      "title": "동방화영총 ~ Phantasmagoria of Flower View.",
+      "metadata": {
+        "title_ko": "동방화영총 ~ Phantasmagoria of Flower View.",
+        "title_en": "Touhou Flower Reflecting Mound ~ Phantasmagoria of Flower View",
+        "title_jp": "東方花映塚　～ Phantasmagoria of Flower View",
+        "release_year": 2005,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "メディスン・メランコリー",
+          "english": "Medicine Melancholy",
+          "korean": "메디슨 멜랑콜리"
+        },
+        {
+          "japanese": "風見 幽香",
+          "english": "Kazami Yuuka",
+          "korean": "카자미 유카"
+        },
+        {
+          "japanese": "小野塚 小町",
+          "english": "Onozuka Komachi",
+          "korean": "오노즈카 코마치"
+        },
+        {
+          "japanese": "四季映姫・ヤマザナドゥ",
+          "english": "Eiki Shiki, Yamaxanadu",
+          "korean": "시키에이키 야마자나두"
+        }
+      ]
+    },
+    "th10": {
+      "id": "th10",
+      "title": "동방풍신록 ~ Mountain of Faith.",
+      "metadata": {
+        "title_ko": "동방풍신록 ~ Mountain of Faith.",
+        "title_en": "Touhou Wind God Chronicles ~ Mountain of Faith",
+        "title_jp": "東方風神録　～ Mountain of Faith",
+        "release_year": 2006,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "秋 静葉",
+          "english": "Aki Shizuha",
+          "korean": "아키 시즈하"
+        },
+        {
+          "japanese": "秋 穣子",
+          "english": "Aki Minoriko",
+          "korean": "아키 미노리코"
+        },
+        {
+          "japanese": "鍵山 雛",
+          "english": "Kagiyama Hina",
+          "korean": "카기야마 히나"
+        },
+        {
+          "japanese": "河城 にとり",
+          "english": "Kawashiro Nitori",
+          "korean": "카와시로 니토리"
+        },
+        {
+          "japanese": "犬走 椛",
+          "english": "Inubashiri Momiji",
+          "korean": "이누바시리 모미지"
+        },
+        {
+          "japanese": "東風谷 早苗",
+          "english": "Kochiya Sanae",
+          "korean": "코치야 사나에"
+        },
+        {
+          "japanese": "八坂 神奈子",
+          "english": "Yasaka Kanako",
+          "korean": "야사카 카나코"
+        },
+        {
+          "japanese": "洩矢 諏訪子",
+          "english": "Moriya Suwako",
+          "korean": "모리야 스와코"
+        }
+      ]
+    },
+    "th105": {
+      "id": "th105",
+      "title": "동방비상천 ~ Scarlet Weather Rhapsody.",
+      "metadata": {
+        "title_ko": "동방비상천 ~ Scarlet Weather Rhapsody.",
+        "title_en": "Touhou Scarlet Perception Heaven ~ Scarlet Weather Rhapsody",
+        "title_ja": "東方緋想天 ～ Scarlet Weather Rhapsody",
+        "series": "Fighting",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "永江 衣玖",
+          "english": "Nagae Iku",
+          "korean": "나가에 이쿠"
+        },
+        {
+          "japanese": "比那名居 天子",
+          "english": "Hinanawi Tenshi",
+          "korean": "히나나위 텐시"
+        }
+      ]
+    },
+    "th11": {
+      "id": "th11",
+      "title": "동방지령전 ~ Subterranean Animism.",
+      "metadata": {
+        "title_ko": "동방지령전 ~ Subterranean Animism.",
+        "title_en": "Touhou Earth Spirit Palace ~ Subterranean Animism",
+        "title_jp": "東方地霊殿　～ Subterranean Animism",
+        "release_year": 2007,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "キスメ",
+          "english": "Kisume",
+          "korean": "키스메"
+        },
+        {
+          "japanese": "黒谷 ヤマメ",
+          "english": "Kurodani Yamame",
+          "korean": "쿠로다니 야마메"
+        },
+        {
+          "japanese": "水橋 パルスィ",
+          "english": "Mizuhashi Parsee",
+          "korean": "미즈하시 파르시"
+        },
+        {
+          "japanese": "星熊 勇儀",
+          "english": "Hoshiguma Yuugi",
+          "korean": "호시구마 유기"
+        },
+        {
+          "japanese": "古明地 さとり",
+          "english": "Komeiji Satori",
+          "korean": "코메이지 사토리"
+        },
+        {
+          "japanese": "火焔猫 燐",
+          "english": "Kaenbyou Rin",
+          "korean": "카엔뵤 린"
+        },
+        {
+          "japanese": "霊烏路 空",
+          "english": "Reiuji Utsuho",
+          "korean": "레이우지 우츠호"
+        },
+        {
+          "japanese": "古明地 こいし",
+          "english": "Komeiji Koishi",
+          "korean": "코메이지 코이시"
+        }
+      ]
+    },
+    "th12": {
+      "id": "th12",
+      "title": "동방성련선 ~ Undefined Fantastic Object.",
+      "metadata": {
+        "title_ko": "동방성련선 ~ Undefined Fantastic Object.",
+        "title_en": "Touhou Star Lotus Ship ~ Undefined Fantastic Object",
+        "title_jp": "東方星蓮船　～ Undefined Fantastic Object",
+        "release_year": 2008,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "ナズーリン",
+          "english": "Nazrin",
+          "korean": "나즈린"
+        },
+        {
+          "japanese": "多々良 小傘",
+          "english": "Tatara Kogasa",
+          "korean": "타타라 코가사"
+        },
+        {
+          "japanese": "雲居 一輪",
+          "english": "Kumoi Ichirin",
+          "korean": "쿠모이 이치린"
+        },
+        {
+          "japanese": "雲山",
+          "english": "Unzan",
+          "korean": "운잔"
+        },
+        {
+          "japanese": "村紗 水蜜",
+          "english": "Murasa Minamitsu",
+          "korean": "무라사 미나미츠"
+        },
+        {
+          "japanese": "寅丸 星",
+          "english": "Toramaru Shou",
+          "korean": "토라마루 쇼"
+        },
+        {
+          "japanese": "聖 白蓮",
+          "english": "Hijiri Byakuren",
+          "korean": "히지리 뱌쿠렌"
+        },
+        {
+          "japanese": "封獣 ぬえ",
+          "english": "Houjuu Nue",
+          "korean": "호쥬 누에"
+        }
+      ]
+    },
+    "th125": {
+      "id": "th125",
+      "title": "더블 스포일러 ~ 동방문화첩",
+      "metadata": {
+        "title_ko": "더블 스포일러 ~ 동방문화첩",
+        "title_en": "Double Spoiler ~ Touhou Word Flower Album",
+        "title_jp": "ダブルスポイラー　～ 東方文花帖",
+        "release_year": 2009,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "姫海棠 はたて",
+          "english": "Himekaidou Hatate",
+          "korean": "히메카이도 하타테"
+        }
+      ]
+    },
+    "th13": {
+      "id": "th13",
+      "title": "동방신령묘 ~ Ten Desires.",
+      "metadata": {
+        "title_ko": "동방신령묘 ~ Ten Desires.",
+        "title_en": "Touhou Divine Spirit Mausoleum ~ Ten Desires",
+        "title_jp": "東方神霊廟　～ Ten Desires",
+        "release_year": 2009,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "幽谷 響子",
+          "english": "Kasodani Kyouko",
+          "korean": "카소다니 쿄코"
+        },
+        {
+          "japanese": "宮古 芳香",
+          "english": "Miyako Yoshika",
+          "korean": "미야코 요시카"
+        },
+        {
+          "japanese": "霍 青娥",
+          "english": "Kaku Seiga",
+          "korean": "곽청아"
+        },
+        {
+          "japanese": "蘇我 屠自古",
+          "english": "Soga no Tojiko",
+          "korean": "소가노 토지코"
+        },
+        {
+          "japanese": "物部 布都",
+          "english": "Mononobe no Futo",
+          "korean": "모노노베노 후토"
+        },
+        {
+          "japanese": "豊聡耳 神子",
+          "english": "Toyosatomimi no Miko",
+          "korean": "토요사토미미노 미코"
+        },
+        {
+          "japanese": "二ッ岩 マミゾウ",
+          "english": "Futatsuiwa Mamizou",
+          "korean": "후타츠이와 마미조"
+        }
+      ]
+    },
+    "th135": {
+      "id": "th135",
+      "title": "동방심기루 ~ Hopeless Masquerade.",
+      "metadata": {
+        "title_ko": "동방심기루 ~ Hopeless Masquerade.",
+        "title_en": "Touhou Heart Elegant Tower ~ Hopeless Masquerade",
+        "title_jp": "東方心綺楼　～ Hopeless Masquerade",
+        "release_year": 2010,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "秦 こころ",
+          "english": "Hata no Kokoro",
+          "korean": "하타노 코코로"
+        }
+      ]
+    },
+    "th14": {
+      "id": "th14",
+      "title": "동방휘침성 ~ Double Dealing Character.",
+      "metadata": {
+        "title_ko": "동방휘침성 ~ Double Dealing Character.",
+        "title_en": "Touhou Shining Needle Castle ~ Double Dealing Character",
+        "title_jp": "東方輝針城　～ Double Dealing Character",
+        "release_year": 2010,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "わかさぎ姫",
+          "english": "Wakasagihime",
+          "korean": "와카사기히메"
+        },
+        {
+          "japanese": "赤蛮奇",
+          "english": "Sekibanki",
+          "korean": "세키반키"
+        },
+        {
+          "japanese": "今泉 影狼",
+          "english": "Imaizumi Kagerou",
+          "korean": "이마이즈미 카게로"
+        },
+        {
+          "japanese": "九十九 弁々",
+          "english": "Tsukumo Benben",
+          "korean": "츠쿠모 벤벤"
+        },
+        {
+          "japanese": "九十九 八橋",
+          "english": "Tsukumo Yatsuhashi",
+          "korean": "츠쿠모 야츠하시"
+        },
+        {
+          "japanese": "鬼人 正邪",
+          "english": "Kijin Seija",
+          "korean": "키진 세이자"
+        },
+        {
+          "japanese": "少名 針妙丸",
+          "english": "Sukuna Shinmyoumaru",
+          "korean": "스쿠나 신묘마루"
+        },
+        {
+          "japanese": "堀川 雷鼓",
+          "english": "Horikawa Raiko",
+          "korean": "호리카와 라이코"
+        }
+      ]
+    },
+    "th145": {
+      "id": "th145",
+      "title": "동방심비록 ~ Urban Legend in Limbo.",
+      "metadata": {
+        "title_ko": "동방심비록 ~ Urban Legend in Limbo.",
+        "title_en": "Touhou Deep Secrets Record ~ Urban Legend in Limbo",
+        "title_jp": "東方深秘録　～ Urban Legend in Limbo",
+        "release_year": 2011,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "宇佐見 菫子",
+          "english": "Usami Sumireko",
+          "korean": "우사미 스미레코"
+        }
+      ]
+    },
+    "th15": {
+      "id": "th15",
+      "title": "동방감주전 ~ Legacy of Lunatic Kingdom.",
+      "metadata": {
+        "title_ko": "동방감주전 ~ Legacy of Lunatic Kingdom.",
+        "title_en": "Touhou Legend of the Ultramarine Orb ~ Legacy of Lunatic Kingdom",
+        "title_jp": "東方紺珠伝　～ Legacy of Lunatic Kingdom",
+        "release_year": 2011,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "清蘭",
+          "english": "Seiran",
+          "korean": "세이란"
+        },
+        {
+          "japanese": "鈴瑚",
+          "english": "Ringo",
+          "korean": "링고"
+        },
+        {
+          "japanese": "ドレミー・スイート",
+          "english": "Doremy Sweet",
+          "korean": "도레미 스위트"
+        },
+        {
+          "japanese": "稀神 サグメ",
+          "english": "Kishin Sagume",
+          "korean": "키신 사구메"
+        },
+        {
+          "japanese": "クラウンピース",
+          "english": "Clownpiece",
+          "korean": "클라운피스"
+        },
+        {
+          "japanese": "純狐",
+          "english": "Junko",
+          "korean": "순호"
+        },
+        {
+          "japanese": "ヘカーティア・ラピスラズリ",
+          "english": "Hecatia Lapislazuli",
+          "korean": "헤카티아 라피스라줄리"
+        }
+      ]
+    },
+    "th16": {
+      "id": "th16",
+      "title": "동방천공장 ~ Hidden Star in Four Seasons.",
+      "metadata": {
+        "title_ko": "동방천공장 ~ Hidden Star in Four Seasons.",
+        "title_en": "Touhou Heavenly Jade Dipper ~ Hidden Star in Four Seasons",
+        "title_jp": "東方天空璋　～ Hidden Star in Four Seasons",
+        "release_year": 2012,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "エタニティラルバ",
+          "english": "Eternity Larva",
+          "korean": "이터니티 라바"
+        },
+        {
+          "japanese": "坂田ネムノ",
+          "english": "Sakata Nemuno",
+          "korean": "사카타 네무노"
+        },
+        {
+          "japanese": "高麗野あうん",
+          "english": "Komano Aunn",
+          "korean": "코마노 아운"
+        },
+        {
+          "japanese": "矢田寺成美",
+          "english": "Yatadera Narumi",
+          "korean": "야타데라 나루미"
+        },
+        {
+          "japanese": "爾子田里乃",
+          "english": "Nishida Satono",
+          "korean": "니시다 사토노"
+        },
+        {
+          "japanese": "丁礼田舞",
+          "english": "Teireida Mai",
+          "korean": "테이레이다 마이"
+        },
+        {
+          "japanese": "摩多羅隠岐奈",
+          "english": "Matara Okina",
+          "korean": "마타라 오키나"
+        }
+      ]
+    },
+    "th155": {
+      "id": "th155",
+      "title": "동방빙의화 ~ Antinomy of Common Flowers.",
+      "metadata": {
+        "title_ko": "동방빙의화 ~ Antinomy of Common Flowers.",
+        "title_en": "Touhou Flowers of Possession ~ Antinomy of Common Flowers",
+        "title_jp": "東方憑依華　～ Antinomy of Common Flowers",
+        "release_year": 2012,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "依神女苑",
+          "english": "Yorigami Joon",
+          "korean": "요리가미 조온"
+        },
+        {
+          "japanese": "依神紫苑",
+          "english": "Yorigami Shion",
+          "korean": "요리가미 시온"
+        }
+      ]
+    },
+    "th17": {
+      "id": "th17",
+      "title": "동방귀형수 ~ Wily Beast and Weakest Creature.",
+      "metadata": {
+        "title_ko": "동방귀형수 ~ Wily Beast and Weakest Creature.",
+        "title_en": "Touhou Oni-Shaped Beast ~ Wily Beast and Weakest Creature",
+        "title_jp": "東方鬼形獣　～ Wily Beast and Weakest Creature",
+        "release_year": 2013,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "戎 瓔花",
+          "english": "Ebisu Eika",
+          "korean": "에비스 에이카"
+        },
+        {
+          "japanese": "牛崎 潤美",
+          "english": "Ushizaki Urumi",
+          "korean": "우시자키 우루미"
+        },
+        {
+          "japanese": "庭渡 久侘歌",
+          "english": "Niwatari Kutaka",
+          "korean": "니와타리 쿠타카"
+        },
+        {
+          "japanese": "吉弔 八千慧",
+          "english": "Kitchou Yachie",
+          "korean": "킷초 야치에"
+        },
+        {
+          "japanese": "杖刀偶 磨弓",
+          "english": "Joutouguu Mayumi",
+          "korean": "조토구 마유미"
+        },
+        {
+          "japanese": "埴安神 袿姫",
+          "english": "Haniyasushin Keiki",
+          "korean": "하니야스신 케이키"
+        },
+        {
+          "japanese": "驪駒 早鬼",
+          "english": "Kurokoma Saki",
+          "korean": "쿠로코마 사키"
+        }
+      ]
+    },
+    "th18": {
+      "id": "th18",
+      "title": "동방홍룡동 ~ Unconnected Marketeers.",
+      "metadata": {
+        "title_ko": "동방홍룡동 ~ Unconnected Marketeers.",
+        "title_en": "Touhou Rainbow Dragon Cavern ~ Unconnected Marketeers",
+        "title_jp": "東方虹龍洞　〜 Unconnected Marketeers",
+        "release_year": 2014,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "豪徳寺 ミケ",
+          "english": "Goutokuji Mike",
+          "korean": "고토쿠지 미케"
+        },
+        {
+          "japanese": "山城 たかね",
+          "english": "Yamashiro Takane",
+          "korean": "야마시로 타카네"
+        },
+        {
+          "japanese": "駒草 山如",
+          "english": "Komakusa Sannyo",
+          "korean": "코마쿠사 산뇨"
+        },
+        {
+          "japanese": "玉造 魅須丸",
+          "english": "Tamatsukuri Misumaru",
+          "korean": "타마츠쿠리 미스마루"
+        },
+        {
+          "japanese": "菅牧 典",
+          "english": "Kudamaki Tsukasa",
+          "korean": "쿠다마키 츠카사"
+        },
+        {
+          "japanese": "飯綱丸 龍",
+          "english": "Iizunamaru Megumu",
+          "korean": "이즈나마루 메구무"
+        },
+        {
+          "japanese": "天弓 千亦",
+          "english": "Tenkyuu Chimata",
+          "korean": "텐큐 치마타"
+        },
+        {
+          "japanese": "姫虫 百々世",
+          "english": "Himemushi Momoyo",
+          "korean": "히메무시 모모요"
+        }
+      ]
+    },
+    "th175": {
+      "id": "th175",
+      "title": "동방강욕이문 ~ 수몰된 침수지옥",
+      "metadata": {
+        "title_ko": "동방강욕이문 ~ 수몰된 침수지옥",
+        "title_en": "Touhou Strange Tale of Avarice ~ Sunken Fossil World",
+        "title_jp": "東方剛欲異聞　～ 水没した沈愁地獄",
+        "release_year": 2014,
+        "series": "Fighting",
+        "type": "fighting_games"
+      },
+      "characters": [
+        {
+          "japanese": "饕餮 尤魔",
+          "english": "Toutetsu Yuma",
+          "korean": "토테츠 유마"
+        }
+      ]
+    },
+    "th19": {
+      "id": "th19",
+      "title": "동방수왕원 ~ Unfinished Dream of All Living Ghost.",
+      "metadata": {
+        "title_ko": "동방수왕원 ~ Unfinished Dream of All Living Ghost.",
+        "title_en": "Touhou Beast King Garden ~ Unfinished Dream of All Living Ghost",
+        "title_jp": "東方獣王園　〜 Unfinished Dream of All Living Ghost",
+        "release_year": 2015,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "孫 美天",
+          "english": "Son Biten",
+          "korean": "손미천"
+        },
+        {
+          "japanese": "三頭 慧ノ子",
+          "english": "Mitsugashira Enoko",
+          "korean": "미츠가시라 에노코"
+        },
+        {
+          "japanese": "天火人 ちやり",
+          "english": "Tenkajin Chiyari",
+          "korean": "텐카진 치야리"
+        },
+        {
+          "japanese": "豫母都 日狭美",
+          "english": "Yomotsu Hisami",
+          "korean": "요모츠 히사미"
+        },
+        {
+          "japanese": "日白 残無",
+          "english": "Nippaku Zanmu",
+          "korean": "닛파쿠 잔무"
+        }
+      ]
+    },
+    "th20": {
+      "id": "th20",
+      "title": "동방금상경 ~ Fossilized Wonders.",
+      "metadata": {
+        "title_ko": "동방금상경 ~ Fossilized Wonders.",
+        "title_en": "Touhou Crowning Glory Capital ~ Fossilized Wonders",
+        "title_jp": "東方錦上京　〜 Fossilized Wonders",
+        "release_year": 2016,
+        "series": "Windows",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "塵塚 ウバメ",
+          "english": "Chirizuka Ubame",
+          "korean": "치리즈카 우바메"
+        },
+        {
+          "japanese": "封獣 チミ",
+          "english": "Houjuu Chimi",
+          "korean": "호쥬 치미"
+        },
+        {
+          "japanese": "道神 馴子",
+          "english": "Michigami Nareko",
+          "korean": "미치가미 나레코"
+        }
+      ]
+    },
+    "th02": {
+      "id": "th02",
+      "title": "동방봉마록 ~ the Story of Eastern Wonderland",
+      "metadata": {
+        "title_ko": "동방봉마록 ~ the Story of Eastern Wonderland",
+        "title_en": "Touhou Demon-Sealing Record ~ The Story of Eastern Wonderland",
+        "title_jp": "東方封魔録　～ the Story of Eastern Wonderland",
+        "release_year": 1998,
+        "series": "PC-98",
+        "type": "old_works"
+      },
+      "characters": [
+        {
+          "japanese": "玄爺",
+          "english": "Genjii",
+          "korean": "겐지"
+        },
+        {
+          "japanese": "里香",
+          "english": "Rika",
+          "korean": "리카"
+        },
+        {
+          "japanese": "明羅",
+          "english": "Meira",
+          "korean": "메이라"
+        },
+        {
+          "japanese": "魅魔",
+          "english": "Mima",
+          "korean": "미마"
+        }
+      ]
+    },
+    "th03": {
+      "id": "th03",
+      "title": "동방몽시공 ~ Phantasmagoria of Dim.Dream",
+      "metadata": {
+        "title_ko": "동방몽시공 ~ Phantasmagoria of Dim.Dream",
+        "title_en": "Touhou Space Time Dream ~ Phantasmagoria of Dim. Dream",
+        "title_jp": "東方夢時空　～ Phantasmagoria of Dim.Dream",
+        "release_year": 1999,
+        "series": "PC-98",
+        "type": "old_works"
+      },
+      "characters": [
+        {
+          "japanese": "エレン",
+          "english": "Ellen",
+          "korean": "엘렌"
+        },
+        {
+          "japanese": "小兎姫",
+          "english": "Kotohime",
+          "korean": "코토히메"
+        },
+        {
+          "japanese": "カナ・アナベラル",
+          "english": "Anaberal Kana",
+          "korean": "카나 아나베랄"
+        },
+        {
+          "japanese": "朝倉 理香子",
+          "english": "Asakura Rikako",
+          "korean": "아사쿠라 리카코"
+        },
+        {
+          "japanese": "北白河 ちゆり",
+          "english": "Kitashirakawa Chiyuri",
+          "korean": "키타시라카와 치유리"
+        },
+        {
+          "japanese": "岡崎 夢美",
+          "english": "Okazaki Yumemi",
+          "korean": "오카자키 유메미"
+        }
+      ]
+    },
+    "th04": {
+      "id": "th04",
+      "title": "동방환상향 ~ Lotus Land Story",
+      "metadata": {
+        "title_ko": "동방환상향 ~ Lotus Land Story",
+        "title_en": "Touhou Gensokyo ~ Lotus Land Story",
+        "title_jp": "東方幻想郷　～ Lotus Land Story",
+        "release_year": 2000,
+        "series": "PC-98",
+        "type": "old_works"
+      },
+      "characters": [
+        {
+          "japanese": "オレンジ",
+          "english": "Orange",
+          "korean": "오렌지"
+        },
+        {
+          "japanese": "くるみ",
+          "english": "Kurumi",
+          "korean": "쿠루미"
+        },
+        {
+          "japanese": "エリー",
+          "english": "Elly",
+          "korean": "엘리"
+        },
+        {
+          "japanese": "夢月",
+          "english": "Mugetsu",
+          "korean": "무게츠"
+        },
+        {
+          "japanese": "幻月",
+          "english": "Gengetsu",
+          "korean": "겐게츠"
+        }
+      ]
+    },
+    "th05": {
+      "id": "th05",
+      "title": "동방괴기담 ~ Mystic Square",
+      "metadata": {
+        "title_ko": "동방괴기담 ~ Mystic Square",
+        "title_en": "Touhou Bizarre Romantic Story ~ Mystic Square",
+        "title_jp": "東方怪綺談　～ Mystic Square",
+        "release_year": 2001,
+        "series": "PC-98",
+        "type": "old_works"
+      },
+      "characters": [
+        {
+          "japanese": "サラ",
+          "english": "Sara",
+          "korean": "사라"
+        },
+        {
+          "japanese": "ルイズ",
+          "english": "Louise",
+          "korean": "루이즈"
+        },
+        {
+          "japanese": "ユキ",
+          "english": "Yuki",
+          "korean": "유키"
+        },
+        {
+          "japanese": "マイ",
+          "english": "Mai",
+          "korean": "마이"
+        },
+        {
+          "japanese": "夢子",
+          "english": "Yumeko",
+          "korean": "유메코"
+        },
+        {
+          "japanese": "神綺",
+          "english": "Shinki",
+          "korean": "신키"
+        }
+      ]
+    },
+    "mcd": {
+      "id": "mcd",
+      "title": "秘封倶楽部",
+      "metadata": null,
+      "characters": [
+        {
+          "japanese": "宇佐見 蓮子",
+          "english": "Usami Renko",
+          "korean": "우사미 렌코"
+        },
+        {
+          "japanese": "マエリベリー・ハーン",
+          "english": "Maribel Hearn",
+          "korean": "마에리베리 한"
+        }
+      ]
+    },
+    "pmiss": {
+      "id": "pmiss",
+      "title": "동방구문사기 ~ Perfect Memento in Strict Sense",
+      "metadata": {
+        "title_ko": "동방구문사기 ~ Perfect Memento in Strict Sense",
+        "title_en": "Touhou Histories by Hieda ~ Perfect Memento in Strict Sense",
+        "title_ja": "東方求聞史紀 ～ Perfect Memento in Strict Sense",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "稗田 阿求",
+          "english": "Hieda no Akyuu",
+          "korean": "히에다노 아큐"
+        }
+      ]
+    },
+    "fs": {
+      "id": "fs",
+      "title": "동방영나암 ~ Forbidden Scrollery",
+      "metadata": {
+        "title_ko": "동방영나암 ~ Forbidden Scrollery",
+        "title_en": "Touhou Bell Hermitage ~ Forbidden Scrollery",
+        "title_ja": "東方鈴奈庵 ～ Forbidden Scrollery",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "本居 小鈴",
+          "english": "Motoori Kosuzu",
+          "korean": "모토오리 코스즈"
+        }
+      ]
+    },
+    "th128": {
+      "id": "th128",
+      "title": "요정대전쟁 ~ 동방삼월정",
+      "metadata": {
+        "title_ko": "요정대전쟁 ~ 동방삼월정",
+        "title_en": "Great Fairy Wars ~ Touhou Three Fairies",
+        "title_ja": "妖精大戦争　～ 東方三月精",
+        "series": "Spinoff",
+        "type": "main_series"
+      },
+      "characters": [
+        {
+          "japanese": "サニーミルク",
+          "english": "Sunny Milk",
+          "korean": "서니 밀크"
+        },
+        {
+          "japanese": "ルナチャイルド",
+          "english": "Luna Child",
+          "korean": "루나 차일드"
+        },
+        {
+          "japanese": "スターサファイア",
+          "english": "Star Sapphire",
+          "korean": "스타 사파이어"
+        }
+      ]
+    },
+    "ssib": {
+      "id": "ssib",
+      "title": "동방맹월초 ~ Silent Sinner in Blue",
+      "metadata": {
+        "title_ko": "동방맹월초 ~ Silent Sinner in Blue",
+        "title_en": "Touhou Ephemeral Moon Vignette ~ Silent Sinner in Blue",
+        "title_ja": "東方儚月抄 ～ Silent Sinner in Blue",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "綿月 豊姫",
+          "english": "Watatsuki no Toyohime",
+          "korean": "와타츠키노 토요히메"
+        },
+        {
+          "japanese": "綿月 依姫",
+          "english": "Watatsuki no Yorihime",
+          "korean": "와타츠키노 요리히메"
+        }
+      ]
+    },
+    "wwh": {
+      "id": "wwh",
+      "title": "동방자가선 ~ Wild and Horned Hermit",
+      "metadata": {
+        "title_ko": "동방자가선 ~ Wild and Horned Hermit.",
+        "title_en": "Touhou Rose Poem Hermit ~ Wild and Horned Hermit",
+        "title_ja": "東方茨歌仙 ～ Wild and Horned Hermit",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "茨木 華扇",
+          "english": "Ibaraki Kasen",
+          "korean": "이바라키 카센"
+        }
+      ]
+    },
+    "その他（ゲーム）": {
+      "id": "その他（ゲーム）",
+      "title": "기타 게임",
+      "metadata": null,
+      "characters": [
+        {
+          "japanese": "るーこと",
+          "english": "Ruukoto",
+          "korean": "루코토"
+        },
+        {
+          "japanese": "魂魄 妖忌",
+          "english": "Konpaku Youki",
+          "korean": "콘파쿠 요우키"
+        },
+        {
+          "japanese": "レイラ・プリズムリバー",
+          "english": "Layla Prismriver",
+          "korean": "레이라 프리즘리버"
+        },
+        {
+          "japanese": "毘沙門天",
+          "english": "Bishamonten",
+          "korean": "비사문천"
+        },
+        {
+          "japanese": "嫦娥",
+          "english": "Chang'e",
+          "korean": "상아"
+        }
+      ]
+    },
+    "common": {
+      "id": "common",
+      "title": "공통 캐릭터",
+      "metadata": null,
+      "characters": [
+        {
+          "japanese": "博麗 霊夢",
+          "english": "Hakurei Reimu",
+          "korean": "하쿠레이 레이무"
+        },
+        {
+          "japanese": "霧雨 魔理沙",
+          "english": "Kirisame Marisa",
+          "korean": "키리사메 마리사"
+        }
+      ]
+    },
+    "le": {
+      "id": "le",
+      "title": "동방취접화 ~ 로터스 이터들의 취성",
+      "metadata": {
+        "title_ko": "동방취접화 ~ 로터스 이터들의 취성",
+        "title_en": "Touhou Drunken Butterfly Flower ~ Lotus Eater-tachi no Suisei",
+        "title_ja": "東方酔蝶華　～ ロータスイーター達の酔醒",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "奥野田 美宵",
+          "english": "Okunoda Miyoi",
+          "korean": "오쿠노다 미요이"
+        }
+      ]
+    },
+    "fds": {
+      "id": "fds",
+      "title": "동방지령기전 반칙탐정사토리",
+      "metadata": {
+        "title_ko": "동방지령기전 반칙탐정사토리",
+        "title_en": "Touhou  Chireikiden Foul Detective Satori",
+        "title_ja": "東方智霊奇伝 反則探偵さとり",
+        "series": "Book Series",
+        "type": "book_series"
+      },
+      "characters": [
+        {
+          "japanese": "宮出口瑞霊",
+          "english": "Miyadeguchi Mizuchi",
+          "korean": "미야데구치 미즈레이"
+        },
+        {
+          "japanese": "先代巫女",
+          "english": "Former Shrine Maiden",
+          "korean": "선대 무녀"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "total_games": 37,
+    "total_characters": 158,
+    "game_statistics": {
+      "th06": 9,
+      "th07": 10,
+      "th08": 8,
+      "th075": 1,
+      "th095": 1,
+      "th09": 4,
+      "th10": 8,
+      "th105": 2,
+      "th11": 8,
+      "th12": 8,
+      "th125": 1,
+      "th13": 7,
+      "th135": 1,
+      "th14": 8,
+      "th145": 1,
+      "th15": 7,
+      "th16": 7,
+      "th155": 2,
+      "th17": 7,
+      "th18": 8,
+      "th175": 1,
+      "th19": 5,
+      "th20": 3,
+      "th02": 4,
+      "th03": 6,
+      "th04": 5,
+      "th05": 6,
+      "mcd": 2,
+      "pmiss": 1,
+      "fs": 1,
+      "th128": 3,
+      "ssib": 2,
+      "wwh": 1,
+      "その他（ゲーム）": 5,
+      "common": 2,
+      "le": 1,
+      "fds": 2
+    },
+    "generated_at": "2025-08-15T13:45:25.854Z",
+    "source_files": ["characters.json", "game_titles.json"],
+    "updated_at": "2025-08-15T14:30:34.105Z",
+    "media_titles_matched": true,
+    "game_statistics_updated": true
+  }
+}

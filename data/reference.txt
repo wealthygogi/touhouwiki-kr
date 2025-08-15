@@ -1,0 +1,14 @@
+게임 타이틀
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=page-Game%20titles&mclanguage=ko&mclimit=1000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=page-Game%20titles&mclanguage=ja&mclimit=1000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=page-Game%20titles&mclanguage=en&mclimit=1000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+음악
+https://www.thpatch.net/w/api.php?action=query&list=tdbtitles&language=ko&format=json&utf8&rawcontinue
+https://www.thpatch.net/w/api.php?action=query&list=tdbtitles&language=ja&format=json&utf8&rawcontinue
+https://www.thpatch.net/w/api.php?action=query&list=tdbtitles&language=en&format=json&utf8&rawcontinue
+캐릭터 이름
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=chars&mclanguage=ko&mclimit=5000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=chars&mclanguage=ja&mclimit=5000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=chars&mclanguage=en&mclimit=5000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
+시리즈별 소개
+https://www.thpatch.net/w/api.php?action=query&format=json&list=messagecollection&mcgroup=page-Th07%2FImages&mclanguage=ko&mclimit=1000&mcfilter=!ignored%7C!optional&mcprop=definition%7Ctranslation&rawcontinue=1&errorformat=html&formatversion=2
