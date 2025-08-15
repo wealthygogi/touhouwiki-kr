@@ -1,0 +1,888 @@
+{
+  "game_titles": [
+    {
+      "id": "mcd_01",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Hourai Dolls ~ Dolls in Pseudo Paradise",
+      "title_ja": "蓬莱人形 ~ Dolls in Pseudo Paradise",
+      "title_ko": "봉래인형 ~ Dolls in Pseudo Paradise",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_02",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Night Trip to Rendaino ~ Ghostly Field Club",
+      "title_ja": "連台野夜行 ~ Ghostly Field Club",
+      "title_ko": "렌다이노 야행 ~ Ghostly Field Club",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_03",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Dreams of the Age of Science ~ Changeability of Strange Dream",
+      "title_ja": "夢違科学世紀 ～ Changeability of Strange Dream",
+      "title_ko": "몽위과학세기 ~ Changeability of Strange Dream",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_04",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "East-West Tokaido ~ Retrospective 53 minutes",
+      "title_ja": "卯酉東海道 ～ Retrospective 53 minutes",
+      "title_ko": "묘유동해도 ~ Retrospective 53 minutes",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_05",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Celestial Wizardry ~ Magical Astronomy",
+      "title_ja": "大空魔術 ～ Magical Astronomy",
+      "title_ko": "대공마술 ~ Magical Astronomy",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_055",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Unknown Flower, Mesmerizing Journey",
+      "title_ja": "未知の花 魅知の旅",
+      "title_ko": "미지의 꽃 매지의 여행",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_06",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Ruins of Torifune ~ Trojan Green Asteroid",
+      "title_ja": "鳥船遺跡 ～ Trojan Green Asteroid",
+      "title_ko": "토리후네 유적 ~ Trojan Green Asteroid",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_07",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Izanagi Object ~ Neo-traditionalism of Japan.",
+      "title_ja": "伊弉諾物質 ～ Neo-Traditionalism of Japan.",
+      "title_ko": "이자나기 물질 ~ Neo-traditionalism of Japan.",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_08",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Swallowstone Naturalis Historia ~ Dr. Latency's Freak Report",
+      "title_ja": "燕石博物誌 ～ Dr. Latency's Freak Report",
+      "title_ko": "연석박물지 ~ Dr. Latency's Freak Report",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_09",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Old Testament Tavern ~ Dateless Bar \"Old Adam\"",
+      "title_ja": "旧約酒場 ～ Dateless Bar \"Old Adam\"",
+      "title_ko": "구약주점 ~ Dateless Bar \"Old Adam\"",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_095",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Rainbow-Colored Septentrion",
+      "title_ja": "虹色のセプテントリオン",
+      "title_ko": "무지갯빛 셉텐트리온",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_10",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Mugen Noh of Tanabata Hill ~ Taboo Japan Disentanglement",
+      "title_ja": "多納巴タ雑解 ～ Taboo Japan Disentanglement",
+      "title_ko": "타나바타자카 무겐노 ~ Taboo Japan Disentanglement",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_baijr",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Touhou Cultural Album ~ Bohemian Archive in Japanese Red",
+      "title_ja": "東方文花帖 ～ Bohemian Archive in Japanese Red",
+      "title_ko": "동방문화첩 ~ Bohemian Archive in Japanese Red",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy01",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Eastern and Little Nature Deity",
+      "title_ja": "東方三月精 ～ Eastern and Little Nature Deity",
+      "title_ko": "동방삼월정 ~ Eastern and Little Nature Deity",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy02",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Strange and Bright Nature Deity 1",
+      "title_ja": "東方三月精 ～ Strange and Bright Nature Deity 1",
+      "title_ko": "동방삼월정 ~ Strange and Bright Nature Deity 1",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy03",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Strange and Bright Nature Deity 2",
+      "title_ja": "東方三月精 ～ Strange and Bright Nature Deity 2",
+      "title_ko": "동방삼월정 ~ Strange and Bright Nature Deity 2",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy04",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Strange and Bright Nature Deity 3",
+      "title_ja": "東方三月精 ～ Strange and Bright Nature Deity 3",
+      "title_ko": "동방삼월정 ~ Strange and Bright Nature Deity 3",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy05",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Oriental Sacred Place 1",
+      "title_ja": "東方三月精 ～ Oriental Sacred Place 1",
+      "title_ko": "동방삼월정 ~ Oriental Sacred Place 1",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy06",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Oriental Sacred Place 2",
+      "title_ja": "東方三月精 ～ Oriental Sacred Place 2",
+      "title_ko": "동방삼월정 ~ Oriental Sacred Place 2",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fairy07",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Fairy",
+      "title_en": "Touhou Three Moon Fairies ~ Oriental Sacred Place 3",
+      "title_ja": "東方三月精 ～ Oriental Sacred Place 3",
+      "title_ko": "동방삼월정 ~ Oriental Sacred Place 3",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_fs",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Touhou Bell Hermitage ~ Forbidden Scrollery",
+      "title_ja": "東方鈴奈庵 ～ Forbidden Scrollery",
+      "title_ko": "동방영나암 ~ Forbidden Scrollery",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_gom",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "The Grimoire of Marisa",
+      "title_ja": "The Grimoire of Marisa",
+      "title_ko": "The Grimoire of Marisa",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_pmiss",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Perfect Memento",
+      "title_en": "Touhou Histories by Hieda ~ Perfect Memento in Strict Sense",
+      "title_ja": "東方求聞史紀 ～ Perfect Memento in Strict Sense",
+      "title_ko": "동방구문사기 ~ Perfect Memento in Strict Sense",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow01",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World Volume 1",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World Volume 1",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World Volume 1",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow02",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World Volume 2",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World Volume 2",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World Volume 2",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow03",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World Volume 3",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World Volume 3",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World Volume 3",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow04",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World Volume 4",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World Volume 4",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World Volume 4",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow05",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World 2018 Spring!",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World 2018 Spring!",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World 2018 Spring!",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_scoow06",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "special_pattern",
+        "source": "enhanced_parser"
+      },
+      "series": "Strange Creators",
+      "title_en": "Touhou Tomes of External Origins ~ Strange Creators of Outer World 2019 Autumn!",
+      "title_ja": "東方外來韋編 ~ Strange Creators of Outer World 2019 Autumn!",
+      "title_ko": "동방외래위편 ~ Strange Creators of Outer World 2019 Autumn!",
+      "type": "music_cd"
+    },
+    {
+      "id": "mcd_ssib",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "Touhou Ephemeral Moon Vignette ~ Silent Sinner in Blue",
+      "title_ja": "東方儚月抄 ～ Silent Sinner in Blue",
+      "title_ko": "동방맹월초 ~ Silent Sinner in Blue",
+      "type": "music_cd"
+    },
+    {
+      "id": "sh01",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Seihou",
+      "title_en": "Shuusou Gyoku",
+      "title_ja": "秋霜玉",
+      "title_ko": "추상옥",
+      "type": "seihou_game"
+    },
+    {
+      "id": "sh02",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Seihou",
+      "title_en": "Kioh Gyoku",
+      "title_ja": "稀翁玉",
+      "title_ko": "희옹옥",
+      "type": "seihou_game"
+    },
+    {
+      "id": "th01",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "PC-98",
+      "title_en": "Touhou Wondrous Tale ~ The Highly Responsive to Prayers",
+      "title_ja": "東方靈異伝　～ The Highly Responsive to Prayers",
+      "title_ko": "동방영이전 ~ The Highly Responsive to Prayers",
+      "type": "main_series"
+    },
+    {
+      "id": "th02",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "PC-98",
+      "title_en": "Touhou Demon-Sealing Record ~ The Story of Eastern Wonderland",
+      "title_ja": "東方封魔録　～ the Story of Eastern Wonderland",
+      "title_ko": "동방봉마록 ~ the Story of Eastern Wonderland",
+      "type": "main_series"
+    },
+    {
+      "id": "th03",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "PC-98",
+      "title_en": "Touhou Space Time Dream ~ Phantasmagoria of Dim. Dream",
+      "title_ja": "東方夢時空　～ Phantasmagoria of Dim.Dream",
+      "title_ko": "동방몽시공 ~ Phantasmagoria of Dim.Dream",
+      "type": "main_series"
+    },
+    {
+      "id": "th04",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "PC-98",
+      "title_en": "Touhou Gensokyo ~ Lotus Land Story",
+      "title_ja": "東方幻想郷　～ Lotus Land Story",
+      "title_ko": "동방환상향 ~ Lotus Land Story",
+      "type": "main_series"
+    },
+    {
+      "id": "th05",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "PC-98",
+      "title_en": "Touhou Bizarre Romantic Story ~ Mystic Square",
+      "title_ja": "東方怪綺談　～ Mystic Square",
+      "title_ko": "동방괴기담 ~ Mystic Square",
+      "type": "main_series"
+    },
+    {
+      "id": "th06",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Scarlet Devil Land ~ The Embodiment of Scarlet Devil",
+      "title_ja": "東方紅魔郷　～ the Embodiment of Scarlet Devil",
+      "title_ko": "동방홍마향 ~ the Embodiment of Scarlet Devil.",
+      "type": "main_series"
+    },
+    {
+      "id": "th07",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Ghostly Dream ~ Perfect Cherry Blossom",
+      "title_ja": "東方妖々夢　～ Perfect Cherry Blossom",
+      "title_ko": "동방요요몽 ~ Perfect Cherry Blossom.",
+      "type": "main_series"
+    },
+    {
+      "id": "th075",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fighting",
+      "title_en": "Touhou Gathering Reverie ~ Immaterial and Missing Power",
+      "title_ja": "東方萃夢想　～ Immaterial and Missing Power",
+      "title_ko": "동방췌몽상 ~ Immaterial and Missing Power.",
+      "type": "main_series"
+    },
+    {
+      "id": "th08",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Eternal Night Vignette ~ Imperishable Night",
+      "title_ja": "東方永夜抄　～ Imperishable Night",
+      "title_ko": "동방영야초 ~ Imperishable Night.",
+      "type": "main_series"
+    },
+    {
+      "id": "th09",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Flower Reflecting Mound ~ Phantasmagoria of Flower View",
+      "title_ja": "東方花映塚　～ Phantasmagoria of Flower View",
+      "title_ko": "동방화영총 ~ Phantasmagoria of Flower View.",
+      "type": "main_series"
+    },
+    {
+      "id": "th095",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Cultural Album ~ Shoot the Bullet",
+      "title_ja": "東方文花帖　～ Shoot the Bullet",
+      "title_ko": "동방문화첩 ~ Shoot the Bullet.",
+      "type": "main_series"
+    },
+    {
+      "id": "th10",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Wind God Chronicles ~ Mountain of Faith",
+      "title_ja": "東方風神録　～ Mountain of Faith",
+      "title_ko": "동방풍신록 ~ Mountain of Faith.",
+      "type": "main_series"
+    },
+    {
+      "id": "th105",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fighting",
+      "title_en": "Touhou Scarlet Perception Heaven ~ Scarlet Weather Rhapsody",
+      "title_ja": "東方緋想天 ～ Scarlet Weather Rhapsody",
+      "title_ko": "동방비상천 ~ Scarlet Weather Rhapsody.",
+      "type": "main_series"
+    },
+    {
+      "id": "th11",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Earth Spirit Palace ~ Subterranean Animism",
+      "title_ja": "東方地霊殿　～ Subterranean Animism",
+      "title_ko": "동방지령전 ~ Subterranean Animism.",
+      "type": "main_series"
+    },
+    {
+      "id": "th12",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Star Lotus Ship ~ Undefined Fantastic Object",
+      "title_ja": "東方星蓮船　～ Undefined Fantastic Object",
+      "title_ko": "동방성련선 ~ Undefined Fantastic Object.",
+      "type": "main_series"
+    },
+    {
+      "id": "th123",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Fighting",
+      "title_en": "Touhou Unperceiving of Natural Law ~ Chase the Enigma of the Gargantuan Guignol",
+      "title_ja": "東方非想天則　～ 超弩級ギニョルの謎を追え",
+      "title_ko": "동방비상천칙 ~ 초대형 기뇰의 수수께끼를 쫓아서",
+      "type": "main_series"
+    },
+    {
+      "id": "th125",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Double Spoiler ~ Touhou Word Flower Album",
+      "title_ja": "ダブルスポイラー　～ 東方文花帖",
+      "title_ko": "더블 스포일러 ~ 동방문화첩",
+      "type": "main_series"
+    },
+    {
+      "id": "th128",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Great Fairy Wars ~ Touhou Three Fairies",
+      "title_ja": "妖精大戦争　～ 東方三月精",
+      "title_ko": "요정대전쟁 ~ 동방삼월정",
+      "type": "main_series"
+    },
+    {
+      "id": "th13",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Divine Spirit Mausoleum ~ Ten Desires",
+      "title_ja": "東方神霊廟　～ Ten Desires",
+      "title_ko": "동방신령묘 ~ Ten Desires.",
+      "type": "main_series"
+    },
+    {
+      "id": "th135",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Heart Elegant Tower ~ Hopeless Masquerade",
+      "title_ja": "東方心綺楼　～ Hopeless Masquerade",
+      "title_ko": "동방심기루 ~ Hopeless Masquerade.",
+      "type": "main_series"
+    },
+    {
+      "id": "th14",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Shining Needle Castle ~ Double Dealing Character",
+      "title_ja": "東方輝針城　～ Double Dealing Character",
+      "title_ko": "동방휘침성 ~ Double Dealing Character.",
+      "type": "main_series"
+    },
+    {
+      "id": "th143",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Impossible Spell Card",
+      "title_ja": "弾幕アマノジャク　～ Impossible Spell Card",
+      "title_ko": "탄막 아마노자쿠 ~ Impossible Spell Card.",
+      "type": "main_series"
+    },
+    {
+      "id": "th145",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Deep Secrets Record ~ Urban Legend in Limbo",
+      "title_ja": "東方深秘録　～ Urban Legend in Limbo",
+      "title_ko": "동방심비록 ~ Urban Legend in Limbo.",
+      "type": "main_series"
+    },
+    {
+      "id": "th145_ps4",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Deep Secrets Record ~ Urban Legend in Limbo PS4",
+      "title_ja": "東方深秘録　～ Urban Legend in Limbo",
+      "title_ko": "동방심비록 ~ Urban Legend in Limbo",
+      "type": "unknown"
+    },
+    {
+      "id": "th15",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Legend of the Ultramarine Orb ~ Legacy of Lunatic Kingdom",
+      "title_ja": "東方紺珠伝　～ Legacy of Lunatic Kingdom",
+      "title_ko": "동방감주전 ~ Legacy of Lunatic Kingdom.",
+      "type": "main_series"
+    },
+    {
+      "id": "th155",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Flowers of Possession ~ Antinomy of Common Flowers",
+      "title_ja": "東方憑依華　～ Antinomy of Common Flowers",
+      "title_ko": "동방빙의화 ~ Antinomy of Common Flowers.",
+      "type": "main_series"
+    },
+    {
+      "id": "th16",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Heavenly Jade Dipper ~ Hidden Star in Four Seasons",
+      "title_ja": "東方天空璋　～ Hidden Star in Four Seasons",
+      "title_ko": "동방천공장 ~ Hidden Star in Four Seasons.",
+      "type": "main_series"
+    },
+    {
+      "id": "th165",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Secret Sealing Nightmare Diary ~ Violet Detector",
+      "title_ja": "秘封ナイトメアダイアリー　〜 Violet Detector",
+      "title_ko": "비봉 나이트메어 다이어리 ~ Violet Detector.",
+      "type": "main_series"
+    },
+    {
+      "id": "th17",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Oni-Shaped Beast ~ Wily Beast and Weakest Creature",
+      "title_ja": "東方鬼形獣　～ Wily Beast and Weakest Creature",
+      "title_ko": "동방귀형수 ~ Wily Beast and Weakest Creature.",
+      "type": "main_series"
+    },
+    {
+      "id": "th175",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Touhou Strange Tale of Avarice ~ Sunken Fossil World",
+      "title_ja": "東方剛欲異聞　～ 水没した沈愁地獄",
+      "title_ko": "동방강욕이문 ~ 수몰된 침수지옥",
+      "type": "main_series"
+    },
+    {
+      "id": "th18",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Rainbow Dragon Cavern ~ Unconnected Marketeers",
+      "title_ja": "東方虹龍洞　〜 Unconnected Marketeers",
+      "title_ko": "동방홍룡동 ~ Unconnected Marketeers.",
+      "type": "main_series"
+    },
+    {
+      "id": "th185",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Spinoff",
+      "title_en": "Bulletphiles' Black Market ~ 100th Black Market",
+      "title_ja": "バレットフィリア達の闇市場　〜 100th Black Market",
+      "title_ko": "불릿필리아들의 암시장 ~ 100th Black Market.",
+      "type": "main_series"
+    },
+    {
+      "id": "th19",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Beast King Garden ~ Unfinished Dream of All Living Ghost",
+      "title_ja": "東方獣王園　〜 Unfinished Dream of All Living Ghost",
+      "title_ko": "동방수왕원 ~ Unfinished Dream of All Living Ghost.",
+      "type": "main_series"
+    },
+    {
+      "id": "th20",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "Windows",
+      "title_en": "Touhou Crowning Glory Capital ~ Fossilized Wonders",
+      "title_ja": "東方錦上京　〜 Fossilized Wonders",
+      "title_ko": "동방금상경 ~ Fossilized Wonders.",
+      "type": "main_series"
+    },
+    {
+      "id": "zsw",
+      "metadata": {
+        "has_wiki_page": true,
+        "parser_source": "h3_h4",
+        "source": "enhanced_parser"
+      },
+      "series": "ZUN Collection",
+      "title_en": "ZUN's Strange Works",
+      "title_ja": "ZUNの不思議な作品集",
+      "title_ko": "ZUN의 이상한 작품집",
+      "type": "music_cd"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-15T07:00:00.000Z",
+    "parser_stats": {
+      "h3_h4_source": 75,
+      "manual_add": 0,
+      "special_pattern": 0
+    },
+    "source": "enhanced_parser",
+    "total_games": 33,
+    "total_music_cds": 40,
+    "total_other": 2
+  },
+  "total_count": 75
+}
