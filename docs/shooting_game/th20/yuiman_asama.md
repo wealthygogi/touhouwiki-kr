@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: "유이만 아사마"
-description: "금상의 도시의 급소"
+description: "비단 위 도시의 급소"
 ---
 
 ## 유이만 아사마 (ユイマン・浅間, Yuiman Asama)
