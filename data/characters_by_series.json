@@ -785,6 +785,22 @@
         {
           "japanese": "道神 馴子",
           "korean": "미치가미 나레코"
+        },
+        {
+          "japanese": "ユイマン・浅間",
+          "korean": "유이만・아사마"
+        },
+        {
+          "japanese": "綿月 豊姫",
+          "korean": "와타츠키노 토요히메"
+        },
+        {
+          "japanese": "磐永 阿梨夜",
+          "korean": "이와나가 아리야"
+        },
+        {
+          "japanese": "渡里 ニナ",
+          "korean": "와타리 니나"
         }
       ]
     },
@@ -1083,7 +1099,7 @@
   },
   "metadata": {
     "total_games": 36,
-    "total_characters": 153,
+    "total_characters": 157,
     "game_statistics": {
       "common": 2,
       "th06": 9,
@@ -1108,7 +1124,7 @@
       "th18": 8,
       "th175": 1,
       "th19": 5,
-      "th20": 3,
+      "th20": 7,
       "th02": 4,
       "th03": 6,
       "th04": 5,
@@ -1122,11 +1138,11 @@
       "le": 1,
       "fds": 2
     },
-    "generated_at": "2025-08-20T12:07:47.515Z",
+    "generated_at": "2025-08-20T12:16:49.839Z",
     "source_files": [
       "characters.csv"
     ],
-    "updated_at": "2025-08-20T12:07:47.515Z",
+    "updated_at": "2025-08-20T12:16:49.839Z",
     "media_titles_matched": true,
     "game_statistics_updated": true
   }
