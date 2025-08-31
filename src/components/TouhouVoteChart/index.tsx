@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./styles.module.css";
+import html2canvas from "html2canvas";
 import { TOUHOU_DATA, type TouhouCharacter } from "./data";
 
 export default function TouhouVoteChart(): React.JSX.Element {
@@ -10,6 +11,7 @@ export default function TouhouVoteChart(): React.JSX.Element {
     useState<TouhouCharacter[]>(TOUHOU_DATA);
   const [searchQuery, setSearchQuery] = useState("");
   const chartRef = useRef<HTMLDivElement>(null);
+  const summaryRef = useRef<HTMLDivElement>(null);
 
   // 문자열 정규화 함수
   const normalizeString = (str: string): string => {
@@ -55,6 +57,77 @@ export default function TouhouVoteChart(): React.JSX.Element {
     setSelectedCharacters(newSelected);
   };
 
+  // 요약 테이블 스크린샷 저장
+  const handleScreenshot = async () => {
+    if (!summaryRef.current || selectedCharacters.size === 0) {
+      alert("먼저 캐릭터를 선택해주세요.");
+      return;
+    }
+
+    try {
+      // 테이블 컨테이너 내부의 테이블만 찾기
+      const tableElement = summaryRef.current.querySelector("table");
+      if (!tableElement) {
+        alert("테이블을 찾을 수 없습니다.");
+        return;
+      }
+
+      // 테이블 주변에 50px 패딩을 추가한 가상 컨테이너 생성
+      const tempContainer = document.createElement("div");
+      tempContainer.style.cssText = `
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+        padding: 50px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: visible;
+      `;
+
+      // 테이블을 임시 컨테이너에 복사하고 스타일 조정
+      const clonedTable = tableElement.cloneNode(true) as HTMLElement;
+      clonedTable.style.cssText = `
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 0;
+        background: white;
+        border-radius: 8px;
+        overflow: visible;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      `;
+
+      tempContainer.appendChild(clonedTable);
+      document.body.appendChild(tempContainer);
+
+      const canvas = await html2canvas(tempContainer, {
+        backgroundColor: "#ffffff",
+        scale: 2, // 고해상도
+        useCORS: true,
+        allowTaint: true,
+        logging: false,
+        width: tempContainer.scrollWidth,
+        height: tempContainer.scrollHeight,
+        foreignObjectRendering: false,
+      });
+
+      // 임시 컨테이너 제거
+      document.body.removeChild(tempContainer);
+
+      // 이미지 다운로드
+      const link = document.createElement("a");
+      link.download = `동방투표결과_${new Date()
+        .toISOString()
+        .slice(0, 10)}.png`;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    } catch (error) {
+      console.error("스크린샷 생성 실패:", error);
+      alert("스크린샷 생성에 실패했습니다.");
+    }
+  };
+
   // 차트 렌더링
   useEffect(() => {
     if (!chartRef.current || selectedCharacters.size === 0) return;
@@ -84,11 +157,11 @@ export default function TouhouVoteChart(): React.JSX.Element {
       const yValues: number[] = [];
 
       if (hasPrev2 && character.rank_prev2 != null) {
-        xValues.push("2회전 이전");
+        xValues.push("23년도");
         yValues.push(character.rank_prev2);
       }
       if (hasPrev && character.rank_prev != null) {
-        xValues.push("이전");
+        xValues.push("24년도");
         yValues.push(character.rank_prev);
       }
       if (hasNow && character.rank_now != null) {
@@ -160,10 +233,10 @@ export default function TouhouVoteChart(): React.JSX.Element {
                   colName = "캐릭터명";
                   break;
                 case "rank_prev2":
-                  colName = "2회전 이전";
+                  colName = "23년도";
                   break;
                 case "rank_prev":
-                  colName = "이전";
+                  colName = "24년도";
                   break;
                 case "rank_now":
                   colName = "현재";
@@ -272,12 +345,29 @@ export default function TouhouVoteChart(): React.JSX.Element {
       </div>
 
       <div className={styles.summaryPanel}>
-        <h3>요약</h3>
-        {selectedCharacters.size > 0 ? (
-          renderSummaryTable()
-        ) : (
-          <p className={styles.noSelection}>차트에서 캐릭터를 선택해주세요.</p>
-        )}
+        <div className={styles.summaryHeader}>
+          <h3>요약</h3>
+          {selectedCharacters.size > 0 && (
+            <button
+              onClick={handleScreenshot}
+              className={styles.screenshotButton}
+              title="요약 테이블을 이미지로 저장"
+            >
+              📸 스크린샷 저장
+            </button>
+          )}
+        </div>
+        <div ref={summaryRef}>
+          {selectedCharacters.size > 0 ? (
+            <div className={styles.summaryTableContainer}>
+              {renderSummaryTable()}
+            </div>
+          ) : (
+            <p className={styles.noSelection}>
+              차트에서 캐릭터를 선택해주세요.
+            </p>
+          )}
+        </div>
       </div>
     </div>
   );
