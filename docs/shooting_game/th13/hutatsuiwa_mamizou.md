@@ -10,12 +10,14 @@ import hutatsuiwaMamizou from '@site/static/img/th13/hutatsuiwa_mamizou.png';
 
 <img src={hutatsuiwaMamizou} alt="후타츠이와 마미조" style={{width: 250}} />
 
-　○엑스트라 보스　요괴너구리 십변화  
+　○엑스트라 보스　　요괴너구리 십변화  
+
 　　후타츠이와 마미조  
 　　Hutatsuiwa Mamizou  
 
 　　종족: 요괴너구리  
 　　능력: 현혹시키는 정도의 능력  
+
 
 　　유서깊은 요괴너구리.  
 　　드물게 환상향의 바깥에 살고 있던 요괴이다.  
@@ -31,9 +33,11 @@ import hutatsuiwaMamizou from '@site/static/img/th13/hutatsuiwa_mamizou.png';
 　　결국 요괴들은 자기멋대로고 통솔받는 것을 꺼리기 때문에  
 　　개개인이 아무리 강해도 질 때는 진다.  
 
+
 　　마미조는 현지(사도)에서는 인간과 함께 살아온 듯하다.  
 　　때로는 속이기도 했지만, 가난한 사람들에게 돈을 빌려주거나 일을 의뢰받고 수행하는 등,  
 　　제대로 인간사회에 녹아들고 있던 것 같다.  
 
+
 　　하지만 여우와는 사이가 나쁘기 때문에 사도에는 여우가 살지 않는다는 소문도 있다.  
-　　환상향의 여우들과 말썽을 일으키게 되지만, 그것은 또 다른 이야기.  
+　　환상향의 여우들과 말썽을 일으키게 되지만, 그것은 또 다른 이야기.

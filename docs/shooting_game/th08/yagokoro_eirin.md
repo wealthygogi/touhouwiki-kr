@@ -10,12 +10,13 @@ import yagokoroEirin from '@site/static/img/th08/yagokoro_eirin.png';
 
 <img src={yagokoroEirin} alt="야고코로 에이린" style={{width: 250}} />
 
-　○달의 두뇌  
+　○6면 보스　달의 두뇌  
 　　야고코로 에이린  
 　　Eirin Yagokoro  
 
 　　종족: 월인  
-　　능력: 모든 약을 만드는 정도의 능력  
+　　능력: 모든 약을 만드는 정도의 능력. 천재.  
+
 
 　　달의 백성. 즉 우주인. 지상에 숨어살기 시작한 뒤로 꽤 긴 시간이 지났다.  
 　　카구야와의 인연은 카구야가 달에 있던 아득히 먼 무렵부터 시작된다.  
@@ -25,6 +26,7 @@ import yagokoroEirin from '@site/static/img/th08/yagokoro_eirin.png';
 
 　　사실은 카구야보다 압도적인 힘을 가지고 있다.  
 　　하지만 항상 카구야를 넘지 않도록 힘을 아낀다고 한다.  
+
 
 　　아득히 먼 옛날, 달의 공주인 카구야의 죄가 벗겨졌기 때문에  
 　　벌로서 지상에 떨어져있던 카구야를 달로 데리고 돌아가기 위해 온 사자 중 한 명.  

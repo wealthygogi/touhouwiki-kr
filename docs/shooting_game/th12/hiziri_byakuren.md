@@ -17,6 +17,7 @@ import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 　　종족: 마법사  
 　　능력: 마법을 사용하는 정도의 능력(신체 능력을 높이는 마법에 자신 있다)  
 
+
 　　뱌쿠렌의 남동생, 묘렌은 전설의 승려였다.  
 　　가볍게 바리때를 던지더니, 그 바리때에서 욕심쟁이 부자의 창고의 물건을  
 　　꺼내 오거나, 멀리 떨어진 장소에 있는 인간의 병을 치료할 수 있었다.  
@@ -30,6 +31,7 @@ import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 　　우선, 자신이 죽지 않기 때문에 회춘의 힘을 손에 넣었다.  
 　　그것은 법술이라기 보다는 요술이나 마술의 일종이었다.  
 
+
 　　회춘을 자기 것으로 하여 수명이 없어진 그가 다음에 두려워한 것은  
 　　그 힘을 잃는 것이었다.  
 
@@ -42,6 +44,7 @@ import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 　　처음은 자신의 욕구를 위해서였지만 요괴들의 불쌍한 과거를 알아가자  
 　　그들에게 힘이 되어야겠다고 생각하게 되었던 것이다.  
 
+
 　　갑자기 나타난 젊은 승려.  
 　　젊음과 법력을 손에 넣은 뱌쿠렌은 인간 사이에서 인기인이었다.  
 　　"뱌쿠렌이 있다면, 더이상 요괴는 두렵지 않다.  
@@ -50,4 +53,4 @@ import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 
 　　그리고 뱌쿠렌의 생각과 인간들의 기대와의 차이가 비극을 낳았다.  
 　　'그 녀석은 인간의 탈을 쓴 악마다'라고.  
-　　그는 마계에 봉인되어 두 번 다시 남의 앞에 나오는 일은 없었다.  
+　　그는 마계에 봉인되어 두 번 다시 남의 앞에 나오는 일은 없었다.

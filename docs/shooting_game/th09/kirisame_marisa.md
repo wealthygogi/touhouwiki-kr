@@ -17,6 +17,7 @@ import marisaImg from '@site/static/img/th09/kirisame_marisa.png';
 　　종족: 인간  
 　　능력: 마법을 사용하는 정도의 능력  
 
+
 　　　환상향에 사는 조금 평범한 마법사. 수집벽이 있다.  
 　　　인간이 그다지 찾아오지 않는 마법의 숲에 살고  
 　　마법 연구를 하며 자유롭게 멋대로 살고 있다.  

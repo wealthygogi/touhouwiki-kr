@@ -10,8 +10,10 @@ import komakusaSannyo from '@site/static/img/th18/komakusa_sannyo.png';
 
 <img src={komakusaSannyo} alt="코마쿠사 산뇨" style={{width: 250}} />
 
-　○3면 보스　고지에 사는 야마조로  
-　　코마쿠사 산뇨  
+　○3면 보스  
+　　고지에 사는 야마조로  
+
+　　본명 코마쿠사 산뇨  
 　　Komakusa Sannyo  
 
 　　통칭 코마쿠사 다유  
@@ -31,4 +33,4 @@ import komakusaSannyo from '@site/static/img/th18/komakusa_sannyo.png';
 　　그가 벌이는 노름판은 신사들의 사교장인 것이다. 가득찬 담배 연기 덕분에......  
 
 　　갑자게 솟아난 어빌리티 카드는 산의 요괴들에게 최고의 도박 소재가 될 것이라고  
-　　그는 생각하고 있었다.  
+　　그는 생각하고 있었다.

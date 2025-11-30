@@ -11,9 +11,8 @@ import komanoAun from '@site/static/img/th16/komano_aun.png';
 <img src={komanoAun} alt="코마노 아운" style={{width: 250}} />
 
 　○3면 보스  
-   신과 부처에 심취하는 수호 신수  
+　　신과 부처에 심취하는 수호 신수  
 　　코마노 아운  
-　　Komano Aun  
 
 　　종족: 코마이누  
 　　능력: 신과 부처를 찾아내는 정도의 능력  
@@ -32,4 +31,4 @@ import komanoAun from '@site/static/img/th16/komano_aun.png';
 
 　　자신의 마음 속에 뭔가 알 수 없는 영력을 발견하고 등골에 차가운 것이 흘러가는 걸 느꼈다.  
 　　환상향에서 무엇이 어디에, 어디까지인지는 알 수 없지만,  
-　　의도적인 중대한 것이 숨어있다는 것을 깨달은 것이다.  
+　　의도적인 중대한 것이 숨어있다는 것을 깨달은 것이다.

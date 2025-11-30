@@ -17,6 +17,7 @@ import sakuyaImg from '@site/static/img/th09/izayoi_sakuya.png';
 　　종족: 인간  
 　　능력: 시간을 다루는 정도의 능력  
 
+
 　　　환상향에 있는 호수 근처에 그 붉은 저택이 있다.  
 　　그 저택에서 일하는 메이드이다.  
 

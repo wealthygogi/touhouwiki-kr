@@ -12,7 +12,7 @@ import kochiyaSanae from '@site/static/img/th13/kochiya_sanae.png';
 
 　○산의 새로운 신  
 　　코치야 사나에  
-　　Kochiya Sanae  
+　　Kochiya sanae  
 
 　　종족: 인간  
 　　능력: 기적을 일으키는 정도의 능력  
@@ -24,6 +24,7 @@ import kochiyaSanae from '@site/static/img/th13/kochiya_sanae.png';
 　　거기에 어울리다보면 자신도 그렇게 되지 않을지 살짝 걱정하고 있다.  
 　　그래도 현인신으로 모셔지는 만큼 요괴에게도 뒤지지는 않지만  
 　　살짝 얼빠진 면도 있다.  
+
 
 　　신령은 신사에 있어서는 중요한 영. 인간들의 호기심을 부추기기 위해서는  
 　　신령을 모으는 것이 중요할 거라고 생각하고 있다.

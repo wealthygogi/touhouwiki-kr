@@ -10,7 +10,9 @@ import niwatariKutaka from '@site/static/img/th17/niwatari_kutaka.png';
 
 <img src={niwatariKutaka} alt="니와타리 쿠타카" style={{width: 250}} />
 
-　○3면 보스　지옥 관문의 문지기  
+　○3면 보스  
+　　지옥 관문의 문지기  
+
 　　니와타리 쿠타카  
 　　Niwatari Kutaka  
 
@@ -31,4 +33,4 @@ import niwatariKutaka from '@site/static/img/th17/niwatari_kutaka.png';
 　　평등과 이타를 우선하는 신이다.  
 
 　　몰래 인간의 식량으로 변해 버린 닭의 지위 향상을 위해서 무언가 할 수 있는 일이  
-　　없을까 하고 생각하고 있다.  
+　　없을까 하고 생각하고 있다.

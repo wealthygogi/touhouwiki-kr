@@ -10,7 +10,7 @@ import kirisameMarisa from '@site/static/img/th18/kirisame_marisa.png';
 
 <img src={kirisameMarisa} alt="키리사메 마리사" style={{width: 250}} />
 
-　○플레이어 캐릭터　평범한 마법사  
+　○평범한 마법사  
 　　키리사메 마리사  
 　　Kirisame Marisa  
 
@@ -22,4 +22,4 @@ import kirisameMarisa from '@site/static/img/th18/kirisame_marisa.png';
 　　카드에는 각양각색의 마력이 담겨있었다.  
 　　카드로부터는 알고 있는 주변의 인간, 요괴의 마력만이 느껴졌다.  
 　　이렇게 재미있는 카드는 다른 사람들보다 한발 빨리 모아야겠다고 생각했다.  
-　　분명 다들 그렇게 할 테니까. 그렇게 되면, 가격도 뛰어오를 테니까.  
+　　분명 다들 그렇게 할 테니까. 그렇게 되면, 가격도 뛰어오를 테니까.

@@ -10,12 +10,13 @@ import huziwaraNoMokou from '@site/static/img/th08/huziwara_no_mokou.png';
 
 <img src={huziwaraNoMokou} alt="후지와라노 모코우" style={{width: 250}} />
 
-　○봉래의 인형  
+　○엑스트라 보스　봉래의 인형  
 　　후지와라노 모코우  
 　　Huziwara no Mokou  
 
 　　종족: 인간  
 　　능력: 늙지도 죽지도 않는 정도의 능력  
+
 
 　　봉래의 약을 복용해 계속해서 살아가는 인간.  
 
@@ -34,12 +35,15 @@ import huziwaraNoMokou from '@site/static/img/th08/huziwara_no_mokou.png';
 　　그 항아리에 들어있던 약은 봉래의 약......  
 　　그 때 이후로 모코우의 모습을 본 자는 없다.  
 
+
+
 　　성장하지 않는 인간은 같은 장소에선 살 수 없다. 이리저리 사는 장소를 바꾸며 살고 있었다.  
 　　그러나 인간은 혼자서는 살 수 없지만, 모코우는 죽지 않는다.  
 　　배는 고프고 다치면 아프지만 죽지는 않는다.  
 　　결국 인적드문 산 속에 요괴처럼 조용히 살게 되었다.  
 
 　　그 후로 긴 시간이 지났다.  
+
 
 　　지금은 카구야와 서로 죽이는 것이 일상이다.  
 　　처음에 이 산 속에서 카구야의 모습을 봤을 땐 정말로 놀랐지만, 이렇다 할 일은 없다.  
@@ -51,4 +55,4 @@ import huziwaraNoMokou from '@site/static/img/th08/huziwara_no_mokou.png';
 　　지금도 카구야는 밉다. 게다가 카구야는 나를 없애려고 한다.  
 　　하지만 죽지 않는다. 이 얼마나 충실한 나날인가.  
 　　인적드문 산 속에 있는 이 땅은 진정한 봉래의 땅임에 틀림없다.  
-　　살아있다는 건 이 얼마나 멋진 일인가.  
+　　살아있다는 건 이 얼마나 멋진 일인가.

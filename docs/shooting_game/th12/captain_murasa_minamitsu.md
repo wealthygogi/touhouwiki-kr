@@ -11,11 +11,13 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 <img src={captainMurasaMinamitsu} alt="무라사 미나미츠" style={{width: 250}} />
 
 　○4면 보스　　수난사고의 염박령  
+
 　　무라사 미나미츠  
 　　Captain Murasa Minamitsu  
 
 　　종족: 배유령  
 　　능력: 수난사고를 일으키는 정도의 능력  
+
 
 　　먼 옛날, 바다에서 배가 전복해 죽은 인간의 영혼.  
 　　미련때문에 바다를 떠나지 못하고 거기에 우연히 지나간 배를 전복시키는  
@@ -37,6 +39,7 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 　　가라앉히면, 당연히 요괴로서의 격이 오를 것이다.  
 　　그것이 성공하면 나를 묶는 저주받은 바다로부터 멀어지고 인간을 덮치는 일도  
 　　가능하게 될지도 모른다.  
+
 
 　　――며칠 후, 그를 퇴치하러 온 승려를 실은 배가 가까워졌다.  
 　　배에는 승려 외에도 몇 살람의 인간이 타고 있었다.  
@@ -63,6 +66,7 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 　　"그 배는......!  
 　　　아아 그립다...... 어떻게..."  
 
+
 　　요괴가 된 무라사에겐 검이나 화살보다 정신적인 공격이 무서웠다.  
 　　승려는 그 점을 알고 있었다.  
 
@@ -76,6 +80,7 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 
 　　그 말로써, 무라사는 저주받은 바다를 떠날 수가 있었다.  
 
+
 　　그리고 수십년 후.  
 　　요괴를 구하는 뱌쿠렌이 인간들에게 잡혀 봉인되어 버렸다.  
 　　그와 동시에 뱌쿠렌과 관련된 물품도 땅 속 깊숙히 묻혀 버렸다.  
@@ -84,4 +89,4 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 　　설마 간헐천과 함께 다시 지상에 나타나게 될 줄은,  
 　　그 자신도 예상하지 못했다.  
 　　그리고 맹세한다.  
-　　이번은 내가 뱌쿠렌을 구할 차례라고. 그래, 뱌쿠렌이 만들어낸 배를 타고.  
+　　이번은 내가 뱌쿠렌을 구할 차례라고. 그래, 뱌쿠렌이 만들어낸 배를 타고.

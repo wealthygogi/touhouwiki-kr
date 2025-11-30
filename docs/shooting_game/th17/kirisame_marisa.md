@@ -22,4 +22,4 @@ import kirisameMarisa from '@site/static/img/th17/kirisame_marisa.png';
 　　동물 영혼을 빙의시키면 평소 이상의 힘을 낼 수 있다.  
 　　그것을 매우 매력적이라고 생각해 동물령의 권유를 받아들인다.  
 　　지옥에 가는 것에 두려움을 느끼고 있지 않다. 오히려 어떤 사람이 기다리고 있을지  
-　　궁금해하고 있다.  
+　　궁금해하고 있다.

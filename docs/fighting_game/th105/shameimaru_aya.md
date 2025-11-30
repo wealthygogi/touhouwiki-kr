@@ -12,7 +12,6 @@ import shameimaruAya from '@site/static/img/th105/shameimaru_aya.png';
 
 　○전통있는 환상의 신문쟁이  
 　　샤메이마루 아야  
-　　Shameimaru Aya  
 
 　　종족: 텐구 (까마귀)  
 　　거처: 요괴의 산  
@@ -33,4 +32,4 @@ import shameimaruAya from '@site/static/img/th105/shameimaru_aya.png';
 
 　　　싸우는 건 별로 좋아하지 않지만 싸움을 걸며 돌아다니고 있다.  
 　　　단지 애초에 당할 수 있는 상대가 아니라서 그 싸움에 응하는 자는 적으며,  
-　　　별 수 없이 참는 경우가 많다.  
+　　　별 수 없이 참는 경우가 많다.

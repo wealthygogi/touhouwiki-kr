@@ -12,10 +12,11 @@ import ayaImg from '@site/static/img/th09/shameimaru_aya.png';
 
 　○전통의 환상 신문쟁이  
 　　샤메이마루 아야  
-　　Shameimaru Aya  
+　　Syameimaru Aya  
 
 　　종족: 까마귀 텐구  
 　　능력: 바람을 다루는 정도의 능력  
+
 
 　　　오니가 환상향에 있었던 천년 정도 전부터 자리잡고 살았던 텐구.  
 　　　원래는 까마귀. 바람을 다루는 정도의 능력을 가지고 있다.  
@@ -25,6 +26,7 @@ import ayaImg from '@site/static/img/th09/shameimaru_aya.png';
 　　　아야가 가진 힘은 환상향중에서도 최강 클래스이지만,  
 　　결코 힘을 과시하려고는 하지 않는다. 이건 아야만 그런 것이 아니라  
 　　텐구의 특성이다.  
+
 
 　　　평소엔 산에 살며 바람과 같은 속도와 방향으로 이동한다.  
 　　소문을 좋아해서 항상 정보를 사들이곤 텐구 동료들과 정보 교환을 한다.  

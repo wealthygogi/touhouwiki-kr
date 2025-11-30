@@ -10,7 +10,9 @@ import tamatsukuriMisumaru from '@site/static/img/th18/tamatsukuri_misumaru.png'
 
 <img src={tamatsukuriMisumaru} alt="타마츠쿠리 미스마루" style={{width: 250}} />
 
-　○4면 보스　진짜 곡옥 제작 장인  
+　○4면 보스  
+　　진짜 곡옥 제작 장인  
+
 　　타마츠쿠리 미스마루  
 　　Tamatsukuri Misumaru  
 
@@ -27,10 +29,11 @@ import tamatsukuriMisumaru from '@site/static/img/th18/tamatsukuri_misumaru.png'
 　　용주가 악의 무리의 손에 넘어가는 것은 위험하기 때문이다. 다시 말하면, 산의 환경 파괴도 신경 쓰고 있었다.  
 　　욕망에 가득 차 산을 깎아내 무너지고, 자원이 고갈돼 버려진 폐광을 수없이 봐왔기 때문이다.  
 
+
 　　홍룡동은 복잡한 구조로 되어 있어 전모를 알 수는 없었다.  
 　　조사하던 중, 인간이 갑자기 들어왔다.  
 　　곡옥의 힘을 사용해 목적을 물어보니 아무래도 어빌리티 카드의 조사를 하고 있다는 것 같다.  
 　　이보다 앞은 인간이 들어갈 만한 장소가 아니라고 돌려보냈다.  
 
 　　미스마루는 홍룡동 조사를 계속했다.  
-　　안에 있던 것은 산을 파헤치는 위험한 요괴, 거대 지네였다...  
+　　안에 있던 것은 산을 파헤치는 위험한 요괴, 거대 지네였다...

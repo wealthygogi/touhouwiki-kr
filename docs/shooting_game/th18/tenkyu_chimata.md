@@ -10,9 +10,12 @@ import tenkyuChimata from '@site/static/img/th18/tenkyu_chimata.png';
 
 <img src={tenkyuChimata} alt="텐큐 치마타" style={{width: 250}} />
 
-　○6면 보스　주인 없는 물건의 신  
+　○6면 보스  
+　　주인 없는 물건의 신  
+
 　　텐큐 치마타  
 　　Tenkyu Chimata  
+
 
 　　종족: 신  
 　　능력: 소유권을 잃게 하는 정도의 능력  
@@ -37,6 +40,7 @@ import tenkyuChimata from '@site/static/img/th18/tenkyu_chimata.png';
 　　비즈니스가 성공할 즈음에는 신으로서의 능력을 되찾아 대텐구 따위는  
 　　자기를 두려워 하리라고 생각하고 있었기 때문이다.  
 
+
 　　최초의 시장은 달에 무지개가 걸렸을 때 산 정상에 열렸다.  
 　　참가자는 치마타, 이즈나마루, 쿠다키츠네인 츠카사, 거대 지네인 모모요뿐이었다.  
 
@@ -56,4 +60,5 @@ import tenkyuChimata from '@site/static/img/th18/tenkyu_chimata.png';
 　　두 사람의 알력이 겉으로 표출되기 시작했을 즈음 모든 것을 끝낼 파괴자가 나타난다.  
 　　그 파괴자는 폭력으로 온갖 일들을 해결하려고 하는, 이른바 시장의 파괴자 '도적'이라 불리었다.  
 
-　　그 인간의 '적'이 나타난 때는 최초의 시장과 마찬가지로 달에 무지개가 걸린 밤이었다.  
+
+　　그 인간의 '적'이 나타난 때는 최초의 시장과 마찬가지로 달에 무지개가 걸린 밤이었다.

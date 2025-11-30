@@ -10,7 +10,7 @@ import eternityLarva from '@site/static/img/th16/eternity_larva.png';
 
 <img src={eternityLarva} alt="이터니티 라바" style={{width: 250}} />
 
-　○1면 보스　신에 다가서는 나비의 요정  
+　○1면 보스　　신에 다가서는 나비의 요정  
 　　이터니티 라바  
 　　Eternity Larva  
 
@@ -26,4 +26,4 @@ import eternityLarva from '@site/static/img/th16/eternity_larva.png';
 　　평소 성격은 지극히 온후하고 어딘가 전투가 벌어지더라도  
 　　파워업 아이템을 몇 개 들고 놀러 가는 정도이다.  
 
-　　위험을 감지하면 더듬이에서 탄막과 불쾌한 냄새를 내뿜는 듯하다.  
+　　위험을 감지하면 더듬이에서 탄막과 불쾌한 냄새를 내뿜는 듯하다.

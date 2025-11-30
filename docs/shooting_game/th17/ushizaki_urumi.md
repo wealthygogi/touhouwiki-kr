@@ -10,7 +10,9 @@ import ushizakiUrumi from '@site/static/img/th17/ushizaki_urumi.png';
 
 <img src={ushizakiUrumi} alt="우시자키 우루미" style={{width: 250}} />
 
-　○2면 보스　고대어의 아이를 데리고 있는 파수꾼  
+　○2면 보스  
+　　고대어의 아이를 데리고 있는 파수꾼  
+
 　　우시자키 우루미  
 　　Ushizaki Urumi  
 
@@ -28,4 +30,4 @@ import ushizakiUrumi from '@site/static/img/th17/ushizaki_urumi.png';
 
 　　그 송곳니 뽑힌 모습을 보며 요괴들 중에는 조롱하는 요괴도 있지만  
 　　본인은 지금의 생활에 자부심을 가지고 있다.  
-　　가끔 실수로 삼도천을 건너려는 사람을 원래 세계로 돌아가도록 유도하기도 한다.  
+　　가끔 실수로 삼도천을 건너려는 사람을 원래 세계로 돌아가도록 유도하기도 한다.

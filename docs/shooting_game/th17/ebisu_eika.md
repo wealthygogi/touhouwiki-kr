@@ -10,7 +10,9 @@ import ebisuEika from '@site/static/img/th17/ebisu_eika.png';
 
 <img src={ebisuEika} alt="에비스 에이카" style={{width: 250}} />
 
-　○1면 보스　강가의 아이돌 미즈코  
+　○1면 보스  
+　　강가의 아이돌 미즈코  
+
 　　에비스 에이카  
 　　Ebisu Eika  
 
@@ -26,4 +28,4 @@ import ebisuEika from '@site/static/img/th17/ebisu_eika.png';
 　　미즈코들에게 사랑받는 사이노카와라의 아이돌이다.  
 
 　　주인공들이 돌 쌓기 대회를 망쳤다고 분노하고 있지만 실제로는  
-　　거의 다 지옥에서 온 동물령들의 탓이다.  
+　　거의 다 지옥에서 온 동물령들의 탓이다.

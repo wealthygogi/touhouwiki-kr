@@ -12,7 +12,7 @@ import kochiyaSanae from '@site/static/img/th12/kochiya_sanae.png';
 
 　○산의 새로운 신  
 　　코치야 사나에  
-　　Kochiya Sanae  
+　　Kochiya sanae  
 
 　　종족: 인간  
 　　능력: 기적을 일으키는 정도의 능력  
@@ -26,4 +26,4 @@ import kochiyaSanae from '@site/static/img/th12/kochiya_sanae.png';
 　　살짝 얼빠진 면도 있다.  
 
 　　카나코가 말하여 요괴 퇴치 흉내를 내 보거나......  
-　　환상향에 익숙해지도록 노력하고 있다.  
+　　환상향에 익숙해지도록 노력하고 있다.

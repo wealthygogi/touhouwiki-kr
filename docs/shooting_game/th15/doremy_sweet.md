@@ -10,7 +10,7 @@ import doremySweet from '@site/static/img/th15/doremy_sweet.png';
 
 <img src={doremySweet} alt="도레미 스위트" style={{width: 250}} />
 
-　○3면 보스　꿈의 지배자  
+　○3면 보스　　꿈의 지배자  
 　　도레미 스위트  
 　　Doremy Sweet  
 
@@ -29,6 +29,7 @@ import doremySweet from '@site/static/img/th15/doremy_sweet.png';
 　　누구든 될 수 있다.  
 　　그것을 눈치 챈 사람이 질서를 방해하지 않도록 도레미는 감시하고 있는 것이다.  
 
+
 　　이번은 사구메의 명령을 받아 달의 도시를 꿈 속에 재현하고 있었다.  
 　　달의 도시에 가려는 자들을 꿈의 도시로 연결해 진짜 달의 도시를 숨겼다.  
 
@@ -42,4 +43,4 @@ import doremySweet from '@site/static/img/th15/doremy_sweet.png';
 　　그런 인간을 꿈의 도시로 안내할 수는 없다고 하는 것이 명분이었지만  
 　　속내는 평범한 앙갚음이었다.  
 
-　　도레미는 인간의 소망대로 진짜 달의 도시로 보냈다.  
+　　도레미는 인간의 소망대로 진짜 달의 도시로 보냈다.

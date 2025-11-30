@@ -10,7 +10,10 @@ import joutouguMayumi from '@site/static/img/th17/joutougu_mayumi.png';
 
 <img src={joutouguMayumi} alt="조토구 마유미" style={{width: 250}} />
 
-　○5면 보스　하니와 병장  
+　○5면 보스  
+　　하니와 병장  
+(*역주: 하니와(埴輪) - 무덤 곁에 묻어두던 인간이나 동물의 진흙상)  
+
 　　조토구 마유미  
 　　Joutougu Mayumi  
 
@@ -28,4 +31,4 @@ import joutouguMayumi from '@site/static/img/th17/joutougu_mayumi.png';
 　　영체의 공격은 상대의 영체 부분에 대해 영향을 끼치기에 텅 빈 우상에겐 거의 효과가 없는 것이었다.  
 
 　　평소에는 영장원을 지키고 있지만 이미 축생계는 대적할 자가 없는 상태라 군병들도 쓸모없는 장물이 되어버렸다.  
-　　그곳에 우상을 파괴할 수 있는 살아있는 몸을 지닌 인간들이 온 것이었다.  
+　　그곳에 우상을 파괴할 수 있는 살아있는 몸을 지닌 인간들이 온 것이었다.

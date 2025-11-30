@@ -10,9 +10,12 @@ import iizunamaruMegumu from '@site/static/img/th18/iizunamaru_megumu.png';
 
 <img src={iizunamaruMegumu} alt="이즈나마루 메구무" style={{width: 250}} />
 
-　○5면 보스　까마귀 텐구의 대장  
+　○5면 보스  
+　　까마귀 텐구의 대장  
+
 　　이즈나마루 메구무  
 　　Iizunamaru Megumu  
+
 
 　　종족: 대텐구  
 　　능력: 별하늘을 조종하는 정도의 능력  
@@ -45,4 +48,4 @@ import iizunamaruMegumu from '@site/static/img/th18/iizunamaru_megumu.png';
 
 　　그런데 거기서 문제가 발생했다.  
 　　카드의 유통이 활성화된 결과 시장의 신이 본래의 힘을 되찾아,  
-　　텐구 사회를 위협하는 종국에 이른 것이다.  
+　　텐구 사회를 위협하는 종국에 이른 것이다.

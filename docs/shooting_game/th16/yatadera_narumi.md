@@ -10,12 +10,13 @@ import yataderaNarumi from '@site/static/img/th16/yatadera_narumi.png';
 
 <img src={yataderaNarumi} alt="야타데라 나루미" style={{width: 250}} />
 
-　○4면 보스　숲에서 수적한 마법 지장  
+　○4면 보스　　숲에서 수적한 마법 지장  
 　　야타데라 나루미  
 　　Yatadera Narumi  
 
 　　종족: 마법사 (지장)  
 　　능력: 마법을 사용하는 정도의 능력 (생명조작)  
+
 
 　　원래 마법의 숲에 있던 지장씨가 숲의 마력에서 생명을 얻은 생명체이다.  
 　　마법의 숲이 뜻밖의 눈에 시달리고 있었지만 원래 나오는 게 귀찮아서 숲을 나와 조사할 생각은 없었다.  
@@ -28,4 +29,4 @@ import yataderaNarumi from '@site/static/img/th16/yatadera_narumi.png';
 　　하지만 그것이 사계이변의 영향이라고 생각하고 있었으나  
 　　그 자체가 이변을 일으키고 있었을 줄은 전혀 모르고 있었다.  
 
-　　마리사로부터 오키나의 말을 듣고 비책을 생각해내 마리사에게 전해주었다.  
+　　마리사로부터 오키나의 말을 듣고 비책을 생각해내 마리사에게 전해주었다.

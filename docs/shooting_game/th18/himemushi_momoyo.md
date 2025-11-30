@@ -10,9 +10,12 @@ import himemushiMomoyo from '@site/static/img/th18/himemushi_momoyo.png';
 
 <img src={himemushiMomoyo} alt="히메무시 모모요" style={{width: 250}} />
 
-　○엑스트라 보스　검은 드래곤 이터  
+　○엑스트라 보스  
+　　검은 드래곤 이터  
+
 　　히메무시 모모요  
 　　Himemushi Momoyo  
+
 
 　　종족: 오오무카데 (거대 지네)  
 　　능력: 용을 먹는 정도의 능력  
@@ -26,6 +29,7 @@ import himemushiMomoyo from '@site/static/img/th18/himemushi_momoyo.png';
 
 　　사실 용을 먹을 수 있는지 없는지는 아무도 몰랐다.  
 
+
 　　하지만 홍룡동에서 용이 갖고 있다는 '용주'를 찾고 있던 것은 사실이었다.  
 　　모모요가 동굴에서 용주를 파냈을 때 자신을 만나는 것을 꺼리지 않는 친한 친구인 대텐구,  
 　　이즈나마루에게서 비즈니스 이야기를 들었다.  
@@ -33,8 +37,9 @@ import himemushiMomoyo from '@site/static/img/th18/himemushi_momoyo.png';
 　　모모요는 산을 깎아 홍룡동을 파내는 임무를 받아들였다. 보수는 용주였다.  
 　　친구인 대텐구, 메구무(龍)를 먹는 대가로서 용주는 충분한 물건이었다.  
 
+
 　　매일 열심히 용주를 파내는 와중, 드디어 도굴꾼이 나타났다는 말을 들었다.  
 　　물론 그는 기뻐했다.  
 
 　　"이제 용주는 질렸어.  
-　　도굴꾼이라니, 최고의 디저트잖아!"  
+　　도굴꾼이라니, 최고의 디저트잖아!"

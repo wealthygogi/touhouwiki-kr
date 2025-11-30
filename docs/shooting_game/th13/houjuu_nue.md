@@ -10,12 +10,14 @@ import houjuuNue from '@site/static/img/th13/houjuu_nue.png';
 
 <img src={houjuuNue} alt="호쥬 누에" style={{width: 250}} />
 
-　○엑스트라 중보스　옛날 요괴 그 1  
+　○엑스트라 중보스　　옛날 요괴 그 1  
+
 　　호쥬 누에  
 　　Houjuu Nue  
 
 　　종족: 누에  
 　　능력: 정체를 알 수 없게 하는 정도의 능력  
+
 
 　　묘렌사에 살고 있는 불가사의한 요괴.  
 
@@ -25,6 +27,7 @@ import houjuuNue from '@site/static/img/th13/houjuu_nue.png';
 
 　　물론 뱌쿠렌에게는 비밀로.  
 
+
 　　그 결과, 묘렌사에 눌러얹혀 사는 요괴가 한 마리 더 늘었다.  
 
-　　결국 뱌쿠렌의 일거리만 더 늘어난 꼴이었다.  
+　　결국 뱌쿠렌의 일거리만 더 늘어난 꼴이었다.

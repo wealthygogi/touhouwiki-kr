@@ -10,12 +10,15 @@ import kurokomaSaki from '@site/static/img/th17/kurokoma_saki.png';
 
 <img src={kurokomaSaki} alt="쿠로코마 사키" style={{width: 250}} />
 
-　○엑스트라 보스　경아조 조장  
+　○엑스트라 보스  
+　　경아조 조장  
+
 　　쿠로코마 사키  
 　　Kurokoma Saki  
 
 　　종족: 쿠로코마  
 　　능력: 비교할 수 없는 다리힘을 지닌 정도의 능력  
+
 
 　　경아조의 조장.  
 　　꼼짝 못 하던 영장원의 케이키를 쓰러뜨렸다는 정보가 축생계에 돌기 무섭게 가장 빠르게 다음 수에 나섰다.  
@@ -26,4 +29,4 @@ import kurokomaSaki from '@site/static/img/th17/kurokoma_saki.png';
 　　부하의 생각이나 공적을 존중하는 등 조직의 상사로서는 인기가 있는 편이다.(단, 하는 일은 나쁨)  
 
 　　실력이 있는 자들을 좋아하며, 적일지라도 그것만은 변하지 않는다.  
-　　킷초와 케이키와의 상성도 나쁘지만 그 강함에는 경의를 표하고 있다.  
+　　킷초와 케이키와의 상성도 나쁘지만 그 강함에는 경의를 표하고 있다.

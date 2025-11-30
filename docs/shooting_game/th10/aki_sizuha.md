@@ -23,4 +23,4 @@ import akiSizuha from '@site/static/img/th10/aki_sizuha.png';
 
 　　가을 중에서도 단풍이 제일이라고 생각하며 동생에게  
 　　아름다운 단풍을 보여주곤 우월감에 빠진다.  
-　　겨울이 오면 어두워진다.  
+　　겨울이 오면 어두워진다.

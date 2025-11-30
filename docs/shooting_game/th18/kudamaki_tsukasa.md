@@ -10,9 +10,12 @@ import kudamakiTsukasa from '@site/static/img/th18/kudamaki_tsukasa.png';
 
 <img src={kudamakiTsukasa} alt="쿠다마키 츠카사" style={{width: 250}} />
 
-　○5면 중보스　귓가에 속삭이는 사악한 백여우  
+　○5면 중보스  
+　　귓가에 속삭이는 사악한 백여우  
+
 　　쿠다마키 츠카사  
 　　Kudamaki Tsukasa  
+
 
 　　종족: 쿠다키츠네 (대롱여우요괴)  
 　　능력: 혼이 약한 곳에 들어가는 정도의 능력  
@@ -28,4 +31,4 @@ import kudamakiTsukasa from '@site/static/img/th18/kudamaki_tsukasa.png';
 　　츠카사의 조언을 들은 자는 금전적으로 은혜를 받는다.  
 　　그 대신 파멸적인 결과가 기다린다는 것을 잊어서는 안 된다.  
 
-　　시장의 신도, 거대 지네도, 레이무 일행과 싸우게 된 원흉은 결국 그의 속삭임 때문이었다.  
+　　시장의 신도, 거대 지네도, 레이무 일행과 싸우게 된 원흉은 결국 그의 속삭임 때문이었다.

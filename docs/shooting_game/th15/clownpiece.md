@@ -10,9 +10,10 @@ import clownpiece from '@site/static/img/th15/clownpiece.png';
 
 <img src={clownpiece} alt="클라운피스" style={{width: 250}} />
 
-　○5면 보스　지옥의 요정  
+　○5면 보스　　지옥의 요정  
 　　클라운피스  
 　　Clownpiece  
+
 
 　　종족: 요정  
 　　능력: 사람을 미치게 하는 정도의 능력  
@@ -27,6 +28,7 @@ import clownpiece from '@site/static/img/th15/clownpiece.png';
 　　클라운피스는 헤카티아에게 명령받아 고요의 바다를 지옥으로부터 데려온 요정들로 채웠다.  
 　　고요의 바다는 그의 동료들로 요정 랜드가 되어있었다.  
 
+
 　　그리고 순호의 능력에 의해 그들은 각성했다.  
 　　그 존재는 순수한 생명력의 덩어리라고 할 수 있었다.  
 
@@ -39,8 +41,9 @@ import clownpiece from '@site/static/img/th15/clownpiece.png';
 　　요정들은 크게 소란을 피웠다.  
 　　그것이 또한 달의 주민을 얽매이게 했다.  
 
+
 　　그리고 이번엔 긴 시간동안 달의 도시는 움직임을 보지 못했지만,  
 　　드디어 인간이 도시에서 날아왔다.  
 
 　　"혹시, 달의 도시로부터 나오는 자가 있으면, 뭘 해도 좋다."  
-　　그런 말을 했던 것을 떠올린 클라운피스의 기분은 최고였다.  
+　　그런 말을 했던 것을 떠올린 클라운피스의 기분은 최고였다.

@@ -10,9 +10,12 @@ import haniyasushinKeiki from '@site/static/img/th17/haniyasushin_keiki.png';
 
 <img src={haniyasushinKeiki} alt="하니야스신 케이키" style={{width: 250}} />
 
-　○6면 보스　고립무원이 빚어낸 조형신  
+　○6면 보스  
+　　고립무원이 빚어낸 조형신  
+
 　　하니야스신 케이키  
 　　Haniyasushin Keiki  
+
 
 　　종족: 신  
 　　능력: 우상을 만들어내는 정도의 능력  
@@ -26,4 +29,4 @@ import haniyasushinKeiki from '@site/static/img/th17/haniyasushin_keiki.png';
 
 　　하지만 설마하니, 동물령 따위가 우상을 파괴하려고 지상에서 인간을 데려온다는 책략으로 나올 줄은 꿈에도 생각하지 못 했던 것이다.  
 
-　　인간령 탈취작전에 속아 넘어간 인간들이 참가하게 된 건 그야말로 축생의 소행.  
+　　인간령 탈취작전에 속아 넘어간 인간들이 참가하게 된 건 그야말로 축생의 소행.

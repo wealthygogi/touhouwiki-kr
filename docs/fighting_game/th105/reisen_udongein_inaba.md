@@ -12,7 +12,6 @@ import reisenUdongeinInaba from '@site/static/img/th105/reisen_udongein_inaba.pn
 
 　○광기의 붉은 눈동자  
 　　레이센 우동게인 이나바  
-　　Reisen Udongein Inaba  
 
 　　종족: 달토끼  
 　　거처: 영원정  
@@ -31,9 +30,10 @@ import reisenUdongeinInaba from '@site/static/img/th105/reisen_udongein_inaba.pn
 　　　그리고 완전히 반대인 위상을 잡으면...... 상대의 모든 감각으로부터 모습을 없애  
 　　　인식할 수 없게 되는 것이다.  
 
+
 　　성격: 광기와 태평함의 소유자. 전투할 때와 그 이외의 성격이 다르다.  
 
 　　　애초에 지상의 생물이 아니기 때문에 인간과 어울리는 일은 적다.  
 　　　전부 자기 형편에 따라 성격을 바꾼다.  
 
-　　　결코 부드러운 성격은 아니지만 가끔씩 레이무 못지 않게 얼빠진 일면을 보인다.  
+　　　결코 부드러운 성격은 아니지만 가끔씩 레이무 못지 않게 얼빠진 일면을 보인다.

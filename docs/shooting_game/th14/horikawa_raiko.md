@@ -17,6 +17,7 @@ import raiko from '@site/static/img/th14/horikawa_raiko.png';
 　　종족: 츠쿠모가미  
 　　능력: 뭐든지 리듬을 타는 정도의 능력  
 
+
 　　라이코는 와다이코의 츠쿠모가미였다.  
 　　사람들에게 두드려지는 것에 기쁨을 느끼며 살아왔다.  
 
@@ -35,6 +36,7 @@ import raiko from '@site/static/img/th14/horikawa_raiko.png';
 
 　　그리고 새로운 드럼과 연주자를 손에 넣었다.  
 　　틀림없는 바깥 세계의 마력이었다.  
+
 
 　　이제 오니의 마력은 몸에 남아있지 않다.  
 　　때문에 요술방망이가 마력을 회수한다 하더라도 원래 도구로 돌아가는 일은 없을 것이다.  

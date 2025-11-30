@@ -30,4 +30,4 @@ import inubasiriMomizi from '@site/static/img/th10/inubasiri_momizi.png';
 　　대기 중엔 한가한 주변의 캇파들과 대장기라 불리는 매우 시간이 걸리는 게임을  
 　　몇 판이고 즐기고 있다.  
 
-　　수명이 긴 요괴들은 시간을 죽이기 위한 수단을 찾는 것조차 어렵다.  
+　　수명이 긴 요괴들은 시간을 죽이기 위한 수단을 찾는 것조차 어렵다.

@@ -24,4 +24,4 @@ import akiMinoriko from '@site/static/img/th10/aki_minoriko.png';
 
 　　항상 과일이나 풍작물의 달달한 향기를 풍겨  
 　　조용한 언니에 대한 우월감에 빠진다.  
-　　겨울이 오면 어두워진다.  
+　　겨울이 오면 어두워진다.

@@ -10,7 +10,8 @@ import kasodaniKyouko from '@site/static/img/th13/kasodani_kyouko.png';
 
 <img src={kasodaniKyouko} alt="카소다니 쿄코" style={{width: 250}} />
 
-　○2면 보스　독경하는 메아리  
+　○2면 보스　　독경하는 메아리  
+
 　　카소다니 쿄코  
 　　Kasodani Kyouko  
 
@@ -22,7 +23,7 @@ import kasodaniKyouko from '@site/static/img/th13/kasodani_kyouko.png';
 　　그건 메아리요괴의 짓이다.  
 
 　　쿄코는 산에 살다가 어디선가 즐거운 목소리가 들려오면  
-　　큰소리로 대답해주는 흥겨운 요괴이다.  
+　　큰소리로 대답해주는 흥겨운 요괴이다  
 
 　　최근 '메아리는 음파가 반사되는 것일 뿐이다'같은 미신이 유행하고 있기 때문에  
 　　쿄코는 세속에 대한 공허함을 느끼고는 입문하게 되었다.  

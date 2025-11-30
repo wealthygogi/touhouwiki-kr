@@ -10,7 +10,8 @@ import sakataNemuno from '@site/static/img/th16/sakata_nemuno.png';
 
 <img src={sakataNemuno} alt="사카타 네무노" style={{width: 250}} />
 
-　○2면 보스　속세의 관문을 넘는 야마우바  
+　○2면 보스　　속세의 관문을 넘는 야마우바  
+
 　　사카타 네무노  
 　　Sakata Nemuno  
 
@@ -29,4 +30,4 @@ import sakataNemuno from '@site/static/img/th16/sakata_nemuno.png';
 　　아이는 보호해서 훌륭한 인간으로 키우는 경우가 많은 것 같다.  
 　　그 이유는 알 수 없다.  
 
-　　네무노 자신도 세상에 관심이 없고 환상향에서의 관련 정보도 거의 없다.  
+　　네무노 자신도 세상에 관심이 없고 환상향에서의 관련 정보도 거의 없다.

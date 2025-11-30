@@ -10,12 +10,12 @@ import kamishirasawaKeine from '@site/static/img/th08/kamishirasawa_keine.png';
 
 <img src={kamishirasawaKeine} alt="카미시라사와 케이네" style={{width: 250}} />
 
-　○역사를 먹는 자  
+　○3면 보스　역사를 먹는 자  
 　　카미시라사와 케이네  
 　　Keine Kamishirasawa  
 
 　　종족: 워 백택  
-　　능력: 역사를 먹는/만드는 정도의 능력  
+　　능력: 역사를 먹는(숨기는) 정도의 능력과 역사를 만드는 정도의 능력  
 
 　　평소엔 인간이지만 보름달 밤엔 백택으로 변신하는 워 백택이다.  
 　　인간일 땐 역사를 먹는 능력, 백택일 땐 환상향의 모든 지식을 가지고  

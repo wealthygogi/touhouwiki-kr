@@ -12,7 +12,7 @@ import hakureiReimu from '@site/static/img/th13/hakurei_reimu.png';
 
 　○낙원의 무녀  
 　　하쿠레이 레이무  
-　　Reimu Hakurei  
+　　Hakurei Reimu  
 
 　　종족: 인간  
 　　능력: 주로 하늘을 나는 정도의 능력  

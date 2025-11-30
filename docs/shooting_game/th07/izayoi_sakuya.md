@@ -29,4 +29,4 @@ import izayoiSakuya from '@site/static/img/th07/izayoi_sakuya.png';
 　　마치 그 곳에 있는 것이 당연하다는 듯이 세워져 있었다.  
 
 　　사쿠야도 이 곳에 살고 있으면 시간이 정지된 듯이 느끼곤 한다.  
-　　물론 사쿠야가 시간을 멈춘 것은 아니다.  
+　　물론 사쿠야가 시간을 멈춘 것은 아니다.

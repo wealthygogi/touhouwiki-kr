@@ -10,7 +10,7 @@ import reisenUdongeinInaba from '@site/static/img/th08/reisen_udongein_inaba.png
 
 <img src={reisenUdongeinInaba} alt="레이센 우동게인 이나바" style={{width: 250}} />
 
-　○광기의 달토끼  
+　○5면 보스　광기의 달토끼  
 　　레이센 우동게인 이나바  
 　　Reisen Udongein Inaba  
 
@@ -20,7 +20,7 @@ import reisenUdongeinInaba from '@site/static/img/th08/reisen_udongein_inaba.png
 　　달에 사는 토끼.  
 　　붉은 눈동자엔 지상 토끼의 몇 배는 되는 광기가 깃든다.  
 
-　　현재는 카구야의 애완동물이다. 진짜 본명은 가타카나로 쓴 레이센 뿐이지만  
+　　현재는 카구야의 애완동물이다. 진짜 본명은 가타가나로 쓴 레이센 뿐이지만  
 　　지상인으로 위장하기 위해 한자를 사용했다.  
 　　하지만 매우 부자연스럽다.  
 

@@ -27,4 +27,4 @@ import kirisameMarisa from '@site/static/img/th07/kirisame_marisa.png';
 　　이 집에는 마리사도 모르는 힘을 가진 아이템이 잠들어 있을지도 모른다.  
 
 　　참고로 겨울에 틀어박혀 제작하고 있었던 약은 너무 커서 삼킬 수가 없었던 듯하다.  
-　　개량이 필요하다.  
+　　개량이 필요하다.

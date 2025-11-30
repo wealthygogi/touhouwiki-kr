@@ -13,7 +13,7 @@ import shameimaruAya from '@site/static/img/th10/shameimaru_aya.png';
 　○4면 보스　마을과 가장 가까운 텐구  
 　　샤메이마루 아야  
 　　Syameimaru Aya  
-  
+
 　　종족: 까마귀 텐구  
 　　능력: 바람을 다루는 정도의 능력  
 
@@ -32,6 +32,7 @@ import shameimaruAya from '@site/static/img/th10/shameimaru_aya.png';
 　　즉 다이텐구는 아야가 침입자에 대해 가장 이해하고 있을 것이라 판단해,  
 　　목적이 무엇인가를 캐어낼 수 있으리라 여긴 것이다.  
 
+
 　　아야는 손대중으로 싸우는 시늉을 보이고 일부러 졌다.  
 　　싸움도 하지 않고 산에 들여보내버리면 그가 인간과 이어져있다고  
 　　의심받을 가능성이 있었기 때문이다.  
@@ -45,6 +46,7 @@ import shameimaruAya from '@site/static/img/th10/shameimaru_aya.png';
 　　그리고 말단에 있는 이누바시리에게 계속해서 인간의 감시를 명령하고,  
 　　그 수수께끼의 신의 정황도 찾기로 했다.  
 
+
 　　이누바시리의 보고에 의하면 수수께끼의 신은 인간과 전투를 했지만  
 　　놀고 있는 듯하며, 놀이를 즐기고 있는 것 같았다. 성격은 매우 밝고 두뇌는 명석.  
 　　위험성은 적고 오히려 우호관계를 쌓으면 산의 요괴의 생활이 더욱 좋아질지도  
@@ -54,5 +56,6 @@ import shameimaruAya from '@site/static/img/th10/shameimaru_aya.png';
 　　뭘 이야기했는지는 공개되지 않았지만, 결과적으로 서로 산에 사는 자로서  
 　　우호관계를 쌓게 되었다고 알려졌다.  
 
+
 　　그 이후로 텐구나 캇파는 새로운 신을 신앙하게 되었다.  
-　　신앙이라고 해도 함께 연회를 여는 정도였지만.  
+　　신앙이라고 해도 함께 연회를 여는 정도였지만.

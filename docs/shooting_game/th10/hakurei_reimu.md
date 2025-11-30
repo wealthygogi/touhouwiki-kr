@@ -17,6 +17,7 @@ import hakureiReimu from '@site/static/img/th10/hakurei_reimu.png';
 　　종족: 인간  
 　　능력: 주로 하늘을 나는 정도의 능력  
 
+
 　　매번 친숙한 무녀. 하쿠레이 신사의 무녀.  
 
 　　누구에게나 평등한 성격이다.  
@@ -24,4 +25,4 @@ import hakureiReimu from '@site/static/img/th10/hakurei_reimu.png';
 　　실제로 인간이든 요괴든 그다지 흥미는 없다.  
 
 　　단, 이번 일은 신을 둘러싼 소동이다. 신의 대변자로서도  
-　　단순한 요괴퇴치와는 사정이 다르기 때문에 당황하는 기색이다.  
+　　단순한 요괴퇴치와는 사정이 다르기 때문에 당황하는 기색이다.

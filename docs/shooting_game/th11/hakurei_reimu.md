@@ -17,6 +17,7 @@ import hakureiReimu from '@site/static/img/th11/hakurei_reimu.png';
 　　종족: 인간  
 　　능력: 주로 하늘을 나는 정도의 능력  
 
+
 　　매번 친숙한 무녀. 하쿠레이 신사의 무녀.  
 
 　　누구에게나 평등한 성격이다.  

@@ -17,6 +17,7 @@ import hakureiReimu from '@site/static/img/th09/hakurei_reimu.png';
 　　종족: 인간  
 　　능력: 주로 하늘을 나는 정도의 능력  
 
+
 　　　매번 친숙한 무녀. 환상향의 경계에 있는 하쿠레이 신사의 무녀.  
 　　하쿠레이 신사는 환상향과 인간계 양쪽에 있다.  
 

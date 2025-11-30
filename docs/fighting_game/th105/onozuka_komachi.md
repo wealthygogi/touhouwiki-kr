@@ -12,7 +12,6 @@ import onozukaKomachi from '@site/static/img/th105/onozuka_komachi.png';
 
 　○삼도천의 물길 안내인  
 　　오노즈카 코마치  
-　　Onozuka Komachi  
 
 　　종족: 사신  
 　　거처: 지옥  
@@ -32,4 +31,4 @@ import onozukaKomachi from '@site/static/img/th105/onozuka_komachi.png';
 　　　상대방을 치켜세우거나 짧은 재담을 하는 등 같이 있으면 즐겁다.  
 
 　　　이건 사신 전체가 그런 것은 아니고 코마치의 성격이다.  
-　　　사신도 다양한 사신이 있는 것이다.  
+　　　사신도 다양한 사신이 있는 것이다.

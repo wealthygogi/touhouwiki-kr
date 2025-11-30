@@ -10,7 +10,9 @@ import yamashiroTakane from '@site/static/img/th18/yamashiro_takane.png';
 
 <img src={yamashiroTakane} alt="야마시로 타카네" style={{width: 250}} />
 
-　○2면 보스　깊은 산 속의 비즈니스 요괴  
+　○2면 보스  
+　　깊은 산 속의 비즈니스 요괴  
+
 　　야마시로 타카네  
 　　Yamashiro Takane  
 
@@ -28,4 +30,4 @@ import yamashiroTakane from '@site/static/img/th18/yamashiro_takane.png';
 　　기술적으로도 비즈니스적으로도 서로 의존하고 있는 것이다.  
 
 　　타카네는 그런 야마와로 중에서도 리더격 존재이다.  
-　　그 이유는 다른 야마와로보다 아주 조금, 점잖은 말투를 사용하기 때문이라고 여겨진다.  
+　　그 이유는 다른 야마와로보다 아주 조금, 점잖은 말투를 사용하기 때문이라고 여겨진다.

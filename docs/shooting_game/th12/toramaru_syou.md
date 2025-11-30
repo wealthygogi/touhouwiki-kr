@@ -56,4 +56,4 @@ import toramaruSyou from '@site/static/img/th12/toramaru_syou.png';
 
 　　"봉인을 풀기 위해는 뱌쿠렌의 동생, 묘렌의 힘이 필요합니다.  
 　　　그것이 남아 있는 것은 하늘을 나는 창고, 비보뿐......  
-　　　무라사, 배를 꺼내 찾아봅시다!"  
+　　　무라사, 배를 꺼내 찾아봅시다!"

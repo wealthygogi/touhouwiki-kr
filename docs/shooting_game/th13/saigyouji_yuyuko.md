@@ -12,7 +12,7 @@ import saigyoujiYuyuko from '@site/static/img/th13/saigyouji_yuyuko.png';
 
 　○1면 보스　당황하지 않는 망령  
 　　사이교우지 유유코  
-　　Saigyouji Yuyuko  
+　　Saigyouzi Yuyuko  
 
 　　종족: 망령  
 　　능력: 죽음을 조종하는 정도의 능력  

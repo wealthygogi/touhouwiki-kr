@@ -10,13 +10,16 @@ import miyakoYoshika from '@site/static/img/th13/miyako_yoshika.png';
 
 <img src={miyakoYoshika} alt="미야코 요시카" style={{width: 250}} />
 
-　○3면 보스　충실한 시체  
+　○3면 보스　　충실한 시체  
+
 　　미야코 요시카  
 　　Miyako Yoshika  
 
 　　종족: 강시  
 　　능력: 뭐든지 먹는 정도의 능력  
 　　　　　(인간은 일부를 먹히면 일시적으로 강시가 되어버린다)  
+
+
 
 　　청아에게 소생당한 일본 고대의 시체.  
 　　청아의 수족이 되어 일하고 있다.  

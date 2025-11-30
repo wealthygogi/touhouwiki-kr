@@ -11,6 +11,7 @@ import tataraKogasa from '@site/static/img/th12/tatara_kogasa.png';
 <img src={tataraKogasa} alt="타타라 코가사" style={{width: 250}} />
 
 　○2면 보스　　유쾌한 잃어버린 우산  
+
 　　타타라 코가사  
 　　Tatara Kogasa  
 

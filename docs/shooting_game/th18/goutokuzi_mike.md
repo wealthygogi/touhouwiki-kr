@@ -10,12 +10,15 @@ import goutokuziMike from '@site/static/img/th18/goutokuzi_mike.png';
 
 <img src={goutokuziMike} alt="고토쿠지 미케" style={{width: 250}} />
 
-　○1면 보스　장사번성의 상징물  
+　○1면 보스  
+　　장사번성의 상징물  
+
 　　고토쿠지 미케  
 　　Goutokuzi Mike  
 
 　　종족: 마네키네코  
 　　능력: 돈이나 손님을 불러들이는 정도의 능력  
+
 
 　　고토쿠지에 사는 마네키네코는 본디 하얀 고양이다.  
 　　하지만 삼색 고양이로 태어나 그 외모 때문에 고생을 한 것 같다.  
@@ -29,4 +32,4 @@ import goutokuziMike from '@site/static/img/th18/goutokuzi_mike.png';
 
 　　이렇게 되니 가게에 둘 가치가 없다. 당연히, 아무도 미케를 받아주지 않았다.  
 　　그는 오히려 다행이라고 여기며 상쾌한 마음으로 마네키네코 사회를 떠났다.  
-　　그리고 산에서 유유자적 새로운 삶을 보내게 되었다.  
+　　그리고 산에서 유유자적 새로운 삶을 보내게 되었다.

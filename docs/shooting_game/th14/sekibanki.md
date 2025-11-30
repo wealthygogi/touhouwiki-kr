@@ -11,6 +11,7 @@ import sekibanki from '@site/static/img/th14/sekibanki.png';
 <img src={sekibanki} alt="세키반키" style={{width: 250}} />
 
 　○2면 보스　　로쿠로쿠비의 괴기  
+
 　　세키반키  
 　　Sekibanki  
 

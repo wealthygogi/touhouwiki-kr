@@ -21,4 +21,4 @@ import kirisameMarisa from '@site/static/img/th16/kirisame_marisa.png';
 
 　　직접적인 피해가 없는 이변이기에 어디부터 손을 대면 좋을지 막막하다.  
 　　본격적으로 조사하려고 생각하기 전,  
-　　흥분상태의 요정들에게 휘말리듯이 전투가 시작되었다.  
+　　흥분상태의 요정들에게 휘말리듯이 전투가 시작되었다.

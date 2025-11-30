@@ -11,12 +11,18 @@ import yatsuhashi from '@site/static/img/th14/tsukumo_yatsuhashi.png';
 <img src={yatsuhashi} alt="츠쿠모 야츠하시" style={{width: 250}} />
 
 　○4면 보스  
+
+　　오래된 비파의 츠쿠모가미  
+　　츠쿠모 벤벤  
+　　Tsukumo Benben  
+
 　　오래된 거문고의 츠쿠모가미  
 　　츠쿠모 야츠하시  
 　　Tsukumo Yatsuhashi  
 
 　　종족: 츠쿠모가미  
 　　능력: 스스로 소리를 내어 연주할 수 있는 정도의 능력  
+
 
 　　각각 전통악기의 츠쿠모가미.  
 　　냉정하고 점잖은 언니 역인 벤벤과 지기 싫어하며 막무가내인 여동생 역인 야츠하시.  
@@ -27,7 +33,8 @@ import yatsuhashi from '@site/static/img/th14/tsukumo_yatsuhashi.png';
 　　그들의 목적은 도구들의 세계정복. 즉 하극상이었다.  
 　　도구가 자유롭게 움직이고 그 능력을 유감없이 발휘할 수 있는 이상향의 실현을 꿈꾸었던 것이다.  
 
-　　하지만 그 꿈은 레이무 일행에 의해 저지되었다.
+　　하지만 그 꿈은 레이무 일행에 의해 저지되었다.  
+
 
 　　그렇지만 그들은 포기하지 않았다.  
 　　그 생각이 요술방망이의 마력에 의한 영향이었다는 것을 알고나선,  

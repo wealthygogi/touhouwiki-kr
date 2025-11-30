@@ -12,7 +12,6 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 
 　○비상비비상천의 아가씨  
 　　히나나위 텐시  
-　　Hinanawi Tenshi  
 
 　　종족: 천인 나부랭이  
 
@@ -50,6 +49,7 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 　　　텐시는 집을 뛰쳐나왔다.  
 　　　천계의 도구인 비상의 검을 가지고......  
 
+
 　　거처: 천계  
 　　능력: 대지를 다루는 정도의 능력  
 
@@ -60,6 +60,7 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 　　　또한 환상향에 요석을 박거나 제거하는 것이 가능한 것도 히나나위 일족 뿐이다.  
 
 　　　요석을 제거하면 환상향 전체의 지반을 흔들리게 할 수 있다고 한다.  
+
 
 　　비상의 검의 능력: 기질을 판별하는 정도의 능력  
 
@@ -73,6 +74,7 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 　　　텐시는 비상의 검과 요석만 있다면  
 　　　하늘, 땅, 인간 전부를 조종할 수 있을 거라 생각하고 있다.  
 
+
 　　성격: 귀하게 자랐으며 제멋대로다. 기고만장하다.  
 
 　　　대개 천인이라곤 생각할 수 없을 정도로 속되고 위엄이 없다.  
@@ -82,4 +84,4 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 　　　너무 축복받은 환경은 한창 놀 때인 텐시에게 엄청난 악영향을 주기도 했다.  
 　　　상대방을 생각하지 않는 행동도 그 때문이다.  
 
-　　　자기 능력에 절대적인 자신이 있으며 능력을 남이 헐뜯으면 격분한다.  
+　　　자기 능력에 절대적인 자신이 있으며 능력을 남이 헐뜯으면 격분한다.
