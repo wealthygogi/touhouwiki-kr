@@ -13,7 +13,7 @@ import michigamiNareko from '@site/static/img/th20/michigami_nareko.png';
 　○3면 보스  
 　　핍색한 성지의 도조신  
 
-　　미치가미 나루코  
+　　미치가미 나레코  
 　　Michigami Nareko  
 
 　　종족: 도조신  
