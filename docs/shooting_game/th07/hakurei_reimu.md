@@ -4,7 +4,7 @@ title: "하쿠레이 레이무"
 description: "동방요요몽의 주인공 중 한 명"
 ---
 
-import hakureiReimu from './img/hakurei_reimu.png';
+import hakureiReimu from '@site/static/img/th07/hakurei_reimu.png';
 
 ## 하쿠레이 레이무 (博麗靈夢, Hakurei Reimu)
 

@@ -4,7 +4,7 @@ title: "텐큐 치마타"
 description: "주인 없는 물건의 신"
 ---
 
-import tenkyuChimata from './img/tenkyu_chimata.png';
+import tenkyuChimata from '@site/static/img/th18/tenkyu_chimata.png';
 
 ## 텐큐 치마타 (天弓千亦, Tenkyu Chimata)
 

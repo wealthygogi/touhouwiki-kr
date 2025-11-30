@@ -4,7 +4,7 @@ title: "키신 사구메"
 description: "설화를 불러오는 여신"
 ---
 
-import kisinSagume from './img/kisin_sagume.png';
+import kisinSagume from '@site/static/img/th15/kisin_sagume.png';
 
 ## 키신 사구메 (稀神サグメ, Kisin Sagume)
 

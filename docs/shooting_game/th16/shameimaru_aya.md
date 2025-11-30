@@ -4,7 +4,7 @@ title: "샤메이마루 아야"
 description: "단풍을 퍼뜨리는 텐구"
 ---
 
-import shameimaruAya from './img/shameimaru_aya.png';
+import shameimaruAya from '@site/static/img/th16/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (射命丸文, Shameimaru Aya)
 

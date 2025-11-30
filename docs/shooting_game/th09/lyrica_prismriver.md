@@ -4,7 +4,7 @@ title: "리리카 프리즘리버"
 description: "소령 키보디스트"
 ---
 
-import lyricaImg from './img/lyrica_prismriver.png';
+import lyricaImg from '@site/static/img/th09/lyrica_prismriver.png';
 
 ## 리리카 프리즘리버 (リリカ・プリズムリバー, Lyrica Prismriver)
 

@@ -4,7 +4,7 @@ title: "카소다니 쿄코"
 description: "독경하는 메아리"
 ---
 
-import kasodaniKyouko from './img/kasodani_kyouko.png';
+import kasodaniKyouko from '@site/static/img/th13/kasodani_kyouko.png';
 
 ## 카소다니 쿄코 (幽谷響子, Kasodani Kyouko)
 

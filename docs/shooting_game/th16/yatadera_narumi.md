@@ -4,7 +4,7 @@ title: "야타데라 나루미"
 description: "숲에서 수적한 마법 지장"
 ---
 
-import yataderaNarumi from './img/yatadera_narumi.png';
+import yataderaNarumi from '@site/static/img/th16/yatadera_narumi.png';
 
 ## 야타데라 나루미 (矢田寺成美, Yatadera Narumi)
 

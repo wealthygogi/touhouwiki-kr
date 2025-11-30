@@ -4,7 +4,7 @@ title: "미치가미 나레코"
 description: "핍색한 성지의 도조신"
 ---
 
-import michigamiNareko from './img/michigami_nareko.png';
+import michigamiNareko from '@site/static/img/th20/michigami_nareko.png';
 
 ## 미치가미 나레코 (道神馴子, Michigami Nareko)
 

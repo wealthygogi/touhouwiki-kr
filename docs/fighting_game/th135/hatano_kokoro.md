@@ -4,7 +4,7 @@ title: "하타노 코코로"
 description: "표정 풍부한 포커페이스"
 ---
 
-import hatanoKokoro from './img/hatano_kokoro.png';
+import hatanoKokoro from '@site/static/img/th135/hatano_kokoro.png';
 
 ## 하타노 코코로 (秦こころ, Hatano Kokoro)
 

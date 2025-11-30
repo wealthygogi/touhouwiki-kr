@@ -4,7 +4,7 @@ title: "손 비텐"
 description: "작은 성역의 대성"
 ---
 
-import sonBiten from './img/son_biten.png';
+import sonBiten from '@site/static/img/th19/son_biten.png';
 
 ## 손 비텐 (孫 美天, Son Biten)
 

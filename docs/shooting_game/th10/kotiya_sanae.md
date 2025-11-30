@@ -4,7 +4,7 @@ title: "코치야 사나에"
 description: "5면 보스 - 숭배받는 바람의 인간"
 ---
 
-import kotiyaSanae from './img/kotiya_sanae.png';
+import kotiyaSanae from '@site/static/img/th10/kotiya_sanae.png';
 
 ## 코치야 사나에 (東風谷早苗, Kotiya Sanae)
 

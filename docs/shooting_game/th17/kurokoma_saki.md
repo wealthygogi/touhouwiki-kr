@@ -4,7 +4,7 @@ title: "쿠로코마 사키"
 description: "경아조 조장"
 ---
 
-import kurokomaSaki from './img/kurokoma_saki.png';
+import kurokomaSaki from '@site/static/img/th17/kurokoma_saki.png';
 
 ## 쿠로코마 사키 (驪駒早鬼, Kurokoma Saki)
 

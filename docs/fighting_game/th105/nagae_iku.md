@@ -4,7 +4,7 @@ title: "나가에 이쿠"
 description: "아름다운 주홍색 옷, 공기를 읽는 용궁의 사자."
 ---
 
-import nagaeIku from './img/nagae_iku.png';
+import nagaeIku from '@site/static/img/th105/nagae_iku.png';
 
 ## 나가에 이쿠 (永江衣玖, Nagae Iku)
 

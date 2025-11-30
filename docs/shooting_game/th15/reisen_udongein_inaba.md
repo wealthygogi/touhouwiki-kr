@@ -4,7 +4,7 @@ title: "레이센 우동게인 이나바"
 description: "지상의 달토끼"
 ---
 
-import reisenUdongeinInaba from './img/reisen_udongein_inaba.png';
+import reisenUdongeinInaba from '@site/static/img/th15/reisen_udongein_inaba.png';
 
 ## 레이센 우동게인 이나바 (鈴仙・優曇華院・イナバ, Reisen Udongein Inaba)
 

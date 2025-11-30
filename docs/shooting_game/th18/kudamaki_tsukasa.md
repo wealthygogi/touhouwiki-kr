@@ -4,7 +4,7 @@ title: "쿠다마키 츠카사"
 description: "귓가에 속삭이는 사악한 백여우"
 ---
 
-import kudamakiTsukasa from './img/kudamaki_tsukasa.png';
+import kudamakiTsukasa from '@site/static/img/th18/kudamaki_tsukasa.png';
 
 ## 쿠다마키 츠카사 (管巻典, Kudamaki Tsukasa)
 

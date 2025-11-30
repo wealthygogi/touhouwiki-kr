@@ -4,7 +4,7 @@ title: "샤메이마루 아야"
 description: "4면 보스 - 마을과 가장 가까운 텐구"
 ---
 
-import shameimaruAya from './img/shameimaru_aya.png';
+import shameimaruAya from '@site/static/img/th10/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (射命丸文, Syameimaru Aya)
 

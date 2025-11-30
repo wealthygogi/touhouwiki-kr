@@ -4,7 +4,7 @@ title: "와카사기히메"
 description: "담수에 사는 인어"
 ---
 
-import wakasagihime from './img/wakasagihime.png';
+import wakasagihime from '@site/static/img/th14/wakasagihime.png';
 
 ## 와카사기히메 (わかさぎ姫, Wakasagihime)
 

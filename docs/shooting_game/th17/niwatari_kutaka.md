@@ -4,7 +4,7 @@ title: "니와타리 쿠타카"
 description: "지옥 관문의 문지기"
 ---
 
-import niwatariKutaka from './img/niwatari_kutaka.png';
+import niwatariKutaka from '@site/static/img/th17/niwatari_kutaka.png';
 
 ## 니와타리 쿠타카 (庭渡久侘歌, Niwatari Kutaka)
 

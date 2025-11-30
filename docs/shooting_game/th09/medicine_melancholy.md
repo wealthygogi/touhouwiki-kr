@@ -4,7 +4,7 @@ title: "메디슨 멜랑콜리"
 description: "자그마한 스위트 포이즌"
 ---
 
-import medicineImg from './img/medicine_melancholy.png';
+import medicineImg from '@site/static/img/th09/medicine_melancholy.png';
 
 ## 메디슨 멜랑콜리 (メディスン・メランコリー, Medicine Melancholy)
 

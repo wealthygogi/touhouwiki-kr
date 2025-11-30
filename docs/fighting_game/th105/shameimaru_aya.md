@@ -4,7 +4,7 @@ title: "샤메이마루 아야"
 description: "전통있는 환상의 신문쟁이, 바람을 다루는 텐구."
 ---
 
-import shameimaruAya from './img/shameimaru_aya.png';
+import shameimaruAya from '@site/static/img/th105/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (射命丸文, Shameimaru Aya)
 

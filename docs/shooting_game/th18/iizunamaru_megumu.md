@@ -4,7 +4,7 @@ title: "이즈나마루 메구무"
 description: "까마귀 텐구의 대장"
 ---
 
-import iizunamaruMegumu from './img/iizunamaru_megumu.png';
+import iizunamaruMegumu from '@site/static/img/th18/iizunamaru_megumu.png';
 
 ## 이즈나마루 메구무 (飯綱丸龍, Iizunamaru Megumu)
 

@@ -4,7 +4,7 @@ title: "나즈린"
 description: "1면/5면 보스 다우저인 작은 대장"
 ---
 
-import nazrin from './img/nazrin.png';
+import nazrin from '@site/static/img/th12/nazrin.png';
 
 ## 나즈린 (ナズーリン, Nazrin)
 

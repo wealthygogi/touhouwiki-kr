@@ -4,7 +4,7 @@ title: "샤메이마루 아야"
 description: "전통의 환상 신문쟁이"
 ---
 
-import shameimaruAya from './img/shameimaru_aya.png';
+import shameimaruAya from '@site/static/img/th11/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (Shameimaru Aya)
 

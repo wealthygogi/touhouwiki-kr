@@ -4,7 +4,7 @@ title: "요리가미 시온"
 description: "최흉최악의 쌍둥이 언니"
 ---
 
-import yorigamiShion from './img/yorigami_shion.png';
+import yorigamiShion from '@site/static/img/th155/yorigami_shion.png';
 
 ## 요리가미 시온 (依神紫苑, Yorigami Shion)
 

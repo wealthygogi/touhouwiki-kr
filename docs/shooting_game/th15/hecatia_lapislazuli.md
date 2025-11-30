@@ -4,7 +4,7 @@ title: "헤카티아 라피스라줄리"
 description: "지옥의 여신"
 ---
 
-import hecatiaLapislazuli from './img/hecatia_lapislazuli.png';
+import hecatiaLapislazuli from '@site/static/img/th15/hecatia_lapislazuli.png';
 
 ## 헤카티아 라피스라줄리 (ヘカーティア・ラピスラズリ, Hecatia Lapislazuli)
 

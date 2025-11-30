@@ -4,7 +4,7 @@ title: "콘파쿠 요우무"
 description: "생명의 이도류"
 ---
 
-import konpakuYoumu from './img/konpaku_youmu.png';
+import konpakuYoumu from '@site/static/img/th075/konpaku_youmu.png';
 
 ## 콘파쿠 요우무 (魂魄妖夢, Konpaku Youmu)
 

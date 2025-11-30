@@ -4,7 +4,7 @@ title: "치르노"
 description: "동방요요몽의 1면 중간보스"
 ---
 
-import cirno from './img/cirno.png';
+import cirno from '@site/static/img/th07/cirno.png';
 
 ## 치르노 (チルノ, Cirno)
 

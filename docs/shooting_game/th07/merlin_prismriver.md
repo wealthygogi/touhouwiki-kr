@@ -4,7 +4,7 @@ title: "메를랑 프리즘리버"
 description: "동방요요몽의 4면 보스"
 ---
 
-import merlinPrismriver from './img/merlin_prismriver.png';
+import merlinPrismriver from '@site/static/img/th07/merlin_prismriver.png';
 
 ## 메를랑 프리즘리버 (メルラン・プリズムリバー, Merlin Prismriver)
 

@@ -4,7 +4,7 @@ title: "이나바 테위"
 description: "행운의 하얀 토끼"
 ---
 
-import tewiImg from './img/inaba_tewi.png';
+import tewiImg from '@site/static/img/th09/inaba_tewi.png';
 
 ## 이나바 테위 (因幡 てゐ, Inaba Tei)
 

@@ -4,7 +4,7 @@ title: "이자요이 사쿠야"
 description: "악마의 메이드"
 ---
 
-import sakuya from './img/izayoi_sakuya.png';
+import sakuya from '@site/static/img/th14/izayoi_sakuya.png';
 
 ## 이자요이 사쿠야 (十六夜咲夜, Izayoi Sakuya)
 

@@ -4,7 +4,7 @@ title: "홍 메이링"
 description: "화인소녀"
 ---
 
-import hongMeiring from './img/hong_meiring.png';
+import hongMeiring from '@site/static/img/th123/hong_meiring.png';
 
 ## 홍 메이링 (紅美鈴, Hong Meiling)
 

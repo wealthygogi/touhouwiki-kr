@@ -4,7 +4,7 @@ title: "레티 화이트락"
 description: "동방요요몽의 1면 보스"
 ---
 
-import lettyWhiterock from './img/letty_whiterock.png';
+import lettyWhiterock from '@site/static/img/th07/letty_whiterock.png';
 
 ## 레티 화이트락 (レティ・ホワイトロック, Letty Whiterock)
 

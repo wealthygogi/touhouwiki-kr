@@ -4,7 +4,7 @@ title: "츠쿠모 벤벤"
 description: "오래된 비파의 츠쿠모가미"
 ---
 
-import benben from './img/tsukumo_benben.png';
+import benben from '@site/static/img/th14/tsukumo_benben.png';
 
 ## 츠쿠모 벤벤 (九十九弁々, Tsukumo Benben)
 

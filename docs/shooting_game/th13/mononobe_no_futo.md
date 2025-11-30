@@ -4,7 +4,7 @@ title: "모노노베노 후토"
 description: "고대일본의 시해선"
 ---
 
-import mononobeNoFuto from './img/mononobe_no_futo.png';
+import mononobeNoFuto from '@site/static/img/th13/mononobe_no_futo.png';
 
 ## 모노노베노 후토 (物部布都, Mononobe no Futo)
 

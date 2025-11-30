@@ -4,7 +4,7 @@ title: "미즈하시 파르시"
 description: "2면 보스 지각 아래의 질투심"
 ---
 
-import mizuhashiParsee from './img/mizuhashi_parsee.png';
+import mizuhashiParsee from '@site/static/img/th11/mizuhashi_parsee.png';
 
 ## 미즈하시 파르시 (Mizuhashi Parsee)
 

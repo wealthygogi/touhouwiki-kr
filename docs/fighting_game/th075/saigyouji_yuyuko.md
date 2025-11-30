@@ -4,7 +4,7 @@ title: "사이교우지 유유코"
 description: "천의무봉의 망령"
 ---
 
-import saigyoujiYuyuko from './img/saigyouji_yuyuko.png';
+import saigyoujiYuyuko from '@site/static/img/th075/saigyouji_yuyuko.png';
 
 ## 사이교우지 유유코 (西行寺幽々子, Saigyouji Yuyuko)
 

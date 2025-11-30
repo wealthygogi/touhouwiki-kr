@@ -4,7 +4,7 @@ title: "야쿠모 유카리"
 description: "동방요요몽의 판타즘 보스"
 ---
 
-import yakumoYukari from './img/yakumo_yukari.png';
+import yakumoYukari from '@site/static/img/th07/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲 紫, Yakumo Yukari)
 

@@ -4,7 +4,7 @@ title: "야마시로 타카네"
 description: "깊은 산 속의 비즈니스 요괴"
 ---
 
-import yamashiroTakane from './img/yamashiro_takane.png';
+import yamashiroTakane from '@site/static/img/th18/yamashiro_takane.png';
 
 ## 야마시로 타카네 (山城たかね, Yamashiro Takane)
 

@@ -4,7 +4,7 @@ title: "세키반키"
 description: "로쿠로쿠비의 괴기"
 ---
 
-import sekibanki from './img/sekibanki.png';
+import sekibanki from '@site/static/img/th14/sekibanki.png';
 
 ## 세키반키 (赤蛮奇, Sekibanki)
 

@@ -4,7 +4,7 @@ title: "코마쿠사 산뇨"
 description: "고지에 사는 야마조로"
 ---
 
-import komakusaSannyo from './img/komakusa_sannyo.png';
+import komakusaSannyo from '@site/static/img/th18/komakusa_sannyo.png';
 
 ## 코마쿠사 산뇨 (駒草山如, Komakusa Sannyo)
 

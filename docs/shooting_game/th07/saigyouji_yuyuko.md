@@ -4,7 +4,7 @@ title: "사이교우지 유유코"
 description: "동방요요몽의 6면 보스"
 ---
 
-import saigyoujiYuyuko from './img/saigyouji_yuyuko.png';
+import saigyoujiYuyuko from '@site/static/img/th07/saigyouji_yuyuko.png';
 
 ## 사이교우지 유유코 (西行寺 幽々子, Saigyouji Yuyuko)
 

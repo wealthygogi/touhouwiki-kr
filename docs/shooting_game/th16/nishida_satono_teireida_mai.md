@@ -4,8 +4,8 @@ title: "니시다 사토노 & 테이레이다 마이"
 description: "매우 위험한 백댄서들"
 ---
 
-import nishidaSatono from './img/nishida_satono.png';
-import teireidaMai from './img/teireida_mai.png';
+import nishidaSatono from '@site/static/img/th16/nishida_satono.png';
+import teireidaMai from '@site/static/img/th16/teireida_mai.png';
 
 ## 니시다 사토노 (爾子田里乃, Nishida Satono) & 테이레이다 마이 (丁礼田舞, Teireida Mai)
 

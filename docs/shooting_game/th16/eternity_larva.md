@@ -4,7 +4,7 @@ title: "이터니티 라바"
 description: "신에 다가서는 나비의 요정"
 ---
 
-import eternityLarva from './img/eternity_larva.png';
+import eternityLarva from '@site/static/img/th16/eternity_larva.png';
 
 ## 이터니티 라바 (エタニティラルバ, Eternity Larva)
 

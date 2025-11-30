@@ -4,7 +4,7 @@ title: "야고코로 에이린"
 description: "달의 두뇌"
 ---
 
-import yagokoroEirin from './img/yagokoro_eirin.png';
+import yagokoroEirin from '@site/static/img/th08/yagokoro_eirin.png';
 
 ## 야고코로 에이린 (八意永琳, Eirin Yagokoro)
 

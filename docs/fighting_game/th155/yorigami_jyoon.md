@@ -4,7 +4,7 @@ title: "요리가미 조온"
 description: "최흉최악의 쌍둥이 동생"
 ---
 
-import yorigamiJyoon from './img/yorigami_jyoon.png';
+import yorigamiJyoon from '@site/static/img/th155/yorigami_jyoon.png';
 
 ## 요리가미 조온 (依神女苑, Yorigami Jyoon)
 

@@ -4,7 +4,7 @@ title: "요모츠 히사미"
 description: "지옥의 아름다운 스토커"
 ---
 
-import yomotsuHisami from './img/yomotsu_hisami.png';
+import yomotsuHisami from '@site/static/img/th19/yomotsu_hisami.png';
 
 ## 요모츠 히사미 (豫母都 日狭美, Yomotsu Hisami)
 

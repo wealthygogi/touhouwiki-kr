@@ -4,7 +4,7 @@ title: "카와시로 니토리"
 description: "3면 보스 - 초요괴 탄두"
 ---
 
-import kawasiroNitori from './img/kawasiro_nitori.png';
+import kawasiroNitori from '@site/static/img/th10/kawasiro_nitori.png';
 
 ## 카와시로 니토리 (河城にとり, Kawasiro Nitori)
 

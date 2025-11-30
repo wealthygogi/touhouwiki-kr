@@ -4,7 +4,7 @@ title: "파츄리 널릿지"
 description: "움직이지 않는 대도서관"
 ---
 
-import patchouliKnowledge from './img/patchouli_knowledge.png';
+import patchouliKnowledge from '@site/static/img/th075/patchouli_knowledge.png';
 
 ## 파츄리 널릿지 (パチュリー・ノーレッジ, Patchouli Knowledge)
 

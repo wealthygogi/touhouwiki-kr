@@ -6,7 +6,7 @@ description: "동방홍마향의 엑스트라 보스"
 
 ## 플랑드르 스칼렛 (フランドール・スカーレット, Flandre Scarlet)
 
-import flandreScarlet from './img/flandre_scarlet.png';
+import flandreScarlet from '@site/static/img/th06/flandre_scarlet.png';
 
 <img src={flandreScarlet} alt="img" style={{width: 250}} />
 

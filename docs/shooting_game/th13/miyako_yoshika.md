@@ -4,7 +4,7 @@ title: "미야코 요시카"
 description: "충실한 시체"
 ---
 
-import miyakoYoshika from './img/miyako_yoshika.png';
+import miyakoYoshika from '@site/static/img/th13/miyako_yoshika.png';
 
 ## 미야코 요시카 (宮古芳香, Miyako Yoshika)
 

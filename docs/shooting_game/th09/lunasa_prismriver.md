@@ -4,7 +4,7 @@ title: "루나사 프리즘리버"
 description: "소령 바이올리니스트"
 ---
 
-import lunasaImg from './img/lunasa_prismriver.png';
+import lunasaImg from '@site/static/img/th09/lunasa_prismriver.png';
 
 ## 루나사 프리즘리버 (ルナサ・プリズムリバー, Lunasa Prismriver)
 

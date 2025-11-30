@@ -4,7 +4,7 @@ title: "코메이지 사토리"
 description: "4면 보스 원령도 겁먹는 소녀"
 ---
 
-import komeijiSatori from './img/komeiji_satori.png';
+import komeijiSatori from '@site/static/img/th11/komeiji_satori.png';
 
 ## 코메이지 사토리 (Komeiji Satori)
 

@@ -4,7 +4,7 @@ title: "링고"
 description: "귤색의 이글 래빗"
 ---
 
-import ringo from './img/ringo.png';
+import ringo from '@site/static/img/th15/ringo.png';
 
 ## 링고 (鈴瑚, Ringo)
 

@@ -4,7 +4,7 @@ title: "이마이즈미 카게로"
 description: "죽림의 루가루"
 ---
 
-import kagerou from './img/imaizumi_kagerou.png';
+import kagerou from '@site/static/img/th14/imaizumi_kagerou.png';
 
 ## 이마이즈미 카게로 (今泉影狼, Imaizumi Kagerou)
 

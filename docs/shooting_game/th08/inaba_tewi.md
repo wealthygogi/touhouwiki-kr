@@ -4,7 +4,7 @@ title: "이나바 테위"
 description: "지상의 토끼"
 ---
 
-import inabaTewi from './img/inaba_tewi.png';
+import inabaTewi from '@site/static/img/th08/inaba_tewi.png';
 
 ## 이나바 테위 (因幡てゐ, Tewi Inaba)
 

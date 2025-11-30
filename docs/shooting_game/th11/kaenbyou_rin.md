@@ -4,7 +4,7 @@ title: "카엔뵤 린 (오린)"
 description: "5면 보스 지옥의 윤화"
 ---
 
-import kaenbyouRin from './img/kaenbyou_rin.png';
+import kaenbyouRin from '@site/static/img/th11/kaenbyou_rin.png';
 
 ## 카엔뵤 린 (Kaenbyou Rin)
 

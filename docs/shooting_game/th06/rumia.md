@@ -6,7 +6,7 @@ description: "동방홍마향의 1면 보스"
 
 ## 루미아 (ルーミア, Rumia)
 
-import rumia from './img/rumia.png';
+import rumia from '@site/static/img/th06/rumia.png';
 
 <img src={rumia} alt="img" style={{width: 250}} />
 

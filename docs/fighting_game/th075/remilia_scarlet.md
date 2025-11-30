@@ -4,7 +4,7 @@ title: "레밀리아 스칼렛"
 description: "붉은 악마"
 ---
 
-import remiliaScarlet from './img/remilia_scarlet.png';
+import remiliaScarlet from '@site/static/img/th075/remilia_scarlet.png';
 
 ## 레밀리아 스칼렛 (レミリア・スカーレット, Remilia Scarlet)
 

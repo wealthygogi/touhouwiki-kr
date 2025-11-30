@@ -4,7 +4,7 @@ title: "타타라 코가사"
 description: "2면 보스/엑스트라 중보스 유쾌한 잃어버린 우산"
 ---
 
-import tataraKogasa from './img/tatara_kogasa.png';
+import tataraKogasa from '@site/static/img/th12/tatara_kogasa.png';
 
 ## 타타라 코가사 (多々良小傘, Tatara Kogasa)
 

@@ -6,7 +6,7 @@ description: "蓬莱人形 ~ Dolls in Pseudo Paradise"
 
 # 봉래인형
 
-import dollsInPseudoParadise from './img/Dolls_in_Pseudo_Paradise.png';
+import dollsInPseudoParadise from '@site/static/img/music/dolls_in_pseudo_paradise.png';
 
 <img src={dollsInPseudoParadise} alt="봉래인형" style={{width: 250}} />
 

@@ -4,7 +4,7 @@ title: "텐카진 치야리"
 description: "더럽혀진 유기물의 괴물"
 ---
 
-import tenkajinChiyari from './img/tenkajin_chiyari.png';
+import tenkajinChiyari from '@site/static/img/th19/tenkajin_chiyari.png';
 
 ## 텐카진 치야리 (天火人 ちやり, Tenkajin Chiyari)
 

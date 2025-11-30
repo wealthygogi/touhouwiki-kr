@@ -4,7 +4,7 @@ title: "이누바시리 모미지"
 description: "4면 중보스 - 말단 초계 텐구"
 ---
 
-import inubasiriMomizi from './img/inubasiri_momizi.png';
+import inubasiriMomizi from '@site/static/img/th10/inubasiri_momizi.png';
 
 ## 이누바시리 모미지 (犬走椛, Inubasiri Momizi)
 

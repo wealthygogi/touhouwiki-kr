@@ -4,7 +4,7 @@ title: "호쥬 누에"
 description: "옛날 요괴 그 1"
 ---
 
-import houjuuNue from './img/houjuu_nue.png';
+import houjuuNue from '@site/static/img/th13/houjuu_nue.png';
 
 ## 호쥬 누에 (封獣ぬえ, Houjuu Nue)
 

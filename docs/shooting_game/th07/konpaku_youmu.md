@@ -4,7 +4,7 @@ title: "콘파쿠 요우무"
 description: "동방요요몽의 5면 보스"
 ---
 
-import konpakuYoumu from './img/konpaku_youmu.png';
+import konpakuYoumu from '@site/static/img/th07/konpaku_youmu.png';
 
 ## 콘파쿠 요우무 (魂魄 妖夢, Konpaku Youmu)
 

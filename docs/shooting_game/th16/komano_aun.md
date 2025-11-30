@@ -4,7 +4,7 @@ title: "코마노 아운"
 description: "신과 부처에 심취하는 수호 신수"
 ---
 
-import komanoAun from './img/komano_aun.png';
+import komanoAun from '@site/static/img/th16/komano_aun.png';
 
 ## 코마노 아운 (高麗野あうん, Komano Aun)
 

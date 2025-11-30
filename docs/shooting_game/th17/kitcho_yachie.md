@@ -4,7 +4,7 @@ title: "킷초 야치에"
 description: "귀걸조 조장"
 ---
 
-import kitchoYachie from './img/kitcho_yachie.png';
+import kitchoYachie from '@site/static/img/th17/kitcho_yachie.png';
 
 ## 킷초 야치에 (吉弔八千慧, Kitcho Yachie)
 

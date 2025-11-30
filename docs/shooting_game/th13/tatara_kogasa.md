@@ -4,7 +4,7 @@ title: "타타라 코가사"
 description: "곤란한 분실물"
 ---
 
-import tataraKogasa from './img/tatara_kogasa.png';
+import tataraKogasa from '@site/static/img/th13/tatara_kogasa.png';
 
 ## 타타라 코가사 (多々良小傘, Tatara Kogasa)
 

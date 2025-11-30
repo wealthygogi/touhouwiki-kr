@@ -4,7 +4,7 @@ title: "카자미 유카"
 description: "사계절의 플라워마스터"
 ---
 
-import yuukaImg from './img/kazami_yuuka.png';
+import yuukaImg from '@site/static/img/th09/kazami_yuuka.png';
 
 ## 카자미 유카 (風見 幽香, Kazami Yuka)
 

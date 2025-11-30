@@ -4,7 +4,7 @@ title: "츠쿠모 야츠하시"
 description: "오래된 거문고의 츠쿠모가미"
 ---
 
-import yatsuhashi from './img/tsukumo_yatsuhashi.png';
+import yatsuhashi from '@site/static/img/th14/tsukumo_yatsuhashi.png';
 
 ## 츠쿠모 야츠하시 (九十九八橋, Tsukumo Yatsuhashi)
 

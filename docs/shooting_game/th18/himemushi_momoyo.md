@@ -4,7 +4,7 @@ title: "히메무시 모모요"
 description: "검은 드래곤 이터"
 ---
 
-import himemushiMomoyo from './img/himemushi_momoyo.png';
+import himemushiMomoyo from '@site/static/img/th18/himemushi_momoyo.png';
 
 ## 히메무시 모모요 (姫虫百々世, Himemushi Momoyo)
 

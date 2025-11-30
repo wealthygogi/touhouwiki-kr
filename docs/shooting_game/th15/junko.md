@@ -4,7 +4,7 @@ title: "순호"
 description: "(무명의 존재)"
 ---
 
-import junko from './img/junko.png';
+import junko from '@site/static/img/th15/junko.png';
 
 ## 순호 (純狐, Junko)
 

@@ -4,7 +4,7 @@ title: "호쥬 치미"
 description: "정체불명의 순하지 않은 요수"
 ---
 
-import houjuChimi from './img/houju_chimi.png';
+import houjuChimi from '@site/static/img/th20/houju_chimi.png';
 
 ## 호쥬 치미 (封獣チミ, Houju Chimi)
 

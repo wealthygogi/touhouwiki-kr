@@ -4,7 +4,7 @@ title: "키리사메 마리사"
 description: "혹한에 떠는 마법사"
 ---
 
-import kirisameMarisa from './img/kirisame_marisa.png';
+import kirisameMarisa from '@site/static/img/th16/kirisame_marisa.png';
 
 ## 키리사메 마리사 (霧雨魔理沙, Kirisame Marisa)
 

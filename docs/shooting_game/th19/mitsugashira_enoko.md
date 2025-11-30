@@ -4,7 +4,7 @@ title: "미츠가시라 에노코"
 description: "삼한의 케르베로스"
 ---
 
-import mitsugashiraEnoko from './img/mitsugashira_enoko.png';
+import mitsugashiraEnoko from '@site/static/img/th19/mitsugashira_enoko.png';
 
 ## 미츠가시라 에노코 (三頭 慧ノ子, Mitsugashira Enoko)
 

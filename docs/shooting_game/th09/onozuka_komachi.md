@@ -4,7 +4,7 @@ title: "오노즈카 코마치"
 description: "삼도천의 뱃길 안내인"
 ---
 
-import komachiImg from './img/onozuka_komachi.png';
+import komachiImg from '@site/static/img/th09/onozuka_komachi.png';
 
 ## 오노즈카 코마치 (小野塚 小町, Onozuka Komachi)
 

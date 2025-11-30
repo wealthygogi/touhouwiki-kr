@@ -4,7 +4,7 @@ title: "호라이산 카구야"
 description: "영원과 수유의 죄인"
 ---
 
-import houraisanKaguya from './img/houraisan_kaguya.png';
+import houraisanKaguya from '@site/static/img/th08/houraisan_kaguya.png';
 
 ## 호라이산 카구야 (蓬莱山輝夜, Kaguya Houraisan)
 

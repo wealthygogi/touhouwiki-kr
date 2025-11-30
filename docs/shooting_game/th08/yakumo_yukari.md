@@ -4,7 +4,7 @@ title: "야쿠모 유카리"
 description: "경계에 사는 요괴"
 ---
 
-import yakumoYukari from './img/yakumo_yukari.png';
+import yakumoYukari from '@site/static/img/th08/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲紫, Yukari Yakumo)
 

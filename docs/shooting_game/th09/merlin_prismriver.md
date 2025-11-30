@@ -4,7 +4,7 @@ title: "메를랑 프리즘리버"
 description: "소령 트럼페터"
 ---
 
-import merlinImg from './img/merlin_prismriver.png';
+import merlinImg from '@site/static/img/th09/merlin_prismriver.png';
 
 ## 메를랑 프리즘리버 (メルラン・プリズムリバー, Marlin Prismriver)
 

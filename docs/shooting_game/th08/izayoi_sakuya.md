@@ -4,7 +4,7 @@ title: "이자요이 사쿠야"
 description: "홍마관의 메이드"
 ---
 
-import izayoiSakuya from './img/izayoi_sakuya.png';
+import izayoiSakuya from '@site/static/img/th08/izayoi_sakuya.png';
 
 ## 이자요이 사쿠야 (十六夜咲夜, Sakuya Izayoi)
 

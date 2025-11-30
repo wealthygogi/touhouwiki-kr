@@ -4,7 +4,7 @@ title: "치리즈카 우바메"
 description: "성역에 사는 야만바의 우두머리"
 ---
 
-import chirizukaUbame from './img/chirizuka_ubame.png';
+import chirizukaUbame from '@site/static/img/th20/chirizuka_ubame.png';
 
 ## 치리즈카 우바메 (塵塚ウバメ, Chirizuka Ubame)
 

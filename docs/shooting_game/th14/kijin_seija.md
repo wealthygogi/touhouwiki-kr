@@ -4,7 +4,7 @@ title: "키진 세이자"
 description: "역습의 아마노자쿠"
 ---
 
-import seija from './img/kijin_seija.png';
+import seija from '@site/static/img/th14/kijin_seija.png';
 
 ## 키진 세이자 (鬼人正邪, Kijin Seija)
 

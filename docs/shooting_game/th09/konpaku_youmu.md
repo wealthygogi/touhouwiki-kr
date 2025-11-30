@@ -4,7 +4,7 @@ title: "콘파쿠 요우무"
 description: "반인반령의 반사람 몫"
 ---
 
-import youmuImg from './img/konpaku_youmu.png';
+import youmuImg from '@site/static/img/th09/konpaku_youmu.png';
 
 ## 콘파쿠 요우무 (魂魄 妖夢, Konpaku Youmu)
 

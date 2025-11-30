@@ -6,7 +6,7 @@ description: "동방홍마향의 5면 보스"
 
 ## 이자요이 사쿠야 (十六夜 咲夜, Izayoi Sakuya)
 
-import izayoiSakuya from './img/izayoi_sakuya.png';
+import izayoiSakuya from '@site/static/img/th06/izayoi_sakuya.png';
 
 <img src={izayoiSakuya} alt="img" style={{width: 250}} />
 

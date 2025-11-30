@@ -4,7 +4,7 @@ title: "소가노 토지코"
 description: "신의 후예인 망령"
 ---
 
-import sogaNoToziko from './img/soga_no_toziko.png';
+import sogaNoToziko from '@site/static/img/th13/soga_no_toziko.png';
 
 ## 소가노 토지코 (蘇我屠自古, Soga no Toziko)
 

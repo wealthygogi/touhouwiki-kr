@@ -4,7 +4,7 @@ title: "마타라 오키나"
 description: "궁극의 절대비신"
 ---
 
-import mataraOkina from './img/matara_okina.png';
+import mataraOkina from '@site/static/img/th16/matara_okina.png';
 
 ## 마타라 오키나 (摩多羅隠岐奈, Matara Okina)
 

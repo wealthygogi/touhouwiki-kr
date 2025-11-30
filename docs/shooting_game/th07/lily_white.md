@@ -4,7 +4,7 @@ title: "릴리 화이트"
 description: "동방요요몽의 4면 중간보스"
 ---
 
-import lilyWhite from './img/lily_white.png';
+import lilyWhite from '@site/static/img/th07/lily_white.png';
 
 ## 릴리 화이트 (リリーホワイト, Lily White)
 

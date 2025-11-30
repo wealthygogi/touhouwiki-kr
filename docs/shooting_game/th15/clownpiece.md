@@ -4,7 +4,7 @@ title: "클라운피스"
 description: "지옥의 요정"
 ---
 
-import clownpiece from './img/clownpiece.png';
+import clownpiece from '@site/static/img/th15/clownpiece.png';
 
 ## 클라운피스 (クラウンピース, Clownpiece)
 

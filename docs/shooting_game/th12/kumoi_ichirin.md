@@ -4,7 +4,7 @@ title: "쿠모이 이치린"
 description: "3면 보스 수호하고 수호받는 대륜"
 ---
 
-import kumoiIchirin from './img/kumoi_ichirin.png';
+import kumoiIchirin from '@site/static/img/th12/kumoi_ichirin.png';
 
 ## 쿠모이 이치린 (雲居一輪, Kumoi Ichirin)
 

@@ -4,7 +4,7 @@ title: "후타츠이와 마미조"
 description: "요괴너구리 십변화"
 ---
 
-import hutatsuiwaMamizou from './img/hutatsuiwa_mamizou.png';
+import hutatsuiwaMamizou from '@site/static/img/th13/hutatsuiwa_mamizou.png';
 
 ## 후타츠이와 마미조 (二ッ岩マミゾウ, Hutatsuiwa Mamizou)
 

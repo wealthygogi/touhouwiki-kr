@@ -4,7 +4,7 @@ title: "고토쿠지 미케"
 description: "장사번성의 상징물"
 ---
 
-import goutokuziMike from './img/goutokuzi_mike.png';
+import goutokuziMike from '@site/static/img/th18/goutokuzi_mike.png';
 
 ## 고토쿠지 미케 (豪徳寺ミケ, Goutokuzi Mike)
 

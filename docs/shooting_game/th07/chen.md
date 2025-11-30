@@ -4,7 +4,7 @@ title: "첸"
 description: "동방요요몽의 2면 보스, 엑스트라 중간보스"
 ---
 
-import chen from './img/chen.png';
+import chen from '@site/static/img/th07/chen.png';
 
 ## 첸 (橙, Chen)
 

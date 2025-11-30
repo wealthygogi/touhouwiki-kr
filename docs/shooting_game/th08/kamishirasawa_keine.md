@@ -4,7 +4,7 @@ title: "카미시라사와 케이네"
 description: "역사를 먹는 자"
 ---
 
-import kamishirasawaKeine from './img/kamishirasawa_keine.png';
+import kamishirasawaKeine from '@site/static/img/th08/kamishirasawa_keine.png';
 
 ## 카미시라사와 케이네 (上白沢慧音, Keine Kamishirasawa)
 

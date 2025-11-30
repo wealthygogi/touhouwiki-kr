@@ -4,7 +4,7 @@ title: "하니야스신 케이키"
 description: "고립무원이 빚어낸 조형신"
 ---
 
-import haniyasushinKeiki from './img/haniyasushin_keiki.png';
+import haniyasushinKeiki from '@site/static/img/th17/haniyasushin_keiki.png';
 
 ## 하니야스신 케이키 (埴安神袿姬, Haniyasushin Keiki)
 

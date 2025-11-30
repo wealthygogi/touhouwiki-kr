@@ -4,7 +4,7 @@ title: "곽청아"
 description: "벽을 넘나드는 사선"
 ---
 
-import kakuSeiga from './img/kaku_seiga.png';
+import kakuSeiga from '@site/static/img/th13/kaku_seiga.png';
 
 ## 곽청아 (霍青娥, Kaku Seiga)
 

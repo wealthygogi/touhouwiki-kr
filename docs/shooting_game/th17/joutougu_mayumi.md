@@ -4,7 +4,7 @@ title: "조토구 마유미"
 description: "하니와 병장"
 ---
 
-import joutouguMayumi from './img/joutougu_mayumi.png';
+import joutouguMayumi from '@site/static/img/th17/joutougu_mayumi.png';
 
 ## 조토구 마유미 (埴安神袿姬, Joutougu Mayumi)
 

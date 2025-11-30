@@ -4,7 +4,7 @@ title: "이자요이 사쿠야"
 description: "완벽하고 소쇄한 메이드"
 ---
 
-import sakuyaImg from './img/izayoi_sakuya.png';
+import sakuyaImg from '@site/static/img/th09/izayoi_sakuya.png';
 
 ## 이자요이 사쿠야 (十六夜 咲夜, Izayoi Sakuya)
 

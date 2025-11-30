@@ -4,7 +4,7 @@ title: "히지리 뱌쿠렌"
 description: "6면 보스 봉인된 대마법사"
 ---
 
-import hiziriByakuren from './img/hiziri_byakuren.png';
+import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 
 ## 히지리 뱌쿠렌 (聖白蓮, Hiziri Byakuren)
 

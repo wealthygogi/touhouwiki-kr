@@ -4,7 +4,7 @@ title: "앨리스 마가트로이드"
 description: "일곱 빛깔의 인형사"
 ---
 
-import aliceMargatroid from './img/alice_margatroid.png';
+import aliceMargatroid from '@site/static/img/th08/alice_margatroid.png';
 
 ## 앨리스 마가트로이드 (アリス・マーガトロイド, Alice Margatroid)
 

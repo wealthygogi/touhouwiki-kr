@@ -4,7 +4,7 @@ title: "치르노"
 description: "얼음의 자그마한 요정"
 ---
 
-import cirnoImg from './img/cirno.png';
+import cirnoImg from '@site/static/img/th09/cirno.png';
 
 ## 치르노 (チルノ, Cirno)
 

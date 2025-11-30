@@ -4,7 +4,7 @@ title: "토라마루 쇼"
 description: "5면 보스 비사문천의 제자"
 ---
 
-import toramaruSyou from './img/toramaru_syou.png';
+import toramaruSyou from '@site/static/img/th12/toramaru_syou.png';
 
 ## 토라마루 쇼 (寅丸星, Toramaru Syou)
 

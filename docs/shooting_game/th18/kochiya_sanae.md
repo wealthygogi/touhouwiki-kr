@@ -4,7 +4,7 @@ title: "코치야 사나에"
 description: "기적의 현인신"
 ---
 
-import kochiyaSanae from './img/kochiya_sanae.png';
+import kochiyaSanae from '@site/static/img/th18/kochiya_sanae.png';
 
 ## 코치야 사나에 (東風谷早苗, Kochiya Sanae)
 

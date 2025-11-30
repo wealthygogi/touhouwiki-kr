@@ -4,7 +4,7 @@ title: "하쿠레이 레이무"
 description: "낙원의 무녀"
 ---
 
-import hakureiReimu from './img/hakurei_reimu.png';
+import hakureiReimu from '@site/static/img/th11/hakurei_reimu.png';
 
 ## 하쿠레이 레이무 (Hakurei Reimu)
 

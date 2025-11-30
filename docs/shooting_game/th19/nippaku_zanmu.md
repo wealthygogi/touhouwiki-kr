@@ -4,7 +4,7 @@ title: "닛파쿠 잔무"
 description: "적멸위락의 왕"
 ---
 
-import nippakuZanmu from './img/nippaku_zanmu.png';
+import nippakuZanmu from '@site/static/img/th19/nippaku_zanmu.png';
 
 ## 닛파쿠 잔무 (日白 残無, Nippaku Zanmu)
 

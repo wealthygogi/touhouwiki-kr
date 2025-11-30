@@ -4,7 +4,7 @@ title: "야쿠모 유카리"
 description: "환상의 경계"
 ---
 
-import yakumoYukari from './img/yakumo_yukari.png';
+import yakumoYukari from '@site/static/img/th075/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲紫, Yakumo Yukari)
 

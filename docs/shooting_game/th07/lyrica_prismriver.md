@@ -4,7 +4,7 @@ title: "리리카 프리즘리버"
 description: "동방요요몽의 4면 보스"
 ---
 
-import lyricaPrismriver from './img/lyrica_prismriver.png';
+import lyricaPrismriver from '@site/static/img/th07/lyrica_prismriver.png';
 
 ## 리리카 프리즘리버 (リリカ・プリズムリバー, Lyrica Prismriver)
 

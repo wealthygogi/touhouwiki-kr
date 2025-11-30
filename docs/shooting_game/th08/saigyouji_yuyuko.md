@@ -4,7 +4,7 @@ title: "사이교우지 유유코"
 description: "화서의 망령"
 ---
 
-import saigyoujiYuyuko from './img/saigyouji_yuyuko.png';
+import saigyoujiYuyuko from '@site/static/img/th08/saigyouji_yuyuko.png';
 
 ## 사이교우지 유유코 (西行寺幽々子, Yuyuko Saigyouji)
 

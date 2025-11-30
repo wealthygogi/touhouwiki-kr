@@ -4,7 +4,7 @@ title: "히나나위 텐시"
 description: "비상비비상천의 아가씨, 대지와 기질을 다루는 천인."
 ---
 
-import hinanawiTenshi from './img/hinanawi_tenshi.png';
+import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 
 ## 히나나위 텐시 (比那名居天子, Hinanawi Tenshi)
 

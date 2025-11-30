@@ -4,7 +4,7 @@ title: "아키 미노리코"
 description: "1면 보스 - 풍요와 결실의 상징"
 ---
 
-import akiMinoriko from './img/aki_minoriko.png';
+import akiMinoriko from '@site/static/img/th10/aki_minoriko.png';
 
 ## 아키 미노리코 (秋穣子, Aki Minoriko)
 

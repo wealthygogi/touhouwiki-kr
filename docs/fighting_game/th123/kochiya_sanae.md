@@ -4,7 +4,7 @@ title: "코치야 사나에"
 description: "모셔지는 바람의 인간"
 ---
 
-import kochiyaSanae from './img/kochiya_sanae.png';
+import kochiyaSanae from '@site/static/img/th123/kochiya_sanae.png';
 
 ## 코치야 사나에 (東風谷早苗, Kochiya Sanae)
 

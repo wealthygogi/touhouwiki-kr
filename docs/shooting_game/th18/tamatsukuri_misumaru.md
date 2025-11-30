@@ -4,7 +4,7 @@ title: "타마츠쿠리 미스마루"
 description: "진짜 곡옥 제작 장인"
 ---
 
-import tamatsukuriMisumaru from './img/tamatsukuri_misumaru.png';
+import tamatsukuriMisumaru from '@site/static/img/th18/tamatsukuri_misumaru.png';
 
 ## 타마츠쿠리 미스마루 (玉造魅須丸, Tamatsukuri Misumaru)
 

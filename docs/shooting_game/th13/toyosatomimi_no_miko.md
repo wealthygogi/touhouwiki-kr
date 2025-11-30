@@ -4,7 +4,7 @@ title: "토요사토미미노 미코"
 description: "쇼토쿠 도사"
 ---
 
-import toyosatomimiNoMiko from './img/toyosatomimi_no_miko.png';
+import toyosatomimiNoMiko from '@site/static/img/th13/toyosatomimi_no_miko.png';
 
 ## 토요사토미미노 미코 (豊聡耳神子, Toyosatomimi no Miko)
 

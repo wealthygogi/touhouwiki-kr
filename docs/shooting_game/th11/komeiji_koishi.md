@@ -4,7 +4,7 @@ title: "코메이지 코이시"
 description: "EX 보스 닫힌 사랑의 눈동자"
 ---
 
-import komeijiKoishi from './img/komeiji_koishi.png';
+import komeijiKoishi from '@site/static/img/th11/komeiji_koishi.png';
 
 ## 코메이지 코이시 (Komeiji Koishi)
 

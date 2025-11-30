@@ -4,7 +4,7 @@ title: "후지와라노 모코우"
 description: "봉래의 인형"
 ---
 
-import huziwaraNoMokou from './img/huziwara_no_mokou.png';
+import huziwaraNoMokou from '@site/static/img/th08/huziwara_no_mokou.png';
 
 ## 후지와라노 모코우 (藤原妹紅, Huziwara no Mokou)
 

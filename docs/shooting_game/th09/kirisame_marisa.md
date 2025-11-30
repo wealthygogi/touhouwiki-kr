@@ -4,7 +4,7 @@ title: "키리사메 마리사"
 description: "평범한 마법사"
 ---
 
-import marisaImg from './img/kirisame_marisa.png';
+import marisaImg from '@site/static/img/th09/kirisame_marisa.png';
 
 ## 키리사메 마리사 (霧雨 魔理沙, Kirisame Marisa)
 

@@ -4,7 +4,7 @@ title: "오노즈카 코마치"
 description: "삼도천의 물길 안내인, 거리를 조종하는 사신."
 ---
 
-import onozukaKomachi from './img/onozuka_komachi.png';
+import onozukaKomachi from '@site/static/img/th105/onozuka_komachi.png';
 
 ## 오노즈카 코마치 (小野塚小町, Onozuka Komachi)
 

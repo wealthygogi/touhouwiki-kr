@@ -4,7 +4,7 @@ title: "우시자키 우루미"
 description: "고대어의 아이를 데리고 있는 파수꾼"
 ---
 
-import ushizakiUrumi from './img/ushizaki_urumi.png';
+import ushizakiUrumi from '@site/static/img/th17/ushizaki_urumi.png';
 
 ## 우시자키 우루미 (牛崎潤美, Ushizaki Urumi)
 

@@ -4,7 +4,7 @@ title: "미스티아 로렐라이"
 description: "밤참새 요괴"
 ---
 
-import mystiaLorelei from './img/mystia_lorelei.png';
+import mystiaLorelei from '@site/static/img/th08/mystia_lorelei.png';
 
 ## 미스티아 로렐라이 (ミスティア・ローレライ, Mystia Lorelei)
 

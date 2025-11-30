@@ -4,7 +4,7 @@ title: "레이우지 우츠호 (오쿠)"
 description: "6면 보스 뜨겁게 고뇌하는 신의 불길"
 ---
 
-import reiuziUtsuho from './img/reiuzi_utsuho.png';
+import reiuziUtsuho from '@site/static/img/th11/reiuzi_utsuho.png';
 
 ## 레이우지 우츠호 (Reiuzi Utsuho)
 

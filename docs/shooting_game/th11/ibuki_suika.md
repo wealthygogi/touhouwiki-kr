@@ -4,7 +4,7 @@ title: "이부키 스이카"
 description: "작은 백귀야행"
 ---
 
-import ibukiSuika from './img/ibuki_suika.png';
+import ibukiSuika from '@site/static/img/th11/ibuki_suika.png';
 
 ## 이부키 스이카 (Ibuki Suika)
 

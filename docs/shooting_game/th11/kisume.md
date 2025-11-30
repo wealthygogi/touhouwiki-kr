@@ -4,7 +4,7 @@ title: "키스메"
 description: "1면 중보스 무서운 우물의 요괴"
 ---
 
-import kisume from './img/kisume.png';
+import kisume from '@site/static/img/th11/kisume.png';
 
 ## 키스메 (Kisume)
 

@@ -4,7 +4,7 @@ title: "카기야마 히나"
 description: "2면 보스 - 숨은 신 나가시히나"
 ---
 
-import kagiyamaHina from './img/kagiyama_hina.png';
+import kagiyamaHina from '@site/static/img/th10/kagiyama_hina.png';
 
 ## 카기야마 히나 (鍵山雛, Kagiyama Hina)
 

@@ -4,7 +4,7 @@ title: "키리사메 마리사"
 description: "동방요요몽의 주인공 중 한 명"
 ---
 
-import kirisameMarisa from './img/kirisame_marisa.png';
+import kirisameMarisa from '@site/static/img/th07/kirisame_marisa.png';
 
 ## 키리사메 마리사 (霧雨 魔理沙, Kirisame Marisa)
 

@@ -4,7 +4,7 @@ title: "시키에이키 야마자나두"
 description: "낙원의 최고 재판장"
 ---
 
-import shikiImg from './img/shiki_eiki_yamaxanadu.png';
+import shikiImg from '@site/static/img/th09/shiki_eiki_yamaxanadu.png';
 
 ## 시키에이키 야마자나두 (式神・エイキ・ヤマザナドゥ, Shiki Eiki Yamaxanadu)
 

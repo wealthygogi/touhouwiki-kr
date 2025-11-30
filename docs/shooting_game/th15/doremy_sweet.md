@@ -4,7 +4,7 @@ title: "도레미 스위트"
 description: "꿈의 지배자"
 ---
 
-import doremySweet from './img/doremy_sweet.png';
+import doremySweet from '@site/static/img/th15/doremy_sweet.png';
 
 ## 도레미 스위트 (ドレミー・スイート, Doremy Sweet)
 

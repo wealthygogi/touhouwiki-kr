@@ -4,7 +4,7 @@ title: "모리야 스와코"
 description: "엑스트라 보스 - 토착신의 정점"
 ---
 
-import moriyaSuwako from './img/moriya_suwako.png';
+import moriyaSuwako from '@site/static/img/th10/moriya_suwako.png';
 
 ## 모리야 스와코 (洩矢諏訪子, Moriya Suwako)
 

@@ -4,7 +4,7 @@ title: "무라사 미나미츠"
 description: "4면 보스 수난사고의 염박령"
 ---
 
-import captainMurasaMinamitsu from './img/captain_murasa_minamitsu.png';
+import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamitsu.png';
 
 ## 무라사 미나미츠 (村紗水蜜, Captain Murasa Minamitsu)
 

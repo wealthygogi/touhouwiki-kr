@@ -4,7 +4,7 @@ title: "우사미 스미레코"
 description: "심비를 밝혀라! 비봉클럽 초대회장"
 ---
 
-import usamiSumireko from './img/usami_sumireko.png';
+import usamiSumireko from '@site/static/img/th145/usami_sumireko.png';
 
 ## 우사미 스미레코 (宇佐見菫子, Usami Sumireko)
 

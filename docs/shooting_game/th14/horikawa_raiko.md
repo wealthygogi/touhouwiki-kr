@@ -4,7 +4,7 @@ title: "호리카와 라이코"
 description: "몽환의 퍼커셔니스트"
 ---
 
-import raiko from './img/horikawa_raiko.png';
+import raiko from '@site/static/img/th14/horikawa_raiko.png';
 
 ## 호리카와 라이코 (堀川雷鼓, Horikawa Raiko)
 

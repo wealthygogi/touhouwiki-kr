@@ -4,7 +4,7 @@ title: "사카타 네무노"
 description: "속세의 관문을 넘는 야마우바"
 ---
 
-import sakataNemuno from './img/sakata_nemuno.png';
+import sakataNemuno from '@site/static/img/th16/sakata_nemuno.png';
 
 ## 사카타 네무노 (坂田ネムノ, Sakata Nemuno)
 

@@ -4,7 +4,7 @@ title: "아키 시즈하"
 description: "1면 중보스 - 쓸쓸함과 종언의 상징"
 ---
 
-import akiSizuha from './img/aki_sizuha.png';
+import akiSizuha from '@site/static/img/th10/aki_sizuha.png';
 
 ## 아키 시즈하 (秋静葉, Aki Sizuha)
 

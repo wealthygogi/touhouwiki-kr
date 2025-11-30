@@ -4,7 +4,7 @@ title: "야사카 카나코"
 description: "6면 보스 - 산비탈과 호수의 화신"
 ---
 
-import yasakaKanako from './img/yasaka_kanako.png';
+import yasakaKanako from '@site/static/img/th10/yasaka_kanako.png';
 
 ## 야사카 카나코 (八坂神奈子, Yasaka Kanako)
 

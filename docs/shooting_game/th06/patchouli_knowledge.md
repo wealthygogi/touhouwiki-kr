@@ -6,7 +6,7 @@ description: "동방홍마향의 4면 보스"
 
 ## 파츄리 널릿지 (パチュリー・ノーレッジ, Patchouli Knowledge)
 
-import patchouliKnowledge from './img/patchouli_knowledge.png';
+import patchouliKnowledge from '@site/static/img/th06/patchouli_knowledge.png';
 
 <img src={patchouliKnowledge} alt="img" style={{width: 250}} />
 

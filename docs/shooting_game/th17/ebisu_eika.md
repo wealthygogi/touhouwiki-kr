@@ -4,7 +4,7 @@ title: "에비스 에이카"
 description: "강가의 아이돌 미즈코"
 ---
 
-import ebisuEika from './img/ebisu_eika.png';
+import ebisuEika from '@site/static/img/th17/ebisu_eika.png';
 
 ## 에비스 에이카 (戎瓔花, Ebisu Eika)
 

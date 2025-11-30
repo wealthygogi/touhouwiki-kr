@@ -4,7 +4,7 @@ title: "호시구마 유기"
 description: "3면 보스 일컬어지는 괴력난신"
 ---
 
-import hoshigumaYugi from './img/hoshiguma_yugi.png';
+import hoshigumaYugi from '@site/static/img/th11/hoshiguma_yugi.png';
 
 ## 호시구마 유기 (Hoshiguma Yugi)
 

@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     title: "글 출처",
     Svg: () => (
       <img
-        src={require("@site/static/img/AbstractCactus_Logo_03.png").default}
+        src={require("@site/static/img/abstractcactus_logo_03.png").default}
         alt="Abstract Cactus Logo"
         style={{ maxWidth: "100px" }}
       />

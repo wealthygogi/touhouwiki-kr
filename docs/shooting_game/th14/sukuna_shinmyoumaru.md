@@ -4,7 +4,7 @@ title: "스쿠나 신묘마루"
 description: "난쟁이의 후예"
 ---
 
-import shinmyoumaru from './img/sukuna_shinmyoumaru.png';
+import shinmyoumaru from '@site/static/img/th14/sukuna_shinmyoumaru.png';
 
 ## 스쿠나 신묘마루 (少名針妙丸, Sukuna Shinmyoumaru)
 
