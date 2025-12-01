@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방요요몽 캐릭터",
+    "description": "요요몽 본편에 등장하는 인물들을 한 곳에서 정리했습니다."
+  }
+}

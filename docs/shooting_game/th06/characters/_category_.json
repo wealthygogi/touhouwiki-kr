@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방홍마향 캐릭터",
+    "description": "게임의 주요/엑스트라 캐릭터를 한곳에서 탐색할 수 있도록 정리했습니다."
+  }
+}

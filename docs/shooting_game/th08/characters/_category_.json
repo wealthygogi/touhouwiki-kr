@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방영야초 캐릭터",
+    "description": "영야초 본편의 조합/보스들을 한곳에 모았습니다."
+  }
+}

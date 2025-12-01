@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방화영총 대사집",
+    "description": "각 캐릭터 스토리/엔딩/대사를 모은 허브입니다."
+  }
+}

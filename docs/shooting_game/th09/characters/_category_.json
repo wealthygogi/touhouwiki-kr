@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방화영총 캐릭터",
+    "description": "화영총에 등장하는 플레이어/보스 캐릭터를 한곳에 정리했습니다."
+  }
+}

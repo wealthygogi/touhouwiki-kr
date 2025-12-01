@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방영야초 대사집",
+    "description": "팀별 시나리오·엔딩·엑스트라 정리를 모았습니다."
+  }
+}

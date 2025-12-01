@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방요요몽 음악",
+    "description": "OST, 어레인지, 관련 음반 자료를 정리할 공간입니다."
+  }
+}

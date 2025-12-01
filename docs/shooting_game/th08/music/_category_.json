@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방영야초 음악",
+    "description": "영야초 OST, 어레인지, 관련 음반을 정리하는 공간입니다."
+  }
+}

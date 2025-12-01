@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방요요몽 대사집",
+    "description": "루트/난이도별 대사를 체계적으로 정리하는 모음집입니다."
+  }
+}

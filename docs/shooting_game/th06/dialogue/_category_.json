@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방홍마향 대사집",
+    "description": "스토리 모드에서 등장하는 대사를 루트/난이도별로 정리할 예정입니다."
+  }
+}
