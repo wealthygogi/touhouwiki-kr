@@ -7,9 +7,6 @@ description: "레이무 A 루트 엑스트라 스테이지 대사를 표 형식�
 > 데이터 출처: [Touhou Patch Center — Th14/Reimu A's Extra](https://www.thpatch.net/wiki/Th14/Reimu_A%27s_Extra/ko). <br />
 > 원문은 CC BY-SA 4.0을 따르며, 동일한 라이선스로 재배포했습니다.
 
-|  |  |
-| --- | --- |
-| [Gnome-colors-gtk-edit.svg](https://www.thpatch.net/wiki/File:Gnome-colors-gtk-edit.svg) | `st07a.msg.jdiff` |
 
 |  |  |
 | --- | --- |
