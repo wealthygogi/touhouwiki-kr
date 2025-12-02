@@ -6,6 +6,7 @@
   "link": {
     "type": "generated-index",
     "title": "동방성련선 음악",
-    "description": "OST, Music Room 번역, 음반 메모를 모아둘 예정입니다."
+    "description": "OST와 관련 음반 정보를 모아둘 공간입니다.",
+    "slug": "/shooting-game/th12/music"
   }
 }
