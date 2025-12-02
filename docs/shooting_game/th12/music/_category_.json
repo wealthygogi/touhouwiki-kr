@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방성련선 음악",
+    "description": "OST, Music Room 번역, 음반 메모를 모아둘 예정입니다."
+  }
+}

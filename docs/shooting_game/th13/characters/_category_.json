@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방신령묘 캐릭터",
+    "description": "보스와 플레이어 기체, 스토리 인물 정보를 모았습니다."
+  }
+}

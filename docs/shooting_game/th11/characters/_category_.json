@@ -1,0 +1,11 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방지령전 캐릭터",
+    "description": "보스, 중간보스, 지원 파트너 등의 설정을 한곳에서 탐색할 수 있도록 묶었습니다."
+  }
+}

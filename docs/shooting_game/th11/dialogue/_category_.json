@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방지령전 대사집",
+    "description": "각 루트의 시나리오·엔딩·엑스트라 번역을 모았습니다."
+  }
+}

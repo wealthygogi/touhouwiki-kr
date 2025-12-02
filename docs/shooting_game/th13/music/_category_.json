@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방신령묘 음악",
+    "description": "OST, Music Room 번역, 관련 음반을 정리할 예정입니다."
+  }
+}

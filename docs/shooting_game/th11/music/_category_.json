@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방지령전 음악",
+    "description": "OST와 관련 음반 정보를 정리할 공간입니다."
+  }
+}

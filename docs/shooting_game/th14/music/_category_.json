@@ -1,0 +1,11 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방심비록 음악",
+    "description": "OST와 Music Room 번역을 정리할 공간입니다."
+  }
+}

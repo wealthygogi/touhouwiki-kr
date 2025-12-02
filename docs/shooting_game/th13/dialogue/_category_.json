@@ -1,0 +1,11 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방신령묘 대사집",
+    "description": "캐릭터별 시나리오·엑스트라·엔딩 번역을 모았습니다."
+  }
+}
