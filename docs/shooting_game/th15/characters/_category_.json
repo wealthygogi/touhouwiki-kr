@@ -1,0 +1,12 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방감주전 캐릭터",
+    "description": "보스, 플레이어 기체, 주요 스토리 인물을 묶었습니다.",
+    "slug": "/shooting-game/th15/characters"
+  }
+}
