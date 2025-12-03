@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktouhouwiki_kr=self.webpackChunktouhouwiki_kr||[]).push([[35742],{27093:u=>{u.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
