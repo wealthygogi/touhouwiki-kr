@@ -252,7 +252,7 @@ description: "결계조 본편 스테이지 대사를 정리했습니다."
 | 레이센 | `#2@66`아아, 사부님께 야단맞겠다아...... |
 |  | ➜ *다음 스테이지: [6B](#6B)* |
 
-## 스테이지 6A
+## 스테이지 6A {#6A}
 
 |  |  |
 | --- | --- |
@@ -322,7 +322,7 @@ description: "결계조 본편 스테이지 대사를 정리했습니다."
 |  | * 영원의 밤이 오전 5시 전에 끝났을 때 |
 |  | [노멀 엔딩 #5](https://www.thpatch.net/wiki/Special:MyLanguage/:Th08/Boundary_Team%27s_Endings#5 "Special:MyLanguage/:Th08/Boundary Team's Endings") |
 
-## 스테이지 6B
+## 스테이지 6B {#6B}
 
 |  |  |
 | --- | --- |

@@ -252,7 +252,7 @@ description: "영창조 본편 스테이지 대사를 정리했습니다."
 | 레이센 | `#2@68`아아, 사부님께 야단맞겠다아...... |
 |  | ➜ *다음 스테이지: [6B](#6B)* |
 
-## 스테이지 6A
+## 스테이지 6A {#6A}
 
 |  |  |
 | --- | --- |
@@ -316,7 +316,7 @@ description: "영창조 본편 스테이지 대사를 정리했습니다."
 |  | * 영원의 밤이 오전 5시 전에 끝났을 때 |
 |  | [노멀 엔딩 #6](https://www.thpatch.net/wiki/Special:MyLanguage/:Th08/Magic_Team%27s_Endings#6 "Special:MyLanguage/:Th08/Magic Team's Endings") |
 
-## 스테이지 6B
+## 스테이지 6B {#6B}
 
 |  |  |
 | --- | --- |

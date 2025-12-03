@@ -239,7 +239,7 @@ description: "명계조 본편 스테이지 대사를 정리했습니다."
 | 유유코 | `#2@67`뭐, 휴식은 되지 않을지도 모르겠지만 말이지. |
 |  | ➜ *다음 스테이지: [6B](#6B)* |
 
-## 스테이지 6A
+## 스테이지 6A {#6A}
 
 |  |  |
 | --- | --- |
@@ -322,7 +322,7 @@ description: "명계조 본편 스테이지 대사를 정리했습니다."
 |  | * 영원의 밤이 오전 5시 전에 끝났을 때 |
 |  | [노멀 엔딩 #8](https://www.thpatch.net/wiki/Special:MyLanguage/:Th08/Ghost_Team%27s_Endings#8 "Special:MyLanguage/:Th08/Ghost Team's Endings") |
 
-## 스테이지 6B
+## 스테이지 6B {#6B}
 
 |  |  |
 | --- | --- |
