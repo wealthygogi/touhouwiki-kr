@@ -1,0 +1,12 @@
+{
+  "label": "대사집",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방심비록 대사집",
+    "description": "루트별 시나리오·엔딩·승리 대사를 모았습니다.",
+    "slug": "/fighting-game/th145/dialogue"
+  }
+}
