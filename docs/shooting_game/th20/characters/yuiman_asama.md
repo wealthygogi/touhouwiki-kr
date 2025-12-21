@@ -4,7 +4,11 @@ title: "유이만 아사마"
 description: "비단 위 도시의 급소"
 ---
 
+import yuimanAsama from '@site/static/img/th20/yuiman_asama.png';
+
 ## 유이만 아사마 (ユイマン・浅間, Yuiman Asama)
+
+<img src={yuimanAsama} alt="유이만 아사마" style={{width: 250}} />
 
 　○4면 보스  
 　　금상의 수도의 급소  

@@ -4,7 +4,11 @@ title: "와타츠키 토요히메"
 description: "삼각산과 바다를 잇는 현자"
 ---
 
+import watatsukiToyohime from '@site/static/img/th20/watatsuki_toyohime.png';
+
 ## 와타츠키 토요히메 (綿月豊姫, Watatsuki Toyohime)
+
+<img src={watatsukiToyohime} alt="와타츠키 토요히메" style={{width: 250}} />
 
 　○5면 보스  
 
