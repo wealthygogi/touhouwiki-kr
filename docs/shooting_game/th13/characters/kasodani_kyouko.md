@@ -8,7 +8,7 @@ import kasodaniKyouko from '@site/static/img/th13/kasodani_kyouko.png';
 
 ## 카소다니 쿄코 (幽谷響子, Kasodani Kyouko)
 
-<img src={kasodaniKyouko} alt="카소다니 쿄코" style={{width: 250}} />
+<img src={kasodaniKyouko} alt="카소다니 쿄코" style={{height: 500}} />
 
 　○2면 보스　　독경하는 메아리  
 

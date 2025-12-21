@@ -8,7 +8,7 @@ import iwanagaAriya from '@site/static/img/th20/iwanaga_ariya.png';
 
 ## 이와나가 아리야 (磐永阿梨夜, Iwanaga Ariya)
 
-<img src={iwanagaAriya} alt="이와나가 아리야" style={{width: 250}} />
+<img src={iwanagaAriya} alt="이와나가 아리야" style={{height: 500}} />
 
 　○6면 보스  
 

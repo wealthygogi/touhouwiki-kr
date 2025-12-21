@@ -8,7 +8,7 @@ import onozukaKomachi from '@site/static/img/th105/onozuka_komachi.png';
 
 ## 오노즈카 코마치 (小野塚小町, Onozuka Komachi)
 
-<img src={onozukaKomachi} alt="오노즈카 코마치" style={{width: 250}} />
+<img src={onozukaKomachi} alt="오노즈카 코마치" style={{height: 500}} />
 
 　○삼도천의 물길 안내인  
 　　오노즈카 코마치  

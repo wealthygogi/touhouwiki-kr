@@ -8,7 +8,7 @@ import sakuya from '@site/static/img/th14/izayoi_sakuya.png';
 
 ## 이자요이 사쿠야 (十六夜咲夜, Izayoi Sakuya)
 
-<img src={sakuya} alt="이자요이 사쿠야" style={{width: 250}} />
+<img src={sakuya} alt="이자요이 사쿠야" style={{height: 500}} />
 
 　○악마의 메이드  
 　　이자요이 사쿠야  

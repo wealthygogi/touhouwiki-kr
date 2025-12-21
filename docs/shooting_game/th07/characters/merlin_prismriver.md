@@ -8,7 +8,7 @@ import merlinPrismriver from '@site/static/img/th07/merlin_prismriver.png';
 
 ## 메를랑 프리즘리버 (メルラン・プリズムリバー, Merlin Prismriver)
 
-<img src={merlinPrismriver} alt="메를랑 프리즘리버" style={{width: 250}} />
+<img src={merlinPrismriver} alt="메를랑 프리즘리버" style={{height: 500}} />
 
 　○소령 세자매  
 　　장녀 루나사 프리즘리버  

@@ -8,7 +8,7 @@ import houjuuNue from '@site/static/img/th12/houjuu_nue.png';
 
 ## 호쥬 누에 (封獣ぬえ, Houjuu Nue)
 
-<img src={houjuuNue} alt="호쥬 누에" style={{width: 250}} />
+<img src={houjuuNue} alt="호쥬 누에" style={{height: 500}} />
 
 　○엑스트라 보스　　미확인 환상 비행소녀  
 　　호쥬 누에  

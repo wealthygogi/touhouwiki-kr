@@ -8,7 +8,7 @@ import kurokomaSaki from '@site/static/img/th17/kurokoma_saki.png';
 
 ## 쿠로코마 사키 (驪駒早鬼, Kurokoma Saki)
 
-<img src={kurokomaSaki} alt="쿠로코마 사키" style={{width: 250}} />
+<img src={kurokomaSaki} alt="쿠로코마 사키" style={{height: 500}} />
 
 　○엑스트라 보스  
 　　경아조 조장  

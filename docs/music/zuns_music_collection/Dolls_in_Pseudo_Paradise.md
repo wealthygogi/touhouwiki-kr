@@ -8,7 +8,7 @@ slug: "dolls-in-pseudo-paradise"
 # 봉래인형
 
 <!-- import albumCover from '@site/static/img/music/dolls_in_pseudo_paradise.png'; -->
-<!-- <img src={albumCover} alt="봉래인형" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="봉래인형" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 봉래인형 ~ Dolls in Pseudo Paradise](https://namu.wiki/w/%EB%B4%89%EB%9E%98%EC%9D%B8%ED%98%95%20~%20Dolls%20in%20Pseudo%20Paradise)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

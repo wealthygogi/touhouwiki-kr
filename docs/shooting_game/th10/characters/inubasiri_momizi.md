@@ -8,7 +8,7 @@ import inubasiriMomizi from '@site/static/img/th10/inubasiri_momizi.png';
 
 ## 이누바시리 모미지 (犬走椛, Inubasiri Momizi)
 
-<img src={inubasiriMomizi} alt="이누바시리 모미지" style={{width: 250}} />
+<img src={inubasiriMomizi} alt="이누바시리 모미지" style={{height: 500}} />
 
 　○4면 중보스　말단 초계 텐구  
 　　이누바시리 모미지  

@@ -8,7 +8,7 @@ import clownpiece from '@site/static/img/th15/clownpiece.png';
 
 ## 클라운피스 (クラウンピース, Clownpiece)
 
-<img src={clownpiece} alt="클라운피스" style={{width: 250}} />
+<img src={clownpiece} alt="클라운피스" style={{height: 500}} />
 
 　○5면 보스　　지옥의 요정  
 　　클라운피스  

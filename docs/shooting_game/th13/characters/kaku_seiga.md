@@ -8,7 +8,7 @@ import kakuSeiga from '@site/static/img/th13/kaku_seiga.png';
 
 ## 곽청아 (霍青娥, Kaku Seiga)
 
-<img src={kakuSeiga} alt="곽청아" style={{width: 250}} />
+<img src={kakuSeiga} alt="곽청아" style={{height: 500}} />
 
 　○4면 보스　　벽을 넘나드는 사선  
 

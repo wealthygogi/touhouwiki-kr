@@ -8,7 +8,7 @@ import seiran from '@site/static/img/th15/seiran.png';
 
 ## 세이란 (清蘭, Seiran)
 
-<img src={seiran} alt="세이란" style={{width: 250}} />
+<img src={seiran} alt="세이란" style={{height: 500}} />
 
 　○1면 보스　　옥색의 이글 래빗  
 　　세이란  

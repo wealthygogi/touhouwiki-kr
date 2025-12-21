@@ -8,7 +8,7 @@ import cirnoImg from '@site/static/img/th09/cirno.png';
 
 ## 치르노 (チルノ, Cirno)
 
-<img src={cirnoImg} alt="치르노" style={{width: 250}} />
+<img src={cirnoImg} alt="치르노" style={{height: 500}} />
 
 　○얼음의 자그마한 요정  
 　　치르노  

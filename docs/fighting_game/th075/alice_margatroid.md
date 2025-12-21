@@ -8,7 +8,7 @@ import aliceMargatroid from '@site/static/img/th075/alice_margatroid.png';
 
 ## 앨리스 마가트로이드 (アリス・マーガトロイド, Alice Margatroid)
 
-<img src={aliceMargatroid} alt="앨리스 마가트로이드" style={{width: 250}} />
+<img src={aliceMargatroid} alt="앨리스 마가트로이드" style={{height: 500}} />
 
 　○칠색의 인형사  
 　　앨리스 마가트로이드  

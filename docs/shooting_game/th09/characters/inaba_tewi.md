@@ -8,7 +8,7 @@ import tewiImg from '@site/static/img/th09/inaba_tewi.png';
 
 ## 이나바 테위 (因幡 てゐ, Inaba Tei)
 
-<img src={tewiImg} alt="이나바 테위" style={{width: 250}} />
+<img src={tewiImg} alt="이나바 테위" style={{height: 500}} />
 
 　○행운의 하얀 토끼  
 　　이나바 테위  

@@ -8,7 +8,7 @@ import komanoAun from '@site/static/img/th16/komano_aun.png';
 
 ## 코마노 아운 (高麗野あうん, Komano Aun)
 
-<img src={komanoAun} alt="코마노 아운" style={{width: 250}} />
+<img src={komanoAun} alt="코마노 아운" style={{height: 500}} />
 
 　○3면 보스  
 　　신과 부처에 심취하는 수호 신수  

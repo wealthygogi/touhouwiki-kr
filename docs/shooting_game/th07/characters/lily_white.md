@@ -8,7 +8,7 @@ import lilyWhite from '@site/static/img/th07/lily_white.png';
 
 ## 릴리 화이트 (リリーホワイト, Lily White)
 
-<img src={lilyWhite} alt="릴리 화이트" style={{width: 250}} />
+<img src={lilyWhite} alt="릴리 화이트" style={{height: 500}} />
 
 　○봄을 나르는 요정  
 　　릴리 화이트  

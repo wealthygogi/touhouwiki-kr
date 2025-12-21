@@ -8,7 +8,7 @@ import hatanoKokoro from '@site/static/img/th135/hatano_kokoro.png';
 
 ## 하타노 코코로 (秦こころ, Hatano Kokoro)
 
-<img src={hatanoKokoro} alt="하타노 코코로" style={{width: 250}} />
+<img src={hatanoKokoro} alt="하타노 코코로" style={{height: 500}} />
 
 　○표정 풍부한 포커페이스  
 　　하타노 코코로  

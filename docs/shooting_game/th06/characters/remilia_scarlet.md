@@ -8,7 +8,7 @@ description: "동방홍마향의 6면 보스"
 
 import remiliaScarlet from '@site/static/img/th06/remilia_scarlet.png';
 
-<img src={remiliaScarlet} alt="img" style={{width: 250}} />
+<img src={remiliaScarlet} alt="img" style={{height: 500}} />
 
 　○영원히 붉은 어린 달  
 　　레밀리아 스칼렛  

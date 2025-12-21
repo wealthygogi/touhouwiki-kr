@@ -8,7 +8,7 @@ import yuimanAsama from '@site/static/img/th20/yuiman_asama.png';
 
 ## 유이만 아사마 (ユイマン・浅間, Yuiman Asama)
 
-<img src={yuimanAsama} alt="유이만 아사마" style={{width: 250}} />
+<img src={yuimanAsama} alt="유이만 아사마" style={{height: 500}} />
 
 　○4면 보스  
 　　금상의 수도의 급소  

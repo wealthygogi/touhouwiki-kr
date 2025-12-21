@@ -8,7 +8,7 @@ import toyosatomimiNoMiko from '@site/static/img/th13/toyosatomimi_no_miko.png';
 
 ## 토요사토미미노 미코 (豊聡耳神子, Toyosatomimi no Miko)
 
-<img src={toyosatomimiNoMiko} alt="토요사토미미노 미코" style={{width: 250}} />
+<img src={toyosatomimiNoMiko} alt="토요사토미미노 미코" style={{height: 500}} />
 
 　○6면 보스　　쇼토쿠 도사  
 

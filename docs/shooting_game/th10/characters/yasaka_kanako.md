@@ -8,7 +8,7 @@ import yasakaKanako from '@site/static/img/th10/yasaka_kanako.png';
 
 ## 야사카 카나코 (八坂神奈子, Yasaka Kanako)
 
-<img src={yasakaKanako} alt="야사카 카나코" style={{width: 250}} />
+<img src={yasakaKanako} alt="야사카 카나코" style={{height: 500}} />
 
 　○6면 보스　산비탈과 호수의 화신  
 　　야사카 카나코  

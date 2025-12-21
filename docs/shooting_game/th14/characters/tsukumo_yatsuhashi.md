@@ -8,7 +8,7 @@ import yatsuhashi from '@site/static/img/th14/tsukumo_yatsuhashi.png';
 
 ## 츠쿠모 야츠하시 (九十九八橋, Tsukumo Yatsuhashi)
 
-<img src={yatsuhashi} alt="츠쿠모 야츠하시" style={{width: 250}} />
+<img src={yatsuhashi} alt="츠쿠모 야츠하시" style={{height: 500}} />
 
 　○4면 보스  
 

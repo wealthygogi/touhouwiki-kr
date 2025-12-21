@@ -8,7 +8,7 @@ import eternityLarva from '@site/static/img/th16/eternity_larva.png';
 
 ## 이터니티 라바 (エタニティラルバ, Eternity Larva)
 
-<img src={eternityLarva} alt="이터니티 라바" style={{width: 250}} />
+<img src={eternityLarva} alt="이터니티 라바" style={{height: 500}} />
 
 　○1면 보스　　신에 다가서는 나비의 요정  
 　　이터니티 라바  

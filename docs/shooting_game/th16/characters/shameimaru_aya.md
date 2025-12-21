@@ -8,7 +8,7 @@ import shameimaruAya from '@site/static/img/th16/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (射命丸文, Shameimaru Aya)
 
-<img src={shameimaruAya} alt="샤메이마루 아야" style={{width: 250}} />
+<img src={shameimaruAya} alt="샤메이마루 아야" style={{height: 500}} />
 
 　○단풍을 퍼뜨리는 텐구  
 　　샤메이마루 아야  

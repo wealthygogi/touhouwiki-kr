@@ -8,7 +8,7 @@ import shikiImg from '@site/static/img/th09/shiki_eiki_yamaxanadu.png';
 
 ## 시키에이키 야마자나두 (式神・エイキ・ヤマザナドゥ, Shiki Eiki Yamaxanadu)
 
-<img src={shikiImg} alt="시키에이키 야마자나두" style={{width: 250}} />
+<img src={shikiImg} alt="시키에이키 야마자나두" style={{height: 500}} />
 
 　○낙원의 최고 재판장  
 　　시키에이키 야마자나두  

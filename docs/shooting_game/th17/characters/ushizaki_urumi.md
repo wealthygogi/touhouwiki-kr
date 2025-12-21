@@ -8,7 +8,7 @@ import ushizakiUrumi from '@site/static/img/th17/ushizaki_urumi.png';
 
 ## 우시자키 우루미 (牛崎潤美, Ushizaki Urumi)
 
-<img src={ushizakiUrumi} alt="우시자키 우루미" style={{width: 250}} />
+<img src={ushizakiUrumi} alt="우시자키 우루미" style={{height: 500}} />
 
 　○2면 보스  
 　　고대어의 아이를 데리고 있는 파수꾼  

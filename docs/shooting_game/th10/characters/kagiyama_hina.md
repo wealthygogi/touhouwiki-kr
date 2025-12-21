@@ -8,7 +8,7 @@ import kagiyamaHina from '@site/static/img/th10/kagiyama_hina.png';
 
 ## 카기야마 히나 (鍵山雛, Kagiyama Hina)
 
-<img src={kagiyamaHina} alt="카기야마 히나" style={{width: 250}} />
+<img src={kagiyamaHina} alt="카기야마 히나" style={{height: 500}} />
 
 　○2면 보스　숨은 신 나가시히나  
 　　카기야마 히나  

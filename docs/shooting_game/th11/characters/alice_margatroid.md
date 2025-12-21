@@ -8,7 +8,7 @@ import aliceMargatroid from '@site/static/img/th11/alice_margatroid.png';
 
 ## 앨리스 마가트로이드 (Alice Margatroid)
 
-<img src={aliceMargatroid} alt="앨리스 마가트로이드" style={{width: 250}} />
+<img src={aliceMargatroid} alt="앨리스 마가트로이드" style={{height: 500}} />
 
 　○7색의 인형술사  
 　　앨리스 마가트로이드  

@@ -8,7 +8,7 @@ description: "동방홍마향의 3면 보스"
 
 import hongMeiring from '@site/static/img/th06/hong_meiring.png';
 
-<img src={hongMeiring} alt="img" style={{width: 250}} />
+<img src={hongMeiring} alt="img" style={{height: 500}} />
 
 　○화인소녀  
 　　홍 메이링  

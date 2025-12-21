@@ -8,7 +8,7 @@ import mataraOkina from '@site/static/img/th16/matara_okina.png';
 
 ## 마타라 오키나 (摩多羅隠岐奈, Matara Okina)
 
-<img src={mataraOkina} alt="마타라 오키나" style={{width: 250}} />
+<img src={mataraOkina} alt="마타라 오키나" style={{height: 500}} />
 
 　○6면 보스　　궁극의 절대비신  
 　　마타라 오키나  

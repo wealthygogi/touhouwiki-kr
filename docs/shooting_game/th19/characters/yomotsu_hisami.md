@@ -8,7 +8,7 @@ import yomotsuHisami from '@site/static/img/th19/yomotsu_hisami.png';
 
 ## 요모츠 히사미 (豫母都 日狭美, Yomotsu Hisami)
 
-<img src={yomotsuHisami} alt="요모츠 히사미" style={{width: 250}} />
+<img src={yomotsuHisami} alt="요모츠 히사미" style={{height: 500}} />
 
 ○지옥의 아름다운 스토커  
 

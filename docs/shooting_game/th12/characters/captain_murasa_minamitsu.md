@@ -8,7 +8,7 @@ import captainMurasaMinamitsu from '@site/static/img/th12/captain_murasa_minamit
 
 ## 무라사 미나미츠 (村紗水蜜, Captain Murasa Minamitsu)
 
-<img src={captainMurasaMinamitsu} alt="무라사 미나미츠" style={{width: 250}} />
+<img src={captainMurasaMinamitsu} alt="무라사 미나미츠" style={{height: 500}} />
 
 　○4면 보스　　수난사고의 염박령  
 

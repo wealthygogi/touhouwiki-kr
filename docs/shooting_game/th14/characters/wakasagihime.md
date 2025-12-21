@@ -8,7 +8,7 @@ import wakasagihime from '@site/static/img/th14/wakasagihime.png';
 
 ## 와카사기히메 (わかさぎ姫, Wakasagihime)
 
-<img src={wakasagihime} alt="와카사기히메" style={{width: 250}} />
+<img src={wakasagihime} alt="와카사기히메" style={{height: 500}} />
 
 　○1면 보스　담수에 사는 인어  
 　　와카사기히메  

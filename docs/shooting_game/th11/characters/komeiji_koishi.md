@@ -8,7 +8,7 @@ import komeijiKoishi from '@site/static/img/th11/komeiji_koishi.png';
 
 ## 코메이지 코이시 (Komeiji Koishi)
 
-<img src={komeijiKoishi} alt="코메이지 코이시" style={{width: 250}} />
+<img src={komeijiKoishi} alt="코메이지 코이시" style={{height: 500}} />
 
 　○EX 보스　닫힌 사랑의 눈동자  
 　　코메이지 코이시  

@@ -8,7 +8,7 @@ import yorigamiShion from '@site/static/img/th155/yorigami_shion.png';
 
 ## 요리가미 시온 (依神紫苑, Yorigami Shion)
 
-<img src={yorigamiShion} alt="요리가미 시온" style={{width: 250}} />
+<img src={yorigamiShion} alt="요리가미 시온" style={{height: 500}} />
 
 　○최흉최악의 쌍둥이 언니  
 　　요리가미 시온  

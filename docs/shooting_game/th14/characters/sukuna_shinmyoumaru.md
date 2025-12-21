@@ -8,7 +8,7 @@ import shinmyoumaru from '@site/static/img/th14/sukuna_shinmyoumaru.png';
 
 ## 스쿠나 신묘마루 (少名針妙丸, Sukuna Shinmyoumaru)
 
-<img src={shinmyoumaru} alt="스쿠나 신묘마루" style={{width: 250}} />
+<img src={shinmyoumaru} alt="스쿠나 신묘마루" style={{height: 500}} />
 
 　○6면 보스　난쟁이의 후예  
 　　스쿠나 신묘마루  

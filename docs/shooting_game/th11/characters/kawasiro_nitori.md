@@ -8,7 +8,7 @@ import kawasiroNitori from '@site/static/img/th11/kawasiro_nitori.png';
 
 ## 카와시로 니토리 (Kawasiro Nitori)
 
-<img src={kawasiroNitori} alt="카와시로 니토리" style={{width: 250}} />
+<img src={kawasiroNitori} alt="카와시로 니토리" style={{height: 500}} />
 
 　○초요괴 탄두  
 　　카와시로 니토리  

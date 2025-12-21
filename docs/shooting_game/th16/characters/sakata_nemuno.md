@@ -8,7 +8,7 @@ import sakataNemuno from '@site/static/img/th16/sakata_nemuno.png';
 
 ## 사카타 네무노 (坂田ネムノ, Sakata Nemuno)
 
-<img src={sakataNemuno} alt="사카타 네무노" style={{width: 250}} />
+<img src={sakataNemuno} alt="사카타 네무노" style={{height: 500}} />
 
 　○2면 보스　　속세의 관문을 넘는 야마우바  
 

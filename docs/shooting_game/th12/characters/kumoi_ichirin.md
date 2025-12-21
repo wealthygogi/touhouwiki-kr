@@ -8,7 +8,7 @@ import kumoiIchirin from '@site/static/img/th12/kumoi_ichirin.png';
 
 ## 쿠모이 이치린 (雲居一輪, Kumoi Ichirin)
 
-<img src={kumoiIchirin} alt="쿠모이 이치린" style={{width: 250}} />
+<img src={kumoiIchirin} alt="쿠모이 이치린" style={{height: 500}} />
 
 　○3면 보스　　수호하고 수호받는 대륜  
 

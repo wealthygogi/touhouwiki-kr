@@ -8,7 +8,7 @@ import moriyaSuwako from '@site/static/img/th10/moriya_suwako.png';
 
 ## 모리야 스와코 (洩矢諏訪子, Moriya Suwako)
 
-<img src={moriyaSuwako} alt="모리야 스와코" style={{width: 250}} />
+<img src={moriyaSuwako} alt="모리야 스와코" style={{height: 500}} />
 
 　○엑스트라 보스　토착신의 정점  
 　　모리야 스와코  

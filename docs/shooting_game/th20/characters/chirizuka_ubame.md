@@ -8,7 +8,7 @@ import chirizukaUbame from '@site/static/img/th20/chirizuka_ubame.png';
 
 ## 치리즈카 우바메 (塵塚ウバメ, Chirizuka Ubame)
 
-<img src={chirizukaUbame} alt="치리즈카 우바메" style={{width: 250}} />
+<img src={chirizukaUbame} alt="치리즈카 우바메" style={{height: 500}} />
 
 　○1면 보스  
 　　성역에 사는 야만바의 우두머리  

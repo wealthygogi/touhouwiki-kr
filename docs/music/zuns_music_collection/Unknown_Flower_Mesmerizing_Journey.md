@@ -8,7 +8,7 @@ slug: "unknown-flower-mesmerizing-journey"
 # 미지의 꽃 매지의 여행
 
 <!-- import albumCover from '@site/static/img/music/unknown_flower_mesmerizing_journey.png'; -->
-<!-- <img src={albumCover} alt="미지의 꽃 매지의 여행" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="미지의 꽃 매지의 여행" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 미지의 꽃 매지의 여행](https://namu.wiki/w/%EB%AF%B8%EC%A7%80%EC%9D%98%20%EA%BD%83%20%EB%A7%A4%EC%A7%80%EC%9D%98%20%EC%97%AC%ED%96%89)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

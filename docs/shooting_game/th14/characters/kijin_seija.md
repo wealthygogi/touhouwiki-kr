@@ -8,7 +8,7 @@ import seija from '@site/static/img/th14/kijin_seija.png';
 
 ## 키진 세이자 (鬼人正邪, Kijin Seija)
 
-<img src={seija} alt="키진 세이자" style={{width: 250}} />
+<img src={seija} alt="키진 세이자" style={{height: 500}} />
 
 　○5면 보스　역습의 아마노자쿠  
 　　키진 세이자  

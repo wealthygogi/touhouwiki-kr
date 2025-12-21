@@ -8,7 +8,7 @@ import komakusaSannyo from '@site/static/img/th18/komakusa_sannyo.png';
 
 ## 코마쿠사 산뇨 (駒草山如, Komakusa Sannyo)
 
-<img src={komakusaSannyo} alt="코마쿠사 산뇨" style={{width: 250}} />
+<img src={komakusaSannyo} alt="코마쿠사 산뇨" style={{height: 500}} />
 
 　○3면 보스  
 　　고지에 사는 야마조로  

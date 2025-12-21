@@ -8,7 +8,7 @@ import raiko from '@site/static/img/th14/horikawa_raiko.png';
 
 ## 호리카와 라이코 (堀川雷鼓, Horikawa Raiko)
 
-<img src={raiko} alt="호리카와 라이코" style={{width: 250}} />
+<img src={raiko} alt="호리카와 라이코" style={{height: 500}} />
 
 　○EX 보스　몽환의 퍼커셔니스트  
 　　호리카와 라이코  

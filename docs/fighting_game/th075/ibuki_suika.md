@@ -8,7 +8,7 @@ import ibukiSuika from '@site/static/img/th075/ibuki_suika.png';
 
 ## 이부키 스이카 (伊吹萃香, Ibuki Suika)
 
-<img src={ibukiSuika} alt="이부키 스이카" style={{width: 250}} />
+<img src={ibukiSuika} alt="이부키 스이카" style={{height: 500}} />
 
 　○모이는 꿈, 환상, 그리고 백귀야행  
 　　이부키 스이카  

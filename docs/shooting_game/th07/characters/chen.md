@@ -8,7 +8,7 @@ import chen from '@site/static/img/th07/chen.png';
 
 ## 첸 (橙, Chen)
 
-<img src={chen} alt="첸" style={{width: 250}} />
+<img src={chen} alt="첸" style={{height: 500}} />
 
 　○불길한 징조의 검은 고양이  
 　　첸  

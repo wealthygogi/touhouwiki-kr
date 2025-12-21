@@ -8,7 +8,7 @@ import hoshigumaYugi from '@site/static/img/th11/hoshiguma_yugi.png';
 
 ## 호시구마 유기 (Hoshiguma Yugi)
 
-<img src={hoshigumaYugi} alt="호시구마 유기" style={{width: 250}} />
+<img src={hoshigumaYugi} alt="호시구마 유기" style={{height: 500}} />
 
 　○3면 보스　일컬어지는 괴력난신  
 　　호시구마 유기  

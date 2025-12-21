@@ -8,7 +8,7 @@ import hinanawiTenshi from '@site/static/img/th105/hinanawi_tenshi.png';
 
 ## 히나나위 텐시 (比那名居天子, Hinanawi Tenshi)
 
-<img src={hinanawiTenshi} alt="히나나위 텐시" style={{width: 250}} />
+<img src={hinanawiTenshi} alt="히나나위 텐시" style={{height: 500}} />
 
 　○비상비비상천의 아가씨  
 　　히나나위 텐시  

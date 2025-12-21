@@ -8,7 +8,7 @@ import kurodaniYamame from '@site/static/img/th11/kurodani_yamame.png';
 
 ## 쿠로다니 야마메 (Kurodani Yamame)
 
-<img src={kurodaniYamame} alt="쿠로다니 야마메" style={{width: 250}} />
+<img src={kurodaniYamame} alt="쿠로다니 야마메" style={{height: 500}} />
 
 　○1면 보스　어두운 동굴의 밝은 그물  
 　　쿠로다니 야마메  

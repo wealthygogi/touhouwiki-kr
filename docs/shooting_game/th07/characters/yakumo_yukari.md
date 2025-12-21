@@ -8,7 +8,7 @@ import yakumoYukari from '@site/static/img/th07/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲 紫, Yakumo Yukari)
 
-<img src={yakumoYukari} alt="야쿠모 유카리" style={{width: 250}} />
+<img src={yakumoYukari} alt="야쿠모 유카리" style={{height: 500}} />
 
 　○행방불명의 주범  
 　　야쿠모 유카리  

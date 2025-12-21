@@ -8,7 +8,7 @@ import saigyoujiYuyuko from '@site/static/img/th13/saigyouji_yuyuko.png';
 
 ## 사이교우지 유유코 (西行寺幽々子, Saigyouji Yuyuko)
 
-<img src={saigyoujiYuyuko} alt="사이교우지 유유코" style={{width: 250}} />
+<img src={saigyoujiYuyuko} alt="사이교우지 유유코" style={{height: 500}} />
 
 　○1면 보스　당황하지 않는 망령  
 　　사이교우지 유유코  

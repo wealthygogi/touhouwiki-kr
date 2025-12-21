@@ -8,7 +8,7 @@ import saigyoujiYuyuko from '@site/static/img/th07/saigyouji_yuyuko.png';
 
 ## 사이교우지 유유코 (西行寺 幽々子, Saigyouji Yuyuko)
 
-<img src={saigyoujiYuyuko} alt="사이교우지 유유코" style={{width:   250}} />
+<img src={saigyoujiYuyuko} alt="사이교우지 유유코" style={{height: 500}} />
 
 　○저승누각의 망령소녀  
 　　사이교우지 유유코  

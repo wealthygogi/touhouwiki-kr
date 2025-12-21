@@ -8,7 +8,7 @@ import wriggleNightbug from '@site/static/img/th08/wriggle_nightbug.png';
 
 ## 리글 나이트버그 (リグル・ナイトバグ, Wriggle Nightbug)
 
-<img src={wriggleNightbug} alt="리글 나이트버그" style={{width: 250}} />
+<img src={wriggleNightbug} alt="리글 나이트버그" style={{height: 500}} />
 
 　○1면 보스　어둠 속에서 꿈틀거리는 빛의 벌레  
 　　리글 나이트버그  

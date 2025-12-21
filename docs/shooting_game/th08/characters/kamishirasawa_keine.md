@@ -8,7 +8,7 @@ import kamishirasawaKeine from '@site/static/img/th08/kamishirasawa_keine.png';
 
 ## 카미시라사와 케이네 (上白沢慧音, Keine Kamishirasawa)
 
-<img src={kamishirasawaKeine} alt="카미시라사와 케이네" style={{width: 250}} />
+<img src={kamishirasawaKeine} alt="카미시라사와 케이네" style={{height: 500}} />
 
 　○3면 보스　역사를 먹는 자  
 　　카미시라사와 케이네  

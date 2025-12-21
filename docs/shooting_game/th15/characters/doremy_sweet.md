@@ -8,7 +8,7 @@ import doremySweet from '@site/static/img/th15/doremy_sweet.png';
 
 ## 도레미 스위트 (ドレミー・スイート, Doremy Sweet)
 
-<img src={doremySweet} alt="도레미 스위트" style={{width: 250}} />
+<img src={doremySweet} alt="도레미 스위트" style={{height: 500}} />
 
 　○3면 보스　　꿈의 지배자  
 　　도레미 스위트  

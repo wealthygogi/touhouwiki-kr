@@ -8,7 +8,7 @@ import usamiSumireko from '@site/static/img/th145/usami_sumireko.png';
 
 ## 우사미 스미레코 (宇佐見菫子, Usami Sumireko)
 
-<img src={usamiSumireko} alt="우사미 스미레코" style={{width: 250}} />
+<img src={usamiSumireko} alt="우사미 스미레코" style={{height: 500}} />
 
 　○심비를 밝혀라! 비봉클럽 초대회장  
 　　우사미 스미레코  

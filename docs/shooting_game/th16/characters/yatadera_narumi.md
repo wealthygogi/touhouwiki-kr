@@ -8,7 +8,7 @@ import yataderaNarumi from '@site/static/img/th16/yatadera_narumi.png';
 
 ## 야타데라 나루미 (矢田寺成美, Yatadera Narumi)
 
-<img src={yataderaNarumi} alt="야타데라 나루미" style={{width: 250}} />
+<img src={yataderaNarumi} alt="야타데라 나루미" style={{height: 500}} />
 
 　○4면 보스　　숲에서 수적한 마법 지장  
 　　야타데라 나루미  

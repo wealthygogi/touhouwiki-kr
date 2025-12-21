@@ -8,7 +8,7 @@ import hongMeiring from '@site/static/img/th123/hong_meiring.png';
 
 ## 홍 메이링 (紅美鈴, Hong Meiling)
 
-<img src={hongMeiring} alt="홍 메이링" style={{width: 250}} />
+<img src={hongMeiring} alt="홍 메이링" style={{height: 500}} />
 
 　○화인소녀  
 　　홍 메이링  

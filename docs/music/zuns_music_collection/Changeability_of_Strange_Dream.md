@@ -8,7 +8,7 @@ slug: "changeability-of-strange-dream"
 # 몽위과학세기
 
 <!-- import albumCover from '@site/static/img/music/changeability_of_strange_dream.png'; -->
-<!-- <img src={albumCover} alt="몽위과학세기" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="몽위과학세기" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 몽위과학세기 ~ Changeability of Strange Dream](https://namu.wiki/w/%EB%AA%BD%EC%9C%84%EA%B3%BC%ED%95%99%EC%84%B8%EA%B8%B0%20~%20Changeability%20of%20Strange%20Dream)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

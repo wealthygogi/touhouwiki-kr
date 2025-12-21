@@ -8,7 +8,7 @@ import houraisanKaguya from '@site/static/img/th08/houraisan_kaguya.png';
 
 ## 호라이산 카구야 (蓬莱山輝夜, Kaguya Houraisan)
 
-<img src={houraisanKaguya} alt="호라이산 카구야" style={{width: 250}} />
+<img src={houraisanKaguya} alt="호라이산 카구야" style={{height: 500}} />
 
 　○최종보스　영원과 수유의 죄인  
 　　호라이산 카구야  

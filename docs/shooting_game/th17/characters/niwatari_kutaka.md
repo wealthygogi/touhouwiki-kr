@@ -8,7 +8,7 @@ import niwatariKutaka from '@site/static/img/th17/niwatari_kutaka.png';
 
 ## 니와타리 쿠타카 (庭渡久侘歌, Niwatari Kutaka)
 
-<img src={niwatariKutaka} alt="니와타리 쿠타카" style={{width: 250}} />
+<img src={niwatariKutaka} alt="니와타리 쿠타카" style={{height: 500}} />
 
 　○3면 보스  
 　　지옥 관문의 문지기  

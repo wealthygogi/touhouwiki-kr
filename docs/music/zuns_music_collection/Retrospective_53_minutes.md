@@ -8,7 +8,7 @@ slug: "retrospective-53-minutes"
 # 묘유동해도
 
 <!-- import albumCover from '@site/static/img/music/retrospective_53_minutes.png'; -->
-<!-- <img src={albumCover} alt="묘유동해도" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="묘유동해도" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 묘유동해도 ~ Retrospective 53 minutes](https://namu.wiki/w/%EB%AC%98%EC%9C%A0%EB%8F%99%ED%95%B4%EB%8F%84%20~%20Retrospective%2053%20minutes)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

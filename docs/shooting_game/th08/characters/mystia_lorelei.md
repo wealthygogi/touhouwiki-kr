@@ -8,7 +8,7 @@ import mystiaLorelei from '@site/static/img/th08/mystia_lorelei.png';
 
 ## 미스티아 로렐라이 (ミスティア・ローレライ, Mystia Lorelei)
 
-<img src={mystiaLorelei} alt="미스티아 로렐라이" style={{width: 250}} />
+<img src={mystiaLorelei} alt="미스티아 로렐라이" style={{height: 500}} />
 
 　○2면 보스　밤참새 요괴  
 　　미스티아 로렐라이  

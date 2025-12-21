@@ -8,7 +8,7 @@ import yakumoRan from '@site/static/img/th07/yakumo_ran.png';
 
 ## 야쿠모 란 (八雲 藍, Yakumo Ran)
 
-<img src={yakumoRan} alt="야쿠모 란" style={{width: 250}} />
+<img src={yakumoRan} alt="야쿠모 란" style={{height: 500}} />
 
 　○틈새 요괴의 식신  
 　　야쿠모 란  

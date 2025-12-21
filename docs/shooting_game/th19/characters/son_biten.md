@@ -8,7 +8,7 @@ import sonBiten from '@site/static/img/th19/son_biten.png';
 
 ## 손 비텐 (孫 美天, Son Biten)
 
-<img src={sonBiten} alt="손 비텐" style={{width: 250}} />
+<img src={sonBiten} alt="손 비텐" style={{height: 500}} />
 
 ○작은 성역의 대성  
 

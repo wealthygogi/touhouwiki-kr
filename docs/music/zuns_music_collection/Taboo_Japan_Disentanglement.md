@@ -8,7 +8,7 @@ slug: "taboo-japan-disentanglement"
 # 타나바타자카 무겐노
 
 <!-- import albumCover from '@site/static/img/music/TODO.png'; -->
-<!-- <img src={albumCover} alt="타나바타자카 무겐노" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="타나바타자카 무겐노" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 타나바타자카 무겐노 ~ Taboo Japan Disentanglement.](https://namu.wiki/w/%ED%83%80%EB%82%98%EB%B0%94%ED%83%80%EC%9E%90%EC%B9%B4%20%EB%AC%B4%EA%B2%90%EB%85%B8%20~%20Taboo%20Japan%20Disentanglement.)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

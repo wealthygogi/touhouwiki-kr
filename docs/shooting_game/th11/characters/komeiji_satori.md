@@ -8,7 +8,7 @@ import komeijiSatori from '@site/static/img/th11/komeiji_satori.png';
 
 ## 코메이지 사토리 (Komeiji Satori)
 
-<img src={komeijiSatori} alt="코메이지 사토리" style={{width: 250}} />
+<img src={komeijiSatori} alt="코메이지 사토리" style={{height: 500}} />
 
 　○4면 보스　원령도 겁먹는 소녀  
 　　코메이지 사토리  

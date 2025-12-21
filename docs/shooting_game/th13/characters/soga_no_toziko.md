@@ -8,7 +8,7 @@ import sogaNoToziko from '@site/static/img/th13/soga_no_toziko.png';
 
 ## 소가노 토지코 (蘇我屠自古, Soga no Toziko)
 
-<img src={sogaNoToziko} alt="소가노 토지코" style={{width: 250}} />
+<img src={sogaNoToziko} alt="소가노 토지코" style={{height: 500}} />
 
 　○5면 보스　　신의 후예인 망령  
 

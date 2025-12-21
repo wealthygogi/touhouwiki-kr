@@ -8,7 +8,7 @@ import hakureiReimu from '@site/static/img/th10/hakurei_reimu.png';
 
 ## 하쿠레이 레이무 (博麗霊夢, Hakurei Reimu)
 
-<img src={hakureiReimu} alt="하쿠레이 레이무" style={{width: 250}} />
+<img src={hakureiReimu} alt="하쿠레이 레이무" style={{height: 500}} />
 
 　○낙원의 무녀  
 　　하쿠레이 레이무  

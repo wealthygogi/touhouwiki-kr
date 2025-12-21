@@ -8,7 +8,7 @@ import cirno from '@site/static/img/th14/cirno.png';
 
 ## 치르노 (チルノ, Cirno)
 
-<img src={cirno} alt="치르노" style={{width: 250}} />
+<img src={cirno} alt="치르노" style={{height: 500}} />
 
 　○1면 중보스　호수의 요정  
 　　치르노  

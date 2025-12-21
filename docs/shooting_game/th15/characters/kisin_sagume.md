@@ -8,7 +8,7 @@ import kisinSagume from '@site/static/img/th15/kisin_sagume.png';
 
 ## 키신 사구메 (稀神サグメ, Kisin Sagume)
 
-<img src={kisinSagume} alt="키신 사구메" style={{width: 250}} />
+<img src={kisinSagume} alt="키신 사구메" style={{height: 500}} />
 
 　○4면 보스　　설화를 불러오는 여신  
 　　키신 사구메  

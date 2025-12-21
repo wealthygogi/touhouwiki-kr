@@ -8,7 +8,7 @@ import yamashiroTakane from '@site/static/img/th18/yamashiro_takane.png';
 
 ## 야마시로 타카네 (山城たかね, Yamashiro Takane)
 
-<img src={yamashiroTakane} alt="야마시로 타카네" style={{width: 250}} />
+<img src={yamashiroTakane} alt="야마시로 타카네" style={{height: 500}} />
 
 　○2면 보스  
 　　깊은 산 속의 비즈니스 요괴  

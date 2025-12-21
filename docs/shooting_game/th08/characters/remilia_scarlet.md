@@ -8,7 +8,7 @@ import remiliaScarlet from '@site/static/img/th08/remilia_scarlet.png';
 
 ## 레밀리아 스칼렛 (レミリア・スカーレット, Remilia Scarlet)
 
-<img src={remiliaScarlet} alt="레밀리아 스칼렛" style={{width: 250}} />
+<img src={remiliaScarlet} alt="레밀리아 스칼렛" style={{height: 500}} />
 
 　○붉은 악마  
 　　레밀리아 스칼렛  

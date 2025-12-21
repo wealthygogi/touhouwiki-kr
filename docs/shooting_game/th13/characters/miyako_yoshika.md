@@ -8,7 +8,7 @@ import miyakoYoshika from '@site/static/img/th13/miyako_yoshika.png';
 
 ## 미야코 요시카 (宮古芳香, Miyako Yoshika)
 
-<img src={miyakoYoshika} alt="미야코 요시카" style={{width: 250}} />
+<img src={miyakoYoshika} alt="미야코 요시카" style={{height: 500}} />
 
 　○3면 보스　　충실한 시체  
 

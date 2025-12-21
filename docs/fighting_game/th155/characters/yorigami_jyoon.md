@@ -8,7 +8,7 @@ import yorigamiJyoon from '@site/static/img/th155/yorigami_jyoon.png';
 
 ## 요리가미 조온 (依神女苑, Yorigami Jyoon)
 
-<img src={yorigamiJyoon} alt="요리가미 조온" style={{width: 250}} />
+<img src={yorigamiJyoon} alt="요리가미 조온" style={{height: 500}} />
 
 　○최흉최악의 쌍둥이 동생  
 　　요리가미 조온  

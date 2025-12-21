@@ -8,7 +8,7 @@ import lyricaPrismriver from '@site/static/img/th07/lyrica_prismriver.png';
 
 ## 리리카 프리즘리버 (リリカ・プリズムリバー, Lyrica Prismriver)
 
-<img src={lyricaPrismriver} alt="리리카 프리즘리버" style={{width: 250}} />
+<img src={lyricaPrismriver} alt="리리카 프리즘리버" style={{height: 500}} />
 
 　○소령 세자매  
 　　장녀 루나사 프리즘리버  

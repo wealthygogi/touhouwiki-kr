@@ -8,7 +8,7 @@ description: "동방홍마향의 2면 중간보스"
 
 import cirno from '@site/static/img/th06/cirno.png';
 
-<img src={cirno} alt="img" style={{width: 250}} />
+<img src={cirno} alt="img" style={{height: 500}} />
 
 　○호수 위의 빙정  
 　　치르노  

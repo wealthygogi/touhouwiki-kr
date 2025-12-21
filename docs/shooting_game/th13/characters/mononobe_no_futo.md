@@ -8,7 +8,7 @@ import mononobeNoFuto from '@site/static/img/th13/mononobe_no_futo.png';
 
 ## 모노노베노 후토 (物部布都, Mononobe no Futo)
 
-<img src={mononobeNoFuto} alt="모노노베노 후토" style={{width: 250}} />
+<img src={mononobeNoFuto} alt="모노노베노 후토" style={{height: 500}} />
 
 　○5면 보스　　고대일본의 시해선  
 

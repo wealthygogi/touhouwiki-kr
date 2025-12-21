@@ -8,7 +8,7 @@ import yakumoYukari from '@site/static/img/th08/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲紫, Yukari Yakumo)
 
-<img src={yakumoYukari} alt="야쿠모 유카리" style={{width: 250}} />
+<img src={yakumoYukari} alt="야쿠모 유카리" style={{height: 500}} />
 
 　○경계에 사는 요괴  
 　　야쿠모 유카리  

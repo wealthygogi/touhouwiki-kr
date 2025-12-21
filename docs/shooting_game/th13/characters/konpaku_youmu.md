@@ -8,7 +8,7 @@ import konpakuYoumu from '@site/static/img/th13/konpaku_youmu.png';
 
 ## 콘파쿠 요우무 (魂魄妖夢, Konpaku Youmu)
 
-<img src={konpakuYoumu} alt="콘파쿠 요우무" style={{width: 250}} />
+<img src={konpakuYoumu} alt="콘파쿠 요우무" style={{height: 500}} />
 
 　○반인반령의 정원사  
 　　콘파쿠 요우무  

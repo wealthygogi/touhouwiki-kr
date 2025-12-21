@@ -8,7 +8,7 @@ import tenkajinChiyari from '@site/static/img/th19/tenkajin_chiyari.png';
 
 ## 텐카진 치야리 (天火人 ちやり, Tenkajin Chiyari)
 
-<img src={tenkajinChiyari} alt="텐카진 치야리" style={{width: 250}} />
+<img src={tenkajinChiyari} alt="텐카진 치야리" style={{height: 500}} />
 
 ○더럽혀진 유기물의 괴물  
 

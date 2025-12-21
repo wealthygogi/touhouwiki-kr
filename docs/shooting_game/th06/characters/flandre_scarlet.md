@@ -8,7 +8,7 @@ description: "동방홍마향의 엑스트라 보스"
 
 import flandreScarlet from '@site/static/img/th06/flandre_scarlet.png';
 
-<img src={flandreScarlet} alt="img" style={{width: 250}} />
+<img src={flandreScarlet} alt="img" style={{height: 500}} />
 
 　○악마의 여동생  
 　　플랑드르 스칼렛  

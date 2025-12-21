@@ -8,7 +8,7 @@ import watariNina from '@site/static/img/th20/watari_nina.png';
 
 ## 와타리 니나 (渡里ニナ, Watari Nina)
 
-<img src={watariNina} alt="와타리 니나" style={{width: 250}} />
+<img src={watariNina} alt="와타리 니나" style={{height: 500}} />
 
 　○EX 스테이지 보스  
 

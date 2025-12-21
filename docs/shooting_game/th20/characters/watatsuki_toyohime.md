@@ -8,7 +8,7 @@ import watatsukiToyohime from '@site/static/img/th20/watatsuki_toyohime.png';
 
 ## 와타츠키 토요히메 (綿月豊姫, Watatsuki Toyohime)
 
-<img src={watatsukiToyohime} alt="와타츠키 토요히메" style={{width: 250}} />
+<img src={watatsukiToyohime} alt="와타츠키 토요히메" style={{height: 500}} />
 
 　○5면 보스  
 

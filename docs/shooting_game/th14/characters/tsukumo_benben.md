@@ -8,7 +8,7 @@ import benben from '@site/static/img/th14/tsukumo_benben.png';
 
 ## 츠쿠모 벤벤 (九十九弁々, Tsukumo Benben)
 
-<img src={benben} alt="츠쿠모 벤벤" style={{width: 250}} />
+<img src={benben} alt="츠쿠모 벤벤" style={{height: 500}} />
 
 　○4면 보스  
 

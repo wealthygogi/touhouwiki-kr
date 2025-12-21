@@ -8,7 +8,7 @@ import michigamiNareko from '@site/static/img/th20/michigami_nareko.png';
 
 ## 미치가미 나레코 (道神馴子, Michigami Nareko)
 
-<img src={michigamiNareko} alt="미치가미 나레코" style={{width: 250}} />
+<img src={michigamiNareko} alt="미치가미 나레코" style={{height: 500}} />
 
 　○3면 보스  
 　　핍색한 성지의 도조신  

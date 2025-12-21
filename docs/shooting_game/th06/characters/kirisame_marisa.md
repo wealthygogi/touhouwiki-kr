@@ -8,7 +8,7 @@ description: "동방홍마향의 주인공"
 
 import kirisameMaria from '@site/static/img/th06/kirisame_marisa.png';
 
-<img src={kirisameMaria} alt="img" style={{width: 250}} />
+<img src={kirisameMaria} alt="img" style={{height: 500}} />
 
 　○기묘한 마법사  
 　　키리사메 마리사  

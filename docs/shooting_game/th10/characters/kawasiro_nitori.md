@@ -8,7 +8,7 @@ import kawasiroNitori from '@site/static/img/th10/kawasiro_nitori.png';
 
 ## 카와시로 니토리 (河城にとり, Kawasiro Nitori)
 
-<img src={kawasiroNitori} alt="카와시로 니토리" style={{width: 250}} />
+<img src={kawasiroNitori} alt="카와시로 니토리" style={{height: 500}} />
 
 　○3면 보스　초요괴 탄두  
 　　카와시로 니토리  

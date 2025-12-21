@@ -8,7 +8,7 @@ import ringo from '@site/static/img/th15/ringo.png';
 
 ## 링고 (鈴瑚, Ringo)
 
-<img src={ringo} alt="링고" style={{width: 250}} />
+<img src={ringo} alt="링고" style={{height: 500}} />
 
 　○2면 보스　　귤색의 이글 래빗  
 

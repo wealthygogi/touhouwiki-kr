@@ -8,7 +8,7 @@ import inabaTewi from '@site/static/img/th08/inaba_tewi.png';
 
 ## 이나바 테위 (因幡てゐ, Tewi Inaba)
 
-<img src={inabaTewi} alt="이나바 테위" style={{width: 250}} />
+<img src={inabaTewi} alt="이나바 테위" style={{height: 500}} />
 
 　○5면 중간보스　지상의 토끼  
 　　이나바 테위  

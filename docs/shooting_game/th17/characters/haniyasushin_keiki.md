@@ -8,7 +8,7 @@ import haniyasushinKeiki from '@site/static/img/th17/haniyasushin_keiki.png';
 
 ## 하니야스신 케이키 (埴安神袿姬, Haniyasushin Keiki)
 
-<img src={haniyasushinKeiki} alt="하니야스신 케이키" style={{width: 250}} />
+<img src={haniyasushinKeiki} alt="하니야스신 케이키" style={{height: 500}} />
 
 　○6면 보스  
 　　고립무원이 빚어낸 조형신  

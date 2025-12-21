@@ -8,7 +8,7 @@ description: "동방홍마향의 1면 보스"
 
 import rumia from '@site/static/img/th06/rumia.png';
 
-<img src={rumia} alt="img" style={{width: 250}} />
+<img src={rumia} alt="img" style={{height: 500}} />
 
 　○해질녘의 요괴  
 　　루미아  

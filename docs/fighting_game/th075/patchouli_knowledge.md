@@ -8,7 +8,7 @@ import patchouliKnowledge from '@site/static/img/th075/patchouli_knowledge.png';
 
 ## 파츄리 널릿지 (パチュリー・ノーレッジ, Patchouli Knowledge)
 
-<img src={patchouliKnowledge} alt="파츄리 널릿지" style={{width: 250}} />
+<img src={patchouliKnowledge} alt="파츄리 널릿지" style={{height: 500}} />
 
 　○움직이지 않는 대도서관  
 　　파츄리 널릿지  

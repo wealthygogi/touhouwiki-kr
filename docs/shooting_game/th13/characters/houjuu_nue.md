@@ -8,7 +8,7 @@ import houjuuNue from '@site/static/img/th13/houjuu_nue.png';
 
 ## 호쥬 누에 (封獣ぬえ, Houjuu Nue)
 
-<img src={houjuuNue} alt="호쥬 누에" style={{width: 250}} />
+<img src={houjuuNue} alt="호쥬 누에" style={{height: 500}} />
 
 　○엑스트라 중보스　　옛날 요괴 그 1  
 

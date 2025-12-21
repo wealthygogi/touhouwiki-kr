@@ -8,7 +8,7 @@ import ebisuEika from '@site/static/img/th17/ebisu_eika.png';
 
 ## 에비스 에이카 (戎瓔花, Ebisu Eika)
 
-<img src={ebisuEika} alt="에비스 에이카" style={{width: 250}} />
+<img src={ebisuEika} alt="에비스 에이카" style={{height: 500}} />
 
 　○1면 보스  
 　　강가의 아이돌 미즈코  

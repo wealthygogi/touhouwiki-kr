@@ -8,7 +8,7 @@ import lettyWhiterock from '@site/static/img/th07/letty_whiterock.png';
 
 ## 레티 화이트락 (レティ・ホワイトロック, Letty Whiterock)
 
-<img src={lettyWhiterock} alt="레티 화이트락" style={{width: 250}} />
+<img src={lettyWhiterock} alt="레티 화이트락" style={{height: 500}} />
 
 　○겨울이 잊어버린 것  
 　　레티 화이트락  

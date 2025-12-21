@@ -8,7 +8,7 @@ import youmuImg from '@site/static/img/th09/konpaku_youmu.png';
 
 ## 콘파쿠 요우무 (魂魄 妖夢, Konpaku Youmu)
 
-<img src={youmuImg} alt="콘파쿠 요우무" style={{width: 250}} />
+<img src={youmuImg} alt="콘파쿠 요우무" style={{height: 500}} />
 
 　○반인반령의 반사람 몫  
 　　콘파쿠 요우무  

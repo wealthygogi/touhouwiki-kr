@@ -8,7 +8,7 @@ import mitsugashiraEnoko from '@site/static/img/th19/mitsugashira_enoko.png';
 
 ## 미츠가시라 에노코 (三頭 慧ノ子, Mitsugashira Enoko)
 
-<img src={mitsugashiraEnoko} alt="미츠가시라 에노코" style={{width: 250}} />
+<img src={mitsugashiraEnoko} alt="미츠가시라 에노코" style={{height: 500}} />
 
 ○삼한의 케르베로스  
 

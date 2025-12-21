@@ -8,7 +8,7 @@ import joutouguMayumi from '@site/static/img/th17/joutougu_mayumi.png';
 
 ## 조토구 마유미 (埴安神袿姬, Joutougu Mayumi)
 
-<img src={joutouguMayumi} alt="조토구 마유미" style={{width: 250}} />
+<img src={joutouguMayumi} alt="조토구 마유미" style={{height: 500}} />
 
 　○5면 보스  
 　　하니와 병장  

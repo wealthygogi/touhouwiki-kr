@@ -8,7 +8,7 @@ slug: "trojan-green-asteroid"
 # 토리후네 유적
 
 <!-- import albumCover from '@site/static/img/music/trojan_green_asteroid.png'; -->
-<!-- <img src={albumCover} alt="토리후네 유적" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="토리후네 유적" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 토리후네 유적 ~ Trojan Green Asteroid](https://namu.wiki/w/%ED%86%A0%EB%A6%AC%ED%9B%84%EB%84%A4%20%EC%9C%A0%EC%A0%81%20~%20Trojan%20Green%20Asteroid)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

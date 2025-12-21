@@ -8,7 +8,7 @@ import mizuhashiParsee from '@site/static/img/th11/mizuhashi_parsee.png';
 
 ## 미즈하시 파르시 (Mizuhashi Parsee)
 
-<img src={mizuhashiParsee} alt="미즈하시 파르시" style={{width: 250}} />
+<img src={mizuhashiParsee} alt="미즈하시 파르시" style={{height: 500}} />
 
 　○2면 보스　지각 아래의 질투심  
 　　미즈하시 파르시  

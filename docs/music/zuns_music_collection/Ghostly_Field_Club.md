@@ -8,7 +8,7 @@ slug: "ghostly-field-club"
 # 렌다이노 야행
 
 <!-- import albumCover from '@site/static/img/music/ghostly_field_club.png'; -->
-<!-- <img src={albumCover} alt="렌다이노 야행" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="렌다이노 야행" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 렌다이노 야행 ~ Ghostly Field Club](https://namu.wiki/w/%EB%A0%8C%EB%8B%A4%EC%9D%B4%EB%85%B8%20%EC%95%BC%ED%96%89%20~%20Ghostly%20Field%20Club)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

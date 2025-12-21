@@ -8,7 +8,7 @@ import kagerou from '@site/static/img/th14/imaizumi_kagerou.png';
 
 ## 이마이즈미 카게로 (今泉影狼, Imaizumi Kagerou)
 
-<img src={kagerou} alt="이마이즈미 카게로" style={{width: 250}} />
+<img src={kagerou} alt="이마이즈미 카게로" style={{height: 500}} />
 
 　○3면 보스　　죽림의 루가루  
 　　이마이즈미 카게로  

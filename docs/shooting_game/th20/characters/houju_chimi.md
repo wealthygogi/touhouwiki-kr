@@ -8,7 +8,7 @@ import houjuChimi from '@site/static/img/th20/houju_chimi.png';
 
 ## 호쥬 치미 (封獣チミ, Houju Chimi)
 
-<img src={houjuChimi} alt="호쥬 치미" style={{width: 250}} />
+<img src={houjuChimi} alt="호쥬 치미" style={{height: 500}} />
 
 　○2면 보스  
 　　정체불명의 순종하지 않는 요수  

@@ -8,7 +8,7 @@ import kaenbyouRin from '@site/static/img/th11/kaenbyou_rin.png';
 
 ## 카엔뵤 린 (Kaenbyou Rin)
 
-<img src={kaenbyouRin} alt="카엔뵤 린" style={{width: 250}} />
+<img src={kaenbyouRin} alt="카엔뵤 린" style={{height: 500}} />
 
 　○5면 보스　지옥의 윤화  
 　　카엔뵤 린 (통칭: 오린)  

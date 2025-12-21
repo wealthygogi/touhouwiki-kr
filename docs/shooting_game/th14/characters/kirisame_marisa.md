@@ -8,7 +8,7 @@ import marisa from '@site/static/img/th14/kirisame_marisa.png';
 
 ## 키리사메 마리사 (霧雨魔理沙, Kirisame Marisa)
 
-<img src={marisa} alt="키리사메 마리사" style={{width: 250}} />
+<img src={marisa} alt="키리사메 마리사" style={{height: 500}} />
 
 　○평범한 마법사  
 　　키리사메 마리사  

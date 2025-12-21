@@ -8,7 +8,7 @@ import kudamakiTsukasa from '@site/static/img/th18/kudamaki_tsukasa.png';
 
 ## 쿠다마키 츠카사 (管巻典, Kudamaki Tsukasa)
 
-<img src={kudamakiTsukasa} alt="쿠다마키 츠카사" style={{width: 250}} />
+<img src={kudamakiTsukasa} alt="쿠다마키 츠카사" style={{height: 500}} />
 
 　○5면 중보스  
 　　귓가에 속삭이는 사악한 백여우  

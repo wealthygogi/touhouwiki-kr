@@ -8,7 +8,7 @@ slug: "dr-latencys-freak-report"
 # 연석박물지
 
 <!-- import albumCover from '@site/static/img/music/dr_latencys_freak_report.png'; -->
-<!-- <img src={albumCover} alt="연석박물지" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="연석박물지" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 연석박물지 ~ Dr.Latency's Freak Report.](https://namu.wiki/w/%EC%97%B0%EC%84%9D%EB%B0%95%EB%AC%BC%EC%A7%80%20~%20Dr.Latency's%20Freak%20Report.)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

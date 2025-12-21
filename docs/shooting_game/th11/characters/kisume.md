@@ -8,7 +8,7 @@ import kisume from '@site/static/img/th11/kisume.png';
 
 ## 키스메 (Kisume)
 
-<img src={kisume} alt="키스메" style={{width: 250}} />
+<img src={kisume} alt="키스메" style={{height: 500}} />
 
 　○1면 중보스　무서운 우물의 요괴  
 　　키스메  

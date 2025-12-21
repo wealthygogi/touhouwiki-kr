@@ -8,7 +8,7 @@ description: "동방홍마향의 주인공"
 
 import hakureiReimu from '@site/static/img/th06/hakurei_reimu.png';
 
-<img src={hakureiReimu} alt="img" style={{width: 250}} />
+<img src={hakureiReimu} alt="img" style={{height: 500}} />
 
 　○영원의 무녀  
 　　하쿠레이 레이무  

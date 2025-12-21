@@ -8,7 +8,7 @@ import junko from '@site/static/img/th15/junko.png';
 
 ## 순호 (純狐, Junko)
 
-<img src={junko} alt="순호" style={{width: 250}} />
+<img src={junko} alt="순호" style={{height: 500}} />
 
 　○6면 보스　(무명의 존재)  
 　　순호  

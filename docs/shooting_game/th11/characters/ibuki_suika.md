@@ -8,7 +8,7 @@ import ibukiSuika from '@site/static/img/th11/ibuki_suika.png';
 
 ## 이부키 스이카 (Ibuki Suika)
 
-<img src={ibukiSuika} alt="이부키 스이카" style={{width: 250}} />
+<img src={ibukiSuika} alt="이부키 스이카" style={{height: 500}} />
 
 　○작은 백귀야행  
 　　이부키 스이카  

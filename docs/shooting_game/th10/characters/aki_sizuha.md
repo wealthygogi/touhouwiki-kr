@@ -8,7 +8,7 @@ import akiSizuha from '@site/static/img/th10/aki_sizuha.png';
 
 ## 아키 시즈하 (秋静葉, Aki Sizuha)
 
-<img src={akiSizuha} alt="아키 시즈하" style={{width: 250}} />
+<img src={akiSizuha} alt="아키 시즈하" style={{height: 500}} />
 
 　○1면 중보스　쓸쓸함과 종언의 상징  
 　　아키 시즈하  

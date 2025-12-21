@@ -8,7 +8,7 @@ import merlinImg from '@site/static/img/th09/merlin_prismriver.png';
 
 ## 메를랑 프리즘리버 (メルラン・プリズムリバー, Marlin Prismriver)
 
-<img src={merlinImg} alt="메를랑 프리즘리버" style={{width: 250}} />
+<img src={merlinImg} alt="메를랑 프리즘리버" style={{height: 500}} />
 
 　○소령 트럼페터  
 　　메를랑 프리즘리버  

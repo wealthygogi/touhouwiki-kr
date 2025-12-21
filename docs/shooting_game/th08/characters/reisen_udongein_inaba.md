@@ -8,7 +8,7 @@ import reisenUdongeinInaba from '@site/static/img/th08/reisen_udongein_inaba.png
 
 ## 레이센 우동게인 이나바 (鈴仙・優曇華院・イナバ, Reisen Udongein Inaba)
 
-<img src={reisenUdongeinInaba} alt="레이센 우동게인 이나바" style={{width: 250}} />
+<img src={reisenUdongeinInaba} alt="레이센 우동게인 이나바" style={{height: 500}} />
 
 　○5면 보스　광기의 달토끼  
 　　레이센 우동게인 이나바  

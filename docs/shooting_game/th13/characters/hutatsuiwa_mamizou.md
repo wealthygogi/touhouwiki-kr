@@ -8,7 +8,7 @@ import hutatsuiwaMamizou from '@site/static/img/th13/hutatsuiwa_mamizou.png';
 
 ## 후타츠이와 마미조 (二ッ岩マミゾウ, Hutatsuiwa Mamizou)
 
-<img src={hutatsuiwaMamizou} alt="후타츠이와 마미조" style={{width: 250}} />
+<img src={hutatsuiwaMamizou} alt="후타츠이와 마미조" style={{height: 500}} />
 
 　○엑스트라 보스　　요괴너구리 십변화  
 

@@ -8,7 +8,7 @@ import reiuziUtsuho from '@site/static/img/th11/reiuzi_utsuho.png';
 
 ## 레이우지 우츠호 (Reiuzi Utsuho)
 
-<img src={reiuziUtsuho} alt="레이우지 우츠호" style={{width: 250}} />
+<img src={reiuziUtsuho} alt="레이우지 우츠호" style={{height: 500}} />
 
 　○6면 보스　뜨겁게 고뇌하는 신의 불길  
 　　레이우지 우츠호 (통칭: 오쿠)  

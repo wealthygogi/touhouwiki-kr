@@ -8,7 +8,7 @@ slug: "rainbow-colored-septentrion"
 # 무지갯빛 셉텐트리온
 
 <!-- import albumCover from '@site/static/img/music/TODO.png'; -->
-<!-- <img src={albumCover} alt="무지갯빛 셉텐트리온" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="무지갯빛 셉텐트리온" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 무지갯빛 셉텐트리온](https://namu.wiki/w/%EB%AC%B4%EC%A7%80%EA%B0%AF%EB%B9%9B%20%EC%85%89%ED%85%90%ED%8A%B8%EB%A6%AC%EC%98%A8)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

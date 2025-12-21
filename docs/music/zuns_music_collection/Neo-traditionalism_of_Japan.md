@@ -8,7 +8,7 @@ slug: "neo-traditionalism-of-japan"
 # 이자나기 물질
 
 <!-- import albumCover from '@site/static/img/music/neo_traditionalism_of_japan.png'; -->
-<!-- <img src={albumCover} alt="이자나기 물질" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="이자나기 물질" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 이자나기 물질 ~ Neo-traditionalism of Japan.](https://namu.wiki/w/%EC%9D%B4%EC%9E%90%EB%82%98%EA%B8%B0%20%EB%AC%BC%EC%A7%88%20~%20Neo-traditionalism%20of%20Japan.)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

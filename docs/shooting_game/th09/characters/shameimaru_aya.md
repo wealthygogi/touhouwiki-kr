@@ -8,7 +8,7 @@ import ayaImg from '@site/static/img/th09/shameimaru_aya.png';
 
 ## 샤메이마루 아야 (射命丸 文, Shameimaru Aya)
 
-<img src={ayaImg} alt="샤메이마루 아야" style={{width: 250}} />
+<img src={ayaImg} alt="샤메이마루 아야" style={{height: 500}} />
 
 　○전통의 환상 신문쟁이  
 　　샤메이마루 아야  

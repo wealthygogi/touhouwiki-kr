@@ -8,7 +8,7 @@ description: "동방홍마향의 4면 보스"
 
 import patchouliKnowledge from '@site/static/img/th06/patchouli_knowledge.png';
 
-<img src={patchouliKnowledge} alt="img" style={{width: 250}} />
+<img src={patchouliKnowledge} alt="img" style={{height: 500}} />
 
 　○지식과 그늘의 소녀  
 　　파츄리 널릿지  

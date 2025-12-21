@@ -8,7 +8,7 @@ import yakumoYukari from '@site/static/img/th075/yakumo_yukari.png';
 
 ## 야쿠모 유카리 (八雲紫, Yakumo Yukari)
 
-<img src={yakumoYukari} alt="야쿠모 유카리" style={{width: 250}} />
+<img src={yakumoYukari} alt="야쿠모 유카리" style={{height: 500}} />
 
 　○환상의 경계  
 　　야쿠모 유카리  

@@ -8,7 +8,7 @@ description: "동방홍마향의 5면 보스"
 
 import izayoiSakuya from '@site/static/img/th06/izayoi_sakuya.png';
 
-<img src={izayoiSakuya} alt="img" style={{width: 250}} />
+<img src={izayoiSakuya} alt="img" style={{height: 500}} />
 
 　○홍마관의 메이드  
 　　이자요이 사쿠야  

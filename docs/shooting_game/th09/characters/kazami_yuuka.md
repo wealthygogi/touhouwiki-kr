@@ -8,7 +8,7 @@ import yuukaImg from '@site/static/img/th09/kazami_yuuka.png';
 
 ## 카자미 유카 (風見 幽香, Kazami Yuka)
 
-<img src={yuukaImg} alt="카자미 유카" style={{width: 250}} />
+<img src={yuukaImg} alt="카자미 유카" style={{height: 500}} />
 
 　○사계절의 플라워마스터  
 　　카자미 유카  

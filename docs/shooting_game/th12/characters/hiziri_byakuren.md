@@ -8,7 +8,7 @@ import hiziriByakuren from '@site/static/img/th12/hiziri_byakuren.png';
 
 ## 히지리 뱌쿠렌 (聖白蓮, Hiziri Byakuren)
 
-<img src={hiziriByakuren} alt="히지리 뱌쿠렌" style={{width: 250}} />
+<img src={hiziriByakuren} alt="히지리 뱌쿠렌" style={{height: 500}} />
 
 　○6면 보스　　봉인된 대마법사  
 　　히지리 뱌쿠렌  

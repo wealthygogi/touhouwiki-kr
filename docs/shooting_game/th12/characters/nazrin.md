@@ -8,7 +8,7 @@ import nazrin from '@site/static/img/th12/nazrin.png';
 
 ## 나즈린 (ナズーリン, Nazrin)
 
-<img src={nazrin} alt="나즈린" style={{width: 250}} />
+<img src={nazrin} alt="나즈린" style={{height: 500}} />
 
 　○1면 보스　다우저인 작은 대장  
 　　나즈린  

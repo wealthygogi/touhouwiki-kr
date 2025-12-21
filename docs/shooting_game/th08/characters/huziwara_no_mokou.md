@@ -8,7 +8,7 @@ import huziwaraNoMokou from '@site/static/img/th08/huziwara_no_mokou.png';
 
 ## 후지와라노 모코우 (藤原妹紅, Huziwara no Mokou)
 
-<img src={huziwaraNoMokou} alt="후지와라노 모코우" style={{width: 250}} />
+<img src={huziwaraNoMokou} alt="후지와라노 모코우" style={{height: 500}} />
 
 　○엑스트라 보스　봉래의 인형  
 　　후지와라노 모코우  

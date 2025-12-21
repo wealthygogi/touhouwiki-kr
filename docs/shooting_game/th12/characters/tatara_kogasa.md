@@ -8,7 +8,7 @@ import tataraKogasa from '@site/static/img/th12/tatara_kogasa.png';
 
 ## 타타라 코가사 (多々良小傘, Tatara Kogasa)
 
-<img src={tataraKogasa} alt="타타라 코가사" style={{width: 250}} />
+<img src={tataraKogasa} alt="타타라 코가사" style={{height: 500}} />
 
 　○2면 보스　　유쾌한 잃어버린 우산  
 

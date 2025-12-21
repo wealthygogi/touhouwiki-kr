@@ -8,7 +8,7 @@ import hecatiaLapislazuli from '@site/static/img/th15/hecatia_lapislazuli.png';
 
 ## 헤카티아 라피스라줄리 (ヘカーティア・ラピスラズリ, Hecatia Lapislazuli)
 
-<img src={hecatiaLapislazuli} alt="헤카티아 라피스라줄리" style={{width: 250}} />
+<img src={hecatiaLapislazuli} alt="헤카티아 라피스라줄리" style={{height: 500}} />
 
 　○EX 보스　지옥의 여신  
 　　헤카티아 라피스라줄리  

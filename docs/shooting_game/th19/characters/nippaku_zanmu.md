@@ -8,7 +8,7 @@ import nippakuZanmu from '@site/static/img/th19/nippaku_zanmu.png';
 
 ## 닛파쿠 잔무 (日白 残無, Nippaku Zanmu)
 
-<img src={nippakuZanmu} alt="닛파쿠 잔무" style={{width: 250}} />
+<img src={nippakuZanmu} alt="닛파쿠 잔무" style={{height: 500}} />
 
 ○적멸위락의 왕  
 

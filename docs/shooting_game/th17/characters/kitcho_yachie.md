@@ -8,7 +8,7 @@ import kitchoYachie from '@site/static/img/th17/kitcho_yachie.png';
 
 ## 킷초 야치에 (吉弔八千慧, Kitcho Yachie)
 
-<img src={kitchoYachie} alt="킷초 야치에" style={{width: 250}} />
+<img src={kitchoYachie} alt="킷초 야치에" style={{height: 500}} />
 
 　○4면 보스  
 　　귀걸조 조장  

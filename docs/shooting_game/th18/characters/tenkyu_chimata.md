@@ -8,7 +8,7 @@ import tenkyuChimata from '@site/static/img/th18/tenkyu_chimata.png';
 
 ## 텐큐 치마타 (天弓千亦, Tenkyu Chimata)
 
-<img src={tenkyuChimata} alt="텐큐 치마타" style={{width: 250}} />
+<img src={tenkyuChimata} alt="텐큐 치마타" style={{height: 500}} />
 
 　○6면 보스  
 　　주인 없는 물건의 신  

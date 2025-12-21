@@ -8,7 +8,7 @@ import lyricaImg from '@site/static/img/th09/lyrica_prismriver.png';
 
 ## 리리카 프리즘리버 (リリカ・プリズムリバー, Lyrica Prismriver)
 
-<img src={lyricaImg} alt="리리카 프리즘리버" style={{width: 250}} />
+<img src={lyricaImg} alt="리리카 프리즘리버" style={{height: 500}} />
 
 　○소령 키보디스트  
 　　리리카 프리즘리버  

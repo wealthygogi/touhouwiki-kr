@@ -8,7 +8,7 @@ slug: "dateless-bar-old-adam"
 # 구약주점
 
 <!-- import albumCover from '@site/static/img/music/dateless_bar_old_adam.png'; -->
-<!-- <img src={albumCover} alt="구약주점" style={{width: 250}} /> -->
+<!-- <img src={albumCover} alt="구약주점" style={{height: 500}} /> -->
 
 > 데이터 출처: [나무위키 — 구약주점 ~ Dateless Bar "Old Adam".](https://namu.wiki/w/%EA%B5%AC%EC%95%BD%EC%A3%BC%EC%A0%90%20~%20Dateless%20Bar%20%22Old%20Adam%22.)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

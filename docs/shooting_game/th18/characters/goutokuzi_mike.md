@@ -8,7 +8,7 @@ import goutokuziMike from '@site/static/img/th18/goutokuzi_mike.png';
 
 ## 고토쿠지 미케 (豪徳寺ミケ, Goutokuzi Mike)
 
-<img src={goutokuziMike} alt="고토쿠지 미케" style={{width: 250}} />
+<img src={goutokuziMike} alt="고토쿠지 미케" style={{height: 500}} />
 
 　○1면 보스  
 　　장사번성의 상징물  

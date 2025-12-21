@@ -8,7 +8,7 @@ import sakuyaImg from '@site/static/img/th09/izayoi_sakuya.png';
 
 ## 이자요이 사쿠야 (十六夜 咲夜, Izayoi Sakuya)
 
-<img src={sakuyaImg} alt="이자요이 사쿠야" style={{width: 250}} />
+<img src={sakuyaImg} alt="이자요이 사쿠야" style={{height: 500}} />
 
 　○완벽하고 소쇄한 메이드  
 　　이자요이 사쿠야  

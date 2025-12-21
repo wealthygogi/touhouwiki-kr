@@ -8,7 +8,7 @@ import akiMinoriko from '@site/static/img/th10/aki_minoriko.png';
 
 ## 아키 미노리코 (秋穣子, Aki Minoriko)
 
-<img src={akiMinoriko} alt="아키 미노리코" style={{width: 250}} />
+<img src={akiMinoriko} alt="아키 미노리코" style={{height: 500}} />
 
 　○1면 보스　풍요와 결실의 상징  
 　　아키 미노리코  

@@ -8,6 +8,6 @@ description: "동방홍마향의 2면 중간보스"
 
 import daiyousei from '@site/static/img/th06/daiyousei.png';
 
-<img src={daiyousei} alt="img" style={{width: 250}} />
+<img src={daiyousei} alt="img" style={{height: 500}} />
 
 -

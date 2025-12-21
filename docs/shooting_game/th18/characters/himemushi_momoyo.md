@@ -8,7 +8,7 @@ import himemushiMomoyo from '@site/static/img/th18/himemushi_momoyo.png';
 
 ## 히메무시 모모요 (姫虫百々世, Himemushi Momoyo)
 
-<img src={himemushiMomoyo} alt="히메무시 모모요" style={{width: 250}} />
+<img src={himemushiMomoyo} alt="히메무시 모모요" style={{height: 500}} />
 
 　○엑스트라 보스  
 　　검은 드래곤 이터  

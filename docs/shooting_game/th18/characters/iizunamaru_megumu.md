@@ -8,7 +8,7 @@ import iizunamaruMegumu from '@site/static/img/th18/iizunamaru_megumu.png';
 
 ## 이즈나마루 메구무 (飯綱丸龍, Iizunamaru Megumu)
 
-<img src={iizunamaruMegumu} alt="이즈나마루 메구무" style={{width: 250}} />
+<img src={iizunamaruMegumu} alt="이즈나마루 메구무" style={{height: 500}} />
 
 　○5면 보스  
 　　까마귀 텐구의 대장  

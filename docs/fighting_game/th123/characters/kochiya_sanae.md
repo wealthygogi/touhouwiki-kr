@@ -8,7 +8,7 @@ import kochiyaSanae from '@site/static/img/th123/kochiya_sanae.png';
 
 ## 코치야 사나에 (東風谷早苗, Kochiya Sanae)
 
-<img src={kochiyaSanae} alt="코치야 사나에" style={{width: 250}} />
+<img src={kochiyaSanae} alt="코치야 사나에" style={{height: 500}} />
 
 　○모셔지는 바람의 인간  
 　　코치야 사나에  

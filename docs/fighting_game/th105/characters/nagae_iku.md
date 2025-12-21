@@ -8,7 +8,7 @@ import nagaeIku from '@site/static/img/th105/nagae_iku.png';
 
 ## 나가에 이쿠 (永江衣玖, Nagae Iku)
 
-<img src={nagaeIku} alt="나가에 이쿠" style={{width: 250}} />
+<img src={nagaeIku} alt="나가에 이쿠" style={{height: 500}} />
 
 　○아름다운 주홍색 옷  
 　　나가에 이쿠  

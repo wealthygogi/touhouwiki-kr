@@ -8,7 +8,7 @@ import tamatsukuriMisumaru from '@site/static/img/th18/tamatsukuri_misumaru.png'
 
 ## 타마츠쿠리 미스마루 (玉造魅須丸, Tamatsukuri Misumaru)
 
-<img src={tamatsukuriMisumaru} alt="타마츠쿠리 미스마루" style={{width: 250}} />
+<img src={tamatsukuriMisumaru} alt="타마츠쿠리 미스마루" style={{height: 500}} />
 
 　○4면 보스  
 　　진짜 곡옥 제작 장인  
