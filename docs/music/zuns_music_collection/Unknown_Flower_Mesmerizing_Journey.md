@@ -5,7 +5,7 @@ description: "未知(みち)の花(はな) 魅知(みち)の旅(たび)"
 slug: "unknown-flower-mesmerizing-journey"
 ---
 
-# 미지의 꽃 매지의 여행
+# 미지의 꽃 매지의 여행(未知の花 魅知の旅)
 
 <!-- import albumCover from '@site/static/img/music/unknown_flower_mesmerizing_journey.png'; -->
 <!-- <img src={albumCover} alt="미지의 꽃 매지의 여행" style={{height: 500}} /> -->
@@ -24,11 +24,11 @@ slug: "unknown-flower-mesmerizing-journey"
 
 ## #01 미지의 꽃 매지의 여행
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 
@@ -36,11 +36,11 @@ TBD
 
 ## #02 무간의 종 ~ Infinite Nightmare
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 
@@ -48,11 +48,11 @@ TBD
 
 ## #03 내일은 휴일, 어제는 평일
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 

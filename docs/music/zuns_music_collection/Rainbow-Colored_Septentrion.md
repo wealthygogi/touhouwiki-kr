@@ -5,7 +5,7 @@ description: "虹色(にじいろ)のセプテントリオン"
 slug: "rainbow-colored-septentrion"
 ---
 
-# 무지갯빛 셉텐트리온
+# 무지갯빛 셉텐트리온(虹色のセプテントリオン)
 
 <!-- import albumCover from '@site/static/img/music/TODO.png'; -->
 <!-- <img src={albumCover} alt="무지갯빛 셉텐트리온" style={{height: 500}} /> -->
@@ -24,11 +24,11 @@ slug: "rainbow-colored-septentrion"
 
 ## #01 나나츠이시의 늑대, 구름을 잡으러 달리다
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 
@@ -36,11 +36,11 @@ TBD
 
 ## #02 환상의 화이트 트래블러
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 
@@ -48,11 +48,11 @@ TBD
 
 ## #03 그 활기찬 시장은 지금 어디에 ~ Immemorial Marketeers
 
-#### 한국어 스토리 번역
+### 한국어 스토리 번역
 
 TBD
 
-#### 일본어 원문
+### 일본어 원문
 
 TBD
 
