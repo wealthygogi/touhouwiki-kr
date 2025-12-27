@@ -5,7 +5,7 @@ description: "夢違科学世紀(ゆめたがえかがくせいき) ~ Changeabil
 slug: "changeability-of-strange-dream"
 ---
 
-# 몽위과학세기
+# 몽위과학세기(夢違科学世紀)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.
@@ -16,7 +16,24 @@ TBD: 이 문서는 기계 번역입니다.
 
 > 데이터 출처: [touhouwiki — Changeability of Strange Dream](https://en.touhouwiki.net/wiki/Changeability_of_Strange_Dream)
 
-## Synopsis
+## 트랙 목록
+| # | 제목 | 원제 | 비고 |
+| --- | --- | --- | --- |
+| 01 | 동제 ~ Innocent Treasures | **童祭 ~ Innocent Treasures** |  |
+| 02 | 화서의 꿈 | **華胥の夢** |  |
+| 03 | 상해 홍차관 ~ Chinese Tea | **上海紅茶館 ～ Chinese Tea** |  |
+| 04 | 보이지 1969 | **ヴォヤージュ1969** |  |
+| 05 | 과학 세기의 소년소녀 | **科学世紀の少年少女** |  |
+| 06 | 영야의 대가 ~ Imperishable Night | **永夜の報い ~ Imperishable Night** |  |
+| 07 | 밤이 내려온다 ~ Evening Star | **夜が降りてくる ~ Evening Star** |  |
+| 08 | 인형재판 ~ 사람의 형상을 가지고 노는 소녀 | **人形裁判 ～ 人の形弄びし少女** |  |
+| 09 | 꿈과 현실의 경계 | **夢と現の境界** |  |
+| 10 | 환상기계 ~ Phantom Factory | **幻想機械 ~ Phantom Factory** |  |
+| 11 | 유현의 단풍나무 ~ Eternal Dream | **幽玄の槭樹 ~ Eternal Dream** |  |
+
+---
+
+## 시놉시스
 
 ### 한국어 번역
 
@@ -31,7 +48,7 @@ TBD: 이 문서는 기계 번역입니다.
 
 ---
 
-## Story
+## 스토리
 
 ### 한국어 번역
 
@@ -45,7 +62,7 @@ TBD: 이 문서는 기계 번역입니다.
 
 ---
 
-## Afterwords
+## 후기
 
 ### 한국어 번역
 
@@ -90,23 +107,6 @@ TBD: 이 문서는 기계 번역입니다.
 ですが、子供達の心がどんどんと狭くなる一方のこの国でも、もしかしたら街に子供達の笑顔が溢れる日も来るのかもしれないですね。合成で。
 
 上海アリス幻樂団　ZUN　（筍好き）
-
----
-
-## 트랙 목록
-| # | 제목 | 원제 | 비고 |
-| --- | --- | --- | --- |
-| 01 | 동제 ~ Innocent Treasures | **童祭 ~ Innocent Treasures** |  |
-| 02 | 화서의 꿈 | **華胥の夢** |  |
-| 03 | 상해 홍차관 ~ Chinese Tea | **上海紅茶館 ～ Chinese Tea** |  |
-| 04 | 보이지 1969 | **ヴォヤージュ1969** |  |
-| 05 | 과학 세기의 소년소녀 | **科学世紀の少年少女** |  |
-| 06 | 영야의 대가 ~ Imperishable Night | **永夜の報い ~ Imperishable Night** |  |
-| 07 | 밤이 내려온다 ~ Evening Star | **夜が降りてくる ~ Evening Star** |  |
-| 08 | 인형재판 ~ 사람의 형상을 가지고 노는 소녀 | **人形裁判 ～ 人の形弄びし少女** |  |
-| 09 | 꿈과 현실의 경계 | **夢と現の境界** |  |
-| 10 | 환상기계 ~ Phantom Factory | **幻想機械 ~ Phantom Factory** |  |
-| 11 | 유현의 단풍나무 ~ Eternal Dream | **幽玄の槭樹 ~ Eternal Dream** |  |
 
 ---
 
