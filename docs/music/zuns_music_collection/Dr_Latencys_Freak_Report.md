@@ -7,7 +7,7 @@ slug: "dr-latencys-freak-report"
 
 # 연석박물지 ~ Dr.Latency's Freak Report. (燕石博物誌 ~ Dr.Latency's Freak Report.)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

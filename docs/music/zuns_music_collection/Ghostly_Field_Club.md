@@ -7,7 +7,7 @@ slug: "ghostly-field-club"
 
 # 렌다이노 야행 ~ Ghostly Field Club(蓮台野夜行 ~ Ghostly Field Club)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

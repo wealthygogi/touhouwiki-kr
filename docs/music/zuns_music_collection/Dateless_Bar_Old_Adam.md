@@ -7,7 +7,7 @@ slug: "dateless-bar-old-adam"
 
 # 구약주점 ~ Dateless Bar "Old Adam".(旧約酒場 ~ Dateless Bar "Old Adam".)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

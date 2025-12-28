@@ -7,7 +7,7 @@ slug: "magical-astronomy"
 
 # 대공마술 ~ Magical Astronomy(大空魔術 ~ Magical Astronomy)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

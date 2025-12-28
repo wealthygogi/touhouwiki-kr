@@ -7,7 +7,7 @@ slug: "rainbow-colored-septentrion"
 
 # 무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion(虹色のセプテントリオン ~ Rainbow-Colored Septentrion)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

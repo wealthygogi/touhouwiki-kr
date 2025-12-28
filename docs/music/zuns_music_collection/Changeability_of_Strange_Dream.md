@@ -7,7 +7,7 @@ slug: "changeability-of-strange-dream"
 
 # 몽위과학세기 ~ Changeability of Strange Dream (夢違科学世紀 ~ Changeability of Strange Dream)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

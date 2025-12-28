@@ -7,7 +7,7 @@ slug: "retrospective-53-minutes"
 
 # 묘유동해도 ~ Retrospective 53 minutes(卯酉東海道 ~ Retrospective 53 minutes)
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.
 :::
 

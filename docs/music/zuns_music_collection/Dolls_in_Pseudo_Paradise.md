@@ -7,7 +7,7 @@ slug: "dolls-in-pseudo-paradise"
 
 # 봉래인형 ~ Dolls in Pseudo Paradise(蓬莱人形 ~ Dolls in Pseudo Paradise)  
 
-:::danger
+:::info
 TBD: 이 문서는 기계 번역입니다.  
 :::  
 
