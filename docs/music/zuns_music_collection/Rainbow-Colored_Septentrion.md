@@ -6,7 +6,9 @@ slug: "rainbow-colored-septentrion"
 ---
 import albumCover from '@site/static/img/music/rainbow_colored_septentrion.jpg';
 
-# 무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion(虹色のセプテントリオン ~ Rainbow-Colored Septentrion)
+# 무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion
+
+## 虹色のセプテントリオン ~ Rainbow-Colored Septentrion
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

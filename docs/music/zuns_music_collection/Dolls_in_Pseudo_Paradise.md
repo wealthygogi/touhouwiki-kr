@@ -6,7 +6,9 @@ slug: "dolls-in-pseudo-paradise"
 ---
 import albumCover from '@site/static/img/music/dolls_in_pseudo_paradise.png';
 
-# 봉래인형 ~ Dolls in Pseudo Paradise(蓬莱人形 ~ Dolls in Pseudo Paradise)  
+# 봉래인형 ~ Dolls in Pseudo Paradise
+
+## 蓬莱人形 ~ Dolls in Pseudo Paradise
 
 :::info
 TBD: 이 문서는 기계 번역입니다.  

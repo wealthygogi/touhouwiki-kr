@@ -6,7 +6,9 @@ slug: "changeability-of-strange-dream"
 ---
 import albumCover from '@site/static/img/music/changeability_of_strange_dream.jpg';
 
-# 몽위과학세기 ~ Changeability of Strange Dream (夢違科学世紀 ~ Changeability of Strange Dream)
+# 몽위과학세기 ~ Changeability of Strange Dream
+
+## 夢違科学世紀 ~ Changeability of Strange Dream
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

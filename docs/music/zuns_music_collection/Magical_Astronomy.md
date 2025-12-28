@@ -6,7 +6,9 @@ slug: "magical-astronomy"
 ---
 import albumCover from '@site/static/img/music/magical_astronomy.jpg';
 
-# 대공마술 ~ Magical Astronomy(大空魔術 ~ Magical Astronomy)
+# 대공마술 ~ Magical Astronomy
+
+## 大空魔術 ~ Magical Astronomy
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

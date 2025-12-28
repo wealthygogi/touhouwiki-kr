@@ -6,7 +6,9 @@ slug: "ghostly-field-club"
 ---
 import albumCover from '@site/static/img/music/ghostly_field_club.jpg';
 
-# 렌다이노 야행 ~ Ghostly Field Club(蓮台野夜行 ~ Ghostly Field Club)
+# 렌다이노 야행 ~ Ghostly Field Club
+
+## 蓮台野夜行 ~ Ghostly Field Club
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

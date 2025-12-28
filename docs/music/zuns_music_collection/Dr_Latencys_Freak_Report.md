@@ -6,7 +6,9 @@ slug: "dr-latencys-freak-report"
 ---
 import albumCover from '@site/static/img/music/dr_latencys_freak_report.png';
 
-# 연석박물지 ~ Dr.Latency's Freak Report. (燕石博物誌 ~ Dr.Latency's Freak Report.)
+# 연석박물지 ~ Dr.Latency's Freak Report.
+
+## 燕石博物誌 ~ Dr.Latency's Freak Report.
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

@@ -6,7 +6,9 @@ slug: "taboo-japan-disentanglement"
 ---
 import albumCover from '@site/static/img/music/taboo_japan_disentanglement.png';
 
-# 타나바타자카 무겐노 ~ Taboo Japan Disentanglement(七夕坂夢幻能 ~ Taboo Japan Disentanglement)
+# 타나바타자카 무겐노 ~ Taboo Japan Disentanglement
+
+## 七夕坂夢幻能 ~ Taboo Japan Disentanglement
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

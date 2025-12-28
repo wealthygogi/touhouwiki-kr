@@ -6,7 +6,9 @@ slug: "neo-traditionalism-of-japan"
 ---
 import albumCover from '@site/static/img/music/neo_traditionalism_of_japan.jpg';
 
-# 이자나기 물질 ~ Neo-traditionalism of Japan. (伊弉諾物質 ~ Neo-traditionalism of Japan.)
+# 이자나기 물질 ~ Neo-traditionalism of Japan.
+
+## 伊弉諾物質 ~ Neo-traditionalism of Japan.
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

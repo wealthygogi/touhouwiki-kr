@@ -6,7 +6,9 @@ slug: "dateless-bar-old-adam"
 ---
 import albumCover from '@site/static/img/music/dateless_bar_old_adam.png';
 
-# 구약주점 ~ Dateless Bar "Old Adam".(旧約酒場 ~ Dateless Bar "Old Adam".)
+# 구약주점 ~ Dateless Bar "Old Adam".
+
+## 旧約酒場 ~ Dateless Bar "Old Adam".
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

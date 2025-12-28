@@ -6,7 +6,9 @@ slug: "trojan-green-asteroid"
 ---
 import albumCover from '@site/static/img/music/trojan_green_asteroid.png';
 
-# 토리후네 유적 ~ Trojan Green Asteroid(鳥船遺跡 ~ Trojan Green Asteroid)
+# 토리후네 유적 ~ Trojan Green Asteroid
+
+## 鳥船遺跡 ~ Trojan Green Asteroid
 
 :::info
 TBD: 이 문서는 기계 번역입니다.

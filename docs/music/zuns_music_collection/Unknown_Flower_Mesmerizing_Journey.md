@@ -6,7 +6,9 @@ slug: "unknown-flower-mesmerizing-journey"
 ---
 import albumCover from '@site/static/img/music/unknown_flower_mesmerizing_journey.jpg';
 
-# 미지의 꽃 매지의 여행(未知の花 魅知の旅)
+# 미지의 꽃 매지의 여행
+
+## 未知の花 魅知の旅
 
 <img src={albumCover} alt="미지의 꽃 매지의 여행" style={{height: 500}} />
 
