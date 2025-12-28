@@ -5,7 +5,7 @@ description: "虹色(にじいろ)のセプテントリオン ~ Rainbow-Colored 
 slug: "rainbow-colored-septentrion"
 ---
 
-# 무지갯빛 셉텐트리온(虹色のセプテントリオン)
+# 무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion(虹色のセプテントリオン ~ Rainbow-Colored Septentrion)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.
@@ -17,6 +17,7 @@ TBD: 이 문서는 기계 번역입니다.
 > 데이터 출처: [touhouwiki — Rainbow-Colored Septentrion](https://en.touhouwiki.net/wiki/Rainbow-Colored_Septentrion)
 
 ## 트랙 목록
+
 | # | 제목 | 원제 | 비고 |
 | --- | --- | --- | --- |
 | 01 | 나나츠이시의 늑대, 구름을 잡으러 달리다 | **七ツ石の狼、雲を取りに駆ける** |  |

@@ -5,7 +5,7 @@ description: "鳥船遺跡(とりふねいせき) ~ Trojan Green Asteroid"
 slug: "trojan-green-asteroid"
 ---
 
-# 토리후네 유적(鳥船遺跡)
+# 토리후네 유적 ~ Trojan Green Asteroid(鳥船遺跡 ~ Trojan Green Asteroid)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.

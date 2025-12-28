@@ -5,7 +5,7 @@ description: "旧約酒場(きゅうやくさかば) ~ Dateless Bar \"Old Adam\"
 slug: "dateless-bar-old-adam"
 ---
 
-# 구약주점(旧約酒場)
+# 구약주점 ~ Dateless Bar "Old Adam".(旧約酒場 ~ Dateless Bar "Old Adam".)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.

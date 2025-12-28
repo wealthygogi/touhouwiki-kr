@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: "미지의 꽃 매지의 여행"
-description: "未知(みち)の花(はな) 魅知(みち)の旅(たび)"
+description: "未知の花 魅知の旅"
 slug: "unknown-flower-mesmerizing-journey"
 ---
 

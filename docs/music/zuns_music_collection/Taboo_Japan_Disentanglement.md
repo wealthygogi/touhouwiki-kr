@@ -5,7 +5,7 @@ description: "七夕坂夢幻能(たなばたざかむげんのう) ~ Taboo Japa
 slug: "taboo-japan-disentanglement"
 ---
 
-# 타나바타자카 무겐노(七夕坂夢幻能)
+# 타나바타자카 무겐노 ~ Taboo Japan Disentanglement(七夕坂夢幻能 ~ Taboo Japan Disentanglement)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.

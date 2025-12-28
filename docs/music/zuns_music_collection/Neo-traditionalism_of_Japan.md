@@ -5,7 +5,7 @@ description: "伊弉諾物質(いざなぎぶっしつ) ~ Neo-traditionalism of 
 slug: "neo-traditionalism-of-japan"
 ---
 
-# 이자나기 물질 ~ Neo-traditionalism of Japan. (伊弉諾物質(いざなぎぶっしつ) ~ Neo-traditionalism of Japan.)
+# 이자나기 물질 ~ Neo-traditionalism of Japan. (伊弉諾物質 ~ Neo-traditionalism of Japan.)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.

@@ -5,7 +5,7 @@ description: "大空魔術(おおぞらまじゅつ) ~ Magical Astronomy"
 slug: "magical-astronomy"
 ---
 
-# 대공마술(大空魔術)
+# 대공마술 ~ Magical Astronomy(大空魔術 ~ Magical Astronomy)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.

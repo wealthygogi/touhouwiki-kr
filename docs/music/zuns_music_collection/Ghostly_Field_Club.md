@@ -5,7 +5,7 @@ description: "蓮台野夜行(れんだいのやこう) ~ Ghostly Field Club"
 slug: "ghostly-field-club"
 ---
 
-# 렌다이노 야행(蓮台野夜行)
+# 렌다이노 야행 ~ Ghostly Field Club(蓮台野夜行 ~ Ghostly Field Club)
 
 :::danger
 TBD: 이 문서는 기계 번역입니다.
