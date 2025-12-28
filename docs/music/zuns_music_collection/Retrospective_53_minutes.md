@@ -4,6 +4,7 @@ title: "묘유동해도 ~ Retrospective 53 minutes"
 description: "卯酉東海道(ぼうゆうとうかいどう) ~ Retrospective 53 minutes"
 slug: "retrospective-53-minutes"
 ---
+import albumCover from '@site/static/img/music/retrospective_53_minutes.jpg';
 
 # 묘유동해도 ~ Retrospective 53 minutes(卯酉東海道 ~ Retrospective 53 minutes)
 
@@ -11,8 +12,7 @@ slug: "retrospective-53-minutes"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/retrospective_53_minutes.png'; -->
-<!-- <img src={albumCover} alt="묘유동해도" style={{height: 500}} /> -->
+<img src={albumCover} alt="묘유동해도" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Retrospective 53 minutes/Story](https://en.touhouwiki.net/wiki/Retrospective_53_minutes/Story)
 

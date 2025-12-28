@@ -4,6 +4,7 @@ title: "토리후네 유적 ~ Trojan Green Asteroid"
 description: "鳥船遺跡(とりふねいせき) ~ Trojan Green Asteroid"
 slug: "trojan-green-asteroid"
 ---
+import albumCover from '@site/static/img/music/trojan_green_asteroid.png';
 
 # 토리후네 유적 ~ Trojan Green Asteroid(鳥船遺跡 ~ Trojan Green Asteroid)
 
@@ -11,8 +12,7 @@ slug: "trojan-green-asteroid"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/trojan_green_asteroid.png'; -->
-<!-- <img src={albumCover} alt="토리후네 유적" style={{height: 500}} /> -->
+<img src={albumCover} alt="토리후네 유적" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Trojan Green Asteroid/Story](https://en.touhouwiki.net/wiki/Trojan_Green_Asteroid/Story)
 

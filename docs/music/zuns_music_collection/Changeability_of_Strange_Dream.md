@@ -4,6 +4,7 @@ title: "몽위과학세기 ~ Changeability of Strange Dream"
 description: "夢違科学世紀(ゆめたがえかがくせいき) ~ Changeability of Strange Dream"
 slug: "changeability-of-strange-dream"
 ---
+import albumCover from '@site/static/img/music/changeability_of_strange_dream.jpg';
 
 # 몽위과학세기 ~ Changeability of Strange Dream (夢違科学世紀 ~ Changeability of Strange Dream)
 
@@ -11,8 +12,7 @@ slug: "changeability-of-strange-dream"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/changeability_of_strange_dream.png'; -->
-<!-- <img src={albumCover} alt="몽위과학세기" style={{height: 500}} /> -->
+<img src={albumCover} alt="몽위과학세기" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Changeability of Strange Dream](https://en.touhouwiki.net/wiki/Changeability_of_Strange_Dream)
 

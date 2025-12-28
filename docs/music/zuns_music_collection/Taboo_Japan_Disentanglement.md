@@ -4,6 +4,7 @@ title: "타나바타자카 무겐노 ~ Taboo Japan Disentanglement."
 description: "七夕坂夢幻能(たなばたざかむげんのう) ~ Taboo Japan Disentanglement."
 slug: "taboo-japan-disentanglement"
 ---
+import albumCover from '@site/static/img/music/taboo_japan_disentanglement.png';
 
 # 타나바타자카 무겐노 ~ Taboo Japan Disentanglement(七夕坂夢幻能 ~ Taboo Japan Disentanglement)
 
@@ -11,8 +12,7 @@ slug: "taboo-japan-disentanglement"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/TODO.png'; -->
-<!-- <img src={albumCover} alt="타나바타자카 무겐노" style={{height: 500}} /> -->
+<img src={albumCover} alt="타나바타자카 무겐노" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Taboo Japan Disentanglement/Story](https://en.touhouwiki.net/wiki/Taboo_Japan_Disentanglement/Story)
 

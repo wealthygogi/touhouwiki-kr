@@ -4,6 +4,7 @@ title: "렌다이노 야행 ~ Ghostly Field Club"
 description: "蓮台野夜行(れんだいのやこう) ~ Ghostly Field Club"
 slug: "ghostly-field-club"
 ---
+import albumCover from '@site/static/img/music/ghostly_field_club.jpg';
 
 # 렌다이노 야행 ~ Ghostly Field Club(蓮台野夜行 ~ Ghostly Field Club)
 
@@ -11,8 +12,7 @@ slug: "ghostly-field-club"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/ghostly_field_club.png'; -->
-<!-- <img src={albumCover} alt="렌다이노 야행" style={{height: 500}} /> -->
+<img src={albumCover} alt="렌다이노 야행" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki— Ghostly Field Club/Story](https://en.touhouwiki.net/wiki/Ghostly_Field_Club/Story)
 <!-- TODO: 스토리 원문/번역 텍스트를 확보하면 각 트랙 하단의 `TBD`를 채웁니다. -->

@@ -4,6 +4,7 @@ title: "연석박물지 ~ Dr.Latency's Freak Report."
 description: "燕石博物誌(えんせきはくぶつし) ~ Dr.Latency's Freak Report."
 slug: "dr-latencys-freak-report"
 ---
+import albumCover from '@site/static/img/music/dr_latencys_freak_report.png';
 
 # 연석박물지 ~ Dr.Latency's Freak Report. (燕石博物誌 ~ Dr.Latency's Freak Report.)
 
@@ -11,8 +12,7 @@ slug: "dr-latencys-freak-report"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/dr_latencys_freak_report.png'; -->
-<!-- <img src={albumCover} alt="연석박물지" style={{height: 500}} /> -->
+<img src={albumCover} alt="연석박물지" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Dr. Latency's Freak Report./Story](https://en.touhouwiki.net/wiki/Dr._Latency%27s_Freak_Report/Story)
 

@@ -4,6 +4,7 @@ title: "무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion"
 description: "虹色(にじいろ)のセプテントリオン ~ Rainbow-Colored Septentrion"
 slug: "rainbow-colored-septentrion"
 ---
+import albumCover from '@site/static/img/music/rainbow_colored_septentrion.jpg';
 
 # 무지갯빛 셉텐트리온 ~ Rainbow-Colored Septentrion(虹色のセプテントリオン ~ Rainbow-Colored Septentrion)
 
@@ -11,8 +12,7 @@ slug: "rainbow-colored-septentrion"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/TODO.png'; -->
-<!-- <img src={albumCover} alt="무지갯빛 셉텐트리온" style={{height: 500}} /> -->
+<img src={albumCover} alt="무지갯빛 셉텐트리온" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Rainbow-Colored Septentrion](https://en.touhouwiki.net/wiki/Rainbow-Colored_Septentrion)
 

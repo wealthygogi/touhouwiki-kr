@@ -4,6 +4,7 @@ title: "봉래인형 ~ Dolls in Pseudo Paradise"
 description: "蓬莱人形(ほうらいにんぎょう) ~ Dolls in Pseudo Paradise"
 slug: "dolls-in-pseudo-paradise"
 ---
+import albumCover from '@site/static/img/music/dolls_in_pseudo_paradise.png';
 
 # 봉래인형 ~ Dolls in Pseudo Paradise(蓬莱人形 ~ Dolls in Pseudo Paradise)  
 
@@ -11,8 +12,7 @@ slug: "dolls-in-pseudo-paradise"
 TBD: 이 문서는 기계 번역입니다.  
 :::  
 
-<!-- import albumCover from '@site/static/img/music/dolls_in_pseudo_paradise.png'; -->  
-<!-- <img src={albumCover} alt="봉래인형" style={{height: 500}} /> -->  
+<img src={albumCover} alt="봉래인형" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Dolls in Pseudo Paradise/Story](https://en.touhouwiki.net/wiki/Dolls_in_Pseudo_Paradise/Story)  
 

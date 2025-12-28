@@ -4,6 +4,7 @@ title: "대공마술 ~ Magical Astronomy"
 description: "大空魔術(おおぞらまじゅつ) ~ Magical Astronomy"
 slug: "magical-astronomy"
 ---
+import albumCover from '@site/static/img/music/magical_astronomy.jpg';
 
 # 대공마술 ~ Magical Astronomy(大空魔術 ~ Magical Astronomy)
 
@@ -11,8 +12,7 @@ slug: "magical-astronomy"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/magical_astronomy.png'; -->
-<!-- <img src={albumCover} alt="대공마술" style={{height: 500}} /> -->
+<img src={albumCover} alt="대공마술" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Magical Astronomy/Story](https://en.touhouwiki.net/wiki/Magical_Astronomy/Story)
 

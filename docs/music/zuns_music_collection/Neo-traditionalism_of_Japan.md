@@ -4,6 +4,7 @@ title: "이자나기 물질 ~ Neo-traditionalism of Japan."
 description: "伊弉諾物質(いざなぎぶっしつ) ~ Neo-traditionalism of Japan."
 slug: "neo-traditionalism-of-japan"
 ---
+import albumCover from '@site/static/img/music/neo_traditionalism_of_japan.jpg';
 
 # 이자나기 물질 ~ Neo-traditionalism of Japan. (伊弉諾物質 ~ Neo-traditionalism of Japan.)
 
@@ -11,8 +12,7 @@ slug: "neo-traditionalism-of-japan"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/neo_traditionalism_of_japan.png'; -->
-<!-- <img src={albumCover} alt="이자나기 물질" style={{height: 500}} /> -->
+<img src={albumCover} alt="이자나기 물질" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Neo-traditionalism of Japan./Story](https://en.touhouwiki.net/wiki/Neo-traditionalism_of_Japan/Story)
 

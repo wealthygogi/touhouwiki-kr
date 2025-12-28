@@ -4,6 +4,7 @@ title: "구약주점 ~ Dateless Bar \"Old Adam\"."
 description: "旧約酒場(きゅうやくさかば) ~ Dateless Bar \"Old Adam\"."
 slug: "dateless-bar-old-adam"
 ---
+import albumCover from '@site/static/img/music/dateless_bar_old_adam.png';
 
 # 구약주점 ~ Dateless Bar "Old Adam".(旧約酒場 ~ Dateless Bar "Old Adam".)
 
@@ -11,8 +12,7 @@ slug: "dateless-bar-old-adam"
 TBD: 이 문서는 기계 번역입니다.
 :::
 
-<!-- import albumCover from '@site/static/img/music/dateless_bar_old_adam.png'; -->
-<!-- <img src={albumCover} alt="구약주점" style={{height: 500}} /> -->
+<img src={albumCover} alt="구약주점" style={{height: 500}} />
 
 > 데이터 출처: [touhouwiki — Dateless Bar "Old Adam"/Story](https://en.touhouwiki.net/wiki/Dateless_Bar_%22Old_Adam%22/Story)
 
