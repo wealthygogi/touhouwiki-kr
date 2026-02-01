@@ -22,6 +22,82 @@
   flex-wrap: wrap;
 }
 
+.advancedControls {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.controlRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.controlRow:first-child {
+  margin-top: 0;
+}
+
+.controlLabel {
+  font-weight: 700;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.segmented {
+  display: inline-flex;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+
+.segmentButton {
+  appearance: none;
+  border: none;
+  background: transparent;
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.72);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.segmentButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.segmentActive {
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.workSelect {
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+  min-width: 240px;
+  max-width: 100%;
+}
+
+.datasetStatus {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.datasetError {
+  color: #b00020;
+  font-weight: 700;
+}
+
 .categoryButton {
   padding: 0.75rem 1.5rem;
   border: none;
@@ -146,6 +222,19 @@
   max-width: 100%;
 }
 
+.meta {
+  margin-top: 0.75rem;
+  text-align: left;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  opacity: 0.95;
+}
+
+.sourceWork {
+  margin-top: 0.35rem;
+  font-weight: 700;
+}
+
 .flashing {
   animation: flash 0.1s ease-in-out;
 }
@@ -216,5 +305,10 @@
 
   .categoryButton {
     width: 200px;
+  }
+
+  .workSelect {
+    min-width: 0;
+    width: 100%;
   }
 }
