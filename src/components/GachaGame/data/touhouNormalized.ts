@@ -3,6 +3,8 @@ export type WorkType = "game" | "music" | "book" | "unknown";
 export interface Work {
   id: string;
   type: WorkType;
+  work_section_ja: string;
+  order_index: number | null;
   name_ko: string;
   name_ja: string;
   name_en: string;
@@ -40,9 +42,18 @@ function parseWork(v: unknown): Work | null {
   if (!isRecord(v)) return null;
   const id = asString(v.id);
   if (!id) return null;
+
+  const order_index_raw = v.order_index;
+  const order_index =
+    typeof order_index_raw === "number" && Number.isFinite(order_index_raw)
+      ? order_index_raw
+      : null;
+
   return {
     id,
     type: asWorkType(v.type),
+    work_section_ja: asString(v.work_section_ja) || "",
+    order_index,
     name_ko: asString(v.name_ko) || "",
     name_ja: asString(v.name_ja) || "",
     name_en: asString(v.name_en) || "",

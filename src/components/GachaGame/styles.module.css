@@ -22,12 +22,417 @@
   flex-wrap: wrap;
 }
 
+.actionBar {
+  position: sticky;
+  top: var(--ifm-navbar-height, 0px);
+  z-index: 10;
+  margin-top: 1rem;
+  padding: 0.85rem 0;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
 .advancedControls {
   margin-top: 1.25rem;
   padding: 1rem;
   border-radius: 14px;
   background: rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.workPicker {
+  width: 100%;
+  max-width: 640px;
+}
+
+.workPickerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.workPickerTitle {
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.muted {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.workPickerActions {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.smallButton {
+  appearance: none;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.smallButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.workPickerHint {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.searchInput {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.chipRow {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  appearance: none;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.78);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.chip:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.chipRemove {
+  font-weight: 900;
+  opacity: 0.75;
+}
+
+.workList {
+  margin-top: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.82);
+  max-height: 14rem;
+  overflow: auto;
+}
+
+.workRow {
+  display: grid;
+  grid-template-columns: 20px 1fr auto;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.55rem 0.75rem;
+  cursor: pointer;
+}
+
+.workRow:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.workRow input {
+  cursor: pointer;
+}
+
+.workRowLabel {
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.82);
+}
+
+.workRowCount {
+  font-variant-numeric: tabular-nums;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 999px;
+  padding: 0.18rem 0.5rem;
+  min-width: 2.25rem;
+  text-align: center;
+}
+
+.commonToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.previewLine {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.characterListSection {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.characterListHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.characterListTitle {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.characterListSubtitle {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.characterListActions {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.accordionList {
+  margin-top: 0.85rem;
+}
+
+.accordionItem {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+
+.accordionItem + .accordionItem {
+  margin-top: 0.6rem;
+}
+
+.accordionSummary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.65rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.accordionSummary::-webkit-details-marker {
+  display: none;
+}
+
+.accordionLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  font-variant-numeric: tabular-nums;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  min-width: 2.25rem;
+  text-align: center;
+}
+
+.accordionPanel {
+  padding: 0.75rem 0.9rem 0.9rem;
+  text-align: left;
+}
+
+.characterList {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.characterRow {
+  margin: 0.45rem 0;
+}
+
+.characterLine {
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.82);
+  line-height: 1.35;
+}
+
+.groupHeading {
+  margin: 1rem 0 0.55rem;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.emptyNote {
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+  color: rgba(0, 0, 0, 0.62);
+  background: rgba(0, 0, 0, 0.03);
+}
+
+:global(html[data-theme='dark']) .advancedControls {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+:global(html[data-theme='dark']) .categorySelector h3 {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+:global(html[data-theme='dark']) .actionBar {
+  background: rgba(0, 0, 0, 0.28);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 768px) {
+  .actionBar {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    top: auto;
+    margin-top: 0;
+  }
+
+  .container {
+    padding-bottom: 7.25rem;
+  }
+}
+
+:global(html[data-theme='dark']) .controlLabel {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+:global(html[data-theme='dark']) .datasetStatus {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+:global(html[data-theme='dark']) .segmented {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+:global(html[data-theme='dark']) .segmentButton {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+:global(html[data-theme='dark']) .segmentActive {
+  background: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+:global(html[data-theme='dark']) .workPickerTitle {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+:global(html[data-theme='dark']) .characterListTitle {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+:global(html[data-theme='dark']) .characterListSubtitle {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+:global(html[data-theme='dark']) .muted {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:global(html[data-theme='dark']) .workPickerHint {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+:global(html[data-theme='dark']) .smallButton {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+:global(html[data-theme='dark']) .searchInput {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+:global(html[data-theme='dark']) .workList {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+:global(html[data-theme='dark']) .workRowLabel {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+:global(html[data-theme='dark']) .workRowCount {
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+:global(html[data-theme='dark']) .previewLine {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+:global(html[data-theme='dark']) .accordionItem {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+:global(html[data-theme='dark']) .accordionSummary {
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+:global(html[data-theme='dark']) .badge {
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+:global(html[data-theme='dark']) .characterLine {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+:global(html[data-theme='dark']) .groupHeading {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+:global(html[data-theme='dark']) .emptyNote {
+  border-color: rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .controlRow {
@@ -85,6 +490,11 @@
   background: rgba(255, 255, 255, 0.95);
   min-width: 240px;
   max-width: 100%;
+}
+
+.workSelect[multiple] {
+  border-radius: 12px;
+  min-height: 10.5rem;
 }
 
 .datasetStatus {

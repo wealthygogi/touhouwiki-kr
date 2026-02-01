@@ -108,6 +108,24 @@ function classifyWorkType(work_section_ja) {
   }
 }
 
+function hasJapaneseOrHan(s) {
+  // Hiragana, Katakana, CJK extensions, Han ideographs
+  return /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/u.test(
+    String(s || "")
+  );
+}
+
+function workKoOverrideFromJa(workNameJa) {
+  switch (String(workNameJa || "")) {
+    case "東方智霊奇伝":
+      return "동방지령기전";
+    case "秘封倶楽部":
+      return "비봉구락부";
+    default:
+      return "";
+  }
+}
+
 function build() {
   const input = fs.readFileSync(INPUT_PATH, "utf8");
   const rows = parseTsv(input);
@@ -128,6 +146,7 @@ function build() {
     work_section_ja,
     derived_from,
     type_override,
+    order_index,
   }) {
     const stableKey = ["work", work_section_ja, name_ja, name_en, name_ko]
       .filter(Boolean)
@@ -142,6 +161,7 @@ function build() {
       id,
       type: type_override || classifyWorkType(work_section_ja),
       work_section_ja: work_section_ja || "",
+      order_index: typeof order_index === "number" ? order_index : null,
       name_ko: name_ko || "",
       name_ja: name_ja || "",
       name_en: name_en || "",
@@ -166,13 +186,29 @@ function build() {
 
     worksById.set(id, work);
 
-    const jaKey = normalizeKey(name_ja);
-    if (jaKey) workIdByJaNameKey.set(jaKey, id);
+    const addJaKey = (raw) => {
+      const k = normalizeKey(raw);
+      if (!k) return;
+      if (!workIdByJaNameKey.has(k)) workIdByJaNameKey.set(k, id);
+    };
+
+    addJaKey(name_ja);
+
+    // Some works have multiple Japanese titles in one field.
+    // Example: "東方求聞史紀 / 東方求聞口授" should match subcategory "東方求聞史紀".
+    if (name_ja && (name_ja.includes("/") || name_ja.includes("／"))) {
+      const parts = String(name_ja)
+        .split(/\s*(?:\/|／)\s*/g)
+        .map((p) => p.trim())
+        .filter(Boolean);
+      for (const p of parts) addJaKey(p);
+    }
 
     return work;
   }
 
   // 1) Create works from 作品部門 rows (authoritative ko/ja/en for works).
+  let workOrderIndex = 0;
   for (const r of rows) {
     if (r.major_ja !== "作品部門") continue;
     ensureWork({
@@ -182,7 +218,9 @@ function build() {
       work_section_ja: r.sub_ja,
       derived_from: null,
       type_override: null,
+      order_index: workOrderIndex,
     });
+    workOrderIndex += 1;
   }
 
   // 2) Create derived works for music subcategories that aren't in 作品部門.
@@ -200,6 +238,45 @@ function build() {
       work_section_ja: "音楽部門(derived)",
       derived_from: "music_subcategory",
       type_override: "music",
+      order_index: null,
+    });
+  }
+
+  // 2b) Create derived works for character subcategories that aren't in 作品部門.
+  for (const r of rows) {
+    if (r.major_ja !== "人妖部門") continue;
+    const sub = String(r.sub_ja || "").trim();
+    if (!sub) continue;
+    if (sub === "共通") continue;
+    if (sub.startsWith("その他（")) continue;
+
+    const subKey = normalizeKey(sub);
+    if (!subKey) continue;
+    if (workIdByJaNameKey.has(subKey)) continue;
+
+    const koOverride = workKoOverrideFromJa(sub);
+    const special = String(sub);
+    const derivedWorkSectionJa =
+      special === "東方智霊奇伝"
+        ? "書籍作品"
+        : special === "秘封倶楽部"
+          ? "音楽作品"
+          : "人妖部門(derived)";
+    const derivedType =
+      special === "東方智霊奇伝"
+        ? "book"
+        : special === "秘封倶楽部"
+          ? "music"
+          : "unknown";
+
+    ensureWork({
+      name_ko: koOverride,
+      name_ja: sub,
+      name_en: sub,
+      work_section_ja: derivedWorkSectionJa,
+      derived_from: "character_subcategory",
+      type_override: derivedType,
+      order_index: null,
     });
   }
 
@@ -211,6 +288,17 @@ function build() {
   // 3) Characters + Tracks.
   for (const r of rows) {
     if (r.major_ja === "人妖部門") {
+      // Filter out entries that are effectively untranslated in the KO column.
+      if (hasJapaneseOrHan(r.name_ko)) continue;
+
+      // Explicit removals.
+      if (
+        r.name_ja === "蓬莱人形ジャケットイラストの娘" ||
+        r.name_ja === "蓬莱人形レーベルイラストの娘"
+      ) {
+        continue;
+      }
+
       const stableKey = ["character", r.sub_ja, r.name_ja, r.name_en].join("|");
       const base = slugifyAsciiId(r.name_en || r.name_ja || r.name_ko);
       const id = makeUniqueId(base, stableKey, usedCharIds);
