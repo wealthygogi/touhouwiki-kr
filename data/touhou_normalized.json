@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "data/touhou_list.csv",
-    "generated_at": "2026-02-01T07:54:21.235Z",
+    "generated_at": "2026-02-01T15:21:39.293Z",
     "counts": {
-      "works": 70,
-      "characters": 225,
+      "works": 71,
+      "characters": 166,
       "tracks": 835
     },
     "notes": [
@@ -17,6 +17,7 @@
       "id": "100th_black_market",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 23,
       "name_ko": "불릿필리아들의 암시장",
       "name_ja": "バレットフィリア達の闇市場",
       "name_en": "100th Black Market",
@@ -36,6 +37,7 @@
       "id": "akyu_s_untouched_score",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 33,
       "name_ko": "요악단의 역사",
       "name_ja": "幺樂団の歴史",
       "name_en": "Akyu's Untouched Score",
@@ -55,6 +57,7 @@
       "id": "alternative_facts_in_eastern_utopia",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 54,
       "name_ko": "동방문과진보",
       "name_ja": "東方文果真報",
       "name_en": "Alternative Facts in Eastern Utopia",
@@ -74,6 +77,7 @@
       "id": "antinomy_of_common_flowers",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 31,
       "name_ko": "동방빙의화",
       "name_ja": "東方憑依華",
       "name_en": "Antinomy of Common Flowers",
@@ -93,6 +97,7 @@
       "id": "bohemian_archive_in_japanese_red",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 48,
       "name_ko": "동방문화첩(서적)",
       "name_ja": "東方文花帖（書籍）",
       "name_en": "Bohemian Archive in Japanese Red",
@@ -112,6 +117,7 @@
       "id": "changeability_of_strange_dream",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 36,
       "name_ko": "몽위과학세기",
       "name_ja": "夢違科学世紀",
       "name_en": "Changeability of Strange Dream",
@@ -131,6 +137,7 @@
       "id": "curiosities_of_lotus_asia",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 46,
       "name_ko": "동방향림당",
       "name_ja": "東方香霖堂",
       "name_en": "Curiosities of Lotus Asia",
@@ -150,9 +157,10 @@
       "id": "dateless_bar_old_adam",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 43,
       "name_ko": "구약주점",
       "name_ja": "旧約酒場",
-      "name_en": "Dateless Bar \"Old Adam\"",
+      "name_en": "\"Dateless Bar \"\"Old Adam\"\"\"",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
@@ -160,7 +168,7 @@
         "dateless_bar_old_adam",
         "구약주점",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\"",
+        "\"Dateless Bar \"\"Old Adam\"\"\"",
         "音楽作品"
       ],
       "derived_from": null
@@ -169,6 +177,7 @@
       "id": "dolls_in_pseudo_paradise",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 34,
       "name_ko": "봉래인형",
       "name_ja": "蓬莱人形",
       "name_en": "Dolls in Pseudo Paradise",
@@ -188,6 +197,7 @@
       "id": "double_dealing_character",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 16,
       "name_ko": "동방휘침성",
       "name_ja": "東方輝針城",
       "name_en": "Double Dealing Character",
@@ -207,6 +217,7 @@
       "id": "double_spoiler",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 13,
       "name_ko": "더블 스포일러",
       "name_ja": "ダブルスポイラー",
       "name_en": "Double Spoiler",
@@ -226,6 +237,7 @@
       "id": "dr_latency_s_freak_report",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 42,
       "name_ko": "연석박물지",
       "name_ja": "燕石博物誌",
       "name_en": "Dr. Latency's Freak Report",
@@ -245,6 +257,7 @@
       "id": "embodiment_of_scarlet_devil",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 5,
       "name_ko": "동방홍마향",
       "name_ja": "東方紅魔郷",
       "name_en": "Embodiment of Scarlet Devil",
@@ -264,6 +277,7 @@
       "id": "forbidden_scrollery",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 53,
       "name_ko": "동방영나암",
       "name_ja": "東方鈴奈庵",
       "name_en": "Forbidden Scrollery",
@@ -283,6 +297,7 @@
       "id": "fossilized_wonders",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 25,
       "name_ko": "동방금상경",
       "name_ja": "東方錦上京",
       "name_en": "Fossilized Wonders",
@@ -302,6 +317,7 @@
       "id": "foul_detective_satori",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 56,
       "name_ko": "동방지령기전 반칙탐정 사토리",
       "name_ja": "東方智霊奇伝 反則探偵さとり",
       "name_en": "Foul Detective Satori",
@@ -321,6 +337,7 @@
       "id": "ghostly_field_club",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 35,
       "name_ko": "렌다이노 야행",
       "name_ja": "蓮台野夜行",
       "name_en": "Ghostly Field Club",
@@ -340,6 +357,7 @@
       "id": "great_fairy_wars",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 14,
       "name_ko": "요정대전쟁",
       "name_ja": "妖精大戦争",
       "name_en": "Great Fairy Wars",
@@ -359,6 +377,7 @@
       "id": "hidden_star_in_four_seasons",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 19,
       "name_ko": "동방천공장",
       "name_ja": "東方天空璋",
       "name_en": "Hidden Star in Four Seasons",
@@ -378,6 +397,7 @@
       "id": "highly_responsive_to_prayers",
       "type": "game",
       "work_section_ja": "旧作",
+      "order_index": 0,
       "name_ko": "동방영이전",
       "name_ja": "東方靈異伝",
       "name_en": "Highly Responsive to Prayers",
@@ -397,6 +417,7 @@
       "id": "hopeless_masquerade",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 29,
       "name_ko": "동방심기루",
       "name_ja": "東方心綺楼",
       "name_en": "Hopeless Masquerade",
@@ -416,6 +437,7 @@
       "id": "immaterial_and_missing_power",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 26,
       "name_ko": "동방췌몽상",
       "name_ja": "東方萃夢想",
       "name_en": "Immaterial and Missing Power",
@@ -435,6 +457,7 @@
       "id": "imperishable_night",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 7,
       "name_ko": "동방영야초",
       "name_ja": "東方永夜抄",
       "name_en": "Imperishable Night",
@@ -454,6 +477,7 @@
       "id": "impossible_spell_card",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 17,
       "name_ko": "탄막 아마노자쿠",
       "name_ja": "弾幕アマノジャク",
       "name_en": "Impossible Spell Card",
@@ -473,15 +497,16 @@
       "id": "item",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
-      "name_ja": "東方求聞史紀",
-      "name_en": "東方求聞史紀",
+      "name_ja": "秋霜玉",
+      "name_en": "秋霜玉",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
       "search": [
         "item",
-        "東方求聞史紀",
+        "秋霜玉",
         "音楽部門(derived)",
         "music_subcategory"
       ],
@@ -491,6 +516,7 @@
       "id": "item__74fbb523",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "トルテルマジック",
       "name_en": "トルテルマジック",
@@ -506,9 +532,30 @@
       "derived_from": "music_subcategory"
     },
     {
+      "id": "item__77a82058",
+      "type": "book",
+      "work_section_ja": "書籍作品",
+      "order_index": null,
+      "name_ko": "동방지령기전",
+      "name_ja": "東方智霊奇伝",
+      "name_en": "東方智霊奇伝",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "search": [
+        "item__77a82058",
+        "동방지령기전",
+        "東方智霊奇伝",
+        "書籍作品",
+        "character_subcategory"
+      ],
+      "derived_from": "character_subcategory"
+    },
+    {
       "id": "item__804b4ef6",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "神魔討綺伝",
       "name_en": "神魔討綺伝",
@@ -524,9 +571,30 @@
       "derived_from": "music_subcategory"
     },
     {
+      "id": "item__a8d9c2b4",
+      "type": "music",
+      "work_section_ja": "音楽作品",
+      "order_index": null,
+      "name_ko": "비봉구락부",
+      "name_ja": "秘封倶楽部",
+      "name_en": "秘封倶楽部",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "search": [
+        "item__a8d9c2b4",
+        "비봉구락부",
+        "秘封倶楽部",
+        "音楽作品",
+        "character_subcategory"
+      ],
+      "derived_from": "character_subcategory"
+    },
+    {
       "id": "item__b43987bc",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "稀翁玉",
       "name_en": "稀翁玉",
@@ -545,6 +613,7 @@
       "id": "item__c9e65d87",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "東方幻想麻雀",
       "name_en": "東方幻想麻雀",
@@ -560,27 +629,10 @@
       "derived_from": "music_subcategory"
     },
     {
-      "id": "item__e4df9637",
-      "type": "music",
-      "work_section_ja": "音楽部門(derived)",
-      "name_ko": "",
-      "name_ja": "秋霜玉",
-      "name_en": "秋霜玉",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "search": [
-        "item__e4df9637",
-        "秋霜玉",
-        "音楽部門(derived)",
-        "music_subcategory"
-      ],
-      "derived_from": "music_subcategory"
-    },
-    {
       "id": "item__fa30e207",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "その他・オリジナル",
       "name_en": "その他・オリジナル",
@@ -599,6 +651,7 @@
       "id": "item__fd7677cd",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "黄昏酒場",
       "name_en": "黄昏酒場",
@@ -617,6 +670,7 @@
       "id": "legacy_of_lunatic_kingdom",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 18,
       "name_ko": "동방감주전",
       "name_ja": "東方紺珠伝",
       "name_en": "Legacy of Lunatic Kingdom",
@@ -636,6 +690,7 @@
       "id": "lotus_eaters",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 57,
       "name_ko": "동방취접화",
       "name_ja": "東方酔蝶華",
       "name_en": "Lotus Eaters",
@@ -655,6 +710,7 @@
       "id": "lotus_land_story",
       "type": "game",
       "work_section_ja": "旧作",
+      "order_index": 3,
       "name_ko": "동방환상향",
       "name_ja": "東方幻想郷",
       "name_en": "Lotus Land Story",
@@ -674,6 +730,7 @@
       "id": "magical_astronomy",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 38,
       "name_ko": "대공마술",
       "name_ja": "大空魔術",
       "name_en": "Magical Astronomy",
@@ -693,6 +750,7 @@
       "id": "mountain_of_faith",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 10,
       "name_ko": "동방풍신록",
       "name_ja": "東方風神録",
       "name_en": "Mountain of Faith",
@@ -712,6 +770,7 @@
       "id": "mystic_square",
       "type": "game",
       "work_section_ja": "旧作",
+      "order_index": 4,
       "name_ko": "동방괴기담",
       "name_ja": "東方怪綺談",
       "name_en": "Mystic Square",
@@ -731,6 +790,7 @@
       "id": "neo_traditionalism_of_japan",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 41,
       "name_ko": "이자나기 물질",
       "name_ja": "伊弉諾物質",
       "name_en": "Neo-traditionalism of Japan",
@@ -750,6 +810,7 @@
       "id": "perfect_cherry_blossom",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 6,
       "name_ko": "동방요요몽",
       "name_ja": "東方妖々夢",
       "name_en": "Perfect Cherry Blossom",
@@ -769,6 +830,7 @@
       "id": "phantasmagoria_of_dim_dream",
       "type": "game",
       "work_section_ja": "旧作",
+      "order_index": 2,
       "name_ko": "동방몽시공",
       "name_ja": "東方夢時空",
       "name_en": "Phantasmagoria of Dim.Dream",
@@ -788,6 +850,7 @@
       "id": "phantasmagoria_of_flower_view",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 8,
       "name_ko": "동방화영총",
       "name_ja": "東方花映塚",
       "name_en": "Phantasmagoria of Flower View",
@@ -807,6 +870,7 @@
       "id": "ps4",
       "type": "music",
       "work_section_ja": "音楽部門(derived)",
+      "order_index": null,
       "name_ko": "",
       "name_ja": "東方深秘録（PS4版）",
       "name_en": "東方深秘録（PS4版）",
@@ -825,6 +889,7 @@
       "id": "rainbow_colored_septentrion",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 44,
       "name_ko": "무지갯빛 셉텐트리온",
       "name_ja": "虹色のセプテントリオン",
       "name_en": "Rainbow-Colored Septentrion",
@@ -844,6 +909,7 @@
       "id": "retrospective_53_minutes",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 37,
       "name_ko": "묘유동해도",
       "name_ja": "卯酉東海道",
       "name_en": "Retrospective 53 minutes",
@@ -863,6 +929,7 @@
       "id": "scarlet_weather_rhapsody",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 27,
       "name_ko": "동방비상천",
       "name_ja": "東方緋想天",
       "name_en": "Scarlet Weather Rhapsody",
@@ -882,6 +949,7 @@
       "id": "shoot_the_bullet",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 9,
       "name_ko": "동방문화첩",
       "name_ja": "東方文花帖",
       "name_en": "Shoot the Bullet",
@@ -901,6 +969,7 @@
       "id": "story_of_eastern_wonderland",
       "type": "game",
       "work_section_ja": "旧作",
+      "order_index": 1,
       "name_ko": "동방봉마록",
       "name_ja": "東方封魔録",
       "name_en": "Story of Eastern Wonderland",
@@ -920,6 +989,7 @@
       "id": "subterranean_animism",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 11,
       "name_ko": "동방지령전",
       "name_ja": "東方地霊殿",
       "name_en": "Subterranean Animism",
@@ -939,6 +1009,7 @@
       "id": "sunken_fossil_world",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 32,
       "name_ko": "동방강욕이문",
       "name_ja": "東方剛欲異聞",
       "name_en": "Sunken Fossil World",
@@ -958,6 +1029,7 @@
       "id": "taboo_japan_disentanglement",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 45,
       "name_ko": "타나바타자카 무겐노",
       "name_ja": "七夕坂夢幻能",
       "name_en": "Taboo Japan Disentanglement",
@@ -977,6 +1049,7 @@
       "id": "ten_desires",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 15,
       "name_ko": "동방신령묘",
       "name_ja": "東方神霊廟",
       "name_en": "Ten Desires",
@@ -996,6 +1069,7 @@
       "id": "the_grimoire_of_marisa",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 51,
       "name_ko": "The Grimoire of Marisa",
       "name_ja": "The Grimoire of Marisa",
       "name_en": "The Grimoire of Marisa",
@@ -1013,6 +1087,7 @@
       "id": "the_grimoire_of_usami",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 55,
       "name_ko": "The Grimoire of Usami 비봉클럽이계촬영기록",
       "name_ja": "The Grimoire of Usami 秘封倶楽部異界撮影記録",
       "name_en": "The Grimoire of Usami",
@@ -1032,6 +1107,7 @@
       "id": "touhou_bougetsushou",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 50,
       "name_ko": "동방맹월초",
       "name_ja": "東方儚月抄",
       "name_en": "Touhou Bougetsushou",
@@ -1051,6 +1127,7 @@
       "id": "touhou_gumon_gensokyo_chronicle",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 49,
       "name_ko": "동방구문사기 / 동방구문구수",
       "name_ja": "東方求聞史紀 / 東方求聞口授",
       "name_en": "Touhou Gumon (Gensokyo Chronicle)",
@@ -1070,6 +1147,7 @@
       "id": "touhou_hisoutensoku",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 28,
       "name_ko": "동방비상천칙",
       "name_ja": "東方非想天則",
       "name_en": "Touhou Hisoutensoku",
@@ -1089,6 +1167,7 @@
       "id": "touhou_sangetsusei",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 47,
       "name_ko": "동방삼월정",
       "name_ja": "東方三月精",
       "name_en": "Touhou Sangetsusei",
@@ -1108,6 +1187,7 @@
       "id": "trojan_green_asteroid",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 40,
       "name_ko": "토리후네 유적",
       "name_ja": "鳥船遺跡",
       "name_en": "Trojan Green Asteroid",
@@ -1127,6 +1207,7 @@
       "id": "unconnected_marketeers",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 22,
       "name_ko": "동방홍룡동",
       "name_ja": "東方虹龍洞",
       "name_en": "Unconnected Marketeers",
@@ -1146,6 +1227,7 @@
       "id": "undefined_fantastic_object",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 12,
       "name_ko": "동방성련선",
       "name_ja": "東方星蓮船",
       "name_en": "Undefined Fantastic Object",
@@ -1165,6 +1247,7 @@
       "id": "unfinished_dream_of_all_living_ghost",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 24,
       "name_ko": "동방수왕원",
       "name_ja": "東方獣王園",
       "name_en": "Unfinished Dream of All Living Ghost",
@@ -1184,6 +1267,7 @@
       "id": "unknown_flower_mesmerizing_journey",
       "type": "music",
       "work_section_ja": "音楽作品",
+      "order_index": 39,
       "name_ko": "미지의 꽃 매지의 여행",
       "name_ja": "未知の花　魅知の旅",
       "name_en": "Unknown Flower, Mesmerizing Journey",
@@ -1203,6 +1287,7 @@
       "id": "urban_legend_in_limbo",
       "type": "game",
       "work_section_ja": "黄昏フロンティア作品",
+      "order_index": 30,
       "name_ko": "동방심비록",
       "name_ja": "東方深秘録",
       "name_en": "Urban Legend in Limbo",
@@ -1222,6 +1307,7 @@
       "id": "violet_detector",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 20,
       "name_ko": "비봉 나이트메어 다이어리",
       "name_ja": "秘封ナイトメアダイアリー",
       "name_en": "Violet Detector",
@@ -1241,6 +1327,7 @@
       "id": "whispered_oracle_of_hakurei_shrine",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 60,
       "name_ko": "동방환존신첨",
       "name_ja": "東方幻存神籤",
       "name_en": "Whispered Oracle of Hakurei Shrine",
@@ -1260,6 +1347,7 @@
       "id": "who_s_who_of_humans_and_youkai_dusk_edition",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 58,
       "name_ko": "동방Project 인요명감 어스름편",
       "name_ja": "東方Project人妖名鑑 宵闇編",
       "name_en": "Who's Who of Humans and Youkai - Dusk Edition",
@@ -1279,6 +1367,7 @@
       "id": "who_s_who_of_humans_and_youkai_everlasting_edition",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 59,
       "name_ko": "동방Project 인요명감 저승편",
       "name_ja": "東方Project人妖名鑑 常世編",
       "name_en": "Who's Who of Humans and Youkai - Everlasting Edition",
@@ -1298,6 +1387,7 @@
       "id": "wild_and_horned_hermit",
       "type": "book",
       "work_section_ja": "書籍作品",
+      "order_index": 52,
       "name_ko": "동방자가선",
       "name_ja": "東方茨歌仙",
       "name_en": "Wild and Horned Hermit",
@@ -1317,6 +1407,7 @@
       "id": "wily_beast_and_weakest_creature",
       "type": "game",
       "work_section_ja": "WinSTG作品",
+      "order_index": 21,
       "name_ko": "동방귀형수",
       "name_ja": "東方鬼形獣",
       "name_en": "Wily Beast and Weakest Creature",
@@ -1356,50 +1447,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 15
-      }
-    },
-    {
-      "id": "alice_s_dolls_shanghai_horai_oedo_etc",
-      "name_ko": "アリスの人形（上海、蓬莱、大江戸 他）",
-      "name_ja": "アリスの人形（上海、蓬莱、大江戸 他）",
-      "name_en": "Alice's dolls (Shanghai, Horai, Oedo, etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "alice_s_dolls_shanghai_horai_oedo_etc",
-        "アリスの人形（上海、蓬莱、大江戸 他）",
-        "Alice's dolls (Shanghai, Horai, Oedo, etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 221
-      }
-    },
-    {
-      "id": "antidepressant_uncle",
-      "name_ko": "抗鬱薬おじさん",
-      "name_ja": "抗鬱薬おじさん",
-      "name_en": "antidepressant uncle",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "antidepressant_uncle",
-        "抗鬱薬おじさん",
-        "antidepressant uncle",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 206
       }
     },
     {
@@ -1499,23 +1546,6 @@
       }
     },
     {
-      "id": "bishamonten",
-      "name_ko": "毘沙門天",
-      "name_ja": "毘沙門天",
-      "name_en": "Bishamonten",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": ["bishamonten", "毘沙門天", "Bishamonten", "その他（ゲーム）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 184
-      }
-    },
-    {
       "id": "biten_son",
       "name_ko": "손미천",
       "name_ja": "孫 美天",
@@ -1561,23 +1591,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 62
-      }
-    },
-    {
-      "id": "chang_e",
-      "name_ko": "嫦娥",
-      "name_ja": "嫦娥",
-      "name_en": "Chang'e",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": ["chang_e", "嫦娥", "Chang'e", "その他（ゲーム）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 185
       }
     },
     {
@@ -1701,23 +1714,6 @@
       }
     },
     {
-      "id": "chupacabra",
-      "name_ko": "チュパカブラ",
-      "name_ja": "チュパカブラ",
-      "name_en": "Chupacabra",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["chupacabra", "チュパカブラ", "Chupacabra", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 202
-      }
-    },
-    {
       "id": "cirno",
       "name_ko": "치르노",
       "name_ja": "チルノ",
@@ -1766,28 +1762,6 @@
       }
     },
     {
-      "id": "crow_raven_hell_ravens_yukari_s_and_aya_s_familiar_etc",
-      "name_ko": "カラス（地獄鴉、紫・文の使い魔 他）",
-      "name_ja": "カラス（地獄鴉、紫・文の使い魔 他）",
-      "name_en": "Crow, Raven (Hell ravens, Yukari's and Aya's familiar etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "crow_raven_hell_ravens_yukari_s_and_aya_s_familiar_etc",
-        "カラス（地獄鴉、紫・文の使い魔 他）",
-        "Crow, Raven (Hell ravens, Yukari's and Aya's familiar etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 216
-      }
-    },
-    {
       "id": "daiyousei",
       "name_ko": "대요정",
       "name_ja": "大妖精",
@@ -1833,51 +1807,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 85
-      }
-    },
-    {
-      "id": "dragon_small_dragon_evil_dragon_etc",
-      "name_ko": "龍（子龍、邪龍 他）",
-      "name_ja": "龍（子龍、邪龍 他）",
-      "name_en": "Dragon (small Dragon, Evil Dragon etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "dragon_small_dragon_evil_dragon_etc",
-        "龍（子龍、邪龍 他）",
-        "Dragon (small Dragon, Evil Dragon etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 219
-      }
-    },
-    {
-      "id": "eagle_spirit",
-      "name_ko": "オオワシ霊",
-      "name_ja": "オオワシ霊",
-      "name_en": "Eagle Spirit",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "wily_beast_and_weakest_creature",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方鬼形獣",
-      "search": [
-        "eagle_spirit",
-        "オオワシ霊",
-        "Eagle Spirit",
-        "東方鬼形獣",
-        "Wily Beast and Weakest Creature"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 108
       }
     },
     {
@@ -2025,23 +1954,6 @@
       }
     },
     {
-      "id": "enenra",
-      "name_ko": "煙々羅",
-      "name_ja": "煙々羅",
-      "name_en": "Enenra",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["enenra", "煙々羅", "Enenra", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 201
-      }
-    },
-    {
       "id": "enoko_mitsugashira",
       "name_ko": "미츠가시라 에노코",
       "name_ja": "三頭 慧ノ子",
@@ -2090,28 +2002,6 @@
       }
     },
     {
-      "id": "fairy_fairy_maids_sunflower_fairy_etc",
-      "name_ko": "妖精（メイド妖精・ひまわり妖精 他）",
-      "name_ja": "妖精（メイド妖精・ひまわり妖精 他）",
-      "name_en": "Fairy (Fairy Maids, Sunflower Fairy etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "fairy_fairy_maids_sunflower_fairy_etc",
-        "妖精（メイド妖精・ひまわり妖精 他）",
-        "Fairy (Fairy Maids, Sunflower Fairy etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 209
-      }
-    },
-    {
       "id": "flandre_scarlet",
       "name_ko": "플랑드르 스칼렛",
       "name_ja": "フランドール・スカーレット",
@@ -2157,28 +2047,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 31
-      }
-    },
-    {
-      "id": "gateguards_of_the_lunar_capital",
-      "name_ko": "月の都の門番",
-      "name_ja": "月の都の門番",
-      "name_en": "Gateguards of the Lunar Capital",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "gateguards_of_the_lunar_capital",
-        "月の都の門番",
-        "Gateguards of the Lunar Capital",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 189
       }
     },
     {
@@ -2302,28 +2170,6 @@
       }
     },
     {
-      "id": "haunted_spirit_amaterasu_izunome_etc",
-      "name_ko": "神降ろしの神霊（天照、伊豆能売 他）",
-      "name_ja": "神降ろしの神霊（天照、伊豆能売 他）",
-      "name_en": "Haunted spirit (Amaterasu, Izunome, etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "haunted_spirit_amaterasu_izunome_etc",
-        "神降ろしの神霊（天照、伊豆能売 他）",
-        "Haunted spirit (Amaterasu, Izunome, etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 223
-      }
-    },
-    {
       "id": "hecatia_lapislazuli",
       "name_ko": "헤카티아 라피스라줄리",
       "name_ja": "ヘカーティア・ラピスラズリ",
@@ -2355,7 +2201,7 @@
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": "item",
+      "source_work_id": "touhou_gumon_gensokyo_chronicle",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方求聞史紀",
       "search": [
@@ -2363,7 +2209,9 @@
         "히에다노 아큐",
         "稗田 阿求",
         "Hieda no Akyuu",
-        "東方求聞史紀"
+        "東方求聞史紀",
+        "Touhou Gumon (Gensokyo Chronicle)",
+        "東方求聞史紀 / 東方求聞口授"
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -2416,45 +2264,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 121
-      }
-    },
-    {
-      "id": "hisoutensoku",
-      "name_ko": "核熱造神ヒソウテンソク",
-      "name_ja": "核熱造神ヒソウテンソク",
-      "name_en": "Hisoutensoku",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": [
-        "hisoutensoku",
-        "核熱造神ヒソウテンソク",
-        "Hisoutensoku",
-        "その他（ゲーム）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 182
-      }
-    },
-    {
-      "id": "hobgoblin",
-      "name_ko": "ホフゴブリン",
-      "name_ja": "ホフゴブリン",
-      "name_en": "Hobgoblin",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["hobgoblin", "ホフゴブリン", "Hobgoblin", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 196
       }
     },
     {
@@ -2527,23 +2336,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 46
-      }
-    },
-    {
-      "id": "iwakasa",
-      "name_ko": "岩笠",
-      "name_ja": "岩笠",
-      "name_en": "Iwakasa",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["iwakasa", "岩笠", "Iwakasa", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 191
       }
     },
     {
@@ -2691,28 +2483,6 @@
       }
     },
     {
-      "id": "kappa_include_yamawaro",
-      "name_ko": "河童（山童含む）",
-      "name_ja": "河童（山童含む）",
-      "name_en": "Kappa (include Yamawaro)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "kappa_include_yamawaro",
-        "河童（山童含む）",
-        "Kappa (include Yamawaro)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 217
-      }
-    },
-    {
       "id": "kasen_ibaraki",
       "name_ko": "이바라키 카센",
       "name_ja": "茨木 華扇",
@@ -2734,91 +2504,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 169
-      }
-    },
-    {
-      "id": "kasen_s_animals_kume_kanda_raijuu_houso_jinmenken_etc",
-      "name_ko": "華扇の動物（久米、竿打、雷獣、彭祖、人面犬 他）",
-      "name_ja": "華扇の動物（久米、竿打、雷獣、彭祖、人面犬 他）",
-      "name_en": "Kasen's animals (Kume, Kanda, Raijuu, Houso, Jinmenken etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "kasen_s_animals_kume_kanda_raijuu_houso_jinmenken_etc",
-        "華扇の動物（久米、竿打、雷獣、彭祖、人面犬 他）",
-        "Kasen's animals (Kume, Kanda, Raijuu, Houso, Jinmenken etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 222
-      }
-    },
-    {
-      "id": "kasen_s_arm",
-      "name_ko": "影華扇（断善修悪の怪腕 - 茨木童子の腕）",
-      "name_ja": "影華扇（断善修悪の怪腕 - 茨木童子の腕）",
-      "name_en": "Kasen's arm",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "wild_and_horned_hermit",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方茨歌仙",
-      "search": [
-        "kasen_s_arm",
-        "影華扇（断善修悪の怪腕 - 茨木童子の腕）",
-        "Kasen's arm",
-        "東方茨歌仙",
-        "Wild and Horned Hermit"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 170
-      }
-    },
-    {
-      "id": "kasen_s_true_form",
-      "name_ko": "鬼華扇（奸佞邪智の鬼）",
-      "name_ja": "鬼華扇（奸佞邪智の鬼）",
-      "name_en": "Kasen's true form",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "wild_and_horned_hermit",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方茨歌仙",
-      "search": [
-        "kasen_s_true_form",
-        "鬼華扇（奸佞邪智の鬼）",
-        "Kasen's true form",
-        "東方茨歌仙",
-        "Wild and Horned Hermit"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 171
-      }
-    },
-    {
-      "id": "kedama",
-      "name_ko": "毛玉",
-      "name_ja": "毛玉",
-      "name_en": "Kedama",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": ["kedama", "毛玉", "Kedama", "その他（複合）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 211
       }
     },
     {
@@ -2870,28 +2555,6 @@
       }
     },
     {
-      "id": "kesaran_pasaran",
-      "name_ko": "ケセランパサラン",
-      "name_ja": "ケセランパサラン",
-      "name_en": "Kesaran Pasaran",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "kesaran_pasaran",
-        "ケセランパサラン",
-        "Kesaran Pasaran",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 199
-      }
-    },
-    {
       "id": "kikuri_hellish_moon",
       "name_ko": "키쿠리",
       "name_ja": "キクリ",
@@ -2937,28 +2600,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 48
-      }
-    },
-    {
-      "id": "kitsune_youkai_kitsune_little_fox_etc",
-      "name_ko": "狐（妖怪狐、狐の子他）",
-      "name_ja": "狐（妖怪狐、狐の子他）",
-      "name_en": "Kitsune (youkai kitsune, little fox etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "kitsune_youkai_kitsune_little_fox_etc",
-        "狐（妖怪狐、狐の子他）",
-        "Kitsune (youkai kitsune, little fox etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 215
       }
     },
     {
@@ -3082,28 +2723,6 @@
       }
     },
     {
-      "id": "konohana_sakuyahime",
-      "name_ko": "木花咲耶姫",
-      "name_ja": "木花咲耶姫",
-      "name_en": "Konohana-Sakuyahime",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "konohana_sakuyahime",
-        "木花咲耶姫",
-        "Konohana-Sakuyahime",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 192
-      }
-    },
-    {
       "id": "kosuzu_motoori",
       "name_ko": "모토오리 코스즈",
       "name_ja": "本居 小鈴",
@@ -3125,28 +2744,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 172
-      }
-    },
-    {
-      "id": "kosuzu_s_parents",
-      "name_ko": "小鈴の両親",
-      "name_ja": "小鈴の両親",
-      "name_en": "Kosuzu's parents",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "kosuzu_s_parents",
-        "小鈴の両親",
-        "Kosuzu's parents",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 200
       }
     },
     {
@@ -3222,23 +2819,6 @@
       }
     },
     {
-      "id": "kutsutsura",
-      "name_ko": "沓頬",
-      "name_ja": "沓頬",
-      "name_en": "Kutsutsura",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["kutsutsura", "沓頬", "Kutsutsura", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 203
-      }
-    },
-    {
       "id": "kyouko_kasodani",
       "name_ko": "카소다니 쿄코",
       "name_ja": "幽谷 響子",
@@ -3260,51 +2840,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 66
-      }
-    },
-    {
-      "id": "laika",
-      "name_ko": "ライカ",
-      "name_ja": "ライカ",
-      "name_en": "Laika",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "curiosities_of_lotus_asia",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方香霖堂",
-      "search": [
-        "laika",
-        "ライカ",
-        "Laika",
-        "東方香霖堂",
-        "Curiosities of Lotus Asia"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 162
-      }
-    },
-    {
-      "id": "leila_prismriver",
-      "name_ko": "レイラ・プリズムリバー",
-      "name_ja": "レイラ・プリズムリバー",
-      "name_en": "Leila Prismriver",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": [
-        "leila_prismriver",
-        "レイラ・プリズムリバー",
-        "Leila Prismriver",
-        "その他（ゲーム）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 181
       }
     },
     {
@@ -3462,7 +2997,14 @@
       "source_work_id": "mystic_square",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方怪綺談",
-      "search": ["mai", "마이", "マイ", "Mai", "東方怪綺談", "Mystic Square"],
+      "search": [
+        "mai",
+        "마이",
+        "マイ",
+        "Mai",
+        "東方怪綺談",
+        "Mystic Square"
+      ],
       "source": {
         "file": "data/touhou_list.csv",
         "line": 153
@@ -3517,23 +3059,6 @@
       }
     },
     {
-      "id": "manzairaku",
-      "name_ko": "万歳楽",
-      "name_ja": "万歳楽",
-      "name_en": "Manzairaku",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["manzairaku", "万歳楽", "Manzairaku", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 197
-      }
-    },
-    {
       "id": "maribel_hearn",
       "name_ko": "마에리베리 한",
       "name_ja": "マエリベリー・ハーン",
@@ -3541,7 +3066,7 @@
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": null,
+      "source_work_id": "item__a8d9c2b4",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "秘封倶楽部",
       "search": [
@@ -3577,28 +3102,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 3
-      }
-    },
-    {
-      "id": "master_of_salt_mansion",
-      "name_ko": "塩屋敷の旦那",
-      "name_ja": "塩屋敷の旦那",
-      "name_en": "master of salt mansion",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "master_of_salt_mansion",
-        "塩屋敷の旦那",
-        "master of salt mansion",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 208
       }
     },
     {
@@ -3770,23 +3273,6 @@
       }
     },
     {
-      "id": "mimi_chan",
-      "name_ko": "ミミちゃん",
-      "name_ja": "ミミちゃん",
-      "name_en": "Mimi-Chan",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": ["mimi_chan", "ミミちゃん", "Mimi-Chan", "その他（ゲーム）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 179
-      }
-    },
-    {
       "id": "minamitsu_murasa",
       "name_ko": "무라사 미나미츠",
       "name_ja": "村紗 水蜜",
@@ -3890,7 +3376,7 @@
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": null,
+      "source_work_id": "item__77a82058",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方智霊奇伝",
       "search": [
@@ -3903,28 +3389,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 176
-      }
-    },
-    {
-      "id": "mizue_no_uranoshimako",
-      "name_ko": "水江浦島子",
-      "name_ja": "水江浦島子",
-      "name_en": "Mizue no Uranoshimako",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "mizue_no_uranoshimako",
-        "水江浦島子",
-        "Mizue no Uranoshimako",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 190
       }
     },
     {
@@ -4024,28 +3488,6 @@
       }
     },
     {
-      "id": "myouren_hijiri",
-      "name_ko": "命蓮",
-      "name_ja": "命蓮",
-      "name_en": "Myouren Hijiri",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": [
-        "myouren_hijiri",
-        "命蓮",
-        "Myouren Hijiri",
-        "その他（ゲーム）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 183
-      }
-    },
-    {
       "id": "mystia_lorelei",
       "name_ko": "미스티아 로렐라이",
       "name_ja": "ミスティア・ローレライ",
@@ -4067,23 +3509,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 25
-      }
-    },
-    {
-      "id": "nameemon",
-      "name_ko": "なめえもん",
-      "name_ja": "なめえもん",
-      "name_en": "Nameemon",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["nameemon", "なめえもん", "Nameemon", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 207
       }
     },
     {
@@ -4279,28 +3704,6 @@
       }
     },
     {
-      "id": "old_work_nameless_middle_boss",
-      "name_ko": "旧作名無し中ボス",
-      "name_ja": "旧作名無し中ボス",
-      "name_en": "Old work nameless middle boss",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "old_work_nameless_middle_boss",
-        "旧作名無し中ボス",
-        "Old work nameless middle boss",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 225
-      }
-    },
-    {
       "id": "orange",
       "name_ko": "오렌지",
       "name_ja": "オレンジ",
@@ -4322,29 +3725,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 145
-      }
-    },
-    {
-      "id": "otter_spirit",
-      "name_ko": "カワウソ霊",
-      "name_ja": "カワウソ霊",
-      "name_en": "Otter Spirit",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "wily_beast_and_weakest_creature",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方鬼形獣",
-      "search": [
-        "otter_spirit",
-        "カワウソ霊",
-        "Otter Spirit",
-        "東方鬼形獣",
-        "Wily Beast and Weakest Creature"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 107
       }
     },
     {
@@ -4396,28 +3776,6 @@
       }
     },
     {
-      "id": "phantom_vengeful_spirit_divine_spirit_include_bakebake",
-      "name_ko": "幽霊（怨霊、神霊、化け化け含む）",
-      "name_ja": "幽霊（怨霊、神霊、化け化け含む）",
-      "name_en": "Phantom (Vengeful spirit, Divine Spirit, include Bakebake)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "phantom_vengeful_spirit_divine_spirit_include_bakebake",
-        "幽霊（怨霊、神霊、化け化け含む）",
-        "Phantom (Vengeful spirit, Divine Spirit, include Bakebake)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 210
-      }
-    },
-    {
       "id": "previous_hakurei_shrine_maiden",
       "name_ko": "선대 무녀",
       "name_ja": "先代巫女",
@@ -4425,7 +3783,7 @@
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": null,
+      "source_work_id": "item__77a82058",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方智霊奇伝",
       "search": [
@@ -4438,28 +3796,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 177
-      }
-    },
-    {
-      "id": "rabbits_moon_rabbit_eientei_rabbits_etc",
-      "name_ko": "兎（玉兎、永遠亭の妖怪兎 他）",
-      "name_ja": "兎（玉兎、永遠亭の妖怪兎 他）",
-      "name_en": "Rabbits (Moon Rabbit, Eientei rabbits etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "rabbits_moon_rabbit_eientei_rabbits_etc",
-        "兎（玉兎、永遠亭の妖怪兎 他）",
-        "Rabbits (Moon Rabbit, Eientei rabbits etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 213
       }
     },
     {
@@ -4508,29 +3844,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 22
-      }
-    },
-    {
-      "id": "regular_customers_of_the_guidon_pub",
-      "name_ko": "鯢呑亭の常連",
-      "name_ja": "鯢呑亭の常連",
-      "name_en": "Regular customers of the Guidon pub",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "lotus_eaters",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方酔蝶華",
-      "search": [
-        "regular_customers_of_the_guidon_pub",
-        "鯢呑亭の常連",
-        "Regular customers of the Guidon pub",
-        "東方酔蝶華",
-        "Lotus Eaters"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 175
       }
     },
     {
@@ -4636,7 +3949,7 @@
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": null,
+      "source_work_id": "item__a8d9c2b4",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "秘封倶楽部",
       "search": [
@@ -4796,23 +4109,6 @@
       }
     },
     {
-      "id": "ruukoto",
-      "name_ko": "るーこと",
-      "name_ja": "るーこと",
-      "name_en": "Ruukoto",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": ["ruukoto", "るーこと", "Ruukoto", "その他（ゲーム）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 178
-      }
-    },
-    {
       "id": "sagume_kishin",
       "name_ko": "키신 사구메",
       "name_ja": "稀神 サグメ",
@@ -4943,7 +4239,14 @@
       "source_work_id": "mystic_square",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方怪綺談",
-      "search": ["sara", "사라", "サラ", "Sara", "東方怪綺談", "Mystic Square"],
+      "search": [
+        "sara",
+        "사라",
+        "サラ",
+        "Sara",
+        "東方怪綺談",
+        "Mystic Square"
+      ],
       "source": {
         "file": "data/touhou_list.csv",
         "line": 150
@@ -5190,28 +4493,6 @@
       }
     },
     {
-      "id": "shirou_sendai",
-      "name_ko": "仙台四郎（福の神）",
-      "name_ja": "仙台四郎（福の神）",
-      "name_en": "Shirou Sendai",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "shirou_sendai",
-        "仙台四郎（福の神）",
-        "Shirou Sendai",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 193
-      }
-    },
-    {
       "id": "shizuha_aki",
       "name_ko": "아키 시즈하",
       "name_ja": "秋 静葉",
@@ -5257,23 +4538,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 61
-      }
-    },
-    {
-      "id": "shuchuu",
-      "name_ko": "酒虫",
-      "name_ja": "酒虫",
-      "name_en": "Shuchuu",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["shuchuu", "酒虫", "Shuchuu", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 188
       }
     },
     {
@@ -5469,50 +4733,6 @@
       }
     },
     {
-      "id": "tanuki_bake_danuki_nodeppou_etc",
-      "name_ko": "狸（化け狸、野鉄砲他）",
-      "name_ja": "狸（化け狸、野鉄砲他）",
-      "name_en": "Tanuki (Bake-danuki, Nodeppou etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "tanuki_bake_danuki_nodeppou_etc",
-        "狸（化け狸、野鉄砲他）",
-        "Tanuki (Bake-danuki, Nodeppou etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 214
-      }
-    },
-    {
-      "id": "tengu_kourindou_tengu_great_tengu_etc",
-      "name_ko": "天狗（香霖堂の天狗、大天狗 他）",
-      "name_ja": "天狗（香霖堂の天狗、大天狗 他）",
-      "name_en": "Tengu (Kourindou Tengu, Great Tengu etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "tengu_kourindou_tengu_great_tengu_etc",
-        "天狗（香霖堂の天狗、大天狗 他）",
-        "Tengu (Kourindou Tengu, Great Tengu etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 218
-      }
-    },
-    {
       "id": "tenshi_hinanawi",
       "name_ko": "히나나위 텐시",
       "name_ja": "比那名居 天子",
@@ -5561,120 +4781,6 @@
       }
     },
     {
-      "id": "the_fortune_teller",
-      "name_ko": "易者",
-      "name_ja": "易者",
-      "name_en": "The Fortune-teller",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "the_fortune_teller",
-        "易者",
-        "The Fortune-teller",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 205
-      }
-    },
-    {
-      "id": "the_girl_on_the_c62_circle_cut_for_comiket_catalog",
-      "name_ko": "C62サークルカットの娘",
-      "name_ja": "C62サークルカットの娘",
-      "name_en": "The girl on the C62 circle cut for Comiket catalog",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "the_girl_on_the_c62_circle_cut_for_comiket_catalog",
-        "C62サークルカットの娘",
-        "The girl on the C62 circle cut for Comiket catalog",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 226
-      }
-    },
-    {
-      "id": "the_girl_on_the_houral_doll_jacket",
-      "name_ko": "자켓소녀",
-      "name_ja": "蓬莱人形ジャケットイラストの娘",
-      "name_en": "The girl on the Houral Doll jacket",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "dolls_in_pseudo_paradise",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "蓬莱人形",
-      "search": [
-        "the_girl_on_the_houral_doll_jacket",
-        "자켓소녀",
-        "蓬莱人形ジャケットイラストの娘",
-        "The girl on the Houral Doll jacket",
-        "蓬莱人形",
-        "Dolls in Pseudo Paradise"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 156
-      }
-    },
-    {
-      "id": "the_girl_on_the_houral_doll_label",
-      "name_ko": "蓬莱人形レーベルイラストの娘",
-      "name_ja": "蓬莱人形レーベルイラストの娘",
-      "name_en": "The girl on the Houral Doll label",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "dolls_in_pseudo_paradise",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "蓬莱人形",
-      "search": [
-        "the_girl_on_the_houral_doll_label",
-        "蓬莱人形レーベルイラストの娘",
-        "The girl on the Houral Doll label",
-        "蓬莱人形",
-        "Dolls in Pseudo Paradise"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 157
-      }
-    },
-    {
-      "id": "the_owner_of_the_geidon_pub",
-      "name_ko": "鯢呑亭の店主",
-      "name_ja": "鯢呑亭の店主",
-      "name_en": "The owner of the Geidon pub",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "lotus_eaters",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方酔蝶華",
-      "search": [
-        "the_owner_of_the_geidon_pub",
-        "鯢呑亭の店主",
-        "The owner of the Geidon pub",
-        "東方酔蝶華",
-        "Lotus Eaters"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 174
-      }
-    },
-    {
       "id": "toyosatomimi_no_miko",
       "name_ko": "토요사토미미노 미코",
       "name_ja": "豊聡耳 神子",
@@ -5696,23 +4802,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 71
-      }
-    },
-    {
-      "id": "tsuchinoko",
-      "name_ko": "ツチノコ",
-      "name_ja": "ツチノコ",
-      "name_en": "Tsuchinoko",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["tsuchinoko", "ツチノコ", "Tsuchinoko", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 187
       }
     },
     {
@@ -5764,67 +4853,6 @@
       }
     },
     {
-      "id": "undefined_fantastic_object_red_blue_green_etc",
-      "name_ko": "UFO（赤・青・緑、その他）",
-      "name_ja": "UFO（赤・青・緑、その他）",
-      "name_en": "Undefined Fantastic Object（Red, Blue, Green etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "undefined_fantastic_object_red_blue_green_etc",
-        "UFO（赤・青・緑、その他）",
-        "Undefined Fantastic Object（Red, Blue, Green etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 212
-      }
-    },
-    {
-      "id": "unnamed_book_reading_youkai",
-      "name_ko": "名無しの本読み妖怪",
-      "name_ja": "名無しの本読み妖怪",
-      "name_en": "Unnamed Book-Reading Youkai",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "unnamed_book_reading_youkai",
-        "名無しの本読み妖怪",
-        "Unnamed Book-Reading Youkai",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 186
-      }
-    },
-    {
-      "id": "unshou",
-      "name_ko": "運松",
-      "name_ja": "運松",
-      "name_en": "Unshou",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["unshou", "運松", "Unshou", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 194
-      }
-    },
-    {
       "id": "unzan",
       "name_ko": "운잔",
       "name_ja": "雲山",
@@ -5846,28 +4874,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 59
-      }
-    },
-    {
-      "id": "urban_legend_okiku_san_hasshaku_sama_etc",
-      "name_ko": "都市伝説の怪異（お菊さん、八尺さま 他）",
-      "name_ja": "都市伝説の怪異（お菊さん、八尺さま 他）",
-      "name_en": "Urban legend (Okiku-san, Hasshaku-sama, etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "urban_legend_okiku_san_hasshaku_sama_etc",
-        "都市伝説の怪異（お菊さん、八尺さま 他）",
-        "Urban legend (Okiku-san, Hasshaku-sama, etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 224
       }
     },
     {
@@ -5916,50 +4922,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 54
-      }
-    },
-    {
-      "id": "uwabami_large_snake",
-      "name_ko": "ウワバミ",
-      "name_ja": "ウワバミ",
-      "name_en": "Uwabami (large snake)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "uwabami_large_snake",
-        "ウワバミ",
-        "Uwabami (large snake)",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 204
-      }
-    },
-    {
-      "id": "village_human_humans_who_appeared_in_bunkachou_fumiki_komon_suzunaan_etc",
-      "name_ko": "里の人間（文花帖、求聞史紀、鈴奈庵などで登場した人間）",
-      "name_ja": "里の人間（文花帖、求聞史紀、鈴奈庵などで登場した人間）",
-      "name_en": "Village human (Humans who appeared in Bunkachou, Fumiki Komon, Suzunaan, etc.)",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（複合）",
-      "search": [
-        "village_human_humans_who_appeared_in_bunkachou_fumiki_komon_suzunaan_etc",
-        "里の人間（文花帖、求聞史紀、鈴奈庵などで登場した人間）",
-        "Village human (Humans who appeared in Bunkachou, Fumiki Komon, Suzunaan, etc.)",
-        "その他（複合）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 220
       }
     },
     {
@@ -6035,29 +4997,6 @@
       }
     },
     {
-      "id": "wolf_spirit",
-      "name_ko": "オオカミ霊",
-      "name_ja": "オオカミ霊",
-      "name_en": "Wolf Spirit",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "wily_beast_and_weakest_creature",
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "東方鬼形獣",
-      "search": [
-        "wolf_spirit",
-        "オオカミ霊",
-        "Wolf Spirit",
-        "東方鬼形獣",
-        "Wily Beast and Weakest Creature"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 106
-      }
-    },
-    {
       "id": "wriggle_nightbug",
       "name_ko": "리글 나이트버그",
       "name_ja": "リグル・ナイトバグ",
@@ -6130,23 +5069,6 @@
       }
     },
     {
-      "id": "yamane",
-      "name_ko": "ヤマネ",
-      "name_ja": "ヤマネ",
-      "name_en": "Yamane",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": ["yamane", "ヤマネ", "Yamane", "その他（書籍）"],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 198
-      }
-    },
-    {
       "id": "yatsuhashi_tsukumo",
       "name_ko": "츠쿠모 야츠하시",
       "name_ja": "九十九 八橋",
@@ -6192,28 +5114,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 67
-      }
-    },
-    {
-      "id": "youki_konpaku",
-      "name_ko": "魂魄 妖忌",
-      "name_ja": "魂魄 妖忌",
-      "name_en": "Youki Konpaku",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（ゲーム）",
-      "search": [
-        "youki_konpaku",
-        "魂魄 妖忌",
-        "Youki Konpaku",
-        "その他（ゲーム）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 180
       }
     },
     {
@@ -6299,7 +5199,14 @@
       "source_work_id": "mystic_square",
       "group_major_ja": "人妖部門",
       "group_sub_ja": "東方怪綺談",
-      "search": ["yuki", "유키", "ユキ", "Yuki", "東方怪綺談", "Mystic Square"],
+      "search": [
+        "yuki",
+        "유키",
+        "ユキ",
+        "Yuki",
+        "東方怪綺談",
+        "Mystic Square"
+      ],
       "source": {
         "file": "data/touhou_list.csv",
         "line": 152
@@ -6495,28 +5402,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 122
-      }
-    },
-    {
-      "id": "zashiki_warashi",
-      "name_ko": "座敷童",
-      "name_ja": "座敷童",
-      "name_en": "Zashiki-warashi",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": null,
-      "group_major_ja": "人妖部門",
-      "group_sub_ja": "その他（書籍）",
-      "search": [
-        "zashiki_warashi",
-        "座敷童",
-        "Zashiki-warashi",
-        "その他（書籍）"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 195
       }
     }
   ],
@@ -8266,7 +7151,7 @@
         "旧世界の冒険酒場",
         "Adventurer's Tavern of the Old World",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8290,7 +7175,7 @@
         "二日酔いの同床異夢",
         "Hangover of Bedfellows Dreaming Differently",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8301,7 +7186,7 @@
       "id": "dateless_bar_old_adam__old_adam_bar",
       "name_ko": "바 올드 아담",
       "name_ja": "バー・オールドアダム",
-      "name_en": "\"Old Adam\" Bar",
+      "name_en": "\"\"\"Old Adam\"\" Bar\"",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
@@ -8312,9 +7197,9 @@
         "dateless_bar_old_adam__old_adam_bar",
         "바 올드 아담",
         "バー・オールドアダム",
-        "\"Old Adam\" Bar",
+        "\"\"\"Old Adam\"\" Bar\"",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8338,7 +7223,7 @@
         "大神神話伝",
         "Omiwa Legend",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8362,7 +7247,7 @@
         "アウトサイダーカクテル",
         "Outsider Cocktail",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8386,7 +7271,7 @@
         "パンデモニックプラネット",
         "Pandemonic Planet",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8410,7 +7295,7 @@
         "リバースイデオロギー",
         "Reverse Ideology",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8434,7 +7319,7 @@
         "魔界地方都市エソテリア",
         "Rural Makai City Esoteria",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8458,7 +7343,7 @@
         "燕石博物誌が連れてきた闇",
         "The Darkness Brought In by Swallowstone Naturalis Historia",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -8482,7 +7367,7 @@
         "亡失のエモーション",
         "The Lost Emotion",
         "旧約酒場",
-        "Dateless Bar \"Old Adam\""
+        "\"Dateless Bar \"\"Old Adam\"\"\""
       ],
       "source": {
         "file": "data/touhou_list.csv",
@@ -13714,6 +12599,52 @@
       }
     },
     {
+      "id": "item__antique_terror",
+      "name_ko": "앤티크 테러",
+      "name_ja": "アンティークテラー",
+      "name_en": "Antique Terror",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__antique_terror",
+        "앤티크 테러",
+        "アンティークテラー",
+        "Antique Terror",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1024
+      }
+    },
+    {
+      "id": "item__autumn_frost_orb_clockworks",
+      "name_ko": "추상옥 ~ Clockworks",
+      "name_ja": "秋霜玉　～ Clockworks",
+      "name_en": "Autumn Frost Orb ~ Clockworks",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__autumn_frost_orb_clockworks",
+        "추상옥 ~ Clockworks",
+        "秋霜玉　～ Clockworks",
+        "Autumn Frost Orb ~ Clockworks",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1013
+      }
+    },
+    {
       "id": "item__b43987bc__castle_explorer_in_the_sky",
       "name_ko": "Castle Explorer -in the Sky-",
       "name_ja": "Castle Explorer -in the Sky-",
@@ -13986,87 +12917,18 @@
       }
     },
     {
-      "id": "item__child_of_are",
-      "name_ko": "아레의 자손",
-      "name_ja": "阿礼の子供",
-      "name_en": "Child of Are",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "東方求聞史紀",
-      "search": [
-        "item__child_of_are",
-        "아레의 자손",
-        "阿礼の子供",
-        "Child of Are",
-        "東方求聞史紀"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 873
-      }
-    },
-    {
-      "id": "item__e4df9637__antique_terror",
-      "name_ko": "앤티크 테러",
-      "name_ja": "アンティークテラー",
-      "name_en": "Antique Terror",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__antique_terror",
-        "앤티크 테러",
-        "アンティークテラー",
-        "Antique Terror",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1024
-      }
-    },
-    {
-      "id": "item__e4df9637__autumn_frost_orb_clockworks",
-      "name_ko": "추상옥 ~ Clockworks",
-      "name_ja": "秋霜玉　～ Clockworks",
-      "name_en": "Autumn Frost Orb ~ Clockworks",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__autumn_frost_orb_clockworks",
-        "추상옥 ~ Clockworks",
-        "秋霜玉　～ Clockworks",
-        "Autumn Frost Orb ~ Clockworks",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1013
-      }
-    },
-    {
-      "id": "item__e4df9637__dichromatic_lotus_butterfly_ancients",
+      "id": "item__dichromatic_lotus_butterfly_ancients",
       "name_ko": "이색연화접 ~ Ancients",
       "name_ja": "二色蓮花蝶　～ Ancients",
       "name_en": "Dichromatic Lotus Butterfly ~ Ancients",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": "item__e4df9637",
+      "source_work_id": "item",
       "group_major_ja": "音楽部門",
       "group_sub_ja": "秋霜玉",
       "search": [
-        "item__e4df9637__dichromatic_lotus_butterfly_ancients",
+        "item__dichromatic_lotus_butterfly_ancients",
         "이색연화접 ~ Ancients",
         "二色蓮花蝶　～ Ancients",
         "Dichromatic Lotus Butterfly ~ Ancients",
@@ -14078,18 +12940,18 @@
       }
     },
     {
-      "id": "item__e4df9637__disastrous_gemini",
+      "id": "item__disastrous_gemini",
       "name_ko": "디자스트러스 제미니",
       "name_ja": "ディザストラスジェミニ",
       "name_en": "Disastrous Gemini",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": "item__e4df9637",
+      "source_work_id": "item",
       "group_major_ja": "音楽部門",
       "group_sub_ja": "秋霜玉",
       "search": [
-        "item__e4df9637__disastrous_gemini",
+        "item__disastrous_gemini",
         "디자스트러스 제미니",
         "ディザストラスジェミニ",
         "Disastrous Gemini",
@@ -14101,18 +12963,18 @@
       }
     },
     {
-      "id": "item__e4df9637__dream_machine_innocent_power",
+      "id": "item__dream_machine_innocent_power",
       "name_ko": "몽기계 ~ Innocent Power",
       "name_ja": "夢機械　～ Innocent Power",
       "name_en": "Dream Machine ~ Innocent Power",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
-      "source_work_id": "item__e4df9637",
+      "source_work_id": "item",
       "group_major_ja": "音楽部門",
       "group_sub_ja": "秋霜玉",
       "search": [
-        "item__e4df9637__dream_machine_innocent_power",
+        "item__dream_machine_innocent_power",
         "몽기계 ~ Innocent Power",
         "夢機械　～ Innocent Power",
         "Dream Machine ~ Innocent Power",
@@ -14121,351 +12983,6 @@
       "source": {
         "file": "data/touhou_list.csv",
         "line": 1025
-      }
-    },
-    {
-      "id": "item__e4df9637__false_strawberry",
-      "name_ko": "폴스 스트로베리",
-      "name_ja": "フォルスストロベリー",
-      "name_en": "False Strawberry",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__false_strawberry",
-        "폴스 스트로베리",
-        "フォルスストロベリー",
-        "False Strawberry",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1014
-      }
-    },
-    {
-      "id": "item__e4df9637__fantastic_imperial_capital",
-      "name_ko": "환상제도",
-      "name_ja": "幻想帝都",
-      "name_en": "Fantastic Imperial Capital",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__fantastic_imperial_capital",
-        "환상제도",
-        "幻想帝都",
-        "Fantastic Imperial Capital",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1016
-      }
-    },
-    {
-      "id": "item__e4df9637__fantasy_science_doll_s_phantom",
-      "name_ko": "환상과학 ~ Doll's Phantom",
-      "name_ja": "幻想科学　～ Doll's Phantom",
-      "name_en": "Fantasy Science ~ Doll's Phantom",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__fantasy_science_doll_s_phantom",
-        "환상과학 ~ Doll's Phantom",
-        "幻想科学　～ Doll's Phantom",
-        "Fantasy Science ~ Doll's Phantom",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1026
-      }
-    },
-    {
-      "id": "item__e4df9637__firmament_army",
-      "name_ko": "천공아미",
-      "name_ja": "天空アーミー",
-      "name_en": "Firmament Army",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__firmament_army",
-        "천공아미",
-        "天空アーミー",
-        "Firmament Army",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1019
-      }
-    },
-    {
-      "id": "item__e4df9637__girl_s_divinity_pandora_s_box",
-      "name_ko": "소녀신성 ~ Pandora's Box",
-      "name_ja": "少女神性　～ Pandora's Box",
-      "name_en": "Girl's Divinity ~ Pandora's Box",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__girl_s_divinity_pandora_s_box",
-        "소녀신성 ~ Pandora's Box",
-        "少女神性　～ Pandora's Box",
-        "Girl's Divinity ~ Pandora's Box",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1027
-      }
-    },
-    {
-      "id": "item__e4df9637__herselves",
-      "name_ko": "허셀브즈",
-      "name_ja": "ハーセルヴズ",
-      "name_en": "Herselves",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__herselves",
-        "허셀브즈",
-        "ハーセルヴズ",
-        "Herselves",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1031
-      }
-    },
-    {
-      "id": "item__e4df9637__illusion_of_flowers_sky_of_scarlet_dreams",
-      "name_ko": "꽃의 환상 붉은 꿈의 허공",
-      "name_ja": "華の幻想　紅夢の宙",
-      "name_en": "Illusion of Flowers, Sky of Scarlet Dreams",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__illusion_of_flowers_sky_of_scarlet_dreams",
-        "꽃의 환상 붉은 꿈의 허공",
-        "華の幻想　紅夢の宙",
-        "Illusion of Flowers, Sky of Scarlet Dreams",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1018
-      }
-    },
-    {
-      "id": "item__e4df9637__illusionary_girl_from_canaveral",
-      "name_ko": "카나베랄의 몽환소녀",
-      "name_ja": "カナベラルの夢幻少女",
-      "name_en": "Illusionary Girl from Canaveral",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__illusionary_girl_from_canaveral",
-        "카나베랄의 몽환소녀",
-        "カナベラルの夢幻少女",
-        "Illusionary Girl from Canaveral",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1022
-      }
-    },
-    {
-      "id": "item__e4df9637__illusionary_sputnik_night",
-      "name_ko": "스푸트니크 환야",
-      "name_ja": "スプートニク幻夜",
-      "name_en": "Illusionary Sputnik Night",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__illusionary_sputnik_night",
-        "스푸트니크 환야",
-        "スプートニク幻夜",
-        "Illusionary Sputnik Night",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1020
-      }
-    },
-    {
-      "id": "item__e4df9637__magical_girl_s_crusade",
-      "name_ko": "마법소녀 십자군",
-      "name_ja": "魔法少女十字軍",
-      "name_en": "Magical Girl's Crusade",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__magical_girl_s_crusade",
-        "마법소녀 십자군",
-        "魔法少女十字軍",
-        "Magical Girl's Crusade",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1023
-      }
-    },
-    {
-      "id": "item__e4df9637__mechanical_circus_reverie",
-      "name_ko": "기계 서커스 ~ Reverie",
-      "name_ja": "機械サーカス　～ Reverie",
-      "name_en": "Mechanical Circus ~ Reverie",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__mechanical_circus_reverie",
-        "기계 서커스 ~ Reverie",
-        "機械サーカス　～ Reverie",
-        "Mechanical Circus ~ Reverie",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1021
-      }
-    },
-    {
-      "id": "item__e4df9637__primrose_shiver",
-      "name_ko": "프림로즈 쉬버",
-      "name_ja": "プリムローズシヴァ",
-      "name_en": "Primrose Shiver",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__primrose_shiver",
-        "프림로즈 쉬버",
-        "プリムローズシヴァ",
-        "Primrose Shiver",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1015
-      }
-    },
-    {
-      "id": "item__e4df9637__silk_road_alice",
-      "name_ko": "실크로드 앨리스",
-      "name_ja": "シルクロードアリス",
-      "name_en": "Silk Road Alice",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__silk_road_alice",
-        "실크로드 앨리스",
-        "シルクロードアリス",
-        "Silk Road Alice",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1028
-      }
-    },
-    {
-      "id": "item__e4df9637__the_witches_ball_magus",
-      "name_ko": "마녀들의 무도회 ~ Magus",
-      "name_ja": "魔女達の舞踏会　～ Magus",
-      "name_en": "The Witches' Ball ~ Magus",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__the_witches_ball_magus",
-        "마녀들의 무도회 ~ Magus",
-        "魔女達の舞踏会　～ Magus",
-        "The Witches' Ball ~ Magus",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1029
-      }
-    },
-    {
-      "id": "item__e4df9637__titled_maid",
-      "name_ko": "타이틀드 메이드",
-      "name_ja": "タイトルドメイド",
-      "name_en": "Titled Maid",
-      "aliases_ko": [],
-      "aliases_ja": [],
-      "aliases_en": [],
-      "source_work_id": "item__e4df9637",
-      "group_major_ja": "音楽部門",
-      "group_sub_ja": "秋霜玉",
-      "search": [
-        "item__e4df9637__titled_maid",
-        "타이틀드 메이드",
-        "タイトルドメイド",
-        "Titled Maid",
-        "秋霜玉"
-      ],
-      "source": {
-        "file": "data/touhou_list.csv",
-        "line": 1032
       }
     },
     {
@@ -14733,6 +13250,75 @@
       }
     },
     {
+      "id": "item__false_strawberry",
+      "name_ko": "폴스 스트로베리",
+      "name_ja": "フォルスストロベリー",
+      "name_en": "False Strawberry",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__false_strawberry",
+        "폴스 스트로베리",
+        "フォルスストロベリー",
+        "False Strawberry",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1014
+      }
+    },
+    {
+      "id": "item__fantastic_imperial_capital",
+      "name_ko": "환상제도",
+      "name_ja": "幻想帝都",
+      "name_en": "Fantastic Imperial Capital",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__fantastic_imperial_capital",
+        "환상제도",
+        "幻想帝都",
+        "Fantastic Imperial Capital",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1016
+      }
+    },
+    {
+      "id": "item__fantasy_science_doll_s_phantom",
+      "name_ko": "환상과학 ~ Doll's Phantom",
+      "name_ja": "幻想科学　～ Doll's Phantom",
+      "name_en": "Fantasy Science ~ Doll's Phantom",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__fantasy_science_doll_s_phantom",
+        "환상과학 ~ Doll's Phantom",
+        "幻想科学　～ Doll's Phantom",
+        "Fantasy Science ~ Doll's Phantom",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1026
+      }
+    },
+    {
       "id": "item__fd7677cd__a_drunkard_s_lemuria",
       "name_ko": "주정뱅이의 레무리아",
       "name_ja": "呑んべぇのレムリア",
@@ -14756,49 +13342,279 @@
       }
     },
     {
-      "id": "item__fly_above_hatoyama_at_night_power_mix",
-      "name_ko": "밤의 히토야마를 날다 - Power MIX",
-      "name_ja": "夜の鳩山を飛ぶ‐Power Mix",
-      "name_en": "Fly above Hatoyama at night - Power MIX",
+      "id": "item__firmament_army",
+      "name_ko": "천공아미",
+      "name_ja": "天空アーミー",
+      "name_en": "Firmament Army",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
       "source_work_id": "item",
       "group_major_ja": "音楽部門",
-      "group_sub_ja": "東方求聞史紀",
+      "group_sub_ja": "秋霜玉",
       "search": [
-        "item__fly_above_hatoyama_at_night_power_mix",
-        "밤의 히토야마를 날다 - Power MIX",
-        "夜の鳩山を飛ぶ‐Power Mix",
-        "Fly above Hatoyama at night - Power MIX",
-        "東方求聞史紀"
+        "item__firmament_army",
+        "천공아미",
+        "天空アーミー",
+        "Firmament Army",
+        "秋霜玉"
       ],
       "source": {
         "file": "data/touhou_list.csv",
-        "line": 874
+        "line": 1019
       }
     },
     {
-      "id": "item__japanese_saga",
-      "name_ko": "재패니즈 사가",
-      "name_ja": "ジャパニーズサーガ",
-      "name_en": "Japanese Saga",
+      "id": "item__girl_s_divinity_pandora_s_box",
+      "name_ko": "소녀신성 ~ Pandora's Box",
+      "name_ja": "少女神性　～ Pandora's Box",
+      "name_en": "Girl's Divinity ~ Pandora's Box",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
       "source_work_id": "item",
       "group_major_ja": "音楽部門",
-      "group_sub_ja": "東方求聞史紀",
+      "group_sub_ja": "秋霜玉",
       "search": [
-        "item__japanese_saga",
-        "재패니즈 사가",
-        "ジャパニーズサーガ",
-        "Japanese Saga",
-        "東方求聞史紀"
+        "item__girl_s_divinity_pandora_s_box",
+        "소녀신성 ~ Pandora's Box",
+        "少女神性　～ Pandora's Box",
+        "Girl's Divinity ~ Pandora's Box",
+        "秋霜玉"
       ],
       "source": {
         "file": "data/touhou_list.csv",
-        "line": 872
+        "line": 1027
+      }
+    },
+    {
+      "id": "item__herselves",
+      "name_ko": "허셀브즈",
+      "name_ja": "ハーセルヴズ",
+      "name_en": "Herselves",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__herselves",
+        "허셀브즈",
+        "ハーセルヴズ",
+        "Herselves",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1031
+      }
+    },
+    {
+      "id": "item__illusion_of_flowers_sky_of_scarlet_dreams",
+      "name_ko": "꽃의 환상 붉은 꿈의 허공",
+      "name_ja": "華の幻想　紅夢の宙",
+      "name_en": "Illusion of Flowers, Sky of Scarlet Dreams",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__illusion_of_flowers_sky_of_scarlet_dreams",
+        "꽃의 환상 붉은 꿈의 허공",
+        "華の幻想　紅夢の宙",
+        "Illusion of Flowers, Sky of Scarlet Dreams",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1018
+      }
+    },
+    {
+      "id": "item__illusionary_girl_from_canaveral",
+      "name_ko": "카나베랄의 몽환소녀",
+      "name_ja": "カナベラルの夢幻少女",
+      "name_en": "Illusionary Girl from Canaveral",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__illusionary_girl_from_canaveral",
+        "카나베랄의 몽환소녀",
+        "カナベラルの夢幻少女",
+        "Illusionary Girl from Canaveral",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1022
+      }
+    },
+    {
+      "id": "item__illusionary_sputnik_night",
+      "name_ko": "스푸트니크 환야",
+      "name_ja": "スプートニク幻夜",
+      "name_en": "Illusionary Sputnik Night",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__illusionary_sputnik_night",
+        "스푸트니크 환야",
+        "スプートニク幻夜",
+        "Illusionary Sputnik Night",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1020
+      }
+    },
+    {
+      "id": "item__magical_girl_s_crusade",
+      "name_ko": "마법소녀 십자군",
+      "name_ja": "魔法少女十字軍",
+      "name_en": "Magical Girl's Crusade",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__magical_girl_s_crusade",
+        "마법소녀 십자군",
+        "魔法少女十字軍",
+        "Magical Girl's Crusade",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1023
+      }
+    },
+    {
+      "id": "item__mechanical_circus_reverie",
+      "name_ko": "기계 서커스 ~ Reverie",
+      "name_ja": "機械サーカス　～ Reverie",
+      "name_en": "Mechanical Circus ~ Reverie",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__mechanical_circus_reverie",
+        "기계 서커스 ~ Reverie",
+        "機械サーカス　～ Reverie",
+        "Mechanical Circus ~ Reverie",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1021
+      }
+    },
+    {
+      "id": "item__primrose_shiver",
+      "name_ko": "프림로즈 쉬버",
+      "name_ja": "プリムローズシヴァ",
+      "name_en": "Primrose Shiver",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__primrose_shiver",
+        "프림로즈 쉬버",
+        "プリムローズシヴァ",
+        "Primrose Shiver",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1015
+      }
+    },
+    {
+      "id": "item__silk_road_alice",
+      "name_ko": "실크로드 앨리스",
+      "name_ja": "シルクロードアリス",
+      "name_en": "Silk Road Alice",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__silk_road_alice",
+        "실크로드 앨리스",
+        "シルクロードアリス",
+        "Silk Road Alice",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1028
+      }
+    },
+    {
+      "id": "item__the_witches_ball_magus",
+      "name_ko": "마녀들의 무도회 ~ Magus",
+      "name_ja": "魔女達の舞踏会　～ Magus",
+      "name_en": "The Witches' Ball ~ Magus",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__the_witches_ball_magus",
+        "마녀들의 무도회 ~ Magus",
+        "魔女達の舞踏会　～ Magus",
+        "The Witches' Ball ~ Magus",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1029
+      }
+    },
+    {
+      "id": "item__titled_maid",
+      "name_ko": "타이틀드 메이드",
+      "name_ja": "タイトルドメイド",
+      "name_en": "Titled Maid",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "item",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "秋霜玉",
+      "search": [
+        "item__titled_maid",
+        "타이틀드 메이드",
+        "タイトルドメイド",
+        "Titled Maid",
+        "秋霜玉"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 1032
       }
     },
     {
@@ -22499,6 +21315,81 @@
       }
     },
     {
+      "id": "touhou_gumon_gensokyo_chronicle__child_of_are",
+      "name_ko": "아레의 자손",
+      "name_ja": "阿礼の子供",
+      "name_en": "Child of Are",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "touhou_gumon_gensokyo_chronicle",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "東方求聞史紀",
+      "search": [
+        "touhou_gumon_gensokyo_chronicle__child_of_are",
+        "아레의 자손",
+        "阿礼の子供",
+        "Child of Are",
+        "東方求聞史紀",
+        "Touhou Gumon (Gensokyo Chronicle)",
+        "東方求聞史紀 / 東方求聞口授"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 873
+      }
+    },
+    {
+      "id": "touhou_gumon_gensokyo_chronicle__fly_above_hatoyama_at_night_power_mix",
+      "name_ko": "밤의 히토야마를 날다 - Power MIX",
+      "name_ja": "夜の鳩山を飛ぶ‐Power Mix",
+      "name_en": "Fly above Hatoyama at night - Power MIX",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "touhou_gumon_gensokyo_chronicle",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "東方求聞史紀",
+      "search": [
+        "touhou_gumon_gensokyo_chronicle__fly_above_hatoyama_at_night_power_mix",
+        "밤의 히토야마를 날다 - Power MIX",
+        "夜の鳩山を飛ぶ‐Power Mix",
+        "Fly above Hatoyama at night - Power MIX",
+        "東方求聞史紀",
+        "Touhou Gumon (Gensokyo Chronicle)",
+        "東方求聞史紀 / 東方求聞口授"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 874
+      }
+    },
+    {
+      "id": "touhou_gumon_gensokyo_chronicle__japanese_saga",
+      "name_ko": "재패니즈 사가",
+      "name_ja": "ジャパニーズサーガ",
+      "name_en": "Japanese Saga",
+      "aliases_ko": [],
+      "aliases_ja": [],
+      "aliases_en": [],
+      "source_work_id": "touhou_gumon_gensokyo_chronicle",
+      "group_major_ja": "音楽部門",
+      "group_sub_ja": "東方求聞史紀",
+      "search": [
+        "touhou_gumon_gensokyo_chronicle__japanese_saga",
+        "재패니즈 사가",
+        "ジャパニーズサーガ",
+        "Japanese Saga",
+        "東方求聞史紀",
+        "Touhou Gumon (Gensokyo Chronicle)",
+        "東方求聞史紀 / 東方求聞口授"
+      ],
+      "source": {
+        "file": "data/touhou_list.csv",
+        "line": 872
+      }
+    },
+    {
       "id": "touhou_hisoutensoku__a_huge_shadow_and_a_tiny_conclusion",
       "name_ko": "거대한 그림자와 자그마한 결말",
       "name_ja": "巨大な影と小さな結末",
@@ -25905,7 +24796,7 @@
       "id": "violet_detector__old_adam_bar",
       "name_ko": "바 올드 아담",
       "name_ja": "バー・オールドアダム",
-      "name_en": "\"Old Adam\" Bar",
+      "name_en": "\"\"\"Old Adam\"\" Bar\"",
       "aliases_ko": [],
       "aliases_ja": [],
       "aliases_en": [],
@@ -25916,7 +24807,7 @@
         "violet_detector__old_adam_bar",
         "바 올드 아담",
         "バー・オールドアダム",
-        "\"Old Adam\" Bar",
+        "\"\"\"Old Adam\"\" Bar\"",
         "秘封ナイトメアダイアリー",
         "Violet Detector"
       ],
@@ -26418,8 +25309,12 @@
         "tewi_inaba",
         "wriggle_nightbug"
       ],
-      "immaterial_and_missing_power": ["suika_ibuki"],
-      "shoot_the_bullet": ["aya_shameimaru"],
+      "immaterial_and_missing_power": [
+        "suika_ibuki"
+      ],
+      "shoot_the_bullet": [
+        "aya_shameimaru"
+      ],
       "phantasmagoria_of_flower_view": [
         "eiki_shiki_yamaxanadu",
         "komachi_onozuka",
@@ -26436,7 +25331,10 @@
         "shizuha_aki",
         "suwako_moriya"
       ],
-      "scarlet_weather_rhapsody": ["iku_nagae", "tenshi_hinanawi"],
+      "scarlet_weather_rhapsody": [
+        "iku_nagae",
+        "tenshi_hinanawi"
+      ],
       "subterranean_animism": [
         "kisume",
         "koishi_komeiji",
@@ -26457,8 +25355,12 @@
         "shou_toramaru",
         "unzan"
       ],
-      "touhou_hisoutensoku": ["giant_catfish"],
-      "double_spoiler": ["hatate_himekaidou"],
+      "touhou_hisoutensoku": [
+        "giant_catfish"
+      ],
+      "double_spoiler": [
+        "hatate_himekaidou"
+      ],
       "ten_desires": [
         "kyouko_kasodani",
         "mamizou_futatsuiwa",
@@ -26468,7 +25370,9 @@
         "toyosatomimi_no_miko",
         "yoshika_miyako"
       ],
-      "hopeless_masquerade": ["hata_no_kokoro"],
+      "hopeless_masquerade": [
+        "hata_no_kokoro"
+      ],
       "double_dealing_character": [
         "benben_tsukumo",
         "kagerou_imaizumi",
@@ -26479,7 +25383,9 @@
         "wakasagihime",
         "yatsuhashi_tsukumo"
       ],
-      "urban_legend_in_limbo": ["sumireko_usami"],
+      "urban_legend_in_limbo": [
+        "sumireko_usami"
+      ],
       "legacy_of_lunatic_kingdom": [
         "clownpiece",
         "doremy_sweet",
@@ -26498,17 +25404,17 @@
         "okina_matara",
         "satono_nishida"
       ],
-      "antinomy_of_common_flowers": ["joon_yorigami", "shion_yorigami"],
+      "antinomy_of_common_flowers": [
+        "joon_yorigami",
+        "shion_yorigami"
+      ],
       "wily_beast_and_weakest_creature": [
-        "eagle_spirit",
         "eika_ebisu",
         "keiki_haniyasushin",
         "kutaka_niwatari",
         "mayumi_joutouguu",
-        "otter_spirit",
         "saki_kurokoma",
         "urumi_ushizaki",
-        "wolf_spirit",
         "yachie_kicchou"
       ],
       "unconnected_marketeers": [
@@ -26521,7 +25427,9 @@
         "takane_yamashiro",
         "tsukasa_kudamaki"
       ],
-      "sunken_fossil_world": ["yuma_toutetsu"],
+      "sunken_fossil_world": [
+        "yuma_toutetsu"
+      ],
       "unfinished_dream_of_all_living_ghost": [
         "biten_son",
         "chiyari_tenkajin",
@@ -26559,30 +25467,53 @@
         "rikako_asakura",
         "yumemi_okazaki"
       ],
-      "lotus_land_story": ["elly", "gengetsu", "kurumi", "mugetsu", "orange"],
-      "mystic_square": ["louise", "mai", "sara", "shinki", "yuki", "yumeko"],
-      "dolls_in_pseudo_paradise": [
-        "the_girl_on_the_houral_doll_jacket",
-        "the_girl_on_the_houral_doll_label"
+      "lotus_land_story": [
+        "elly",
+        "gengetsu",
+        "kurumi",
+        "mugetsu",
+        "orange"
       ],
-      "item": ["hieda_no_akyuu"],
-      "curiosities_of_lotus_asia": ["laika", "rinnosuke_morichika"],
-      "touhou_sangetsusei": ["luna_child", "star_sapphire", "sunny_milk"],
+      "mystic_square": [
+        "louise",
+        "mai",
+        "sara",
+        "shinki",
+        "yuki",
+        "yumeko"
+      ],
+      "item__a8d9c2b4": [
+        "maribel_hearn",
+        "renko_usami"
+      ],
+      "touhou_gumon_gensokyo_chronicle": [
+        "hieda_no_akyuu"
+      ],
+      "curiosities_of_lotus_asia": [
+        "rinnosuke_morichika"
+      ],
+      "touhou_sangetsusei": [
+        "luna_child",
+        "star_sapphire",
+        "sunny_milk"
+      ],
       "touhou_bougetsushou": [
         "reisen",
         "watatsuki_no_toyohime",
         "watatsuki_no_yorihime"
       ],
       "wild_and_horned_hermit": [
-        "kasen_ibaraki",
-        "kasen_s_arm",
-        "kasen_s_true_form"
+        "kasen_ibaraki"
       ],
-      "forbidden_scrollery": ["kosuzu_motoori"],
+      "forbidden_scrollery": [
+        "kosuzu_motoori"
+      ],
       "lotus_eaters": [
-        "miyoi_okunoda",
-        "regular_customers_of_the_guidon_pub",
-        "the_owner_of_the_geidon_pub"
+        "miyoi_okunoda"
+      ],
+      "item__77a82058": [
+        "mizuchi_miyadeguchi",
+        "previous_hakurei_shrine_maiden"
       ]
     },
     "work_to_track_ids": {
@@ -27303,10 +26234,10 @@
         "bohemian_archive_in_japanese_red__flower_reflecting_mound_after_higan_retour",
         "bohemian_archive_in_japanese_red__wind_god_girl"
       ],
-      "item": [
-        "item__child_of_are",
-        "item__fly_above_hatoyama_at_night_power_mix",
-        "item__japanese_saga"
+      "touhou_gumon_gensokyo_chronicle": [
+        "touhou_gumon_gensokyo_chronicle__child_of_are",
+        "touhou_gumon_gensokyo_chronicle__fly_above_hatoyama_at_night_power_mix",
+        "touhou_gumon_gensokyo_chronicle__japanese_saga"
       ],
       "touhou_sangetsusei": [
         "touhou_sangetsusei__a_land_resplendent_with_nature_s_beauty",
@@ -27478,27 +26409,27 @@
         "taboo_japan_disentanglement__tinkerbell_of_inequality",
         "taboo_japan_disentanglement__yorimashi_between_dreams_and_reality_necro_fantasia"
       ],
-      "item__e4df9637": [
-        "item__e4df9637__antique_terror",
-        "item__e4df9637__autumn_frost_orb_clockworks",
-        "item__e4df9637__dichromatic_lotus_butterfly_ancients",
-        "item__e4df9637__disastrous_gemini",
-        "item__e4df9637__dream_machine_innocent_power",
-        "item__e4df9637__false_strawberry",
-        "item__e4df9637__fantastic_imperial_capital",
-        "item__e4df9637__fantasy_science_doll_s_phantom",
-        "item__e4df9637__firmament_army",
-        "item__e4df9637__girl_s_divinity_pandora_s_box",
-        "item__e4df9637__herselves",
-        "item__e4df9637__illusion_of_flowers_sky_of_scarlet_dreams",
-        "item__e4df9637__illusionary_girl_from_canaveral",
-        "item__e4df9637__illusionary_sputnik_night",
-        "item__e4df9637__magical_girl_s_crusade",
-        "item__e4df9637__mechanical_circus_reverie",
-        "item__e4df9637__primrose_shiver",
-        "item__e4df9637__silk_road_alice",
-        "item__e4df9637__the_witches_ball_magus",
-        "item__e4df9637__titled_maid"
+      "item": [
+        "item__antique_terror",
+        "item__autumn_frost_orb_clockworks",
+        "item__dichromatic_lotus_butterfly_ancients",
+        "item__disastrous_gemini",
+        "item__dream_machine_innocent_power",
+        "item__false_strawberry",
+        "item__fantastic_imperial_capital",
+        "item__fantasy_science_doll_s_phantom",
+        "item__firmament_army",
+        "item__girl_s_divinity_pandora_s_box",
+        "item__herselves",
+        "item__illusion_of_flowers_sky_of_scarlet_dreams",
+        "item__illusionary_girl_from_canaveral",
+        "item__illusionary_sputnik_night",
+        "item__magical_girl_s_crusade",
+        "item__mechanical_circus_reverie",
+        "item__primrose_shiver",
+        "item__silk_road_alice",
+        "item__the_witches_ball_magus",
+        "item__titled_maid"
       ],
       "item__b43987bc": [
         "item__b43987bc__castle_explorer_in_the_sky",
@@ -27517,8 +26448,12 @@
         "item__74fbb523__sacred_battle",
         "item__74fbb523__witch_of_love_potion"
       ],
-      "item__804b4ef6": ["item__804b4ef6__an_ordeal_from_god"],
-      "item__fd7677cd": ["item__fd7677cd__a_drunkard_s_lemuria"],
+      "item__804b4ef6": [
+        "item__804b4ef6__an_ordeal_from_god"
+      ],
+      "item__fd7677cd": [
+        "item__fd7677cd__a_drunkard_s_lemuria"
+      ],
       "item__c9e65d87": [
         "item__c9e65d87__curious_old_shanghai_tile",
         "item__c9e65d87__the_legend_of_god_demonic_an_ordeal_from_god"
