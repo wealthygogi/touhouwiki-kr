@@ -12,7 +12,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "build:character-images-index": "node scripts/build-character-images-index.mjs",
+    "e2e": "playwright test"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
@@ -30,6 +32,8 @@
     "@docusaurus/module-type-aliases": "^3.9.2",
     "@docusaurus/tsconfig": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0",
     "typescript": "~5.6.2"
   },
   "browserslist": {
