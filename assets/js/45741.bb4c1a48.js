@@ -1,0 +1,1 @@
+(self.webpackChunktouhouwiki_kr=self.webpackChunktouhouwiki_kr||[]).push([[45741],{45741:()=>{}}]);
