@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktouhouwiki_kr=self.webpackChunktouhouwiki_kr||[]).push([["81668"],{86569(e,r,u){u.r(r),u.d(r,{default:()=>o});var s=u(74848);u(96540);var a=u(34164),t=u(34308),c=u(88287),i=u(22831),k=u(21085);function o(e){return(0,s.jsx)(t.e3,{className:(0,a.A)(c.G.wrapper.docsPages),children:(0,s.jsx)(k.A,{children:(0,i.v)(e.route.routes)})})}}}]);
