@@ -1,0 +1,9 @@
+{
+  "label": "동방프로젝트 게임 소개 v3",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "v3/intro",
+    "description": "새로운 MDX 컴포넌트가 적용된 v3 데이터입니다."
+  }
+}

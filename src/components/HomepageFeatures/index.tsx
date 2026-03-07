@@ -1,47 +1,77 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '글 출처',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "글 출처",
+    Svg: () => (
+      <img
+        src={require("@site/static/img/abstractcactus_logo_03.webp").default}
+        alt="Abstract Cactus Logo"
+        style={{ maxWidth: "100px" }}
+      />
+    ),
     description: (
-      <>
+      <a
+        href="https://www.thpatch.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         https://www.thpatch.net/
-      </>
+      </a>
     ),
   },
   {
-    title: '그림 출처',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "그림 출처",
+    Svg: () => (
+      <img
+        src={require("@site/static/img/image.webp").default}
+        alt="Docusaurus Tree"
+        style={{ maxWidth: "100px" }}
+      />
+    ),
     description: (
-      <>
+      <a
+        href="https://x.com/dairi155"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         https://x.com/dairi155
-      </>
+      </a>
     ),
   },
   {
-    title: 'License',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "License",
+    Svg: () => (
+      <img
+        src={require("@site/static/img/cc-by-sa.webp").default}
+        alt="CC BY-SA 4.0"
+        style={{ maxWidth: "100px", marginBottom: "0.5rem" }}
+      />
+    ),
     description: (
-      <>
+      <a
+        href="https://creativecommons.org/licenses/by/4.0/deed.en"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         CC BY-SA 4.0
-      </>
+      </a>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

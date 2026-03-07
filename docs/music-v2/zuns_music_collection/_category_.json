@@ -1,0 +1,11 @@
+{
+  "label": "ZUN's Music Collection",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "music-v2/zuns-music-collection",
+    "description": "ZUN's Music Collection 계열 CD 앨범 문서 모음입니다."
+  }
+}

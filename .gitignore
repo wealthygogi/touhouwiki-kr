@@ -18,3 +18,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+touhou-backup/
+.serena/
+specs/
+scripts/v3-migration/
+.gemini/plans
+.gemini/state

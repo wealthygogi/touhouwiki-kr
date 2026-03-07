@@ -1,0 +1,12 @@
+{
+  "label": "음악",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방귀형수 음악",
+    "description": "OST와 관련 음반 정보를 모아둘 공간입니다.",
+    "slug": "/shooting-game/th17/music"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "대사집",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방금상경 대사집",
+    "description": "동방금상경 루트별 시나리오·엑스트라·엔딩 번역을 모았습니다.",
+    "slug": "/shooting-game/th20/dialogue"
+  }
+}

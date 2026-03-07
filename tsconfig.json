@@ -2,7 +2,13 @@
   // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["@docusaurus/module-type-aliases", "node"]
   },
+  "include": [
+    "src/components/TouhouFavoritesChart/**/*",
+    "e2e/**/*",
+    "playwright.config.ts"
+  ],
   "exclude": [".docusaurus", "build"]
 }

@@ -1,0 +1,12 @@
+{
+  "label": "캐릭터",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "동방비상천칙 캐릭터",
+    "description": "동방비상천칙 등장인물을 소개합니다.",
+    "slug": "/fighting-game/th123/characters"
+  }
+}
