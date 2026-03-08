@@ -1,4 +1,8 @@
 {
   "label": "대사집",
-  "position": 3
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "v3/fighting_game/touhou-hisoutensoku/dialogue/overview"
+  }
 }
