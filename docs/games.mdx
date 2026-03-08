@@ -1,0 +1,1351 @@
+---
+title: "동방프로젝트 게임"
+description: "동방프로젝트 게임 목록"
+sidebar_position: 1
+hide_table_of_contents: true
+---
+
+import GameGridHub from '@site/src/components/v3/GameCard';
+
+<GameGridHub
+  defaultActiveId="Th06"
+  games={[
+    { id: 'Th06', nameKr: '동방홍마향', badge: '슈팅', gradient: 'linear-gradient(135deg, #7b0000 0%, #c0392b 50%, #922b21 100%)' },
+    { id: 'Th07', nameKr: '동방요요몽', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a3a4a 0%, #4a9ebe 50%, #85c1e9 100%)' },
+    { id: 'Th075', nameKr: '동방췌몽상', badge: '격투', gradient: 'linear-gradient(135deg, #4a1a0a 0%, #e65100 50%, #ff9800 100%)' },
+    { id: 'Th08', nameKr: '동방영야초', badge: '슈팅', gradient: 'linear-gradient(135deg, #0d1b2a 0%, #1e3a5f 50%, #2e6da4 100%)' },
+    { id: 'Th09', nameKr: '동방화영총', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a2e1a 0%, #2e7d32 50%, #66bb6a 100%)' },
+    { id: 'Th095', nameKr: '동방문화첩', badge: '외전', gradient: 'linear-gradient(135deg, #2a1a2a 0%, #6a1b9a 50%, #ab47bc 100%)' },
+    { id: 'Th10', nameKr: '동방풍신록', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a2a3a 0%, #1565c0 50%, #42a5f5 100%)' },
+    { id: 'Th105', nameKr: '동방비상천', badge: '격투', gradient: 'linear-gradient(135deg, #3a1a0a 0%, #d84315 50%, #ff7043 100%)' },
+    { id: 'Th11', nameKr: '동방지령전', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a0a0a 0%, #4a1942 50%, #8e24aa 100%)' },
+    { id: 'Th12', nameKr: '동방성련선', badge: '슈팅', gradient: 'linear-gradient(135deg, #0d1a2a 0%, #0277bd 50%, #81d4fa 100%)' },
+    { id: 'Th123', nameKr: '동방비상천칙', badge: '격투', gradient: 'linear-gradient(135deg, #1a2a1a 0%, #388e3c 50%, #81c784 100%)' },
+    { id: 'Th125', nameKr: '더블 스포일러', badge: '외전', gradient: 'linear-gradient(135deg, #1a1a2a 0%, #303f9f 50%, #7986cb 100%)' },
+    { id: 'Th128', nameKr: '요정대전쟁', badge: '외전', gradient: 'linear-gradient(135deg, #0a2a1a 0%, #00695c 50%, #80cbc4 100%)' },
+    { id: 'Th13', nameKr: '동방신령묘', badge: '슈팅', gradient: 'linear-gradient(135deg, #2a1a0a 0%, #e65100 50%, #ffa726 100%)' },
+    { id: 'Th135', nameKr: '동방심기루', badge: '격투', gradient: 'linear-gradient(135deg, #2a0a1a 0%, #ad1457 50%, #f06292 100%)' },
+    { id: 'Th14', nameKr: '동방휘침성', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a1a0a 0%, #827717 50%, #f9a825 100%)' },
+    { id: 'Th143', nameKr: '탄막 아마노자쿠', badge: '외전', gradient: 'linear-gradient(135deg, #0a0a2a 0%, #1a237e 50%, #5c6bc0 100%)' },
+    { id: 'Th145', nameKr: '동방심비록', badge: '격투', gradient: 'linear-gradient(135deg, #2a1a1a 0%, #c62828 50%, #ef5350 100%)' },
+    { id: 'Th15', nameKr: '동방감주전', badge: '슈팅', gradient: 'linear-gradient(135deg, #0d0d1a 0%, #283593 50%, #7986cb 100%)' },
+    { id: 'Th155', nameKr: '동방빙의화', badge: '격투', gradient: 'linear-gradient(135deg, #1a0a2a 0%, #6a1b9a 50%, #ce93d8 100%)' },
+    { id: 'Th16', nameKr: '동방천공장', badge: '슈팅', gradient: 'linear-gradient(135deg, #0a1a10 0%, #1b5e20 50%, #a5d6a7 100%)' },
+    { id: 'Th165', nameKr: '비봉 나이트메어 다이어리', badge: '외전', gradient: 'linear-gradient(135deg, #2a0a2a 0%, #7b1fa2 50%, #ba68c8 100%)' },
+    { id: 'Th17', nameKr: '동방귀형수', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a0d0a 0%, #bf360c 50%, #ff7043 100%)' },
+    { id: 'Th175', nameKr: '동방강욕이문', badge: '격투', gradient: 'linear-gradient(135deg, #0a1a2a 0%, #01579b 50%, #4fc3f7 100%)' },
+    { id: 'Th18', nameKr: '동방홍룡동', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a0505 0%, #c62828 50%, #ef9a9a 100%)' },
+    { id: 'Th185', nameKr: '불릿필리아들의 암시장', badge: '외전', gradient: 'linear-gradient(135deg, #1a1a0a 0%, #f57f17 50%, #fff176 100%)' },
+    { id: 'Th19', nameKr: '동방수왕원', badge: '슈팅', gradient: 'linear-gradient(135deg, #0a1020 0%, #1a237e 50%, #5c6bc0 100%)' },
+    { id: 'Th20', nameKr: '동방금상경', badge: '슈팅', gradient: 'linear-gradient(135deg, #1a1a10 0%, #33691e 50%, #aed581 100%)' }
+  ]}
+  hubContent={{
+    Th06: {
+      titleKr: '동방홍마향',
+      titleJa: '東方紅魔郷 ～ the Embodiment of Scarlet Devil',
+      gradient: 'linear-gradient(135deg, #7b0000 0%, #c0392b 50%, #922b21 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th06/hakurei_reimu.webp', href: '/docs/th06/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th06/kirisame_marisa.webp', href: '/docs/th06/characters/kirisame_marisa' },
+          { id: 'rumia', name: '루미아', imagePath: '/img/th06/rumia.webp', href: '/docs/th06/characters/rumia' },
+          { id: 'cirno', name: '치르노', imagePath: '/img/th06/cirno.webp', href: '/docs/th06/characters/cirno' },
+          { id: 'hong_meiling', name: '홍 메이링', imagePath: '/img/th06/hong_meiring.webp', href: '/docs/th06/characters/hong_meiling' },
+          { id: 'patchouli_knowledge', name: '파츄리 널릿지', imagePath: '/img/th06/patchouli_knowledge.webp', href: '/docs/th06/characters/patchouli_knowledge' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th06/izayoi_sakuya.webp', href: '/docs/th06/characters/izayoi_sakuya' },
+          { id: 'remilia_scarlet', name: '레밀리아 스칼렛', imagePath: '/img/th06/remilia_scarlet.webp', href: '/docs/th06/characters/remilia_scarlet' },
+          { id: 'flandre_scarlet', name: '플랑드르 스칼렛', imagePath: '/img/th06/flandre_scarlet.webp', href: '/docs/th06/characters/flandre_scarlet' },
+          { id: 'daiyousei', name: '대요정', imagePath: '/img/th06/daiyousei.webp', href: '/docs/th06/characters/daiyousei' },
+          { id: 'koakuma', name: '코아쿠마', imagePath: '/img/th06/koakuma.webp', href: '/docs/th06/characters/koakuma' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th06/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th06/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th06/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th06/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th06/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th06/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th06/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th06/dialogue/reimu/reimu-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th06/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th06/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th06/spell-cards' }
+        ],
+    },
+    Th07: {
+      titleKr: '동방요요몽',
+      titleJa: '東方妖々夢 ～ Perfect Cherry Blossom',
+      gradient: 'linear-gradient(135deg, #1a3a4a 0%, #4a9ebe 50%, #85c1e9 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th07/hakurei_reimu.webp', href: '/docs/th07/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th07/kirisame_marisa.webp', href: '/docs/th07/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th07/izayoi_sakuya.webp', href: '/docs/th07/characters/izayoi_sakuya' },
+          { id: 'cirno', name: '치르노', imagePath: '/img/th07/cirno.webp', href: '/docs/th07/characters/cirno' },
+          { id: 'letty_whiterock', name: '레티 화이트락', imagePath: '/img/th07/letty_whiterock.webp', href: '/docs/th07/characters/letty_whiterock' },
+          { id: 'chen', name: '첸', imagePath: '/img/th07/chen.webp', href: '/docs/th07/characters/chen' },
+          { id: 'alice_margatroid', name: '앨리스 마가트로이드', imagePath: '/img/th07/alice_margatroid.webp', href: '/docs/th07/characters/alice_margatroid' },
+          { id: 'lily_white', name: '릴리 화이트', imagePath: '/img/th07/lily_white.webp', href: '/docs/th07/characters/lily_white' },
+          { id: 'lunasa_prismriver', name: '장녀 루나사 프리즘리버', imagePath: '/img/th07/lunasa_prismriver.webp', href: '/docs/th07/characters/lunasa_prismriver' },
+          { id: 'merlin_prismriver', name: '차녀 메를랑 프리즘리버', imagePath: '/img/th07/merlin_prismriver.webp', href: '/docs/th07/characters/merlin_prismriver' },
+          { id: 'lyrica_prismriver', name: '삼녀 리리카 프리즘리버', imagePath: '/img/th07/lyrica_prismriver.webp', href: '/docs/th07/characters/lyrica_prismriver' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th07/konpaku_youmu.webp', href: '/docs/th07/characters/konpaku_youmu' },
+          { id: 'saigyouji_yuyuko', name: '사이교우지 유유코', imagePath: '/img/th07/saigyouji_yuyuko.webp', href: '/docs/th07/characters/saigyouji_yuyuko' },
+          { id: 'yakumo_ran', name: '야쿠모 란', imagePath: '/img/th07/yakumo_ran.webp', href: '/docs/th07/characters/yakumo_ran' },
+          { id: 'yakumo_yukari', name: '야쿠모 유카리', imagePath: '/img/th07/yakumo_yukari.webp', href: '/docs/th07/characters/yakumo_yukari' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th07/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th07/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th07/dialogue/marisa/marisa-endings' }, { label: '엑스트라+판타즘', href: '/docs/th07/dialogue/marisa/marisa-extra-and-phantasm' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th07/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th07/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th07/dialogue/reimu/reimu-endings' }, { label: '엑스트라+판타즘', href: '/docs/th07/dialogue/reimu/reimu-extra-and-phantasm' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            imagePath: '/img/th07/izayoi_sakuya.webp',
+            links: [{ label: '시나리오', href: '/docs/th07/dialogue/sakuya/sakuya-scenario' }, { label: '엔딩', href: '/docs/th07/dialogue/sakuya/sakuya-endings' }, { label: '엑스트라+판타즘', href: '/docs/th07/dialogue/sakuya/sakuya-extra-and-phantasm' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th07/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th07/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th07/spell-cards' }
+        ],
+    },
+    Th075: {
+      titleKr: '동방췌몽상',
+      titleJa: '東方萃夢想 ～ Immaterial and Missing Power',
+      gradient: 'linear-gradient(135deg, #4a1a0a 0%, #e65100 50%, #ff9800 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th075/hakurei_reimu.webp', href: '/docs/th075/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th075/kirisame_marisa.webp', href: '/docs/th075/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th075/izayoi_sakuya.webp', href: '/docs/th075/characters/izayoi_sakuya' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th075/konpaku_youmu.webp', href: '/docs/th075/characters/konpaku_youmu' },
+          { id: 'patchouli_knowledge', name: '파츄리 널릿지', imagePath: '/img/th075/patchouli_knowledge.webp', href: '/docs/th075/characters/patchouli_knowledge' },
+          { id: 'alice_margatroid', name: '앨리스 마가트로이드', imagePath: '/img/th075/alice_margatroid.webp', href: '/docs/th075/characters/alice_margatroid' },
+          { id: 'remilia_scarlet', name: '레밀리아 스칼렛', imagePath: '/img/th075/remilia_scarlet.webp', href: '/docs/th075/characters/remilia_scarlet' },
+          { id: 'saigyouji_yuyuko', name: '사이교우지 유유코', imagePath: '/img/th075/saigyouji_yuyuko.webp', href: '/docs/th075/characters/saigyouji_yuyuko' },
+          { id: 'yakumo_yukari', name: '야쿠모 유카리', imagePath: '/img/th075/yakumo_yukari.webp', href: '/docs/th075/characters/yakumo_yukari' },
+          { id: 'ibuki_suika', name: '이부키 스이카', imagePath: '/img/th075/ibuki_suika.webp', href: '/docs/th075/characters/ibuki_suika' }
+        ],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th075/intro' }
+        ],
+    },
+    Th08: {
+      titleKr: '동방영야초',
+      titleJa: '東方永夜抄 ～ Imperishable Night',
+      gradient: 'linear-gradient(135deg, #0d1b2a 0%, #1e3a5f 50%, #2e6da4 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th08/hakurei_reimu.webp', href: '/docs/th08/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th08/kirisame_marisa.webp', href: '/docs/th08/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th08/izayoi_sakuya.webp', href: '/docs/th08/characters/izayoi_sakuya' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th08/konpaku_youmu.webp', href: '/docs/th08/characters/konpaku_youmu' },
+          { id: 'alice_margatroid', name: '앨리스 마가트로이드', imagePath: '/img/th08/alice_margatroid.webp', href: '/docs/th08/characters/alice_margatroid' },
+          { id: 'remilia_scarlet', name: '레밀리아 스칼렛', imagePath: '/img/th08/remilia_scarlet.webp', href: '/docs/th08/characters/remilia_scarlet' },
+          { id: 'saigyouji_yuyuko', name: '사이교우지 유유코', imagePath: '/img/th08/saigyouji_yuyuko.webp', href: '/docs/th08/characters/saigyouji_yuyuko' },
+          { id: 'yakumo_yukari', name: '야쿠모 유카리', imagePath: '/img/th08/yakumo_yukari.webp', href: '/docs/th08/characters/yakumo_yukari' },
+          { id: 'wriggle_nightbug', name: '리글 나이트버그', imagePath: '/img/th08/wriggle_nightbug.webp', href: '/docs/th08/characters/wriggle_nightbug' },
+          { id: 'mystia_lorelei', name: '미스티아 로렐라이', imagePath: '/img/th08/mystia_lorelei.webp', href: '/docs/th08/characters/mystia_lorelei' },
+          { id: 'kamishirasawa_keine', name: '카미시라사와 케이네', imagePath: '/img/th08/kamishirasawa_keine.webp', href: '/docs/th08/characters/kamishirasawa_keine' },
+          { id: 'inaba_tewi', name: '이나바 테위', imagePath: '/img/th08/inaba_tewi.webp', href: '/docs/th08/characters/inaba_tewi' },
+          { id: 'reisen_udongein_inaba', name: '레이센 우동게인 이나바', imagePath: '/img/th08/reisen_udongein_inaba.webp', href: '/docs/th08/characters/reisen_udongein_inaba' },
+          { id: 'yagokoro_eirin', name: '야고코로 에이린', imagePath: '/img/th08/yagokoro_eirin.webp', href: '/docs/th08/characters/yagokoro_eirin' },
+          { id: 'houraisan_kaguya', name: '호라이산 카구야', imagePath: '/img/th08/houraisan_kaguya.webp', href: '/docs/th08/characters/houraisan_kaguya' },
+          { id: 'fujiwara_no_mokou', name: '후지와라노 모코우', imagePath: '/img/th08/huziwara_no_mokou.webp', href: '/docs/th08/characters/fujiwara_no_mokou' }
+        ],
+      dialogueChars: [
+          {
+            name: '결계조 (레이무, 유카리)',
+            links: [{ label: '시나리오', href: '/docs/th08/dialogue/boundary_team/boundary_team-scenario' }, { label: '엔딩', href: '/docs/th08/dialogue/boundary_team/boundary_team-endings' }, { label: '엑스트라', href: '/docs/th08/dialogue/boundary_team/boundary_team-extra' }],
+          },
+          {
+            name: '명계조 (요우무, 유유코)',
+            links: [{ label: '시나리오', href: '/docs/th08/dialogue/ghost_team/ghost_team-scenario' }, { label: '엔딩', href: '/docs/th08/dialogue/ghost_team/ghost_team-endings' }, { label: '엑스트라', href: '/docs/th08/dialogue/ghost_team/ghost_team-extra' }],
+          },
+          {
+            name: '영창조 (마리사, 앨리스)',
+            links: [{ label: '시나리오', href: '/docs/th08/dialogue/magic_team/magic_team-scenario' }, { label: '엔딩', href: '/docs/th08/dialogue/magic_team/magic_team-endings' }, { label: '엑스트라', href: '/docs/th08/dialogue/magic_team/magic_team-extra' }],
+          },
+          {
+            name: '홍마조 (사쿠야, 레밀리아)',
+            links: [{ label: '시나리오', href: '/docs/th08/dialogue/scarlet_team/scarlet_team-scenario' }, { label: '엔딩', href: '/docs/th08/dialogue/scarlet_team/scarlet_team-endings' }, { label: '엑스트라', href: '/docs/th08/dialogue/scarlet_team/scarlet_team-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th08/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th08/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th08/spell-cards' }
+        ],
+    },
+    Th09: {
+      titleKr: '동방화영총',
+      titleJa: '東方花映塚 ～ Phantasmagoria of Flower View',
+      gradient: 'linear-gradient(135deg, #1a2e1a 0%, #2e7d32 50%, #66bb6a 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th09/hakurei_reimu.webp', href: '/docs/th09/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th09/kirisame_marisa.webp', href: '/docs/th09/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th09/izayoi_sakuya.webp', href: '/docs/th09/characters/izayoi_sakuya' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th09/konpaku_youmu.webp', href: '/docs/th09/characters/konpaku_youmu' },
+          { id: 'reisen_udongein_inaba', name: '레이센 우동게인 이나바', imagePath: '/img/th09/reisen_udongein_inaba.webp', href: '/docs/th09/characters/reisen_udongein_inaba' },
+          { id: 'cirno', name: '치르노', imagePath: '/img/th09/cirno.webp', href: '/docs/th09/characters/cirno' },
+          { id: 'lyrica_prismriver', name: '리리카 프리즘리버', imagePath: '/img/th09/lyrica_prismriver.webp', href: '/docs/th09/characters/lyrica_prismriver' },
+          { id: 'merlin_prismriver', name: '메를랑 프리즘리버', imagePath: '/img/th09/merlin_prismriver.webp', href: '/docs/th09/characters/merlin_prismriver' },
+          { id: 'lunasa_prismriver', name: '루나사 프리즘리버', imagePath: '/img/th09/lunasa_prismriver.webp', href: '/docs/th09/characters/lunasa_prismriver' },
+          { id: 'mystia_lorelei', name: '미스티아 로렐라이', imagePath: '/img/th09/mystia_lorelei.webp', href: '/docs/th09/characters/mystia_lorelei' },
+          { id: 'inaba_tewi', name: '이나바 테위', imagePath: '/img/th09/inaba_tewi.webp', href: '/docs/th09/characters/inaba_tewi' },
+          { id: 'shameimaru_aya', name: '샤메이마루 아야', imagePath: '/img/th09/shameimaru_aya.webp', href: '/docs/th09/characters/shameimaru_aya' },
+          { id: 'medicine_melancholy', name: '메디슨 멜랑콜리', imagePath: '/img/th09/medicine_melancholy.webp', href: '/docs/th09/characters/medicine_melancholy' },
+          { id: 'kazami_yuuka', name: '카자미 유카', imagePath: '/img/th09/kazami_yuuka.webp', href: '/docs/th09/characters/kazami_yuuka' },
+          { id: 'onozuka_komachi', name: '오노즈카 코마치', imagePath: '/img/th09/onozuka_komachi.webp', href: '/docs/th09/characters/onozuka_komachi' },
+          { id: 'shikieiki_yamaxanadu', name: '시키에이키 야마자나두', imagePath: '/img/th09/shiki_eiki_yamaxanadu.webp', href: '/docs/th09/characters/shikieiki_yamaxanadu' }
+        ],
+      dialogueChars: [
+          {
+            name: '샤메이마루 아야',
+            imagePath: '/img/th09/shameimaru_aya.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/aya/aya-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/aya/aya-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/aya/aya-script' }],
+          },
+          {
+            name: '치르노',
+            imagePath: '/img/th09/cirno.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/cirno/cirno-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/cirno/cirno-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/cirno/cirno-script' }],
+          },
+          {
+            name: '시키에이키 야마자나두',
+            imagePath: '/img/th09/shiki_eiki_yamaxanadu.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/eiki/eiki-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/eiki/eiki-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/eiki/eiki-script' }],
+          },
+          {
+            name: '오노즈카 코마치',
+            imagePath: '/img/th09/onozuka_komachi.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/komachi/komachi-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/komachi/komachi-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/komachi/komachi-script' }],
+          },
+          {
+            name: '루나사 프리즘리버',
+            imagePath: '/img/th09/lunasa_prismriver.webp',
+            links: [{ label: '스크립트', href: '/docs/th09/dialogue/lunasa/lunasa-script' }],
+          },
+          {
+            name: '리리카 프리즘리버',
+            imagePath: '/img/th09/lyrica_prismriver.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/lyrica/lyrica-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/lyrica/lyrica-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/lyrica/lyrica-script' }],
+          },
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th09/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/marisa/marisa-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/marisa/marisa-script' }],
+          },
+          {
+            name: '메디슨 멜랑콜리',
+            imagePath: '/img/th09/medicine_melancholy.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/medicine/medicine-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/medicine/medicine-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/medicine/medicine-script' }],
+          },
+          {
+            name: '메를랑 프리즘리버',
+            imagePath: '/img/th09/merlin_prismriver.webp',
+            links: [{ label: '스크립트', href: '/docs/th09/dialogue/merlin/merlin-script' }],
+          },
+          {
+            name: '미스티아 로렐라이',
+            imagePath: '/img/th09/mystia_lorelei.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/mystia/mystia-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/mystia/mystia-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/mystia/mystia-script' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th09/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/reimu/reimu-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/reimu/reimu-script' }],
+          },
+          {
+            name: '레이센 우동게인 이나바',
+            imagePath: '/img/th09/reisen_udongein_inaba.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/reisen/reisen-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/reisen/reisen-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/reisen/reisen-script' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            imagePath: '/img/th09/izayoi_sakuya.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/sakuya/sakuya-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/sakuya/sakuya-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/sakuya/sakuya-script' }],
+          },
+          {
+            name: '이나바 테위',
+            imagePath: '/img/th09/inaba_tewi.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/tewi/tewi-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/tewi/tewi-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/tewi/tewi-script' }],
+          },
+          {
+            name: '콘파쿠 요우무',
+            imagePath: '/img/th09/konpaku_youmu.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/youmu/youmu-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/youmu/youmu-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/youmu/youmu-script' }],
+          },
+          {
+            name: '카자미 유카',
+            imagePath: '/img/th09/kazami_yuuka.webp',
+            links: [{ label: '시나리오', href: '/docs/th09/dialogue/yuuka/yuuka-scenario' }, { label: '엔딩', href: '/docs/th09/dialogue/yuuka/yuuka-endings' }, { label: '스크립트', href: '/docs/th09/dialogue/yuuka/yuuka-script' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th09/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th09/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th09/spell-cards' }
+        ],
+    },
+    Th095: {
+      titleKr: '동방문화첩',
+      titleJa: '東方文花帖 ～ Shoot the Bullet',
+      gradient: 'linear-gradient(135deg, #2a1a2a 0%, #6a1b9a 50%, #ab47bc 100%)',
+      chars: [],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th095/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th095/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th095/spell-cards' }
+        ],
+    },
+    Th10: {
+      titleKr: '동방풍신록',
+      titleJa: '東方風神録 ～ Mountain of Faith',
+      gradient: 'linear-gradient(135deg, #1a2a3a 0%, #1565c0 50%, #42a5f5 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th10/hakurei_reimu.webp', href: '/docs/th10/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th10/kirisame_marisa.webp', href: '/docs/th10/characters/kirisame_marisa' },
+          { id: 'aki_shizuha', name: '아키 시즈하', imagePath: '/img/th10/aki_sizuha.webp', href: '/docs/th10/characters/aki_shizuha' },
+          { id: 'aki_minoriko', name: '아키 미노리코', imagePath: '/img/th10/aki_minoriko.webp', href: '/docs/th10/characters/aki_minoriko' },
+          { id: 'kagiyama_hina', name: '카기야마 히나', imagePath: '/img/th10/kagiyama_hina.webp', href: '/docs/th10/characters/kagiyama_hina' },
+          { id: 'kawashiro_nitori', name: '카와시로 니토리', imagePath: '/img/th10/kawasiro_nitori.webp', href: '/docs/th10/characters/kawashiro_nitori' },
+          { id: 'inubashiri_momiji', name: '이누바시리 모미지', imagePath: '/img/th10/inubasiri_momizi.webp', href: '/docs/th10/characters/inubashiri_momiji' },
+          { id: 'shameimaru_aya', name: '샤메이마루 아야', imagePath: '/img/th10/shameimaru_aya.webp', href: '/docs/th10/characters/shameimaru_aya' },
+          { id: 'kochiya_sanae', name: '코치야 사나에', imagePath: '/img/th10/kotiya_sanae.webp', href: '/docs/th10/characters/kochiya_sanae' },
+          { id: 'yasaka_kanako', name: '야사카 카나코', imagePath: '/img/th10/yasaka_kanako.webp', href: '/docs/th10/characters/yasaka_kanako' },
+          { id: 'moriya_suwako', name: '모리야 스와코', imagePath: '/img/th10/moriya_suwako.webp', href: '/docs/th10/characters/moriya_suwako' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th10/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th10/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th10/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th10/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th10/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th10/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th10/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th10/dialogue/reimu/reimu-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th10/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th10/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th10/spell-cards' }
+        ],
+    },
+    Th105: {
+      titleKr: '동방비상천',
+      titleJa: '東方緋想天 ～ Scarlet Weather Rhapsody',
+      gradient: 'linear-gradient(135deg, #3a1a0a 0%, #d84315 50%, #ff7043 100%)',
+      chars: [
+          { id: 'shameimaru_aya', name: '샤메이마루 아야', imagePath: '/img/th105/shameimaru_aya.webp', href: '/docs/th105/characters/shameimaru_aya' },
+          { id: 'reisen_udongein_inaba', name: '레이센 우동게인 이나바', imagePath: '/img/th105/reisen_udongein_inaba.webp', href: '/docs/th105/characters/reisen_udongein_inaba' },
+          { id: 'onozuka_komachi', name: '오노즈카 코마치', imagePath: '/img/th105/onozuka_komachi.webp', href: '/docs/th105/characters/onozuka_komachi' },
+          { id: 'nagae_iku', name: '나가에 이쿠', imagePath: '/img/th105/nagae_iku.webp', href: '/docs/th105/characters/nagae_iku' },
+          { id: 'hinanawi_tenshi', name: '히나나위 텐시', imagePath: '/img/th105/hinanawi_tenshi.webp', href: '/docs/th105/characters/hinanawi_tenshi' }
+        ],
+      dialogueChars: [
+          {
+            name: '앨리스 마가트로이드',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/alice/alice-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/alice/alice-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/alice/alice-win-quotes' }],
+          },
+          {
+            name: '샤메이마루 아야',
+            imagePath: '/img/th105/shameimaru_aya.webp',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/aya/aya-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/aya/aya-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/aya/aya-win-quotes' }],
+          },
+          {
+            name: '나가에 이쿠',
+            imagePath: '/img/th105/nagae_iku.webp',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/iku/iku-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/iku/iku-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/iku/iku-win-quotes' }],
+          },
+          {
+            name: '오노즈카 코마치',
+            imagePath: '/img/th105/onozuka_komachi.webp',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/komachi/komachi-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/komachi/komachi-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/komachi/komachi-win-quotes' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/marisa/marisa-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/marisa/marisa-win-quotes' }],
+          },
+          {
+            name: '파츄리 널릿지',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/patchouli/patchouli-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/patchouli/patchouli-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/patchouli/patchouli-win-quotes' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/reimu/reimu-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/reimu/reimu-win-quotes' }],
+          },
+          {
+            name: '레이센 우동게인 이나바',
+            imagePath: '/img/th105/reisen_udongein_inaba.webp',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/reisen/reisen-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/reisen/reisen-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/reisen/reisen-win-quotes' }],
+          },
+          {
+            name: '레밀리아 스칼렛',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/remilia/remilia-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/remilia/remilia-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/remilia/remilia-win-quotes' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/sakuya/sakuya-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/sakuya/sakuya-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/sakuya/sakuya-win-quotes' }],
+          },
+          {
+            name: '이부키 스이카',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/suika/suika-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/suika/suika-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/suika/suika-win-quotes' }],
+          },
+          {
+            name: '히나나위 텐시',
+            imagePath: '/img/th105/hinanawi_tenshi.webp',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/tenshi/tenshi-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/tenshi/tenshi-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/tenshi/tenshi-win-quotes' }],
+          },
+          {
+            name: '콘파쿠 요우무',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/youmu/youmu-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/youmu/youmu-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/youmu/youmu-win-quotes' }],
+          },
+          {
+            name: '야쿠모 유카리',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/yukari/yukari-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/yukari/yukari-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/yukari/yukari-win-quotes' }],
+          },
+          {
+            name: '사이교우지 유유코',
+            links: [{ label: '시나리오', href: '/docs/th105/dialogue/yuyuko/yuyuko-scenario' }, { label: '엔딩', href: '/docs/th105/dialogue/yuyuko/yuyuko-endings' }, { label: '승리 대사', href: '/docs/th105/dialogue/yuyuko/yuyuko-win-quotes' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th105/intro' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th105/spell-cards' }
+        ],
+    },
+    Th11: {
+      titleKr: '동방지령전',
+      titleJa: '東方地霊殿 ～ Subterranean Animism',
+      gradient: 'linear-gradient(135deg, #1a0a0a 0%, #4a1942 50%, #8e24aa 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th11/hakurei_reimu.webp', href: '/docs/th11/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th11/kirisame_marisa.webp', href: '/docs/th11/characters/kirisame_marisa' },
+          { id: 'yakumo_yukari', name: '야쿠모 유카리', imagePath: '/img/th11/yakumo_yukari.webp', href: '/docs/th11/characters/yakumo_yukari' },
+          { id: 'ibuki_suika', name: '이부키 스이카', imagePath: '/img/th11/ibuki_suika.webp', href: '/docs/th11/characters/ibuki_suika' },
+          { id: 'shameimaru_aya', name: '샤메이마루 아야', imagePath: '/img/th11/shameimaru_aya.webp', href: '/docs/th11/characters/shameimaru_aya' },
+          { id: 'alice_margatroid', name: '앨리스 마가트로이드', imagePath: '/img/th11/alice_margatroid.webp', href: '/docs/th11/characters/alice_margatroid' },
+          { id: 'patchouli_knowledge', name: '파츄리 널릿지', imagePath: '/img/th11/patchouli_knowledge.webp', href: '/docs/th11/characters/patchouli_knowledge' },
+          { id: 'kawashiro_nitori', name: '카와시로 니토리', imagePath: '/img/th11/kawasiro_nitori.webp', href: '/docs/th11/characters/kawashiro_nitori' },
+          { id: 'kisume', name: '키스메', imagePath: '/img/th11/kisume.webp', href: '/docs/th11/characters/kisume' },
+          { id: 'kurodani_yamame', name: '쿠로다니 야마메', imagePath: '/img/th11/kurodani_yamame.webp', href: '/docs/th11/characters/kurodani_yamame' },
+          { id: 'mizuhashi_parsee', name: '미즈하시 파르시', imagePath: '/img/th11/mizuhashi_parsee.webp', href: '/docs/th11/characters/mizuhashi_parsee' },
+          { id: 'hoshiguma_yuugi', name: '호시구마 유기', imagePath: '/img/th11/hoshiguma_yugi.webp', href: '/docs/th11/characters/hoshiguma_yuugi' },
+          { id: 'komeiji_satori', name: '코메이지 사토리', imagePath: '/img/th11/komeiji_satori.webp', href: '/docs/th11/characters/komeiji_satori' },
+          { id: 'kaenbyou_rin', name: '카엔뵤 린', imagePath: '/img/th11/kaenbyou_rin.webp', href: '/docs/th11/characters/kaenbyou_rin' },
+          { id: 'reiuji_utsuho', name: '레이우지 우츠호', imagePath: '/img/th11/reiuzi_utsuho.webp', href: '/docs/th11/characters/reiuji_utsuho' },
+          { id: 'komeiji_koishi', name: '코메이지 코이시', imagePath: '/img/th11/komeiji_koishi.webp', href: '/docs/th11/characters/komeiji_koishi' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th11/kirisame_marisa.webp',
+            links: [{ label: '엔딩', href: '/docs/th11/dialogue/marisa/marisa-endings' }],
+          },
+          {
+            name: '마리사 & 앨리스',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/marisa_and_alice/marisa_and_alice-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/marisa_and_alice/marisa_and_alice-extra' }],
+          },
+          {
+            name: '마리사 & 니토리',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/marisa_and_nitori/marisa_and_nitori-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/marisa_and_nitori/marisa_and_nitori-extra' }],
+          },
+          {
+            name: '마리사 & 파츄리',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/marisa_and_patchouli/marisa_and_patchouli-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/marisa_and_patchouli/marisa_and_patchouli-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th11/hakurei_reimu.webp',
+            links: [{ label: '엔딩', href: '/docs/th11/dialogue/reimu/reimu-endings' }],
+          },
+          {
+            name: '레이무 & 아야',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/reimu_and_aya/reimu_and_aya-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/reimu_and_aya/reimu_and_aya-extra' }],
+          },
+          {
+            name: '레이무 & 스이카',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/reimu_and_suika/reimu_and_suika-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/reimu_and_suika/reimu_and_suika-extra' }],
+          },
+          {
+            name: '레이무 & 유카리',
+            links: [{ label: '시나리오', href: '/docs/th11/dialogue/reimu_and_yukari/reimu_and_yukari-scenario' }, { label: '엑스트라', href: '/docs/th11/dialogue/reimu_and_yukari/reimu_and_yukari-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th11/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th11/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th11/spell-cards' }
+        ],
+    },
+    Th12: {
+      titleKr: '동방성련선',
+      titleJa: '東方星蓮船 ～ Undefined Fantastic Object',
+      gradient: 'linear-gradient(135deg, #0d1a2a 0%, #0277bd 50%, #81d4fa 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th12/hakurei_reimu.webp', href: '/docs/th12/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th12/kirisame_marisa.webp', href: '/docs/th12/characters/kirisame_marisa' },
+          { id: 'kochiya_sanae', name: '코치야 사나에', imagePath: '/img/th12/kochiya_sanae.webp', href: '/docs/th12/characters/kochiya_sanae' },
+          { id: 'nazrin', name: '나즈린', imagePath: '/img/th12/nazrin.webp', href: '/docs/th12/characters/nazrin' },
+          { id: 'tatara_kogasa', name: '타타라 코가사', imagePath: '/img/th12/tatara_kogasa.webp', href: '/docs/th12/characters/tatara_kogasa' },
+          { id: 'kumoi_ichirin', name: '쿠모이 이치린', imagePath: '/img/th12/kumoi_ichirin.webp', href: '/docs/th12/characters/kumoi_ichirin' },
+          { id: 'murasa_minamitsu', name: '무라사 미나미츠', imagePath: '/img/th12/captain_murasa_minamitsu.webp', href: '/docs/th12/characters/murasa_minamitsu' },
+          { id: 'toramaru_shou', name: '토라마루 쇼', imagePath: '/img/th12/toramaru_syou.webp', href: '/docs/th12/characters/toramaru_shou' },
+          { id: 'hijiri_byakuren', name: '히지리 뱌쿠렌', imagePath: '/img/th12/hiziri_byakuren.webp', href: '/docs/th12/characters/hijiri_byakuren' },
+          { id: 'houjuu_nue', name: '호쥬 누에', imagePath: '/img/th12/houjuu_nue.webp', href: '/docs/th12/characters/houjuu_nue' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th12/kirisame_marisa.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th12/dialogue/marisa/marisa_a-scenario' }, { label: 'b 시나리오', href: '/docs/th12/dialogue/marisa/marisa_b-scenario' }, { label: '엔딩', href: '/docs/th12/dialogue/marisa/marisa-endings' }, { label: 'a 엑스트라', href: '/docs/th12/dialogue/marisa/marisa_a-extra' }, { label: 'b 엑스트라', href: '/docs/th12/dialogue/marisa/marisa_b-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th12/hakurei_reimu.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th12/dialogue/reimu/reimu_a-scenario' }, { label: 'b 시나리오', href: '/docs/th12/dialogue/reimu/reimu_b-scenario' }, { label: '엔딩', href: '/docs/th12/dialogue/reimu/reimu-endings' }, { label: 'a 엑스트라', href: '/docs/th12/dialogue/reimu/reimu_a-extra' }, { label: 'b 엑스트라', href: '/docs/th12/dialogue/reimu/reimu_b-extra' }],
+          },
+          {
+            name: '코치야 사나에',
+            imagePath: '/img/th12/kochiya_sanae.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th12/dialogue/sanae/sanae_a-scenario' }, { label: 'b 시나리오', href: '/docs/th12/dialogue/sanae/sanae_b-scenario' }, { label: '엔딩', href: '/docs/th12/dialogue/sanae/sanae-endings' }, { label: 'a 엑스트라', href: '/docs/th12/dialogue/sanae/sanae_a-extra' }, { label: 'b 엑스트라', href: '/docs/th12/dialogue/sanae/sanae_b-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th12/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th12/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th12/spell-cards' }
+        ],
+    },
+    Th123: {
+      titleKr: '동방비상천칙',
+      titleJa: '東方非想天則 ～ 超弩級ギニョルの謎を追え',
+      gradient: 'linear-gradient(135deg, #1a2a1a 0%, #388e3c 50%, #81c784 100%)',
+      chars: [],
+      dialogueChars: [
+          {
+            name: '앨리스 마가트로이드',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/alice/alice-win-quotes' }],
+          },
+          {
+            name: '샤메이마루 아야',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/aya/aya-win-quotes' }],
+          },
+          {
+            name: '치르노',
+            links: [{ label: '시나리오', href: '/docs/th123/dialogue/cirno/cirno-scenario' }, { label: '엔딩', href: '/docs/th123/dialogue/cirno/cirno-endings' }, { label: '승리 대사', href: '/docs/th123/dialogue/cirno/cirno-win-quotes' }],
+          },
+          {
+            name: '나가에 이쿠',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/iku/iku-win-quotes' }],
+          },
+          {
+            name: '오노즈카 코마치',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/komachi/komachi-win-quotes' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/marisa/marisa-win-quotes' }],
+          },
+          {
+            name: '홍 메이링',
+            links: [{ label: '시나리오', href: '/docs/th123/dialogue/meiling/meiling-scenario' }, { label: '엔딩', href: '/docs/th123/dialogue/meiling/meiling-endings' }, { label: '승리 대사', href: '/docs/th123/dialogue/meiling/meiling-win-quotes' }],
+          },
+          {
+            name: '파츄리 널릿지',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/patchouli/patchouli-win-quotes' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/reimu/reimu-win-quotes' }],
+          },
+          {
+            name: '레이센 우동게인 이나바',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/reisen/reisen-win-quotes' }],
+          },
+          {
+            name: '레밀리아 스칼렛',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/remilia/remilia-win-quotes' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/sakuya/sakuya-win-quotes' }],
+          },
+          {
+            name: '코치야 사나에',
+            links: [{ label: '시나리오', href: '/docs/th123/dialogue/sanae/sanae-scenario' }, { label: '엔딩', href: '/docs/th123/dialogue/sanae/sanae-endings' }, { label: '승리 대사', href: '/docs/th123/dialogue/sanae/sanae-win-quotes' }],
+          },
+          {
+            name: '이부키 스이카',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/suika/suika-win-quotes' }],
+          },
+          {
+            name: '모리야 스와코',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/suwako/suwako-win-quotes' }],
+          },
+          {
+            name: '히나나위 텐시',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/tenshi/tenshi-win-quotes' }],
+          },
+          {
+            name: '레이우지 우츠호',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/utsuho/utsuho-win-quotes' }],
+          },
+          {
+            name: '콘파쿠 요우무',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/youmu/youmu-win-quotes' }],
+          },
+          {
+            name: '야쿠모 유카리',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/yukari/yukari-win-quotes' }],
+          },
+          {
+            name: '사이교우지 유유코',
+            links: [{ label: '승리 대사', href: '/docs/th123/dialogue/yuyuko/yuyuko-win-quotes' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th123/intro' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th123/spell-cards' }
+        ],
+    },
+    Th125: {
+      titleKr: '더블 스포일러',
+      titleJa: 'ダブルスポイラー ～ 東方文花帖',
+      gradient: 'linear-gradient(135deg, #1a1a2a 0%, #303f9f 50%, #7986cb 100%)',
+      chars: [
+          { id: 'himekaidou_hatate', name: '히메카이도 하타테', imagePath: '/img/th125/himekaidou_hatate.webp', href: '/docs/th125/characters/himekaidou_hatate' }
+        ],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th125/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th125/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th125/spell-cards' }
+        ],
+    },
+    Th128: {
+      titleKr: '요정대전쟁',
+      titleJa: '妖精大戦争 ～ 東方三月精',
+      gradient: 'linear-gradient(135deg, #0a2a1a 0%, #00695c 50%, #80cbc4 100%)',
+      chars: [
+          { id: 'sunny_milk', name: '선니 밀크', imagePath: '/img/th128/sunny_milk.webp', href: '/docs/th128/characters/sunny_milk' },
+          { id: 'luna_child', name: '루나 차일드', imagePath: '/img/th128/luna_child.webp', href: '/docs/th128/characters/luna_child' },
+          { id: 'star_sapphire', name: '스타 사파이어', imagePath: '/img/th128/star_sapphire.webp', href: '/docs/th128/characters/star_sapphire' }
+        ],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th128/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th128/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th128/spell-cards' }
+        ],
+    },
+    Th13: {
+      titleKr: '동방신령묘',
+      titleJa: '東方神霊廟 ～ Ten Desires',
+      gradient: 'linear-gradient(135deg, #2a1a0a 0%, #e65100 50%, #ffa726 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th13/hakurei_reimu.webp', href: '/docs/th13/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th13/kirisame_marisa.webp', href: '/docs/th13/characters/kirisame_marisa' },
+          { id: 'kochiya_sanae', name: '코치야 사나에', imagePath: '/img/th13/kochiya_sanae.webp', href: '/docs/th13/characters/kochiya_sanae' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th13/konpaku_youmu.webp', href: '/docs/th13/characters/konpaku_youmu' },
+          { id: 'saigyouji_yuyuko', name: '사이교우지 유유코', imagePath: '/img/th13/saigyouji_yuyuko.webp', href: '/docs/th13/characters/saigyouji_yuyuko' },
+          { id: 'kasodani_kyouko', name: '카소다니 쿄코', imagePath: '/img/th13/kasodani_kyouko.webp', href: '/docs/th13/characters/kasodani_kyouko' },
+          { id: 'tatara_kogasa', name: '타타라 코가사', imagePath: '/img/th13/tatara_kogasa.webp', href: '/docs/th13/characters/tatara_kogasa' },
+          { id: 'miyako_yoshika', name: '미야코 요시카', imagePath: '/img/th13/miyako_yoshika.webp', href: '/docs/th13/characters/miyako_yoshika' },
+          { id: 'kaku_seiga', name: 'Kaku Seiga', imagePath: '/img/th13/kaku_seiga.webp', href: '/docs/th13/characters/kaku_seiga' },
+          { id: 'soga_no_tojiko', name: '소가노 토지코', imagePath: '/img/th13/soga_no_toziko.webp', href: '/docs/th13/characters/soga_no_tojiko' },
+          { id: 'mononobe_no_futo', name: '모노노베노 후토', imagePath: '/img/th13/mononobe_no_futo.webp', href: '/docs/th13/characters/mononobe_no_futo' },
+          { id: 'toyosatomimi_no_miko', name: '토요사토미미노 미코', imagePath: '/img/th13/toyosatomimi_no_miko.webp', href: '/docs/th13/characters/toyosatomimi_no_miko' },
+          { id: 'houjuu_nue', name: '호쥬 누에', imagePath: '/img/th13/houjuu_nue.webp', href: '/docs/th13/characters/houjuu_nue' },
+          { id: 'futatsuiwa_mamizou', name: '후타츠이와 마미조', imagePath: '/img/th13/hutatsuiwa_mamizou.webp', href: '/docs/th13/characters/futatsuiwa_mamizou' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th13/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th13/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th13/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th13/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th13/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th13/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th13/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th13/dialogue/reimu/reimu-extra' }],
+          },
+          {
+            name: '코치야 사나에',
+            imagePath: '/img/th13/kochiya_sanae.webp',
+            links: [{ label: '시나리오', href: '/docs/th13/dialogue/sanae/sanae-scenario' }, { label: '엔딩', href: '/docs/th13/dialogue/sanae/sanae-endings' }, { label: '엑스트라', href: '/docs/th13/dialogue/sanae/sanae-extra' }],
+          },
+          {
+            name: '콘파쿠 요우무',
+            imagePath: '/img/th13/konpaku_youmu.webp',
+            links: [{ label: '시나리오', href: '/docs/th13/dialogue/youmu/youmu-scenario' }, { label: '엔딩', href: '/docs/th13/dialogue/youmu/youmu-endings' }, { label: '엑스트라', href: '/docs/th13/dialogue/youmu/youmu-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th13/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th13/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th13/spell-cards' }
+        ],
+    },
+    Th135: {
+      titleKr: '동방심기루',
+      titleJa: '東方心綺楼 ～ Hopeless Masquerade',
+      gradient: 'linear-gradient(135deg, #2a0a1a 0%, #ad1457 50%, #f06292 100%)',
+      chars: [
+          { id: 'hatano_kokoro', name: '하타노 코코로', imagePath: '/img/th135/hatano_kokoro.webp', href: '/docs/th135/characters/hatano_kokoro' }
+        ],
+      dialogueChars: [
+          {
+            name: '히지리 뱌쿠렌',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/byakuren/byakuren-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/byakuren/byakuren-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/byakuren/byakuren-win-quotes' }, { label: '히지리 스펠카드', href: '/docs/th135/dialogue/byakuren/byakuren-spell-cards' }],
+          },
+          {
+            name: '모노노베노 후토',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/futo/futo-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/futo/futo-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/futo/futo-win-quotes' }, { label: '후토 스펠카드', href: '/docs/th135/dialogue/futo/futo-spell-cards' }],
+          },
+          {
+            name: '쿠모이 이치린',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/ichirin/ichirin-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/ichirin/ichirin-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/ichirin/ichirin-win-quotes' }, { label: '이치린 스펠카드', href: '/docs/th135/dialogue/ichirin/ichirin-spell-cards' }],
+          },
+          {
+            name: '코메이지 코이시',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/koishi/koishi-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/koishi/koishi-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/koishi/koishi-win-quotes' }, { label: '코이시 스펠카드', href: '/docs/th135/dialogue/koishi/koishi-spell-cards' }],
+          },
+          {
+            name: '하타노 코코로',
+            imagePath: '/img/th135/hatano_kokoro.webp',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/kokoro/kokoro-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/kokoro/kokoro-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/kokoro/kokoro-win-quotes' }, { label: '코코로 스펠카드', href: '/docs/th135/dialogue/kokoro/kokoro-spell-cards' }],
+          },
+          {
+            name: '후타츠이와 마미조',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/mamizou/mamizou-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/mamizou/mamizou-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/mamizou/mamizou-win-quotes' }, { label: '마미조 스펠카드', href: '/docs/th135/dialogue/mamizou/mamizou-spell-cards' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/marisa/marisa-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/marisa/marisa-win-quotes' }, { label: '마리사 스펠카드', href: '/docs/th135/dialogue/marisa/marisa-spell-cards' }],
+          },
+          {
+            name: '토요사토미미노 미코',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/miko/miko-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/miko/miko-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/miko/miko-win-quotes' }, { label: '미코 스펠카드', href: '/docs/th135/dialogue/miko/miko-spell-cards' }],
+          },
+          {
+            name: '카와시로 니토리',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/nitori/nitori-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/nitori/nitori-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/nitori/nitori-win-quotes' }, { label: '니토리 스펠카드', href: '/docs/th135/dialogue/nitori/nitori-spell-cards' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th135/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th135/dialogue/reimu/reimu-endings' }, { label: '승리 대사', href: '/docs/th135/dialogue/reimu/reimu-win-quotes' }, { label: '레이무 스펠카드', href: '/docs/th135/dialogue/reimu/reimu-spell-cards' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th135/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th135/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th135/spell-cards' }
+        ],
+    },
+    Th14: {
+      titleKr: '동방휘침성',
+      titleJa: '東方輝針城 ～ Double Dealing Character',
+      gradient: 'linear-gradient(135deg, #1a1a0a 0%, #827717 50%, #f9a825 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th14/hakurei_reimu.webp', href: '/docs/th14/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th14/kirisame_marisa.webp', href: '/docs/th14/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th14/izayoi_sakuya.webp', href: '/docs/th14/characters/izayoi_sakuya' },
+          { id: 'cirno', name: '치르노', imagePath: '/img/th14/cirno.webp', href: '/docs/th14/characters/cirno' },
+          { id: 'wakasagihime', name: '와카사기히메', imagePath: '/img/th14/wakasagihime.webp', href: '/docs/th14/characters/wakasagihime' },
+          { id: 'sekibanki', name: '세키반키', imagePath: '/img/th14/sekibanki.webp', href: '/docs/th14/characters/sekibanki' },
+          { id: 'imaizumi_kagerou', name: '이마이즈미 카게로', imagePath: '/img/th14/imaizumi_kagerou.webp', href: '/docs/th14/characters/imaizumi_kagerou' },
+          { id: 'tsukumo_benben', name: '츠쿠모 벤벤', imagePath: '/img/th14/tsukumo_benben.webp', href: '/docs/th14/characters/tsukumo_benben' },
+          { id: 'tsukumo_yatsuhashi', name: '츠쿠모 야츠하시', imagePath: '/img/th14/tsukumo_yatsuhashi.webp', href: '/docs/th14/characters/tsukumo_yatsuhashi' },
+          { id: 'kijin_seija', name: '키진 세이자', imagePath: '/img/th14/kijin_seija.webp', href: '/docs/th14/characters/kijin_seija' },
+          { id: 'sukuna_shinmyoumaru', name: '스쿠나 신묘마루', imagePath: '/img/th14/sukuna_shinmyoumaru.webp', href: '/docs/th14/characters/sukuna_shinmyoumaru' },
+          { id: 'horikawa_raiko', name: '호리카와 라이코', imagePath: '/img/th14/horikawa_raiko.webp', href: '/docs/th14/characters/horikawa_raiko' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th14/kirisame_marisa.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th14/dialogue/marisa/marisa_a-scenario' }, { label: 'b 시나리오', href: '/docs/th14/dialogue/marisa/marisa_b-scenario' }, { label: '엔딩', href: '/docs/th14/dialogue/marisa/marisa-endings' }, { label: 'a 엑스트라', href: '/docs/th14/dialogue/marisa/marisa_a-extra' }, { label: 'b 엑스트라', href: '/docs/th14/dialogue/marisa/marisa_b-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th14/hakurei_reimu.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th14/dialogue/reimu/reimu_a-scenario' }, { label: 'b 시나리오', href: '/docs/th14/dialogue/reimu/reimu_b-scenario' }, { label: '엔딩', href: '/docs/th14/dialogue/reimu/reimu-endings' }, { label: 'a 엑스트라', href: '/docs/th14/dialogue/reimu/reimu_a-extra' }, { label: 'b 엑스트라', href: '/docs/th14/dialogue/reimu/reimu_b-extra' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            imagePath: '/img/th14/izayoi_sakuya.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th14/dialogue/sakuya/sakuya_a-scenario' }, { label: 'b 시나리오', href: '/docs/th14/dialogue/sakuya/sakuya_b-scenario' }, { label: '엔딩', href: '/docs/th14/dialogue/sakuya/sakuya-endings' }, { label: 'a 엑스트라', href: '/docs/th14/dialogue/sakuya/sakuya_a-extra' }, { label: 'b 엑스트라', href: '/docs/th14/dialogue/sakuya/sakuya_b-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th14/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th14/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th14/spell-cards' }
+        ],
+    },
+    Th143: {
+      titleKr: '탄막 아마노자쿠',
+      titleJa: '弾幕アマノジャク ～ Impossible Spell Card',
+      gradient: 'linear-gradient(135deg, #0a0a2a 0%, #1a237e 50%, #5c6bc0 100%)',
+      chars: [
+          { id: 'kijin_seija', name: '키진 세이자', imagePath: '/img/th14/kijin_seija.webp', href: '/docs/th143/characters/kijin_seija' }
+        ],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th143/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th143/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th143/spell-cards' }
+        ],
+    },
+    Th145: {
+      titleKr: '동방심비록',
+      titleJa: '東方深秘録 ～ Urban Legend in Limbo',
+      gradient: 'linear-gradient(135deg, #2a1a1a 0%, #c62828 50%, #ef5350 100%)',
+      chars: [
+          { id: 'usami_sumireko', name: '우사미 스미레코', imagePath: '/img/th145/usami_sumireko.webp', href: '/docs/th145/characters/usami_sumireko' }
+        ],
+      dialogueChars: [
+          {
+            name: '히지리 뱌쿠렌',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/byakuren/byakuren-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/byakuren/byakuren-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/byakuren/byakuren-win-quotes' }, { label: '히지리 스펠카드', href: '/docs/th145/dialogue/byakuren/byakuren-spell-cards' }],
+          },
+          {
+            name: '모노노베노 후토',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/futo/futo-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/futo/futo-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/futo/futo-win-quotes' }, { label: '후토 스펠카드', href: '/docs/th145/dialogue/futo/futo-spell-cards' }],
+          },
+          {
+            name: '쿠모이 이치린',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/ichirin/ichirin-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/ichirin/ichirin-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/ichirin/ichirin-win-quotes' }, { label: '이치린 스펠카드', href: '/docs/th145/dialogue/ichirin/ichirin-spell-cards' }],
+          },
+          {
+            name: '이바라키 카센',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/kasen/kasen-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/kasen/kasen-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/kasen/kasen-win-quotes' }, { label: '카센 스펠카드', href: '/docs/th145/dialogue/kasen/kasen-spell-cards' }],
+          },
+          {
+            name: '코메이지 코이시',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/koishi/koishi-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/koishi/koishi-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/koishi/koishi-win-quotes' }, { label: '코이시 스펠카드', href: '/docs/th145/dialogue/koishi/koishi-spell-cards' }],
+          },
+          {
+            name: '하타노 코코로',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/kokoro/kokoro-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/kokoro/kokoro-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/kokoro/kokoro-win-quotes' }, { label: '코코로 스펠카드', href: '/docs/th145/dialogue/kokoro/kokoro-spell-cards' }],
+          },
+          {
+            name: '후타츠이와 마미조',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/mamizou/mamizou-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/mamizou/mamizou-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/mamizou/mamizou-win-quotes' }, { label: '마미조 스펠카드', href: '/docs/th145/dialogue/mamizou/mamizou-spell-cards' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/marisa/marisa-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/marisa/marisa-win-quotes' }, { label: '마리사 스펠카드', href: '/docs/th145/dialogue/marisa/marisa-spell-cards' }],
+          },
+          {
+            name: '토요사토미미노 미코',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/miko/miko-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/miko/miko-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/miko/miko-win-quotes' }, { label: '미코 스펠카드', href: '/docs/th145/dialogue/miko/miko-spell-cards' }],
+          },
+          {
+            name: '후지와라노 모코우',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/mokou/mokou-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/mokou/mokou-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/mokou/mokou-win-quotes' }, { label: '모코우 스펠카드', href: '/docs/th145/dialogue/mokou/mokou-spell-cards' }],
+          },
+          {
+            name: '카와시로 니토리',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/nitori/nitori-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/nitori/nitori-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/nitori/nitori-win-quotes' }, { label: '니토리 스펠카드', href: '/docs/th145/dialogue/nitori/nitori-spell-cards' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/reimu/reimu-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/reimu/reimu-win-quotes' }, { label: '레이무 스펠카드', href: '/docs/th145/dialogue/reimu/reimu-spell-cards' }],
+          },
+          {
+            name: '스쿠나 신묘마루',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/shinmyoumaru/shinmyoumaru-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/shinmyoumaru/shinmyoumaru-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/shinmyoumaru/shinmyoumaru-win-quotes' }, { label: '신묘마루 스펠카드', href: '/docs/th145/dialogue/shinmyoumaru/shinmyoumaru-spell-cards' }],
+          },
+          {
+            name: '우사미 스미레코',
+            imagePath: '/img/th145/usami_sumireko.webp',
+            links: [{ label: '시나리오', href: '/docs/th145/dialogue/sumireko/sumireko-scenario' }, { label: '엔딩', href: '/docs/th145/dialogue/sumireko/sumireko-endings' }, { label: '승리 대사', href: '/docs/th145/dialogue/sumireko/sumireko-win-quotes' }, { label: '스미레코 스펠카드', href: '/docs/th145/dialogue/sumireko/sumireko-spell-cards' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th145/intro' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th145/spell-cards' }
+        ],
+    },
+    Th15: {
+      titleKr: '동방감주전',
+      titleJa: '東方紺珠伝 ～ Legacy of Lunatic Kingdom',
+      gradient: 'linear-gradient(135deg, #0d0d1a 0%, #283593 50%, #7986cb 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th15/hakurei_reimu.webp', href: '/docs/th15/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th15/kirisame_marisa.webp', href: '/docs/th15/characters/kirisame_marisa' },
+          { id: 'kochiya_sanae', name: '코치야 사나에', imagePath: '/img/th15/kochiya_sanae.webp', href: '/docs/th15/characters/kochiya_sanae' },
+          { id: 'reisen_udongein_inaba', name: '레이센 우동게인 이나바', imagePath: '/img/th15/reisen_udongein_inaba.webp', href: '/docs/th15/characters/reisen_udongein_inaba' },
+          { id: 'seiran', name: '세이란', imagePath: '/img/th15/seiran.webp', href: '/docs/th15/characters/seiran' },
+          { id: 'ringo', name: '링고', imagePath: '/img/th15/ringo.webp', href: '/docs/th15/characters/ringo' },
+          { id: 'doremy_sweet', name: '도레미 스위트', imagePath: '/img/th15/doremy_sweet.webp', href: '/docs/th15/characters/doremy_sweet' },
+          { id: 'kishin_sagume', name: '키신 사구메', imagePath: '/img/th15/kisin_sagume.webp', href: '/docs/th15/characters/kishin_sagume' },
+          { id: 'clownpiece', name: '클라운피스', imagePath: '/img/th15/clownpiece.webp', href: '/docs/th15/characters/clownpiece' },
+          { id: 'junko', name: '순호', imagePath: '/img/th15/junko.webp', href: '/docs/th15/characters/junko' },
+          { id: 'hecatia_lapislazuli', name: '헤카티아 라피스라줄리', imagePath: '/img/th15/hecatia_lapislazuli.webp', href: '/docs/th15/characters/hecatia_lapislazuli' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th15/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th15/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th15/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th15/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th15/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th15/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th15/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th15/dialogue/reimu/reimu-extra' }],
+          },
+          {
+            name: '레이센 우동게인 이나바',
+            imagePath: '/img/th15/reisen_udongein_inaba.webp',
+            links: [{ label: '시나리오', href: '/docs/th15/dialogue/reisen/reisen-scenario' }, { label: '엔딩', href: '/docs/th15/dialogue/reisen/reisen-endings' }, { label: '엑스트라', href: '/docs/th15/dialogue/reisen/reisen-extra' }],
+          },
+          {
+            name: '코치야 사나에',
+            imagePath: '/img/th15/kochiya_sanae.webp',
+            links: [{ label: '시나리오', href: '/docs/th15/dialogue/sanae/sanae-scenario' }, { label: '엔딩', href: '/docs/th15/dialogue/sanae/sanae-endings' }, { label: '엑스트라', href: '/docs/th15/dialogue/sanae/sanae-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th15/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th15/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th15/spell-cards' }
+        ],
+    },
+    Th155: {
+      titleKr: '동방빙의화',
+      titleJa: '東方憑依華 ～ Antinomy of Common Flowers',
+      gradient: 'linear-gradient(135deg, #1a0a2a 0%, #6a1b9a 50%, #ce93d8 100%)',
+      chars: [
+          { id: 'yorigami_jyoon', name: '요리가미 조온', imagePath: '/img/th155/yorigami_jyoon.webp', href: '/docs/th155/characters/yorigami_jyoon' },
+          { id: 'yorigami_shion', name: '요리가미 시온', imagePath: '/img/th155/yorigami_shion.webp', href: '/docs/th155/characters/yorigami_shion' }
+        ],
+      dialogueChars: [
+          {
+            name: '히지리 뱌쿠렌',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/byakuren/byakuren-win-quotes' }],
+          },
+          {
+            name: '도레미 스위트',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/doremy/doremy-win-quotes' }],
+          },
+          {
+            name: '모노노베노 후토',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/futo/futo-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/futo/futo-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/futo/futo-win-quotes' }],
+          },
+          {
+            name: '쿠모이 이치린',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/ichirin/ichirin-win-quotes' }],
+          },
+          {
+            name: '요리가미 조온',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/joon/joon-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/joon/joon-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/joon/joon-win-quotes' }],
+          },
+          {
+            name: '이바라키 카센',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/kasen/kasen-win-quotes' }],
+          },
+          {
+            name: '코메이지 코이시',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/koishi/koishi-win-quotes' }],
+          },
+          {
+            name: '하타노 코코로',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/kokoro/kokoro-win-quotes' }],
+          },
+          {
+            name: '후타츠이와 마미조',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/mamizou/mamizou-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/mamizou/mamizou-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/mamizou/mamizou-win-quotes' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/marisa/marisa-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/marisa/marisa-win-quotes' }],
+          },
+          {
+            name: '토요사토미미노 미코',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/miko/miko-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/miko/miko-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/miko/miko-win-quotes' }],
+          },
+          {
+            name: '후지와라노 모코우',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/mokou/mokou-win-quotes' }],
+          },
+          {
+            name: '카와시로 니토리',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/nitori/nitori-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/nitori/nitori-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/nitori/nitori-win-quotes' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/reimu/reimu-scenario' }, { label: '승리 대사', href: '/docs/th155/dialogue/reimu/reimu-win-quotes' }],
+          },
+          {
+            name: '레이센 우동게인 이나바',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/reisen/reisen-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/reisen/reisen-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/reisen/reisen-win-quotes' }],
+          },
+          {
+            name: '스쿠나 신묘마루',
+            links: [{ label: '승리 대사', href: '/docs/th155/dialogue/shinmyoumaru/shinmyoumaru-win-quotes' }],
+          },
+          {
+            name: '우사미 스미레코',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/sumireko/sumireko-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/sumireko/sumireko-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/sumireko/sumireko-win-quotes' }],
+          },
+          {
+            name: '히나나위 텐시',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/tenshi/tenshi-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/tenshi/tenshi-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/tenshi/tenshi-win-quotes' }],
+          },
+          {
+            name: '야쿠모 유카리',
+            links: [{ label: '시나리오', href: '/docs/th155/dialogue/yukari/yukari-scenario' }, { label: '엔딩', href: '/docs/th155/dialogue/yukari/yukari-endings' }, { label: '승리 대사', href: '/docs/th155/dialogue/yukari/yukari-win-quotes' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th155/intro' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th155/spell-cards' }
+        ],
+    },
+    Th16: {
+      titleKr: '동방천공장',
+      titleJa: '東方天空璋 ～ Hidden Star in Four Seasons',
+      gradient: 'linear-gradient(135deg, #0a1a10 0%, #1b5e20 50%, #a5d6a7 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th16/hakurei_reimu.webp', href: '/docs/th16/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th16/kirisame_marisa.webp', href: '/docs/th16/characters/kirisame_marisa' },
+          { id: 'cirno', name: '치르노', imagePath: '/img/th16/cirno.webp', href: '/docs/th16/characters/cirno' },
+          { id: 'shameimaru_aya', name: '샤메이마루 아야', imagePath: '/img/th16/shameimaru_aya.webp', href: '/docs/th16/characters/shameimaru_aya' },
+          { id: 'eternity_larva', name: '이터니티 라바', imagePath: '/img/th16/eternity_larva.webp', href: '/docs/th16/characters/eternity_larva' },
+          { id: 'sakata_nemuno', name: '사카타 네무노', imagePath: '/img/th16/sakata_nemuno.webp', href: '/docs/th16/characters/sakata_nemuno' },
+          { id: 'komano_aunn', name: '코마노 아운', imagePath: '/img/th16/komano_aun.webp', href: '/docs/th16/characters/komano_aunn' },
+          { id: 'yatadera_narumi', name: '야타데라 나루미', imagePath: '/img/th16/yatadera_narumi.webp', href: '/docs/th16/characters/yatadera_narumi' },
+          { id: 'nishida_satono', name: '니시다 사토노', imagePath: '/img/th16/nishida_satono.webp', href: '/docs/th16/characters/nishida_satono' },
+          { id: 'teireida_mai', name: '테이레이다 마이', imagePath: '/img/th16/teireida_mai.webp', href: '/docs/th16/characters/teireida_mai' },
+          { id: 'matara_okina', name: '마타라 오키나', imagePath: '/img/th16/matara_okina.webp', href: '/docs/th16/characters/matara_okina' }
+        ],
+      dialogueChars: [
+          {
+            name: '샤메이마루 아야',
+            imagePath: '/img/th16/shameimaru_aya.webp',
+            links: [{ label: '시나리오', href: '/docs/th16/dialogue/aya/aya-scenario' }, { label: '엔딩', href: '/docs/th16/dialogue/aya/aya-endings' }, { label: '엑스트라', href: '/docs/th16/dialogue/aya/aya-extra' }],
+          },
+          {
+            name: '치르노',
+            imagePath: '/img/th16/cirno.webp',
+            links: [{ label: '시나리오', href: '/docs/th16/dialogue/cirno/cirno-scenario' }, { label: '엔딩', href: '/docs/th16/dialogue/cirno/cirno-endings' }, { label: '엑스트라', href: '/docs/th16/dialogue/cirno/cirno-extra' }],
+          },
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th16/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th16/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th16/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th16/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th16/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th16/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th16/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th16/dialogue/reimu/reimu-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th16/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th16/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th16/spell-cards' }
+        ],
+    },
+    Th165: {
+      titleKr: '비봉 나이트메어 다이어리',
+      titleJa: '秘封ナイトメアダイアリー ～ Violet Detector',
+      gradient: 'linear-gradient(135deg, #2a0a2a 0%, #7b1fa2 50%, #ba68c8 100%)',
+      chars: [],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th165/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th165/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th165/spell-cards' }
+        ],
+    },
+    Th17: {
+      titleKr: '동방귀형수',
+      titleJa: '東方鬼形獣 ～ Wily Beast and Weakest Creature',
+      gradient: 'linear-gradient(135deg, #1a0d0a 0%, #bf360c 50%, #ff7043 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th17/hakurei_reimu.webp', href: '/docs/th17/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th17/kirisame_marisa.webp', href: '/docs/th17/characters/kirisame_marisa' },
+          { id: 'konpaku_youmu', name: '콘파쿠 요우무', imagePath: '/img/th17/konpaku_youmu.webp', href: '/docs/th17/characters/konpaku_youmu' },
+          { id: 'ebisu_eika', name: '에비스 에이카', imagePath: '/img/th17/ebisu_eika.webp', href: '/docs/th17/characters/ebisu_eika' },
+          { id: 'ushizaki_urumi', name: '우시자키 우루미', imagePath: '/img/th17/ushizaki_urumi.webp', href: '/docs/th17/characters/ushizaki_urumi' },
+          { id: 'niwatari_kutaka', name: '니와타리 쿠타카', imagePath: '/img/th17/niwatari_kutaka.webp', href: '/docs/th17/characters/niwatari_kutaka' },
+          { id: 'kitcho_yachie', name: '킷초 야치에', imagePath: '/img/th17/kitcho_yachie.webp', href: '/docs/th17/characters/kitcho_yachie' },
+          { id: 'joutougu_mayumi', name: '조토구 마유미', imagePath: '/img/th17/joutougu_mayumi.webp', href: '/docs/th17/characters/joutougu_mayumi' },
+          { id: 'haniyasushin_keiki', name: '하니야스신 케이키', imagePath: '/img/th17/haniyasushin_keiki.webp', href: '/docs/th17/characters/haniyasushin_keiki' },
+          { id: 'kurokoma_saki', name: '쿠로코마 사키', imagePath: '/img/th17/kurokoma_saki.webp', href: '/docs/th17/characters/kurokoma_saki' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th17/kirisame_marisa.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th17/dialogue/marisa/marisa_a-scenario' }, { label: 'b 시나리오', href: '/docs/th17/dialogue/marisa/marisa_b-scenario' }, { label: 'c 시나리오', href: '/docs/th17/dialogue/marisa/marisa_c-scenario' }, { label: '엔딩', href: '/docs/th17/dialogue/marisa/marisa-endings' }, { label: 'a 엑스트라', href: '/docs/th17/dialogue/marisa/marisa_a-extra' }, { label: 'b 엑스트라', href: '/docs/th17/dialogue/marisa/marisa_b-extra' }, { label: 'c 엑스트라', href: '/docs/th17/dialogue/marisa/marisa_c-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th17/hakurei_reimu.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th17/dialogue/reimu/reimu_a-scenario' }, { label: 'b 시나리오', href: '/docs/th17/dialogue/reimu/reimu_b-scenario' }, { label: 'c 시나리오', href: '/docs/th17/dialogue/reimu/reimu_c-scenario' }, { label: '엔딩', href: '/docs/th17/dialogue/reimu/reimu-endings' }, { label: 'a 엑스트라', href: '/docs/th17/dialogue/reimu/reimu_a-extra' }, { label: 'b 엑스트라', href: '/docs/th17/dialogue/reimu/reimu_b-extra' }, { label: 'c 엑스트라', href: '/docs/th17/dialogue/reimu/reimu_c-extra' }],
+          },
+          {
+            name: '콘파쿠 요우무',
+            imagePath: '/img/th17/konpaku_youmu.webp',
+            links: [{ label: 'a 시나리오', href: '/docs/th17/dialogue/youmu/youmu_a-scenario' }, { label: 'b 시나리오', href: '/docs/th17/dialogue/youmu/youmu_b-scenario' }, { label: 'c 시나리오', href: '/docs/th17/dialogue/youmu/youmu_c-scenario' }, { label: '엔딩', href: '/docs/th17/dialogue/youmu/youmu-endings' }, { label: 'a 엑스트라', href: '/docs/th17/dialogue/youmu/youmu_a-extra' }, { label: 'b 엑스트라', href: '/docs/th17/dialogue/youmu/youmu_b-extra' }, { label: 'c 엑스트라', href: '/docs/th17/dialogue/youmu/youmu_c-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th17/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th17/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th17/spell-cards' }
+        ],
+    },
+    Th175: {
+      titleKr: '동방강욕이문',
+      titleJa: '東方剛欲異聞 ～ 水没した沈愁地獄',
+      gradient: 'linear-gradient(135deg, #0a1a2a 0%, #01579b 50%, #4fc3f7 100%)',
+      chars: [
+          { id: 'toutetsu_yuuma', name: '토테츠 유마', imagePath: '/img/th175/yuuma_toutetsu.webp', href: '/docs/th175/characters/toutetsu_yuuma' }
+        ],
+      dialogueChars: [
+          {
+            name: '플랑드르 스칼렛',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/flandre/flandre-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/flandre/flandre-endings' }],
+          },
+          {
+            name: '요리가미 자매',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/joon-and-shion/joon-and-shion-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/joon-and-shion/joon-and-shion-endings' }],
+          },
+          {
+            name: '야사카 카나코',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/kanako/kanako-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/kanako/kanako-endings' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/marisa/marisa-endings' }],
+          },
+          {
+            name: '무라사 미나미츠',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/minamitsu/minamitsu-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/minamitsu/minamitsu-endings' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/reimu/reimu-endings' }],
+          },
+          {
+            name: '토테츠 유마',
+            imagePath: '/img/th175/yuuma_toutetsu.webp',
+            links: [{ label: '시나리오', href: '/docs/th175/dialogue/yuuma/yuuma-scenario' }, { label: '엔딩', href: '/docs/th175/dialogue/yuuma/yuuma-endings' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th175/intro' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th175/spell-cards' }
+        ],
+    },
+    Th18: {
+      titleKr: '동방홍룡동',
+      titleJa: '東方虹龍洞 ～ Unconnected Marketeers',
+      gradient: 'linear-gradient(135deg, #1a0505 0%, #c62828 50%, #ef9a9a 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th18/hakurei_reimu.webp', href: '/docs/th18/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th18/kirisame_marisa.webp', href: '/docs/th18/characters/kirisame_marisa' },
+          { id: 'izayoi_sakuya', name: '이자요이 사쿠야', imagePath: '/img/th18/izayoi_sakuya.webp', href: '/docs/th18/characters/izayoi_sakuya' },
+          { id: 'kochiya_sanae', name: '코치야 사나에', imagePath: '/img/th18/kochiya_sanae.webp', href: '/docs/th18/characters/kochiya_sanae' },
+          { id: 'goutokuzi_mike', name: '고토쿠지 미케', imagePath: '/img/th18/goutokuzi_mike.webp', href: '/docs/th18/characters/goutokuzi_mike' },
+          { id: 'yamashiro_takane', name: '야마시로 타카네', imagePath: '/img/th18/yamashiro_takane.webp', href: '/docs/th18/characters/yamashiro_takane' },
+          { id: 'komakusa_sannyo', name: '본명 코마쿠사 산뇨', imagePath: '/img/th18/komakusa_sannyo.webp', href: '/docs/th18/characters/komakusa_sannyo' },
+          { id: 'tamatsukuri_misumaru', name: '타마츠쿠리 미스마루', imagePath: '/img/th18/tamatsukuri_misumaru.webp', href: '/docs/th18/characters/tamatsukuri_misumaru' },
+          { id: 'iizunamaru_megumu', name: '이즈나마루 메구무', imagePath: '/img/th18/iizunamaru_megumu.webp', href: '/docs/th18/characters/iizunamaru_megumu' },
+          { id: 'kudamaki_tsukasa', name: '쿠다마키 츠카사', imagePath: '/img/th18/kudamaki_tsukasa.webp', href: '/docs/th18/characters/kudamaki_tsukasa' },
+          { id: 'tenkyu_chimata', name: '텐큐 치마타', imagePath: '/img/th18/tenkyu_chimata.webp', href: '/docs/th18/characters/tenkyu_chimata' },
+          { id: 'himemushi_momoyo', name: '히메무시 모모요', imagePath: '/img/th18/himemushi_momoyo.webp', href: '/docs/th18/characters/himemushi_momoyo' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th18/kirisame_marisa.webp',
+            links: [{ label: '시나리오', href: '/docs/th18/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th18/dialogue/marisa/marisa-endings' }, { label: '엑스트라', href: '/docs/th18/dialogue/marisa/marisa-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th18/hakurei_reimu.webp',
+            links: [{ label: '시나리오', href: '/docs/th18/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th18/dialogue/reimu/reimu-endings' }, { label: '엑스트라', href: '/docs/th18/dialogue/reimu/reimu-extra' }],
+          },
+          {
+            name: '이자요이 사쿠야',
+            imagePath: '/img/th18/izayoi_sakuya.webp',
+            links: [{ label: '시나리오', href: '/docs/th18/dialogue/sakuya/sakuya-scenario' }, { label: '엔딩', href: '/docs/th18/dialogue/sakuya/sakuya-endings' }, { label: '엑스트라', href: '/docs/th18/dialogue/sakuya/sakuya-extra' }],
+          },
+          {
+            name: '코치야 사나에',
+            imagePath: '/img/th18/kochiya_sanae.webp',
+            links: [{ label: '시나리오', href: '/docs/th18/dialogue/sanae/sanae-scenario' }, { label: '엔딩', href: '/docs/th18/dialogue/sanae/sanae-endings' }, { label: '엑스트라', href: '/docs/th18/dialogue/sanae/sanae-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th18/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th18/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th18/spell-cards' }
+        ],
+    },
+    Th185: {
+      titleKr: '불릿필리아들의 암시장',
+      titleJa: 'バレットフィリアたちの闇市場 ～ 100th Black Market',
+      gradient: 'linear-gradient(135deg, #1a1a0a 0%, #f57f17 50%, #fff176 100%)',
+      chars: [],
+      dialogueChars: [],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th185/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th185/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th185/spell-cards' }
+        ],
+    },
+    Th19: {
+      titleKr: '동방수왕원',
+      titleJa: '東方獣王園 ～ Unfinished Dream of All Living Ghost',
+      gradient: 'linear-gradient(135deg, #0a1020 0%, #1a237e 50%, #5c6bc0 100%)',
+      chars: [
+          { id: 'son_biten', name: '손 비텐', imagePath: '/img/th19/son_biten.webp', href: '/docs/th19/characters/son_biten' },
+          { id: 'enoko_maimoto', name: '미츠가시라 에노코', imagePath: '/img/th19/mitsugashira_enoko.webp', href: '/docs/th19/characters/enoko_maimoto' },
+          { id: 'chiyari', name: '텐카진 치야리', imagePath: '/img/th19/tenkajin_chiyari.webp', href: '/docs/th19/characters/chiyari' },
+          { id: 'hisami_yomotsu', name: '요모츠 히사미', imagePath: '/img/th19/yomotsu_hisami.webp', href: '/docs/th19/characters/hisami_yomotsu' },
+          { id: 'zanmu_nippaku', name: '닛파쿠 잔무', imagePath: '/img/th19/nippaku_zanmu.webp', href: '/docs/th19/characters/zanmu_nippaku' }
+        ],
+      dialogueChars: [
+          {
+            name: '코마노 아운',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/aun/aun-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/aun/aun-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/aun/aun-script' }, { label: 'aun 엔딩', href: '/docs/th19/dialogue/aun/aun-ending' }],
+          },
+          {
+            name: '손 비텐',
+            imagePath: '/img/th19/son_biten.webp',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/biten/biten-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/biten/biten-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/biten/biten-script' }, { label: 'biten 엔딩', href: '/docs/th19/dialogue/biten/biten-ending' }],
+          },
+          {
+            name: '텐카진 치야리',
+            imagePath: '/img/th19/tenkajin_chiyari.webp',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/chiyari/chiyari-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/chiyari/chiyari-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/chiyari/chiyari-script' }, { label: 'chiyari 엔딩', href: '/docs/th19/dialogue/chiyari/chiyari-ending' }],
+          },
+          {
+            name: '미츠가시라 에노코',
+            imagePath: '/img/th19/mitsugashira_enoko.webp',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/enoko/enoko-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/enoko/enoko-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/enoko/enoko-script' }, { label: 'enoko 엔딩', href: '/docs/th19/dialogue/enoko/enoko-ending' }],
+          },
+          {
+            name: '요모츠 히사미',
+            imagePath: '/img/th19/yomotsu_hisami.webp',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/hisami/hisami-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/hisami/hisami-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/hisami/hisami-script' }, { label: 'hisami 엔딩', href: '/docs/th19/dialogue/hisami/hisami-ending' }],
+          },
+          {
+            name: '후타츠이와 마미조',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/mamizou/mamizou-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/mamizou/mamizou-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/mamizou/mamizou-script' }, { label: '마미조 엔딩', href: '/docs/th19/dialogue/mamizou/mamizou-ending' }],
+          },
+          {
+            name: '키리사메 마리사',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/marisa/marisa-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/marisa/marisa-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/marisa/marisa-script' }, { label: '마리사 엔딩', href: '/docs/th19/dialogue/marisa/marisa-ending' }],
+          },
+          {
+            name: '나즈린',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/nazrin/nazrin-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/nazrin/nazrin-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/nazrin/nazrin-script' }, { label: 'nazrin 엔딩', href: '/docs/th19/dialogue/nazrin/nazrin-ending' }],
+          },
+          {
+            name: '야쿠모 란',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/ran/ran-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/ran/ran-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/ran/ran-script' }, { label: 'ran 엔딩', href: '/docs/th19/dialogue/ran/ran-ending' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/reimu/reimu-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/reimu/reimu-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/reimu/reimu-script' }, { label: '레이무 엔딩', href: '/docs/th19/dialogue/reimu/reimu-ending' }],
+          },
+          {
+            name: '카엔뵤 린',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/rin/rin-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/rin/rin-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/rin/rin-script' }, { label: 'rin 엔딩', href: '/docs/th19/dialogue/rin/rin-ending' }],
+          },
+          {
+            name: '쿠로코마 사키',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/saki/saki-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/saki/saki-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/saki/saki-script' }, { label: 'saki 엔딩', href: '/docs/th19/dialogue/saki/saki-ending' }],
+          },
+          {
+            name: '코치야 사나에',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/sanae/sanae-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/sanae/sanae-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/sanae/sanae-script' }, { label: '사나에 엔딩', href: '/docs/th19/dialogue/sanae/sanae-ending' }],
+          },
+          {
+            name: '세이란',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/seiran/seiran-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/seiran/seiran-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/seiran/seiran-script' }, { label: 'seiran 엔딩', href: '/docs/th19/dialogue/seiran/seiran-ending' }],
+          },
+          {
+            name: '이부키 스이카',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/suika/suika-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/suika/suika-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/suika/suika-script' }, { label: '스이카 엔딩', href: '/docs/th19/dialogue/suika/suika-ending' }],
+          },
+          {
+            name: '쿠다마키 츠카사',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/tsukasa/tsukasa-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/tsukasa/tsukasa-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/tsukasa/tsukasa-script' }, { label: 'tsukasa 엔딩', href: '/docs/th19/dialogue/tsukasa/tsukasa-ending' }],
+          },
+          {
+            name: '킷초 야치에',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/yachie/yachie-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/yachie/yachie-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/yachie/yachie-script' }, { label: 'yachie 엔딩', href: '/docs/th19/dialogue/yachie/yachie-ending' }],
+          },
+          {
+            name: '토테츠 유마',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/yuuma/yuuma-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/yuuma/yuuma-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/yuuma/yuuma-script' }, { label: 'yuuma 엔딩', href: '/docs/th19/dialogue/yuuma/yuuma-ending' }],
+          },
+          {
+            name: '닛파쿠 잔무',
+            imagePath: '/img/th19/nippaku_zanmu.webp',
+            links: [{ label: '시나리오', href: '/docs/th19/dialogue/zanmu/zanmu-scenario' }, { label: '엔딩', href: '/docs/th19/dialogue/zanmu/zanmu-endings' }, { label: '스크립트', href: '/docs/th19/dialogue/zanmu/zanmu-script' }, { label: 'zanmu 엔딩', href: '/docs/th19/dialogue/zanmu/zanmu-ending' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th19/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th19/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th19/spell-cards' }
+        ],
+    },
+    Th20: {
+      titleKr: '동방금상경',
+      titleJa: '東方錦上京 ～ Fossilized Wonders',
+      gradient: 'linear-gradient(135deg, #1a1a10 0%, #33691e 50%, #aed581 100%)',
+      chars: [
+          { id: 'hakurei_reimu', name: '하쿠레이 레이무', imagePath: '/img/th20/hakurei_reimu.webp', href: '/docs/th20/characters/hakurei_reimu' },
+          { id: 'kirisame_marisa', name: '키리사메 마리사', imagePath: '/img/th20/kirisame_marisa.webp', href: '/docs/th20/characters/kirisame_marisa' },
+          { id: 'chirizuka_ubame', name: '치리즈카 우바메', imagePath: '/img/th20/chirizuka_ubame.webp', href: '/docs/th20/characters/chirizuka_ubame' },
+          { id: 'houju_chimi', name: '호쥬 치미', imagePath: '/img/th20/houju_chimi.webp', href: '/docs/th20/characters/houju_chimi' },
+          { id: 'michigami_nareko', name: '미치가미 나루코', imagePath: '/img/th20/michigami_nareko.webp', href: '/docs/th20/characters/michigami_nareko' },
+          { id: 'yuiman_asama', name: '유이만 아사마', imagePath: '/img/th20/yuiman_asama.webp', href: '/docs/th20/characters/yuiman_asama' },
+          { id: 'watatsuki_toyohime', name: '와타츠키 토요히메', imagePath: '/img/th20/watatsuki_toyohime.webp', href: '/docs/th20/characters/watatsuki_toyohime' },
+          { id: 'iwanaga_ariya', name: '이와나가 아리야', imagePath: '/img/th20/iwanaga_ariya.webp', href: '/docs/th20/characters/iwanaga_ariya' },
+          { id: 'watari_nina', name: '와타리 니나', imagePath: '/img/th20/watari_nina.webp', href: '/docs/th20/characters/watari_nina' }
+        ],
+      dialogueChars: [
+          {
+            name: '키리사메 마리사',
+            imagePath: '/img/th20/kirisame_marisa.webp',
+            links: [{ label: 'blue 시나리오', href: '/docs/th20/dialogue/marisa/marisa-blue-scenario' }, { label: 'green 시나리오', href: '/docs/th20/dialogue/marisa/marisa-green-scenario' }, { label: 'red 시나리오', href: '/docs/th20/dialogue/marisa/marisa-red-scenario' }, { label: 'yellow 시나리오', href: '/docs/th20/dialogue/marisa/marisa-yellow-scenario' }, { label: '엔딩', href: '/docs/th20/dialogue/marisa/marisa-endings' }, { label: 'beast-hardiness 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-beast-hardiness-extra' }, { label: 'blue-season 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-blue-season-extra' }, { label: 'creature-red 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-creature-red-extra' }, { label: 'imperishable-moon 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-imperishable-moon-extra' }, { label: 'scarlet-devil 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-scarlet-devil-extra' }, { label: 'shintoism-wind 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-shintoism-wind-extra' }, { label: 'snow-blossom 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-snow-blossom-extra' }, { label: 'yellow-subterranean 엑스트라', href: '/docs/th20/dialogue/marisa/marisa-yellow-subterranean-extra' }],
+          },
+          {
+            name: '하쿠레이 레이무',
+            imagePath: '/img/th20/hakurei_reimu.webp',
+            links: [{ label: 'blue 시나리오', href: '/docs/th20/dialogue/reimu/reimu-blue-scenario' }, { label: 'green 시나리오', href: '/docs/th20/dialogue/reimu/reimu-green-scenario' }, { label: 'red 시나리오', href: '/docs/th20/dialogue/reimu/reimu-red-scenario' }, { label: 'yellow 시나리오', href: '/docs/th20/dialogue/reimu/reimu-yellow-scenario' }, { label: '엔딩', href: '/docs/th20/dialogue/reimu/reimu-endings' }, { label: 'beast-hardiness 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-beast-hardiness-extra' }, { label: 'blue-season 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-blue-season-extra' }, { label: 'creature-red 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-creature-red-extra' }, { label: 'imperishable-moon 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-imperishable-moon-extra' }, { label: 'scarlet-devil 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-scarlet-devil-extra' }, { label: 'shintoism-wind 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-shintoism-wind-extra' }, { label: 'snow-blossom 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-snow-blossom-extra' }, { label: 'yellow-subterranean 엑스트라', href: '/docs/th20/dialogue/reimu/reimu-yellow-subterranean-extra' }],
+          }
+        ],
+      links: [
+          { icon: '📖', label: '소개', href: '/docs/th20/intro' },
+          { icon: '🎵', label: '뮤직룸', href: '/docs/th20/music' },
+          { icon: '✦', label: '스펠카드', href: '/docs/th20/spell-cards' }
+        ],
+    }
+  }}
+/>

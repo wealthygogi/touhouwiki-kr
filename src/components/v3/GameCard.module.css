@@ -1,0 +1,490 @@
+/* GameCard.module.css — Option 3: 비주얼 카드 그리드 */
+
+/* ─── Game Selection Grid ─── */
+.gridSection {
+  margin-bottom: 3rem;
+}
+
+.gridHeader {
+  margin-bottom: 1.5rem;
+}
+
+.gridEyebrow {
+  font-size: 0.65rem;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.4rem;
+}
+
+.gridTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--ifm-color-emphasis-900);
+  margin: 0;
+  letter-spacing: -0.02em;
+  font-family: 'Georgia', serif;
+}
+
+.gameGrid {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ifm-color-emphasis-300) transparent;
+}
+
+.gameGrid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.gameGrid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.gameGrid::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 3px;
+}
+
+/* ─── Individual Game Card ─── */
+.gameCard {
+  position: relative;
+  width: 90px;
+  min-width: 90px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.25s ease,
+              border-color 0.2s ease;
+  text-decoration: none;
+  display: block;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.gameCard:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  border-color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.gameCard.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.3), 0 16px 40px rgba(0,0,0,0.3);
+}
+
+.gameCardBg {
+  position: absolute;
+  inset: 0;
+  transition: transform 0.3s ease;
+}
+
+.gameCard:hover .gameCardBg {
+  transform: scale(1.05);
+}
+
+.gameCardOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.85) 0%,
+    rgba(0,0,0,0.3) 50%,
+    rgba(0,0,0,0.05) 100%
+  );
+}
+
+/* ─── Light Mode: Game Cards ─── */
+:global([data-theme='light']) .gameCardBg {
+  opacity: 0.55;
+}
+
+:global([data-theme='light']) .gameCardOverlay {
+  background: linear-gradient(
+    to top,
+    rgba(255,255,255,0.85) 0%,
+    rgba(255,255,255,0.3) 50%,
+    rgba(255,255,255,0) 100%
+  );
+}
+
+:global([data-theme='light']) .gameCard {
+  border-color: var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+}
+
+:global([data-theme='light']) .gameCard:hover {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+  border-color: var(--ifm-color-primary-light);
+}
+
+:global([data-theme='light']) .gameCard.active {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(var(--ifm-color-primary-rgb, 62,105,178), 0.2), 0 8px 24px rgba(0,0,0,0.1);
+}
+
+:global([data-theme='light']) .gameCardId {
+  color: rgba(0,0,0,0.45);
+}
+
+:global([data-theme='light']) .gameCardName {
+  color: var(--ifm-color-emphasis-900);
+  text-shadow: none;
+}
+
+:global([data-theme='light']) .gameCardBadge {
+  background: rgba(0,0,0,0.06);
+  backdrop-filter: blur(4px);
+  color: var(--ifm-color-emphasis-700);
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+.gameCardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.4rem 0.5rem 0.5rem;
+}
+
+.gameCardId {
+  font-size: 0.45rem;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.15rem;
+}
+
+.gameCardName {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.gameCardBadge {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  font-size: 0.45rem;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+  padding: 1px 5px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(4px);
+  color: rgba(255,255,255,0.9);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* ─── Hub Section (below game grid) ─── */
+.hubSection {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding-top: 2rem;
+}
+
+.hubBanner {
+  position: relative;
+  padding: 2rem 1.75rem;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  color: #fff;
+  min-height: 140px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hubBannerBg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+}
+
+.hubBannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0.4) 60%,
+    rgba(0,0,0,0.1) 100%
+  );
+}
+
+.hubBannerContent {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Light Mode: Hub Banner ─── */
+:global([data-theme='light']) .hubBanner {
+  color: var(--ifm-color-emphasis-900);
+}
+
+:global([data-theme='light']) .hubBannerBg {
+  opacity: 0.25;
+}
+
+:global([data-theme='light']) .hubBannerOverlay {
+  background: linear-gradient(
+    120deg,
+    rgba(255,255,255,0.9) 0%,
+    rgba(255,255,255,0.6) 60%,
+    rgba(255,255,255,0.3) 100%
+  );
+}
+
+:global([data-theme='light']) .hubBannerEyebrow {
+  color: var(--ifm-color-primary);
+}
+
+:global([data-theme='light']) .hubBannerTitle {
+  color: var(--ifm-color-emphasis-900);
+  text-shadow: none;
+}
+
+:global([data-theme='light']) .hubBannerJa {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.hubBannerEyebrow {
+  font-size: 0.65rem;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.3rem;
+}
+
+.hubBannerTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  line-height: 1.1;
+}
+
+.hubBannerJa {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.55);
+  margin: 0.25rem 0 0;
+  font-style: italic;
+}
+
+/* ─── Hub Content Sections ─── */
+.sectionLabel {
+  font-size: 0.65rem;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.characterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.charChip {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem 0.3rem 0.3rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.charChip:hover {
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.charChipImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  border: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.charChip:hover .charChipImg {
+  border-color: var(--ifm-color-primary);
+}
+
+.charChipFallback {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-100);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.charChipName {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.linkGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.linkTile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.linkTile:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.linkTileIcon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.dialogueList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dialogueRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.dialogueAvatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  flex-shrink: 0;
+}
+
+.dialogueAvatarFallback {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-100);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.dialogueCharName {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-800);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.dialogueLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.dialogueLink {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 16px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  background: transparent;
+  transition: background 0.15s ease;
+}
+
+.dialogueLink:hover {
+  background: var(--ifm-color-emphasis-100);
+  text-decoration: none;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 480px) {
+  .gameCard {
+    width: 75px;
+    min-width: 75px;
+    border-radius: 8px;
+  }
+
+  .linkGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .hubBanner {
+    padding: 1.5rem 1.25rem;
+    min-height: 110px;
+  }
+
+  .hubBannerTitle {
+    font-size: 1.3rem;
+  }
+}

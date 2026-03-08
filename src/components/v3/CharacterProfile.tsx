@@ -1,4 +1,5 @@
 import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface CharacterProfileProps {
   name: string;
@@ -50,20 +51,21 @@ const InfoBadge: React.FC<{ label: string; value?: string; color: string }> = ({
   );
 };
 
-const CharacterProfile: React.FC<CharacterProfileProps> = ({ 
-  name, 
+const CharacterProfile: React.FC<CharacterProfileProps> = ({
+  name,
   nameJa,
   nameEn,
-  title, 
+  title,
   stage,
-  species, 
-  ability, 
-  location, 
+  species,
+  ability,
+  location,
   personality,
   themeColor = 'var(--ifm-color-primary)',
-  image, 
-  children 
+  image,
+  children
 }) => {
+  const resolvedImage = useBaseUrl(image || '');
   return (
     <div style={{
       display: 'flex',
@@ -180,8 +182,8 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
             padding: '2rem 2rem 0 2rem',
             background: `radial-gradient(circle at center, ${themeColor}15 0%, transparent 70%)`
           }}>
-            <img 
-              src={image} 
+            <img
+              src={resolvedImage}
               alt={name} 
               style={{
                 width: '100%',
