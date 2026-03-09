@@ -640,11 +640,17 @@ import GameGridHub from '@site/src/components/v3/GameCard';
       titleJa: '妖精大戦争 ～ 東方三月精',
       gradient: 'linear-gradient(135deg, #0a2a1a 0%, #00695c 50%, #80cbc4 100%)',
       chars: [
-          { id: 'sunny_milk', name: '선니 밀크', imagePath: '/img/th128/sunny_milk.webp', href: '/docs/th128/characters/sunny_milk' },
+          { id: 'sunny_milk', name: '서니 밀크', imagePath: '/img/th128/sunny_milk.webp', href: '/docs/th128/characters/sunny_milk' },
           { id: 'luna_child', name: '루나 차일드', imagePath: '/img/th128/luna_child.webp', href: '/docs/th128/characters/luna_child' },
           { id: 'star_sapphire', name: '스타 사파이어', imagePath: '/img/th128/star_sapphire.webp', href: '/docs/th128/characters/star_sapphire' }
         ],
-      dialogueChars: [],
+      dialogueChars: [
+          {
+            name: '치르노',
+            imagePath: '/img/th09/cirno.webp',
+            links: [{ label: '루트 A', href: '/docs/th128/dialogue/route-a' }, { label: '루트 B', href: '/docs/th128/dialogue/route-b' }, { label: '루트 C', href: '/docs/th128/dialogue/route-c' }, { label: '엔딩', href: '/docs/th128/dialogue/endings' }, { label: '엑스트라', href: '/docs/th128/dialogue/extra' }],
+          },
+        ],
       links: [
           { icon: '📖', label: '소개', href: '/docs/th128/intro' },
           { icon: '🎵', label: '뮤직룸', href: '/docs/th128/music' },
