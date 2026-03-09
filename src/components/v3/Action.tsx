@@ -4,6 +4,42 @@ interface ActionProps {
   children: React.ReactNode;
 }
 
+function OrnamentBar(): React.JSX.Element {
+  return (
+    <div style={{
+      width: '100%',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '8px',
+    }}>
+      <div style={{
+        flex: 1,
+        height: '1px',
+        background: 'linear-gradient(to right, transparent, var(--ifm-color-emphasis-300))',
+      }} />
+      <div style={{
+        width: '4px',
+        height: '4px',
+        borderRadius: '50%',
+        backgroundColor: 'var(--ifm-color-primary)',
+        opacity: 0.6,
+      }} />
+      <div style={{
+        width: '4px',
+        height: '4px',
+        borderRadius: '50%',
+        backgroundColor: 'var(--ifm-color-primary)',
+        opacity: 0.6,
+      }} />
+      <div style={{
+        flex: 1,
+        height: '1px',
+        background: 'linear-gradient(to left, transparent, var(--ifm-color-emphasis-300))',
+      }} />
+    </div>
+  );
+}
+
 const Action: React.FC<ActionProps> = ({ children }) => {
   return (
     <div style={{
@@ -14,40 +50,7 @@ const Action: React.FC<ActionProps> = ({ children }) => {
       alignItems: 'center',
       gap: '0',
     }}>
-      {/* Top ornament bar */}
-      <div style={{
-        width: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        gap: '8px',
-      }}>
-        <div style={{
-          flex: 1,
-          height: '1px',
-          background: 'linear-gradient(to right, transparent, var(--ifm-color-emphasis-300))',
-        }} />
-        <div style={{
-          width: '4px',
-          height: '4px',
-          borderRadius: '50%',
-          backgroundColor: 'var(--ifm-color-primary)',
-          opacity: 0.6,
-        }} />
-        <div style={{
-          width: '4px',
-          height: '4px',
-          borderRadius: '50%',
-          backgroundColor: 'var(--ifm-color-primary)',
-          opacity: 0.6,
-        }} />
-        <div style={{
-          flex: 1,
-          height: '1px',
-          background: 'linear-gradient(to left, transparent, var(--ifm-color-emphasis-300))',
-        }} />
-      </div>
-
-      {/* Content panel */}
+      <OrnamentBar />
       <div style={{
         width: '100%',
         padding: '0.9rem 1.75rem',
@@ -66,39 +69,7 @@ const Action: React.FC<ActionProps> = ({ children }) => {
       }}>
         {children}
       </div>
-
-      {/* Bottom ornament bar */}
-      <div style={{
-        width: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        gap: '8px',
-      }}>
-        <div style={{
-          flex: 1,
-          height: '1px',
-          background: 'linear-gradient(to right, transparent, var(--ifm-color-emphasis-300))',
-        }} />
-        <div style={{
-          width: '4px',
-          height: '4px',
-          borderRadius: '50%',
-          backgroundColor: 'var(--ifm-color-primary)',
-          opacity: 0.6,
-        }} />
-        <div style={{
-          width: '4px',
-          height: '4px',
-          borderRadius: '50%',
-          backgroundColor: 'var(--ifm-color-primary)',
-          opacity: 0.6,
-        }} />
-        <div style={{
-          flex: 1,
-          height: '1px',
-          background: 'linear-gradient(to left, transparent, var(--ifm-color-emphasis-300))',
-        }} />
-      </div>
+      <OrnamentBar />
     </div>
   );
 };

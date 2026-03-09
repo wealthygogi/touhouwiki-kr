@@ -43,6 +43,34 @@ export interface GameGridHubProps {
 }
 
 /* ──────────────────────────────────────────────
+   Helpers
+────────────────────────────────────────────── */
+function buildBackgroundStyle(
+  coverImage: string | undefined,
+  gradient: string,
+  resolvePath: (p: string) => string,
+): React.CSSProperties {
+  if (coverImage) {
+    return {
+      backgroundImage: `url(${resolvePath(coverImage)})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center top',
+    };
+  }
+  return { background: gradient };
+}
+
+function resolveDialogueImage(
+  dc: { name: string; imagePath?: string },
+  hubChars: CharChip[],
+  allHubContent: GameGridHubProps['hubContent'],
+): string | undefined {
+  if (dc.imagePath) return dc.imagePath;
+  return hubChars.find((c) => c.name === dc.name)?.imagePath
+    || Object.values(allHubContent).flatMap((h) => h.chars).find((c) => c.name === dc.name)?.imagePath;
+}
+
+/* ──────────────────────────────────────────────
    Sub-components
 ────────────────────────────────────────────── */
 const BaseUrlLink: React.FC<{ href: string; className?: string; children: React.ReactNode }> = ({ href, className, children }) => {
@@ -135,7 +163,7 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
   const hub = hubContent[activeId];
   const activeGame = games.find((g) => g.id === activeId);
   const baseUrl = useBaseUrl('/');
-  const resolvePath = (p: string) => p.startsWith('/') ? baseUrl + p.slice(1) : p;
+  const resolveAssetPath = (p: string) => p.startsWith('/') ? baseUrl + p.slice(1) : p;
 
   return (
     <>
@@ -160,11 +188,7 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
               <div className={styles.gameCardThumb}>
                 <div
                   className={styles.gameCardBg}
-                  style={game.coverImage ? {
-                    backgroundImage: `url(${resolvePath(game.coverImage)})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center top',
-                  } : { background: game.gradient }}
+                  style={buildBackgroundStyle(game.coverImage, game.gradient, resolveAssetPath)}
                 />
               </div>
               <div className={styles.gameCardInfo}>
@@ -185,11 +209,7 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
           <div className={styles.hubBanner}>
             <div
               className={styles.hubBannerBg}
-              style={activeGame?.coverImage ? {
-                backgroundImage: `url(${resolvePath(activeGame.coverImage)})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center top',
-              } : { background: hub.gradient }}
+              style={buildBackgroundStyle(activeGame?.coverImage, hub.gradient, resolveAssetPath)}
             />
             <div className={styles.hubBannerOverlay} />
             <div className={styles.hubBannerContent}>
@@ -213,11 +233,9 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
               <div className={styles.sectionLabel}>대사집</div>
               <div className={styles.dialogueList}>
                 {hub.dialogueChars.map((dc) => {
-                  if (dc.imagePath) return <DialogueCharItem key={dc.name} dc={dc} />;
-                  // Search current game first, then all games
-                  const img = hub.chars.find((c) => c.name === dc.name)?.imagePath
-                    || Object.values(hubContent).flatMap((h) => h.chars).find((c) => c.name === dc.name)?.imagePath;
-                  return <DialogueCharItem key={dc.name} dc={img ? { ...dc, imagePath: img } : dc} />;
+                  const imagePath = resolveDialogueImage(dc, hub.chars, hubContent);
+                  const resolved = imagePath ? { ...dc, imagePath } : dc;
+                  return <DialogueCharItem key={dc.name} dc={resolved} />;
                 })}
               </div>
             </>
