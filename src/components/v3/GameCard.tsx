@@ -212,9 +212,13 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
             <>
               <div className={styles.sectionLabel}>대사집</div>
               <div className={styles.dialogueList}>
-                {hub.dialogueChars.map((dc) => (
-                  <DialogueCharItem key={dc.name} dc={dc} />
-                ))}
+                {hub.dialogueChars.map((dc) => {
+                  if (dc.imagePath) return <DialogueCharItem key={dc.name} dc={dc} />;
+                  // Search current game first, then all games
+                  const img = hub.chars.find((c) => c.name === dc.name)?.imagePath
+                    || Object.values(hubContent).flatMap((h) => h.chars).find((c) => c.name === dc.name)?.imagePath;
+                  return <DialogueCharItem key={dc.name} dc={img ? { ...dc, imagePath: img } : dc} />;
+                })}
               </div>
             </>
           )}
