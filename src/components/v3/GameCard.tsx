@@ -10,6 +10,7 @@ export interface GameEntry {
   nameKr: string;      // e.g. "동방홍마향"
   gradient: string;    // CSS gradient string for background
   badge?: string;      // e.g. "슈팅"
+  coverImage?: string; // e.g. "/img/cover/th06_embodiment_of_scarlet_devil.webp"
 }
 
 export interface CharChip {
@@ -132,6 +133,9 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
   }, [games]);
 
   const hub = hubContent[activeId];
+  const activeGame = games.find((g) => g.id === activeId);
+  const baseUrl = useBaseUrl('/');
+  const resolvePath = (p: string) => p.startsWith('/') ? baseUrl + p.slice(1) : p;
 
   return (
     <>
@@ -153,17 +157,21 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
               aria-pressed={activeId === game.id}
               aria-label={`${game.nameKr} 선택`}
             >
-              <div
-                className={styles.gameCardBg}
-                style={{ background: game.gradient }}
-              />
-              <div className={styles.gameCardOverlay} />
-              {game.badge && (
-                <span className={styles.gameCardBadge}>{game.badge}</span>
-              )}
-              <div className={styles.gameCardContent}>
-                <div className={styles.gameCardId}>{game.id}</div>
-                <div className={styles.gameCardName}>{game.nameKr}</div>
+              <div className={styles.gameCardThumb}>
+                <div
+                  className={styles.gameCardBg}
+                  style={game.coverImage ? {
+                    backgroundImage: `url(${resolvePath(game.coverImage)})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center top',
+                  } : { background: game.gradient }}
+                />
+              </div>
+              <div className={styles.gameCardInfo}>
+                {game.badge && (
+                  <span className={styles.gameCardBadge}>{game.badge}</span>
+                )}
+                <span className={styles.gameCardName}>{game.nameKr}</span>
               </div>
             </div>
           ))}
@@ -177,7 +185,11 @@ const GameGridHub: React.FC<GameGridHubProps> = ({
           <div className={styles.hubBanner}>
             <div
               className={styles.hubBannerBg}
-              style={{ background: hub.gradient }}
+              style={activeGame?.coverImage ? {
+                backgroundImage: `url(${resolvePath(activeGame.coverImage)})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center top',
+              } : { background: hub.gradient }}
             />
             <div className={styles.hubBannerOverlay} />
             <div className={styles.hubBannerContent}>
