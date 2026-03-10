@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Dialogue bubble: remove bottom margin from last paragraph */
+.dialogue-content > p:last-child {
+  margin-bottom: 0;
+}

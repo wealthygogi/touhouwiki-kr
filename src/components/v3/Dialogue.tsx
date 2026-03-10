@@ -101,7 +101,7 @@ function MessageBubble({
       {/* Message Content */}
       <div style={{
         position: 'relative',
-        padding: '0.75rem 1rem',
+        padding: '0.35rem 0.75rem',
         backgroundColor: isRight ? theme.bg : 'var(--ifm-background-surface-color)',
         color: 'var(--ifm-font-color-base)',
         borderRadius: '14px',
@@ -126,7 +126,9 @@ function MessageBubble({
           borderColor: `transparent transparent transparent ${isRight ? theme.bg : 'var(--ifm-background-surface-color)'}`,
           display: 'none',
         }} />
-        {children}
+        <div className="dialogue-content">
+          {children}
+        </div>
       </div>
     </div>
   );
@@ -143,7 +145,7 @@ const Dialogue: React.FC<DialogueProps> = ({ speaker, children, align = 'left', 
     <div style={{
       display: 'flex',
       flexDirection: isRight ? 'row-reverse' : 'row',
-      marginBottom: '1.5rem',
+      marginBottom: '0.85rem',
       gap: '1rem',
       alignItems: 'flex-start',
     }}>
