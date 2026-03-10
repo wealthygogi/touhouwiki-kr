@@ -27,7 +27,7 @@ function AvatarCircle({
   avatar?: string;
   theme: CharacterTheme;
 }): React.ReactElement {
-  const avatarUrl = avatar ? useBaseUrl(`/img/portraits/${avatar}.webp`) : null;
+  const avatarUrl = avatar ? useBaseUrl(`/img/${avatar}.webp`) : null;
 
   return (
     <div style={{
@@ -47,7 +47,7 @@ function AvatarCircle({
         <img
           src={avatarUrl}
           alt={speaker}
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             const parent = target.parentElement;

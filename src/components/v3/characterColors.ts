@@ -191,7 +191,17 @@ export function getCharacterTheme(speaker: string, avatar?: string, isDark = fal
   let hue: number;
   let sat: number;
 
-  const mapping = avatar ? CHARACTER_COLORS[avatar] : undefined;
+  // avatar can be "thXX/character_name" — extract character part for color lookup
+  const avatarKey = avatar?.includes('/') ? avatar.split('/').pop()! : avatar;
+  // Try direct lookup, then try reversing firstname_lastname ↔ lastname_firstname
+  let mapping = avatarKey ? CHARACTER_COLORS[avatarKey] : undefined;
+  if (!mapping && avatarKey) {
+    const parts = avatarKey.split('_');
+    if (parts.length >= 2) {
+      const reversed = [...parts.slice(-1), ...parts.slice(0, -1)].join('_');
+      mapping = CHARACTER_COLORS[reversed];
+    }
+  }
   if (mapping) {
     [hue, sat] = mapping;
   } else {
