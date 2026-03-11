@@ -1,19 +1,13 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { useColorMode } from '@docusaurus/theme-common';
-import { getCharacterTheme } from './characterColors';
+import { getCharacterTheme, type CharacterTheme } from './characterColors';
 
 interface DialogueProps {
   speaker: string;
   children: React.ReactNode;
   align?: 'left' | 'right';
   avatar?: string;
-}
-
-interface CharacterTheme {
-  text: string;
-  bg: string;
-  border: string;
 }
 
 // --- Sub-components ---
@@ -27,7 +21,7 @@ function AvatarCircle({
   avatar?: string;
   theme: CharacterTheme;
 }): React.ReactElement {
-  const avatarUrl = avatar ? useBaseUrl(`/img/${avatar}.webp`) : null;
+  const avatarUrl = useBaseUrl(`/img/${avatar ?? ''}.webp`);
 
   return (
     <div style={{
@@ -114,18 +108,6 @@ function MessageBubble({
         maxWidth: '90%',
         wordBreak: 'break-word' as const,
       }}>
-        {/* Bubble Tail (hidden for now, kept for future use) */}
-        <div style={{
-          position: 'absolute',
-          top: '0',
-          [isRight ? 'right' : 'left']: '-8px',
-          width: '0',
-          height: '0',
-          borderStyle: 'solid',
-          borderWidth: isRight ? '0 0 10px 10px' : '0 10px 10px 0',
-          borderColor: `transparent transparent transparent ${isRight ? theme.bg : 'var(--ifm-background-surface-color)'}`,
-          display: 'none',
-        }} />
         <div className="dialogue-content">
           {children}
         </div>

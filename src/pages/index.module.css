@@ -1,23 +1,418 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
+/* Hero */
+.hero {
+  padding: 64px 20px 48px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(160deg, #f0f4f8 0%, #e8edf5 50%, #dfe6f0 100%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+[data-theme='dark'] .hero {
+  background: linear-gradient(160deg, #1a0533 0%, #2d1b69 40%, #1a3a5c 100%);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(46, 133, 85, 0.08) 0%, transparent 60%);
+}
+
+[data-theme='dark'] .hero::before {
+  background: radial-gradient(ellipse at 50% 0%, rgba(199, 125, 255, 0.12) 0%, transparent 60%);
+}
+
+.heroTitle {
+  font-size: 46px;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+[data-theme='dark'] .heroTitle {
+  color: #fff;
+}
+
+.heroTagline {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+[data-theme='dark'] .heroTagline {
+  color: #a8a8c0;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.btnPrimary {
+  padding: 13px 30px;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.btnPrimary:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.btnSecondary {
+  padding: 13px 30px;
+  background: rgba(0, 0, 0, 0.04);
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+[data-theme='dark'] .btnSecondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #d0d0e0;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.btnSecondary:hover {
+  text-decoration: none;
+  opacity: 0.85;
+  color: #333;
+}
+
+[data-theme='dark'] .btnSecondary:hover {
+  color: #d0d0e0;
+}
+
+/* Sections */
+.sections {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.section + .section {
+  border-top: 1px solid #e8e8e8;
+}
+
+[data-theme='dark'] .section + .section {
+  border-top-color: #2a2a35;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 22px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: #fff;
+}
+
+.sectionIcon {
+  font-size: 22px;
+}
+
+.sectionMore {
+  font-size: 13px;
+  color: var(--ifm-color-primary);
+}
+
+/* Game cards */
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .gameGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.buttons {
+@media (max-width: 500px) {
+  .gameGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gameCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 22px 18px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  text-decoration: none !important;
+  display: block;
+}
+
+[data-theme='dark'] .gameCard {
+  background: #22222c;
+  border-color: #2e2e3a;
+}
+
+.gameCard:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .gameCard:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.gameNum {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  margin-bottom: 4px;
+}
+
+.gameName {
+  font-size: 15px;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+[data-theme='dark'] .gameName {
+  color: #e0e0e0;
+}
+
+.gameBadge {
+  font-size: 11px;
+  color: #888;
+}
+
+.gameMore {
+  background: linear-gradient(135deg, #f0f4f8, #e8edf5);
+  border-color: rgba(46, 133, 85, 0.2);
+}
+
+[data-theme='dark'] .gameMore {
+  background: linear-gradient(135deg, #2a2235, #1e1e30);
+  border-color: rgba(199, 125, 255, 0.25);
+}
+
+.gameMoreNum {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  margin-bottom: 8px;
+}
+
+.gameMoreLabel {
+  font-size: 13px;
+  color: #666;
+}
+
+[data-theme='dark'] .gameMoreLabel {
+  color: #aaa;
+}
+
+.gameMoreSub {
+  font-size: 11px;
+  color: #888;
+}
+
+/* Music cards */
+.musicGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 700px) {
+  .musicGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.musicCard {
+  background: linear-gradient(135deg, #f5f5ff, #eef0fa);
+  border: 1px solid #e0e0e8;
+  border-radius: 10px;
+  padding: 22px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none !important;
+  display: block;
+}
+
+[data-theme='dark'] .musicCard {
+  background: linear-gradient(135deg, #1e1e30, #222238);
+  border-color: #2e2e3a;
+}
+
+.musicCard:hover {
+  border-color: #5b6abf;
+  transform: translateY(-3px);
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .musicCard:hover {
+  border-color: #7b8fff;
+}
+
+.musicLabel {
+  font-size: 11px;
+  color: #5b6abf;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+[data-theme='dark'] .musicLabel {
+  color: #7b8fff;
+}
+
+.musicTitle {
+  font-size: 16px;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .musicTitle {
+  color: #e0e0e0;
+}
+
+.musicDesc {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Toy cards */
+.toyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 700px) {
+  .toyGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .toyGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.toyCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none !important;
+  display: block;
+}
+
+[data-theme='dark'] .toyCard {
+  background: #22222c;
+  border-color: #2e2e3a;
+}
+
+.toyCard:hover {
+  border-color: #e0952e;
+  transform: translateY(-3px);
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .toyCard:hover {
+  border-color: #ffb347;
+}
+
+.toyIcon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.toyTitle {
+  font-size: 16px;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .toyTitle {
+  color: #e0e0e0;
+}
+
+.toyDesc {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Credits */
+.credits {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
   display: flex;
-  align-items: center;
+  gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.creditBadge {
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+
+[data-theme='dark'] .creditBadge {
+  background: #22222a;
+  border-color: #333;
+  color: #999;
+}
+
+.creditLabel {
+  color: #333;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .creditLabel {
+  color: #ccc;
 }
