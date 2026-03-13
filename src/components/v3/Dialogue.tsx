@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { useColorMode } from '@docusaurus/theme-common';
 import { getCharacterTheme, type CharacterTheme } from './characterColors';
@@ -21,7 +21,10 @@ function AvatarCircle({
   avatar?: string;
   theme: CharacterTheme;
 }): React.ReactElement {
-  const avatarUrl = useBaseUrl(`/img/${avatar ?? ''}.webp`);
+  const avatarUrl = avatar ? useBaseUrl(`/img/${avatar}.webp`) : null;
+  const [imgFailed, setImgFailed] = useState(false);
+
+  const showFallback = !avatar || imgFailed;
 
   return (
     <div style={{
@@ -37,20 +40,12 @@ function AvatarCircle({
       alignItems: 'center',
       boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     }}>
-      {avatar ? (
+      {!showFallback ? (
         <img
-          src={avatarUrl}
+          src={avatarUrl!}
           alt={speaker}
           style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            const parent = target.parentElement;
-            target.style.display = 'none';
-            if (parent) {
-              parent.style.color = theme.text;
-              parent.innerText = speaker[0];
-            }
-          }}
+          onError={() => setImgFailed(true)}
         />
       ) : (
         <span style={{ fontSize: '1.25rem', fontWeight: 'bold', color: theme.text }}>

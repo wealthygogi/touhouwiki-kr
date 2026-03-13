@@ -1,0 +1,92 @@
+---
+sidebar_position: 0
+title: "ZUN's Music Collection"
+slug: "/music"
+---
+
+import Link from '@docusaurus/Link';
+import albumCover01 from '@site/static/img/music/dolls_in_pseudo_paradise.webp';
+import albumCover02 from '@site/static/img/music/ghostly_field_club.jpg';
+import albumCover03 from '@site/static/img/music/changeability_of_strange_dream.jpg';
+import albumCover04 from '@site/static/img/music/retrospective_53_minutes.jpg';
+import albumCover05 from '@site/static/img/music/magical_astronomy.jpg';
+import albumCover06 from '@site/static/img/music/unknown_flower_mesmerizing_journey.jpg';
+import albumCover07 from '@site/static/img/music/trojan_green_asteroid.webp';
+import albumCover08 from '@site/static/img/music/neo_traditionalism_of_japan.jpg';
+import albumCover09 from '@site/static/img/music/dr_latencys_freak_report.webp';
+import albumCover10 from '@site/static/img/music/dateless_bar_old_adam.webp';
+import albumCover11 from '@site/static/img/music/rainbow_colored_septentrion.jpg';
+import albumCover12 from '@site/static/img/music/taboo_japan_disentanglement.webp';
+
+export const albums = [
+  { num: 1, cover: albumCover01, titleKr: "봉래인형", titleEn: "Dolls in Pseudo Paradise", slug: "dolls-in-pseudo-paradise", year: "C62 · 2002" },
+  { num: 2, cover: albumCover02, titleKr: "렌다이노 야행", titleEn: "Ghostly Field Club", slug: "ghostly-field-club", year: "C63 · 2002" },
+  { num: 3, cover: albumCover03, titleKr: "몽위과학세기", titleEn: "Changeability of Strange Dream", slug: "changeability-of-strange-dream", year: "C65 · 2004" },
+  { num: 4, cover: albumCover04, titleKr: "묘유동해도", titleEn: "Retrospective 53 minutes", slug: "retrospective-53-minutes", year: "C67 · 2004" },
+  { num: 5, cover: albumCover05, titleKr: "대공마술", titleEn: "Magical Astronomy", slug: "magical-astronomy", year: "C70 · 2006" },
+  { num: 6, cover: albumCover06, titleKr: "미지의 꽃 매지의 여행", titleEn: "Unknown Flower, Mesmerizing Journey", slug: "unknown-flower-mesmerizing-journey", year: "Reitaisai 4 · 2007" },
+  { num: 7, cover: albumCover07, titleKr: "토리후네 유적", titleEn: "Trojan Green Asteroid", slug: "trojan-green-asteroid", year: "Reitaisai 8 · 2011" },
+  { num: 8, cover: albumCover08, titleKr: "이자나기 물질", titleEn: "Neo-traditionalism of Japan.", slug: "neo-traditionalism-of-japan", year: "C81 · 2011" },
+  { num: 9, cover: albumCover09, titleKr: "연석박물지", titleEn: "Dr.Latency's Freak Report.", slug: "dr-latencys-freak-report", year: "Reitaisai 13 · 2016" },
+  { num: 10, cover: albumCover10, titleKr: "구약주점", titleEn: "Dateless Bar \"Old Adam\".", slug: "dateless-bar-old-adam", year: "C91 · 2016" },
+  { num: 11, cover: albumCover11, titleKr: "무지갯빛 셉텐트리온", titleEn: "Rainbow-Colored Septentrion", slug: "rainbow-colored-septentrion", year: "C103 · 2024" },
+  { num: 12, cover: albumCover12, titleKr: "타나바타자카 무겐노", titleEn: "Taboo Japan Disentanglement.", slug: "taboo-japan-disentanglement", year: "Reitaisai 21 · 2024" },
+];
+
+<div style={{ marginBottom: '1.5rem' }}>
+  <p style={{ fontSize: '1.05rem', color: 'var(--ifm-color-emphasis-700)', lineHeight: 1.7 }}>
+    <strong>ZUN's Music Collection</strong>은 동방 프로젝트의 창작자 ZUN이 제작한 음악 CD 시리즈입니다.<br />
+    비봉활동기록(秘封活動記録)이라 불리는 우사미 렌코와 마에리베리 한의 이야기를 담고 있습니다.
+  </p>
+</div>
+
+<div style={{
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+  gap: '20px',
+  marginBottom: '2rem',
+}}>
+  {albums.map((a) => (
+    <Link
+      key={a.num}
+      to={`/docs/music/${a.slug}`}
+      style={{
+        display: 'flex',
+        gap: '14px',
+        padding: '14px',
+        borderRadius: '10px',
+        border: '1px solid var(--ifm-color-emphasis-200)',
+        background: 'var(--ifm-background-surface-color)',
+        textDecoration: 'none',
+        color: 'inherit',
+        transition: 'all 0.2s',
+        alignItems: 'center',
+      }}
+      className="music-album-card"
+    >
+      <img
+        src={a.cover}
+        alt={a.titleKr}
+        style={{
+          width: '72px',
+          height: '72px',
+          borderRadius: '6px',
+          objectFit: 'cover',
+          flexShrink: 0,
+          boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+        }}
+      />
+      <div style={{ minWidth: 0 }}>
+        <div style={{ fontSize: '0.7rem', color: 'var(--ifm-color-emphasis-400)', marginBottom: '2px' }}>
+          Vol.{String(a.num).padStart(2, '0')} · {a.year}
+        </div>
+        <div style={{ fontWeight: 600, fontSize: '0.95rem', marginBottom: '2px' }}>
+          {a.titleKr}
+        </div>
+        <div style={{ fontSize: '0.78rem', color: 'var(--ifm-color-emphasis-500)' }}>
+          {a.titleEn}
+        </div>
+      </div>
+    </Link>
+  ))}
+</div>

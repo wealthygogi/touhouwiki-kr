@@ -56,7 +56,7 @@ function HomepageHero() {
 }
 
 function GameSection() {
-  const totalGames = 27;
+  const totalGames = 27; // 슈팅 15 + 격투 6 + 외전 6 — 새 게임 추가 시 업데이트
   const shownGames = GAME_HIGHLIGHTS.length;
   const remaining = totalGames - shownGames;
 
@@ -167,7 +167,7 @@ function Credits() {
       <div className={styles.creditBadge}>
         <strong className={styles.creditLabel}>License</strong>
         <a
-          href="https://creativecommons.org/licenses/by/4.0/deed.en"
+          href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
           target="_blank"
           rel="noopener noreferrer"
         >

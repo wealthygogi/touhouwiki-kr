@@ -2,8 +2,7 @@
   "label": "음악",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "slug": "music",
-    "description": "ZUN's Music Collection 계열 CD 앨범 문서 모음입니다."
+    "type": "doc",
+    "id": "music/index"
   }
 }

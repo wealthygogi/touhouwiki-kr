@@ -33,3 +33,74 @@
 .dialogue-content > p:last-child {
   margin-bottom: 0;
 }
+
+/* ── Music pages: Japanese original toggle ── */
+details.japanese-original {
+  margin: 0.75rem 0 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid #c0392b;
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color);
+  overflow: hidden;
+}
+
+details.japanese-original > summary {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #c0392b;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+details.japanese-original > summary::before {
+  content: '\25B6';
+  font-size: 0.6rem;
+  transition: transform 0.2s;
+}
+
+details.japanese-original[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+details.japanese-original > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.japanese-original .japanese-original__content {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.88rem;
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-700);
+  font-style: italic;
+}
+
+[data-theme='dark'] details.japanese-original {
+  border-color: #333;
+  border-left-color: #e74c3c;
+}
+
+[data-theme='dark'] details.japanese-original > summary {
+  color: #e74c3c;
+}
+
+[data-theme='dark'] details.japanese-original .japanese-original__content {
+  border-top-color: #333;
+}
+
+/* ── Music overview: album card hover ── */
+.music-album-card:hover {
+  border-color: var(--ifm-color-primary) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .music-album-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}

@@ -304,12 +304,6 @@
   color: #e0e0e0;
 }
 
-.musicDesc {
-  font-size: 13px;
-  color: #777;
-  line-height: 1.5;
-}
-
 /* Toy cards */
 .toyGrid {
   display: grid;
@@ -371,12 +365,6 @@
 
 [data-theme='dark'] .toyTitle {
   color: #e0e0e0;
-}
-
-.toyDesc {
-  font-size: 13px;
-  color: #777;
-  line-height: 1.5;
 }
 
 /* Credits */
