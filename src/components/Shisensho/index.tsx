@@ -145,9 +145,148 @@ const ALL_SPRITES = [
   "zanmu_nippaku",
 ];
 
+// ─── Character doc links ────────────────────────────────────────────────────
+
+const CHARACTER_DOC_MAP: Record<string, string> = {
+  // Th06
+  rumia: "/docs/th06/characters/rumia",
+  cirno: "/docs/th06/characters/cirno",
+  daiyousei: "/docs/th06/characters/daiyousei",
+  hong_meiling: "/docs/th06/characters/hong_meiling",
+  koakuma: "/docs/th06/characters/koakuma",
+  patchouli_knowledge: "/docs/th06/characters/patchouli_knowledge",
+  sakuya_izayoi: "/docs/th06/characters/izayoi_sakuya",
+  remilia_scarlet: "/docs/th06/characters/remilia_scarlet",
+  flandre_scarlet: "/docs/th06/characters/flandre_scarlet",
+  // Th07
+  letty_whiterock: "/docs/th07/characters/letty_whiterock",
+  chen: "/docs/th07/characters/chen",
+  alice_margatroid: "/docs/th07/characters/alice_margatroid",
+  lily_white: "/docs/th07/characters/lily_white",
+  lunasa_prismriver: "/docs/th07/characters/lunasa_prismriver",
+  merlin_prismriver: "/docs/th07/characters/merlin_prismriver",
+  lyrica_prismriver: "/docs/th07/characters/lyrica_prismriver",
+  youmu_konpaku: "/docs/th07/characters/konpaku_youmu",
+  yuyuko_saigyouji: "/docs/th07/characters/saigyouji_yuyuko",
+  ran_yakumo: "/docs/th07/characters/yakumo_ran",
+  yukari_yakumo: "/docs/th07/characters/yakumo_yukari",
+  // Th08
+  wriggle_nightbug: "/docs/th08/characters/wriggle_nightbug",
+  mystia_lorelei: "/docs/th08/characters/mystia_lorelei",
+  keine_kamishirasawa: "/docs/th08/characters/kamishirasawa_keine",
+  tewi_inaba: "/docs/th08/characters/inaba_tewi",
+  reisen_udonge_inaba: "/docs/th08/characters/reisen_udongein_inaba",
+  eirin_yagokoro: "/docs/th08/characters/yagokoro_eirin",
+  kaguya_houraisan: "/docs/th08/characters/houraisan_kaguya",
+  fujiwara_no_mokou: "/docs/th08/characters/fujiwara_no_mokou",
+  // Th09
+  medicine_melancholy: "/docs/th09/characters/medicine_melancholy",
+  yuuka_kazami: "/docs/th09/characters/kazami_yuuka",
+  komachi_onozuka: "/docs/th09/characters/onozuka_komachi",
+  eiki_shiki_yamaxanadu: "/docs/th09/characters/shikieiki_yamaxanadu",
+  // Th10
+  shizuha_aki: "/docs/th10/characters/aki_shizuha",
+  minoriko_aki: "/docs/th10/characters/aki_minoriko",
+  hina_kagiyama: "/docs/th10/characters/kagiyama_hina",
+  nitori_kawashiro: "/docs/th10/characters/kawashiro_nitori",
+  momiji_inubashiri: "/docs/th10/characters/inubashiri_momiji",
+  sanae_kochiya: "/docs/th10/characters/kochiya_sanae",
+  kanako_yasaka: "/docs/th10/characters/yasaka_kanako",
+  suwako_moriya: "/docs/th10/characters/moriya_suwako",
+  // Th11
+  kisume: "/docs/th11/characters/kisume",
+  yamame_kurodani: "/docs/th11/characters/kurodani_yamame",
+  parsee_mizuhashi: "/docs/th11/characters/mizuhashi_parsee",
+  yuugi_hoshiguma: "/docs/th11/characters/hoshiguma_yuugi",
+  satori_komeiji: "/docs/th11/characters/komeiji_satori",
+  rin_kaenbyou: "/docs/th11/characters/kaenbyou_rin",
+  utsuho_reiuji: "/docs/th11/characters/reiuji_utsuho",
+  koishi_komeiji: "/docs/th11/characters/komeiji_koishi",
+  // Th12
+  nazrin: "/docs/th12/characters/nazrin",
+  kogasa_tatara: "/docs/th12/characters/tatara_kogasa",
+  ichirin_kumoi: "/docs/th12/characters/kumoi_ichirin",
+  minamitsu_murasa: "/docs/th12/characters/murasa_minamitsu",
+  shou_toramaru: "/docs/th12/characters/toramaru_shou",
+  byakuren_hijiri: "/docs/th12/characters/hijiri_byakuren",
+  // Th13
+  kyouko_kasodani: "/docs/th13/characters/kasodani_kyouko",
+  yoshika_miyako: "/docs/th13/characters/miyako_yoshika",
+  seiga_kaku: "/docs/th13/characters/kaku_seiga",
+  soga_no_tojiko: "/docs/th13/characters/soga_no_tojiko",
+  mononobe_no_futo: "/docs/th13/characters/mononobe_no_futo",
+  toyosatomimi_no_miko: "/docs/th13/characters/toyosatomimi_no_miko",
+  // Th14
+  wakasagihime: "/docs/th14/characters/wakasagihime",
+  sekibanki: "/docs/th14/characters/sekibanki",
+  kagerou_imaizumi: "/docs/th14/characters/imaizumi_kagerou",
+  benben_tsukumo: "/docs/th14/characters/tsukumo_benben",
+  yatsuhashi_tsukumo: "/docs/th14/characters/tsukumo_yatsuhashi",
+  seija_kijin: "/docs/th14/characters/kijin_seija",
+  shinmyoumaru_sukuna: "/docs/th14/characters/sukuna_shinmyoumaru",
+  raiko_horikawa: "/docs/th14/characters/horikawa_raiko",
+  // Th15
+  seiran: "/docs/th15/characters/seiran",
+  ringo: "/docs/th15/characters/ringo",
+  doremy_sweet: "/docs/th15/characters/doremy_sweet",
+  sagume_kishin: "/docs/th15/characters/kishin_sagume",
+  clownpiece: "/docs/th15/characters/clownpiece",
+  junko: "/docs/th15/characters/junko",
+  hecatia_lapislazuli: "/docs/th15/characters/hecatia_lapislazuli",
+  // Th16
+  eternity_larva: "/docs/th16/characters/eternity_larva",
+  nemuno_sakata: "/docs/th16/characters/sakata_nemuno",
+  narumi_yatadera: "/docs/th16/characters/yatadera_narumi",
+  satono_nishida: "/docs/th16/characters/nishida_satono",
+  mai_teireida: "/docs/th16/characters/teireida_mai",
+  okina_matara: "/docs/th16/characters/matara_okina",
+  // Th17
+  eika_ebisu: "/docs/th17/characters/ebisu_eika",
+  urumi_ushizaki: "/docs/th17/characters/ushizaki_urumi",
+  kutaka_niwatari: "/docs/th17/characters/niwatari_kutaka",
+  yachie_kicchou: "/docs/th17/characters/kitcho_yachie",
+  mayumi_joutouguu: "/docs/th17/characters/joutougu_mayumi",
+  keiki_haniyasushin: "/docs/th17/characters/haniyasushin_keiki",
+  saki_kurokoma: "/docs/th17/characters/kurokoma_saki",
+  // Th18
+  mike_goutokuji: "/docs/th18/characters/goutokuzi_mike",
+  takane_yamashiro: "/docs/th18/characters/yamashiro_takane",
+  sannyo_komakusa: "/docs/th18/characters/komakusa_sannyo",
+  misumaru_tamatsukuri: "/docs/th18/characters/tamatsukuri_misumaru",
+  tsukasa_kudamaki: "/docs/th18/characters/kudamaki_tsukasa",
+  megumu_iizunamaru: "/docs/th18/characters/iizunamaru_megumu",
+  chimata_tenkyuu: "/docs/th18/characters/tenkyu_chimata",
+  momoyo_himemushi: "/docs/th18/characters/himemushi_momoyo",
+  // Th19
+  son_biten: "/docs/th19/characters/son_biten",
+  enoko_mitsugashira: "/docs/th19/characters/enoko_maimoto",
+  chiyari_tenkajin: "/docs/th19/characters/chiyari",
+  hisami_yomotsu: "/docs/th19/characters/hisami_yomotsu",
+  zanmu_nippaku: "/docs/th19/characters/zanmu_nippaku",
+  chimi_houjuu: "/docs/th19/characters/houju_chimi",
+  // Th075
+  suika_ibuki: "/docs/th075/characters/ibuki_suika",
+  // Th105
+  iku_nagae: "/docs/th105/characters/nagae_iku",
+  tenshi_hinanawi: "/docs/th105/characters/hinanawi_tenshi",
+  // Th135
+  hata_no_kokoro: "/docs/th135/characters/hatano_kokoro",
+  // Th145
+  sumireko_usami: "/docs/th145/characters/usami_sumireko",
+  // Th155
+  joon_yorigami: "/docs/th155/characters/yorigami_jyoon",
+  shion_yorigami: "/docs/th155/characters/yorigami_shion",
+  // Multi-game
+  reimu_hakurei: "/docs/th06/characters/hakurei_reimu",
+  marisa_kirisame: "/docs/th06/characters/kirisame_marisa",
+  aya_shameimaru: "/docs/th09/characters/shameimaru_aya",
+  reisen: "/docs/th15/characters/reisen",
+  aunn_komano: "/docs/th16/characters/komano_aunn",
+};
+
 // ─── Types ──────────────────────────────────────────────────────────────────
 
-type Difficulty = "easy" | "normal" | "hard";
+type Difficulty = "easy" | "normal" | "hard" | "lunatic";
 
 interface DiffConfig {
   cols: number;
@@ -159,6 +298,7 @@ const DIFF_CONFIG: Record<Difficulty, DiffConfig> = {
   easy: { cols: 6, rows: 4, label: "쉬움" },
   normal: { cols: 10, rows: 6, label: "보통" },
   hard: { cols: 14, rows: 8, label: "어려움" },
+  lunatic: { cols: 18, rows: 10, label: "루나틱" },
 };
 
 interface Tile {
@@ -193,6 +333,7 @@ interface GameState {
   elapsed: number; // seconds
   running: boolean;
   animPathCounter: number;
+  gameId: number;
 }
 
 // ─── Pure game logic ─────────────────────────────────────────────────────────
@@ -452,6 +593,8 @@ function shuffleRemaining(grid: Grid, rows: number, cols: number): Grid {
   return newGrid;
 }
 
+let gameIdCounter = 0;
+
 function makeInitialState(difficulty: Difficulty): GameState {
   const { cols, rows } = DIFF_CONFIG[difficulty];
   let grid = buildGrid(rows, cols);
@@ -477,6 +620,7 @@ function makeInitialState(difficulty: Difficulty): GameState {
     elapsed: 0,
     running: true,
     animPathCounter: 0,
+    gameId: ++gameIdCounter,
   };
 }
 
@@ -509,6 +653,7 @@ const SPRITE_RATIO = 0.75; // sprite takes 75% of tile size
 
 export default function Shisensho(): React.ReactElement {
   const baseUrl = useBaseUrl("/img/dot/");
+  const siteBaseUrl = useBaseUrl("/");
 
   const [screen, setScreen] = useState<"menu" | "game">("menu");
   const [difficulty, setDifficulty] = useState<Difficulty>("normal");
@@ -550,7 +695,7 @@ export default function Shisensho(): React.ReactElement {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [gs?.running, gs?.won, screen]);
+  }, [gs?.running, gs?.won, gs?.gameId, screen]);
 
   // Clear hint after 2 seconds of inactivity
   const hintTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -782,6 +927,7 @@ export default function Shisensho(): React.ReactElement {
     easy: "#27ae60",
     normal: "#2980b9",
     hard: "#c0392b",
+    lunatic: "#8e44ad",
   };
 
   // ─── Menu screen ──────────────────────────────────────────────────────────
@@ -796,7 +942,7 @@ export default function Shisensho(): React.ReactElement {
           같은 캐릭터 2개를 선택해 연결하세요 (최대 2번 꺾기)
         </div>
         <div style={styles.diffRow}>
-          {(["easy", "normal", "hard"] as Difficulty[]).map((d) => (
+          {(["easy", "normal", "hard", "lunatic"] as Difficulty[]).map((d) => (
             <button
               key={d}
               style={styles.diffBtn(difficulty === d, DIFF_COLORS[d])}
@@ -882,13 +1028,31 @@ export default function Shisensho(): React.ReactElement {
   }
 
   return (
-    <div style={styles.wrapper}>
+    <div ref={containerRef} style={styles.wrapper}>
       <div style={styles.title}>동방 사천성</div>
 
-      {/* Header */}
-      <div style={styles.gameHeader}>
+      {/* Header — Row 1: stats */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          width: "100%",
+          marginBottom: "8px",
+        }}
+      >
         <span style={styles.stat}>⏱ {formatTime(gs.elapsed)}</span>
         <span style={styles.stat}>🀄 남은 타일: {remaining}</span>
+      </div>
+      {/* Header — Row 2: buttons */}
+      <div
+        style={{
+          display: "flex",
+          gap: "8px",
+          flexWrap: "wrap" as const,
+          justifyContent: "center",
+          marginBottom: "12px",
+        }}
+      >
         <button
           style={styles.btn(gs.hintsLeft <= 0 || gs.won)}
           disabled={gs.hintsLeft <= 0 || gs.won}
@@ -990,6 +1154,9 @@ export default function Shisensho(): React.ReactElement {
                     transition: "border 0.1s, box-shadow 0.1s",
                     zIndex: isSelected ? 2 : 1,
                     boxSizing: "border-box",
+                    animation: isHint
+                      ? "shisensho-blink 0.5s ease-in-out infinite alternate"
+                      : undefined,
                   }}
                 >
                   <img
@@ -1010,6 +1177,83 @@ export default function Shisensho(): React.ReactElement {
           )}
         </div>
       </div>
+
+      {/* Character roster */}
+      {(() => {
+        const uniqueSprites = Array.from(
+          new Set(
+            gs.grid
+              .flat()
+              .filter((t): t is Tile => t !== null && !t.removed)
+              .map((t) => t.sprite),
+          ),
+        ).sort();
+        if (uniqueSprites.length === 0) return null;
+        return (
+          <div
+            style={{
+              marginTop: "12px",
+              textAlign: "center",
+              maxWidth: gridPxW,
+              width: "100%",
+            }}
+          >
+            <div
+              style={{
+                fontSize: "0.75rem",
+                color: "var(--ifm-color-emphasis-500)",
+                marginBottom: "4px",
+              }}
+            >
+              등장 캐릭터
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                gap: "4px",
+              }}
+            >
+              {uniqueSprites.map((sprite) => {
+                const docPath = CHARACTER_DOC_MAP[sprite];
+                const label = sprite.replace(/_/g, " ");
+                const img = (
+                  <img
+                    key={sprite}
+                    src={`${baseUrl}${sprite}.png`}
+                    alt={label}
+                    title={label}
+                    style={{
+                      width: 24,
+                      height: 24,
+                      imageRendering: "pixelated",
+                      display: "block",
+                    }}
+                    draggable={false}
+                  />
+                );
+                if (docPath) {
+                  const href =
+                    siteBaseUrl +
+                    docPath.replace(/^\//, "");
+                  return (
+                    <a
+                      key={sprite}
+                      href={href}
+                      title={label}
+                      style={{ lineHeight: 0 }}
+                    >
+                      {img}
+                    </a>
+                  );
+                }
+                return img;
+              })}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Overlays */}
       {gs.won && (
@@ -1157,6 +1401,10 @@ export default function Shisensho(): React.ReactElement {
         @keyframes shisensho-fade {
           0% { opacity: 1; }
           100% { opacity: 0; }
+        }
+        @keyframes shisensho-blink {
+          0% { opacity: 1; }
+          100% { opacity: 0.4; }
         }
       `}</style>
 
