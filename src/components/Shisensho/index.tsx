@@ -1040,8 +1040,9 @@ export default function Shisensho(): React.ReactElement {
           marginBottom: "8px",
         }}
       >
+        <span style={styles.stat}>📋 {DIFF_CONFIG[difficulty].label}</span>
         <span style={styles.stat}>⏱ {formatTime(gs.elapsed)}</span>
-        <span style={styles.stat}>🀄 남은 타일: {remaining}</span>
+        <span style={styles.stat}>🀄 {remaining}</span>
       </div>
       {/* Header — Row 2: buttons */}
       <div
@@ -1295,7 +1296,7 @@ export default function Shisensho(): React.ReactElement {
                 color: "var(--ifm-font-color-base)",
               }}
             >
-              클리어 시간: {formatTime(gs.elapsed)}
+              난이도: {DIFF_CONFIG[difficulty].label} · 클리어 시간: {formatTime(gs.elapsed)}
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center" }}>
               <button
