@@ -334,6 +334,7 @@ interface GameState {
   running: boolean;
   animPathCounter: number;
   gameId: number;
+  lastAction: "select" | "match" | "clear" | null;
 }
 
 // ─── Pure game logic ─────────────────────────────────────────────────────────
@@ -621,6 +622,7 @@ function makeInitialState(difficulty: Difficulty): GameState {
     running: true,
     animPathCounter: 0,
     gameId: ++gameIdCounter,
+    lastAction: null,
   };
 }
 
@@ -642,12 +644,158 @@ function spriteColor(name: string): { bg: string; border: string } {
   };
 }
 
+// ─── Display name helper ─────────────────────────────────────────────────────
+
+function spriteDisplayName(sprite: string): string {
+  return sprite
+    .split("_")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 // ─── Pixel grid sizes ────────────────────────────────────────────────────────
 
 const TILE_SIZE_MAX = 48; // px max tile size
 const TILE_SIZE_MIN = 32; // px min tile size
 const TILE_GAP = 4; // px gap between tiles
 const SPRITE_RATIO = 0.75; // sprite takes 75% of tile size
+
+// ─── Sound effects (Web Audio API) ──────────────────────────────────────────
+
+let audioCtx: AudioContext | null = null;
+
+function ensureAudioCtx(): AudioContext | null {
+  if (typeof window === "undefined") return null;
+  try {
+    if (!audioCtx) {
+      const AC = window.AudioContext || (window as any).webkitAudioContext;
+      if (!AC) return null;
+      audioCtx = new AC();
+    }
+    if (audioCtx.state === "suspended") {
+      audioCtx.resume().catch(() => {});
+    }
+    return audioCtx;
+  } catch {
+    return null;
+  }
+}
+
+function playTone(freq: number, duration: number, vol = 0.3, type: OscillatorType = "sine") {
+  const ctx = ensureAudioCtx();
+  if (!ctx) return;
+  try {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, ctx.currentTime);
+    gain.gain.setValueAtTime(vol, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + duration);
+  } catch {
+    // ignore audio errors
+  }
+}
+
+function sfxSelect() {
+  playTone(600, 0.08, 0.1, "square");
+}
+
+function sfxMatch() {
+  playTone(523, 0.12, 0.12);
+  setTimeout(() => playTone(659, 0.12, 0.12), 80);
+  setTimeout(() => playTone(784, 0.15, 0.12), 160);
+}
+
+function sfxClear() {
+  const notes = [523, 659, 784, 1047];
+  notes.forEach((freq, i) => {
+    setTimeout(() => playTone(freq, 0.25, 0.15), i * 120);
+  });
+  setTimeout(() => {
+    playTone(1047, 0.4, 0.18);
+    playTone(784, 0.4, 0.1);
+  }, notes.length * 120);
+}
+
+// ─── Confetti ───────────────────────────────────────────────────────────────
+
+interface ConfettiParticle {
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+  color: string;
+  size: number;
+  rotation: number;
+  rotSpeed: number;
+  life: number;
+}
+
+function launchConfetti(container: HTMLElement) {
+  const canvas = document.createElement("canvas");
+  canvas.style.position = "fixed";
+  canvas.style.inset = "0";
+  canvas.style.pointerEvents = "none";
+  canvas.style.zIndex = "1001";
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  container.appendChild(canvas);
+
+  const ctx2d = canvas.getContext("2d");
+  if (!ctx2d) return;
+
+  const colors = ["#FFD700", "#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FF69B4", "#DDA0DD", "#98D8C8"];
+  const particles: ConfettiParticle[] = [];
+
+  for (let i = 0; i < 120; i++) {
+    particles.push({
+      x: canvas.width / 2 + (Math.random() - 0.5) * 200,
+      y: canvas.height / 2,
+      vx: (Math.random() - 0.5) * 12,
+      vy: -Math.random() * 15 - 5,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      size: Math.random() * 8 + 4,
+      rotation: Math.random() * Math.PI * 2,
+      rotSpeed: (Math.random() - 0.5) * 0.3,
+      life: 1,
+    });
+  }
+
+  let frame = 0;
+  const maxFrames = 120;
+
+  function animate() {
+    if (frame >= maxFrames) {
+      canvas.remove();
+      return;
+    }
+    ctx2d!.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (const p of particles) {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.25; // gravity
+      p.rotation += p.rotSpeed;
+      p.life = Math.max(0, 1 - frame / maxFrames);
+
+      ctx2d!.save();
+      ctx2d!.translate(p.x, p.y);
+      ctx2d!.rotate(p.rotation);
+      ctx2d!.globalAlpha = p.life;
+      ctx2d!.fillStyle = p.color;
+      ctx2d!.fillRect(-p.size / 2, -p.size / 4, p.size, p.size / 2);
+      ctx2d!.restore();
+    }
+
+    frame++;
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
@@ -659,6 +807,7 @@ export default function Shisensho(): React.ReactElement {
   const [difficulty, setDifficulty] = useState<Difficulty>("normal");
   const [gs, setGs] = useState<GameState | null>(null);
   const [containerWidth, setContainerWidth] = useState(0);
+  const [soundOn, setSoundOn] = useState(true);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const animTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -678,6 +827,8 @@ export default function Shisensho(): React.ReactElement {
 
   // Start/restart game
   const startGame = useCallback((diff: Difficulty) => {
+    // Initialize AudioContext on user gesture (game start)
+    ensureAudioCtx();
     if (timerRef.current) clearInterval(timerRef.current);
     if (animTimerRef.current) clearTimeout(animTimerRef.current);
     setDifficulty(diff);
@@ -707,31 +858,27 @@ export default function Shisensho(): React.ReactElement {
       if (!tile || tile.removed) return prev;
 
       // Clear hint
-      const newState = { ...prev, hintPair: null };
+      const newState = { ...prev, hintPair: null, lastAction: null };
 
       if (!newState.selected) {
-        // First selection
-        return { ...newState, selected: { r, c } };
+        return { ...newState, selected: { r, c }, lastAction: "select" as const };
       }
 
       const sel = newState.selected;
 
       if (sel.r === r && sel.c === c) {
-        // Deselect
-        return { ...newState, selected: null };
+        return { ...newState, selected: null, lastAction: "select" as const };
       }
 
       const selTile = newState.grid[sel.r][sel.c];
       if (!selTile || selTile.removed) {
-        return { ...newState, selected: { r, c } };
+        return { ...newState, selected: { r, c }, lastAction: "select" as const };
       }
 
-      // Different sprites → switch selection
       if (selTile.sprite !== tile.sprite) {
-        return { ...newState, selected: { r, c } };
+        return { ...newState, selected: { r, c }, lastAction: "select" as const };
       }
 
-      // Same sprite → check path
       const path = findPath(
         newState.grid,
         newState.rows,
@@ -742,7 +889,7 @@ export default function Shisensho(): React.ReactElement {
         c,
       );
       if (!path) {
-        return { ...newState, selected: { r, c } };
+        return { ...newState, selected: { r, c }, lastAction: "select" as const };
       }
 
       // Valid match!
@@ -764,6 +911,7 @@ export default function Shisensho(): React.ReactElement {
         won,
         noMoves,
         running: !won,
+        lastAction: won ? "clear" as const : "match" as const,
       };
     });
 
@@ -773,6 +921,19 @@ export default function Shisensho(): React.ReactElement {
       setGs((prev) => (prev ? { ...prev, animPath: null } : prev));
     }, 600);
   }, []);
+
+  // Sound effect: react to lastAction changes
+  useEffect(() => {
+    if (!gs || !gs.lastAction) return;
+    if (soundOn) {
+      if (gs.lastAction === "select") sfxSelect();
+      else if (gs.lastAction === "match") sfxMatch();
+      else if (gs.lastAction === "clear") sfxClear();
+    }
+    if (gs.lastAction === "clear") {
+      launchConfetti(document.body);
+    }
+  }, [gs?.lastAction, gs?.animPathCounter, soundOn]);
 
   const handleHint = useCallback(() => {
     setGs((prev) => {
@@ -852,16 +1013,18 @@ export default function Shisensho(): React.ReactElement {
     },
     diffRow: {
       display: "flex",
-      gap: "12px",
+      gap: "8px",
       marginBottom: "32px",
+      flexWrap: "wrap" as const,
+      justifyContent: "center",
     },
     diffBtn: (active: boolean, color: string) => ({
-      padding: "10px 28px",
+      padding: "8px 16px",
       borderRadius: "8px",
       border: `2px solid ${color}`,
       background: active ? color : "transparent",
       color: active ? "#fff" : color,
-      fontSize: "1rem",
+      fontSize: "0.9rem",
       fontWeight: 600,
       cursor: "pointer",
       transition: "all 0.15s",
@@ -1073,6 +1236,9 @@ export default function Shisensho(): React.ReactElement {
         </button>
         <button style={styles.btn(false)} onClick={() => setScreen("menu")}>
           메뉴
+        </button>
+        <button style={styles.btn(false)} onClick={() => setSoundOn((v) => !v)}>
+          {soundOn ? "🔊" : "🔇"}
         </button>
       </div>
 
@@ -1297,6 +1463,76 @@ export default function Shisensho(): React.ReactElement {
               }}
             >
               난이도: {DIFF_CONFIG[difficulty].label} · 클리어 시간: {formatTime(gs.elapsed)}
+            </div>
+            {/* Acquired characters */}
+            <div
+              style={{
+                fontSize: "0.85rem",
+                fontWeight: 600,
+                color: "var(--ifm-color-emphasis-600)",
+                marginBottom: 8,
+              }}
+            >
+              획득한 캐릭터 ({Array.from(new Set(gs.grid.flat().filter((t): t is Tile => t !== null).map((t) => t.sprite))).length})
+            </div>
+            <div
+              style={{
+                maxHeight: "180px",
+                overflowY: "auto",
+                marginBottom: 20,
+                padding: "0 8px",
+              }}
+            >
+              {Array.from(
+                new Set(
+                  gs.grid
+                    .flat()
+                    .filter((t): t is Tile => t !== null)
+                    .map((t) => t.sprite),
+                ),
+              )
+                .sort()
+                .map((sprite) => {
+                  const docPath = CHARACTER_DOC_MAP[sprite];
+                  const name = spriteDisplayName(sprite);
+                  return (
+                    <div
+                      key={sprite}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 8,
+                        padding: "3px 0",
+                      }}
+                    >
+                      <img
+                        src={`${baseUrl}${sprite}.png`}
+                        alt={sprite}
+                        style={{
+                          width: 24,
+                          height: 24,
+                          imageRendering: "pixelated",
+                        }}
+                      />
+                      {docPath ? (
+                        <a
+                          href={siteBaseUrl + docPath.replace(/^\/docs\//, "docs/")}
+                          style={{
+                            color: spriteColor(sprite).border,
+                            textDecoration: "none",
+                            fontSize: "0.8rem",
+                          }}
+                        >
+                          {name}
+                        </a>
+                      ) : (
+                        <span style={{ fontSize: "0.8rem", color: "var(--ifm-font-color-base)" }}>
+                          {name}
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center" }}>
               <button
