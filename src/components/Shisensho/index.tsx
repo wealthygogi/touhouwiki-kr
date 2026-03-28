@@ -1,50 +1,148 @@
-import React, {
-  useState,
-  useEffect,
-  useCallback,
-  useRef,
-} from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 // ─── Sprite list ────────────────────────────────────────────────────────────
 
 const ALL_SPRITES = [
-  "alice_margatroid", "aunn_komano", "aya_shameimaru", "benben_tsukumo",
-  "byakuren_hijiri", "chen", "chimata_tenkyuu", "chimi_houjuu",
-  "chiyari_tenkajin", "cirno", "clownpiece", "daiyousei", "doremy_sweet",
-  "eika_ebisu", "eiki_shiki_yamaxanadu", "eirin_yagokoro", "enoko_mitsugashira",
-  "eternity_larva", "ex_keine", "flandre_scarlet", "fortune_teller",
-  "fujiwara_no_mokou", "hata_no_kokoro", "hatate_himekaidou",
-  "hecatia_lapislazuli", "hieda_no_akyuu", "hina_kagiyama", "hisami_yomotsu",
-  "hong_meiling", "ichirin_kumoi", "iku_nagae", "joon_yorigami", "junko",
-  "kagerou_imaizumi", "kaguya_houraisan", "kanako_yasaka", "kasen_ibaraki",
-  "keiki_haniyasushin", "keine_kamishirasawa", "kisume", "koakuma",
-  "kogasa_tatara", "koishi_komeiji", "komachi_onozuka", "kosuzu_motoori",
-  "kutaka_niwatari", "kyouko_kasodani", "letty_whiterock", "lily_white",
-  "luna_child", "lunasa_prismriver", "lyrica_prismriver", "mai_teireida",
-  "maimizou_futatsuiwa", "maribel_hearn", "marisa_kirisame",
-  "mayumi_joutouguu", "medicine_melancholy", "megumu_iizunamaru",
-  "merlin_prismriver", "mike_goutokuji", "minamitsu_murasa", "minoriko_aki",
-  "misumaru_tamatsukuri", "miyoi_okunoda", "mizuchi_miyadeguchi",
-  "momiji_inubashiri", "momoyo_himemushi", "mononobe_no_futo",
-  "mystia_lorelei", "nareko_michigami", "narumi_yatadera", "nazrin",
-  "nemuno_sakata", "nitori_kawashiro", "nue_houjuu", "okina_matara",
-  "parsee_mizuhashi", "patchouli_knowledge", "raiko_horikawa", "ran_yakumo",
-  "reimu_hakurei", "reisen", "reisen_udonge_inaba", "remilia_scarlet",
-  "renko_usami", "rin_kaenbyou", "rin_satsuki", "ringo",
-  "rinnosuke_morichika", "rumia", "sagume_kishin", "saki_kurokoma",
-  "sakuya_izayoi", "sanae_kochiya", "sannyo_komakusa", "satono_nishida",
-  "satori_komeiji", "seiga_kaku", "seija_kijin", "seiran", "sekibanki",
-  "shanghai_doll", "shinmyoumaru_sukuna", "shion_yorigami", "shizuha_aki",
-  "shou_toramaru", "soga_no_tojiko", "son_biten", "star_sapphire",
-  "suika_ibuki", "sumireko_usami", "sunny_milk", "suwako_moriya",
-  "takane_yamashiro", "tenshi_hinanawi", "tewi_inaba", "tokiko",
-  "toyosatomimi_no_miko", "tsukasa_kudamaki", "ubame_chirizuka", "unzan",
-  "urumi_ushizaki", "utsuho_reiuji", "wakasagihime", "watatsuki_no_toyohime",
-  "watatsuki_no_yorihime", "wriggle_nightbug", "yachie_kicchou",
-  "yamame_kurodani", "yatsuhashi_tsukumo", "yoshika_miyako", "youmu_konpaku",
-  "yukari_yakumo", "yuugi_hoshiguma", "yuuka_kazami", "yuuma_toutetsu",
-  "yuyuko_saigyouji", "zanmu_nippaku",
+  "alice_margatroid",
+  "aunn_komano",
+  "aya_shameimaru",
+  "benben_tsukumo",
+  "byakuren_hijiri",
+  "chen",
+  "chimata_tenkyuu",
+  "chimi_houjuu",
+  "chiyari_tenkajin",
+  "cirno",
+  "clownpiece",
+  "daiyousei",
+  "doremy_sweet",
+  "eika_ebisu",
+  "eiki_shiki_yamaxanadu",
+  "eirin_yagokoro",
+  "enoko_mitsugashira",
+  "eternity_larva",
+  "ex_keine",
+  "flandre_scarlet",
+  "fortune_teller",
+  "fujiwara_no_mokou",
+  "hata_no_kokoro",
+  "hatate_himekaidou",
+  "hecatia_lapislazuli",
+  "hieda_no_akyuu",
+  "hina_kagiyama",
+  "hisami_yomotsu",
+  "hong_meiling",
+  "ichirin_kumoi",
+  "iku_nagae",
+  "joon_yorigami",
+  "junko",
+  "kagerou_imaizumi",
+  "kaguya_houraisan",
+  "kanako_yasaka",
+  "kasen_ibaraki",
+  "keiki_haniyasushin",
+  "keine_kamishirasawa",
+  "kisume",
+  "koakuma",
+  "kogasa_tatara",
+  "koishi_komeiji",
+  "komachi_onozuka",
+  "kosuzu_motoori",
+  "kutaka_niwatari",
+  "kyouko_kasodani",
+  "letty_whiterock",
+  "lily_white",
+  "luna_child",
+  "lunasa_prismriver",
+  "lyrica_prismriver",
+  "mai_teireida",
+  "maimizou_futatsuiwa",
+  "maribel_hearn",
+  "marisa_kirisame",
+  "mayumi_joutouguu",
+  "medicine_melancholy",
+  "megumu_iizunamaru",
+  "merlin_prismriver",
+  "mike_goutokuji",
+  "minamitsu_murasa",
+  "minoriko_aki",
+  "misumaru_tamatsukuri",
+  "miyoi_okunoda",
+  "mizuchi_miyadeguchi",
+  "momiji_inubashiri",
+  "momoyo_himemushi",
+  "mononobe_no_futo",
+  "mystia_lorelei",
+  "nareko_michigami",
+  "narumi_yatadera",
+  "nazrin",
+  "nemuno_sakata",
+  "nitori_kawashiro",
+  "nue_houjuu",
+  "okina_matara",
+  "parsee_mizuhashi",
+  "patchouli_knowledge",
+  "raiko_horikawa",
+  "ran_yakumo",
+  "reimu_hakurei",
+  "reisen",
+  "reisen_udonge_inaba",
+  "remilia_scarlet",
+  "renko_usami",
+  "rin_kaenbyou",
+  "rin_satsuki",
+  "ringo",
+  "rinnosuke_morichika",
+  "rumia",
+  "sagume_kishin",
+  "saki_kurokoma",
+  "sakuya_izayoi",
+  "sanae_kochiya",
+  "sannyo_komakusa",
+  "satono_nishida",
+  "satori_komeiji",
+  "seiga_kaku",
+  "seija_kijin",
+  "seiran",
+  "sekibanki",
+  "shanghai_doll",
+  "shinmyoumaru_sukuna",
+  "shion_yorigami",
+  "shizuha_aki",
+  "shou_toramaru",
+  "soga_no_tojiko",
+  "son_biten",
+  "star_sapphire",
+  "suika_ibuki",
+  "sumireko_usami",
+  "sunny_milk",
+  "suwako_moriya",
+  "takane_yamashiro",
+  "tenshi_hinanawi",
+  "tewi_inaba",
+  "tokiko",
+  "toyosatomimi_no_miko",
+  "tsukasa_kudamaki",
+  "ubame_chirizuka",
+  "unzan",
+  "urumi_ushizaki",
+  "utsuho_reiuji",
+  "wakasagihime",
+  "watatsuki_no_toyohime",
+  "watatsuki_no_yorihime",
+  "wriggle_nightbug",
+  "yachie_kicchou",
+  "yamame_kurodani",
+  "yatsuhashi_tsukumo",
+  "yoshika_miyako",
+  "youmu_konpaku",
+  "yukari_yakumo",
+  "yuugi_hoshiguma",
+  "yuuka_kazami",
+  "yuuma_toutetsu",
+  "yuyuko_saigyouji",
+  "zanmu_nippaku",
 ];
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -58,18 +156,18 @@ interface DiffConfig {
 }
 
 const DIFF_CONFIG: Record<Difficulty, DiffConfig> = {
-  easy:   { cols: 6,  rows: 4, label: "쉬움" },
+  easy: { cols: 6, rows: 4, label: "쉬움" },
   normal: { cols: 10, rows: 6, label: "보통" },
-  hard:   { cols: 14, rows: 8, label: "어려움" },
+  hard: { cols: 14, rows: 8, label: "어려움" },
 };
 
 interface Tile {
-  id: number;       // unique instance id
-  sprite: string;   // sprite name
+  id: number; // unique instance id
+  sprite: string; // sprite name
   removed: boolean;
 }
 
-type Grid = (Tile | null)[][];  // [row][col], null = empty
+type Grid = (Tile | null)[][]; // [row][col], null = empty
 
 interface PathPoint {
   r: number;
@@ -92,7 +190,7 @@ interface GameState {
   animPath: AnimatedPath | null;
   won: boolean;
   noMoves: boolean;
-  elapsed: number;        // seconds
+  elapsed: number; // seconds
   running: boolean;
   animPathCounter: number;
 }
@@ -119,14 +217,20 @@ function buildGrid(rows: number, cols: number): Grid {
       id: r * cols + c,
       sprite: flat[r * cols + c],
       removed: false,
-    }))
+    })),
   );
   return grid;
 }
 
 // Check if cell (r, c) is empty (no tile) in the extended grid.
 // The "extended" grid includes -1 and rows/cols as border lanes.
-function isEmpty(grid: Grid, rows: number, cols: number, r: number, c: number): boolean {
+function isEmpty(
+  grid: Grid,
+  rows: number,
+  cols: number,
+  r: number,
+  c: number,
+): boolean {
   if (r < 0 || r >= rows || c < 0 || c >= cols) return true; // border
   const t = grid[r][c];
   return t === null || t.removed;
@@ -134,8 +238,13 @@ function isEmpty(grid: Grid, rows: number, cols: number, r: number, c: number): 
 
 // Check if a straight horizontal/vertical segment is clear (excluding endpoints).
 function segmentClear(
-  grid: Grid, rows: number, cols: number,
-  r1: number, c1: number, r2: number, c2: number
+  grid: Grid,
+  rows: number,
+  cols: number,
+  r1: number,
+  c1: number,
+  r2: number,
+  c2: number,
 ): boolean {
   if (r1 === r2) {
     const [cMin, cMax] = c1 < c2 ? [c1, c2] : [c2, c1];
@@ -161,16 +270,22 @@ function findPath(
   r1: number,
   c1: number,
   r2: number,
-  c2: number
+  c2: number,
 ): PathPoint[] | null {
   // 0 turns: same row or col, direct clear line
   if (r1 === r2) {
     if (segmentClear(grid, rows, cols, r1, c1, r2, c2)) {
-      return [{ r: r1, c: c1 }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: r2, c: c2 },
+      ];
     }
   } else if (c1 === c2) {
     if (segmentClear(grid, rows, cols, r1, c1, r2, c2)) {
-      return [{ r: r1, c: c1 }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: r2, c: c2 },
+      ];
     }
   }
 
@@ -181,7 +296,11 @@ function findPath(
       segmentClear(grid, rows, cols, r1, c1, r1, c2) &&
       segmentClear(grid, rows, cols, r1, c2, r2, c2)
     ) {
-      return [{ r: r1, c: c1 }, { r: r1, c: c2 }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: r1, c: c2 },
+        { r: r2, c: c2 },
+      ];
     }
   }
   // Corner B: (r2, c1)
@@ -190,7 +309,11 @@ function findPath(
       segmentClear(grid, rows, cols, r1, c1, r2, c1) &&
       segmentClear(grid, rows, cols, r2, c1, r2, c2)
     ) {
-      return [{ r: r1, c: c1 }, { r: r2, c: c1 }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: r2, c: c1 },
+        { r: r2, c: c2 },
+      ];
     }
   }
 
@@ -206,7 +329,12 @@ function findPath(
       segmentClear(grid, rows, cols, r1, cM, r2, cM) &&
       segmentClear(grid, rows, cols, r2, cM, r2, c2)
     ) {
-      return [{ r: r1, c: c1 }, { r: r1, c: cM }, { r: r2, c: cM }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: r1, c: cM },
+        { r: r2, c: cM },
+        { r: r2, c: c2 },
+      ];
     }
   }
 
@@ -222,7 +350,12 @@ function findPath(
       segmentClear(grid, rows, cols, rM, c1, rM, c2) &&
       segmentClear(grid, rows, cols, rM, c2, r2, c2)
     ) {
-      return [{ r: r1, c: c1 }, { r: rM, c: c1 }, { r: rM, c: c2 }, { r: r2, c: c2 }];
+      return [
+        { r: r1, c: c1 },
+        { r: rM, c: c1 },
+        { r: rM, c: c2 },
+        { r: r2, c: c2 },
+      ];
     }
   }
 
@@ -237,7 +370,7 @@ function getTile(grid: Grid, r: number, c: number): Tile | null {
 function findAllPairs(
   grid: Grid,
   rows: number,
-  cols: number
+  cols: number,
 ): [PathPoint, PathPoint][] {
   const pairs: [PathPoint, PathPoint][] = [];
   const tiles: PathPoint[] = [];
@@ -283,7 +416,7 @@ function removeTiles(grid: Grid, a: PathPoint, b: PathPoint): Grid {
         return tile ? { ...tile, removed: true } : null;
       }
       return tile;
-    })
+    }),
   );
 }
 
@@ -303,7 +436,9 @@ function shuffleRemaining(grid: Grid, rows: number, cols: number): Grid {
   }
 
   const shuffledSprites = fisherYates(sprites);
-  const newGrid: Grid = grid.map((row) => row.map((t) => t ? { ...t } : null));
+  const newGrid: Grid = grid.map((row) =>
+    row.map((t) => (t ? { ...t } : null)),
+  );
   let idCounter = rows * cols; // ensure new ids
 
   positions.forEach(([r, c], i) => {
@@ -367,7 +502,7 @@ function spriteColor(name: string): { bg: string; border: string } {
 
 const TILE_SIZE_MAX = 48; // px max tile size
 const TILE_SIZE_MIN = 32; // px min tile size
-const TILE_GAP = 4;       // px gap between tiles
+const TILE_GAP = 4; // px gap between tiles
 const SPRITE_RATIO = 0.75; // sprite takes 75% of tile size
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -410,7 +545,7 @@ export default function Shisensho(): React.ReactElement {
   useEffect(() => {
     if (!gs || !gs.running || gs.won) return;
     timerRef.current = setInterval(() => {
-      setGs((prev) => prev ? { ...prev, elapsed: prev.elapsed + 1 } : prev);
+      setGs((prev) => (prev ? { ...prev, elapsed: prev.elapsed + 1 } : prev));
     }, 1000);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -452,7 +587,15 @@ export default function Shisensho(): React.ReactElement {
       }
 
       // Same sprite → check path
-      const path = findPath(newState.grid, newState.rows, newState.cols, sel.r, sel.c, r, c);
+      const path = findPath(
+        newState.grid,
+        newState.rows,
+        newState.cols,
+        sel.r,
+        sel.c,
+        r,
+        c,
+      );
       if (!path) {
         return { ...newState, selected: { r, c } };
       }
@@ -461,7 +604,9 @@ export default function Shisensho(): React.ReactElement {
       const newGrid = removeTiles(newState.grid, sel, { r, c });
       const remaining = countRemaining(newGrid, newState.rows, newState.cols);
       const won = remaining === 0;
-      const pairs = won ? [] : findAllPairs(newGrid, newState.rows, newState.cols);
+      const pairs = won
+        ? []
+        : findAllPairs(newGrid, newState.rows, newState.cols);
       const noMoves = !won && pairs.length === 0;
       const animPathCounter = newState.animPathCounter + 1;
 
@@ -480,7 +625,7 @@ export default function Shisensho(): React.ReactElement {
     // Clear animPath after 600ms
     if (animTimerRef.current) clearTimeout(animTimerRef.current);
     animTimerRef.current = setTimeout(() => {
-      setGs((prev) => prev ? { ...prev, animPath: null } : prev);
+      setGs((prev) => (prev ? { ...prev, animPath: null } : prev));
     }, 600);
   }, []);
 
@@ -492,9 +637,14 @@ export default function Shisensho(): React.ReactElement {
       const pair = pairs[Math.floor(Math.random() * pairs.length)];
       if (hintTimerRef.current) clearTimeout(hintTimerRef.current);
       hintTimerRef.current = setTimeout(() => {
-        setGs((p) => p ? { ...p, hintPair: null } : p);
+        setGs((p) => (p ? { ...p, hintPair: null } : p));
       }, 3000);
-      return { ...prev, hintPair: pair, hintsLeft: prev.hintsLeft - 1, selected: null };
+      return {
+        ...prev,
+        hintPair: pair,
+        hintsLeft: prev.hintsLeft - 1,
+        selected: null,
+      };
     });
   }, []);
 
@@ -503,7 +653,10 @@ export default function Shisensho(): React.ReactElement {
       if (!prev || prev.shufflesLeft <= 0 || prev.won) return prev;
       let newGrid = shuffleRemaining(prev.grid, prev.rows, prev.cols);
       let attempts = 0;
-      while (findAllPairs(newGrid, prev.rows, prev.cols).length === 0 && attempts < 20) {
+      while (
+        findAllPairs(newGrid, prev.rows, prev.cols).length === 0 &&
+        attempts < 20
+      ) {
         newGrid = shuffleRemaining(prev.grid, prev.rows, prev.cols);
         attempts++;
       }
@@ -520,7 +673,9 @@ export default function Shisensho(): React.ReactElement {
   }, []);
 
   const formatTime = (secs: number): string => {
-    const m = Math.floor(secs / 60).toString().padStart(2, "0");
+    const m = Math.floor(secs / 60)
+      .toString()
+      .padStart(2, "0");
     const s = (secs % 60).toString().padStart(2, "0");
     return `${m}:${s}`;
   };
@@ -598,8 +753,12 @@ export default function Shisensho(): React.ReactElement {
       padding: "6px 16px",
       borderRadius: "6px",
       border: "1px solid var(--ifm-color-emphasis-300)",
-      background: disabled ? "var(--ifm-color-emphasis-200)" : "var(--ifm-color-emphasis-100)",
-      color: disabled ? "var(--ifm-color-emphasis-400)" : "var(--ifm-font-color-base)",
+      background: disabled
+        ? "var(--ifm-color-emphasis-200)"
+        : "var(--ifm-color-emphasis-100)",
+      color: disabled
+        ? "var(--ifm-color-emphasis-400)"
+        : "var(--ifm-font-color-base)",
       fontSize: "0.85rem",
       fontWeight: 600,
       cursor: disabled ? "not-allowed" : "pointer",
@@ -630,9 +789,10 @@ export default function Shisensho(): React.ReactElement {
   if (screen === "menu") {
     return (
       <div ref={containerRef} style={styles.wrapper}>
-        <div style={styles.title}>동방사천성</div>
+        <div style={styles.title}>동방 사천성</div>
         <div style={styles.subtitle}>
-          동방 캐릭터 도트로 즐기는 사천성 퍼즐<br />
+          동방 캐릭터 도트로 즐기는 사천성 퍼즐
+          <br />
           같은 캐릭터 2개를 선택해 연결하세요 (최대 2번 꺾기)
         </div>
         <div style={styles.diffRow}>
@@ -646,8 +806,15 @@ export default function Shisensho(): React.ReactElement {
             </button>
           ))}
         </div>
-        <div style={{ marginBottom: "12px", fontSize: "0.85rem", color: "var(--ifm-color-emphasis-600)" }}>
-          {DIFF_CONFIG[difficulty].cols}열 × {DIFF_CONFIG[difficulty].rows}행 &nbsp;·&nbsp;
+        <div
+          style={{
+            marginBottom: "12px",
+            fontSize: "0.85rem",
+            color: "var(--ifm-color-emphasis-600)",
+          }}
+        >
+          {DIFF_CONFIG[difficulty].cols}열 × {DIFF_CONFIG[difficulty].rows}행
+          &nbsp;·&nbsp;
           {(DIFF_CONFIG[difficulty].cols * DIFF_CONFIG[difficulty].rows) / 2}쌍
         </div>
         <button style={styles.startBtn} onClick={() => startGame(difficulty)}>
@@ -666,8 +833,13 @@ export default function Shisensho(): React.ReactElement {
 
   // Dynamic tile size based on container width
   const availableWidth = containerWidth > 0 ? containerWidth - 16 : 600; // 16px padding
-  const maxTileFromWidth = Math.floor((availableWidth - (gs.cols - 1) * TILE_GAP) / gs.cols);
-  const tileSize = Math.max(TILE_SIZE_MIN, Math.min(TILE_SIZE_MAX, maxTileFromWidth));
+  const maxTileFromWidth = Math.floor(
+    (availableWidth - (gs.cols - 1) * TILE_GAP) / gs.cols,
+  );
+  const tileSize = Math.max(
+    TILE_SIZE_MIN,
+    Math.min(TILE_SIZE_MAX, maxTileFromWidth),
+  );
   const spriteSize = Math.round(tileSize * SPRITE_RATIO);
 
   const gap = TILE_GAP;
@@ -711,7 +883,7 @@ export default function Shisensho(): React.ReactElement {
 
   return (
     <div style={styles.wrapper}>
-      <div style={styles.title}>시센쇼</div>
+      <div style={styles.title}>동방 사천성</div>
 
       {/* Header */}
       <div style={styles.gameHeader}>
@@ -799,18 +971,18 @@ export default function Shisensho(): React.ReactElement {
                     border: isSelected
                       ? "3px solid #FFD700"
                       : isHint
-                      ? "3px solid #2ecc71"
-                      : `2px solid ${spriteColor(tile.sprite).border}`,
+                        ? "3px solid #2ecc71"
+                        : `2px solid ${spriteColor(tile.sprite).border}`,
                     background: isSelected
                       ? "rgba(255, 215, 0, 0.25)"
                       : isHint
-                      ? "rgba(46, 204, 113, 0.2)"
-                      : spriteColor(tile.sprite).bg,
+                        ? "rgba(46, 204, 113, 0.2)"
+                        : spriteColor(tile.sprite).bg,
                     boxShadow: isSelected
                       ? "0 0 10px 2px rgba(255,215,0,0.5)"
                       : isHint
-                      ? "0 0 10px 2px rgba(46,204,113,0.4)"
-                      : "0 2px 5px rgba(0,0,0,0.12)",
+                        ? "0 0 10px 2px rgba(46,204,113,0.4)"
+                        : "0 2px 5px rgba(0,0,0,0.12)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -834,7 +1006,7 @@ export default function Shisensho(): React.ReactElement {
                   />
                 </div>
               );
-            })
+            }),
           )}
         </div>
       </div>
@@ -862,10 +1034,23 @@ export default function Shisensho(): React.ReactElement {
             }}
           >
             <div style={{ fontSize: "2.5rem", marginBottom: 8 }}>🎉</div>
-            <div style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: 8, color: "#FFD700" }}>
+            <div
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: 700,
+                marginBottom: 8,
+                color: "#FFD700",
+              }}
+            >
               클리어!
             </div>
-            <div style={{ fontSize: "1rem", marginBottom: 24, color: "var(--ifm-font-color-base)" }}>
+            <div
+              style={{
+                fontSize: "1rem",
+                marginBottom: 24,
+                color: "var(--ifm-font-color-base)",
+              }}
+            >
               클리어 시간: {formatTime(gs.elapsed)}
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center" }}>
@@ -876,7 +1061,11 @@ export default function Shisensho(): React.ReactElement {
                 다시 플레이
               </button>
               <button
-                style={{ ...styles.startBtn, padding: "10px 28px", background: "#2980b9" }}
+                style={{
+                  ...styles.startBtn,
+                  padding: "10px 28px",
+                  background: "#2980b9",
+                }}
                 onClick={() => setScreen("menu")}
               >
                 메뉴로
@@ -908,16 +1097,33 @@ export default function Shisensho(): React.ReactElement {
             }}
           >
             <div style={{ fontSize: "2rem", marginBottom: 8 }}>😵</div>
-            <div style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: 8, color: "var(--ifm-font-color-base)" }}>
+            <div
+              style={{
+                fontSize: "1.2rem",
+                fontWeight: 700,
+                marginBottom: 8,
+                color: "var(--ifm-font-color-base)",
+              }}
+            >
               가능한 수가 없습니다
             </div>
-            <div style={{ fontSize: "0.9rem", marginBottom: 24, color: "var(--ifm-color-emphasis-600)" }}>
+            <div
+              style={{
+                fontSize: "0.9rem",
+                marginBottom: 24,
+                color: "var(--ifm-color-emphasis-600)",
+              }}
+            >
               섞기를 사용하거나 새 게임을 시작하세요
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center" }}>
               {gs.shufflesLeft > 0 && (
                 <button
-                  style={{ ...styles.startBtn, padding: "10px 24px", background: "#27ae60" }}
+                  style={{
+                    ...styles.startBtn,
+                    padding: "10px 24px",
+                    background: "#27ae60",
+                  }}
                   onClick={() => {
                     handleShuffle();
                   }}
@@ -932,7 +1138,11 @@ export default function Shisensho(): React.ReactElement {
                 새 게임
               </button>
               <button
-                style={{ ...styles.startBtn, padding: "10px 24px", background: "#2980b9" }}
+                style={{
+                  ...styles.startBtn,
+                  padding: "10px 24px",
+                  background: "#2980b9",
+                }}
                 onClick={() => setScreen("menu")}
               >
                 메뉴로
