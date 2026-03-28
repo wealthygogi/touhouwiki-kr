@@ -630,7 +630,7 @@ export default function Shisensho(): React.ReactElement {
   if (screen === "menu") {
     return (
       <div ref={containerRef} style={styles.wrapper}>
-        <div style={styles.title}>시센쇼</div>
+        <div style={styles.title}>동방사천성</div>
         <div style={styles.subtitle}>
           동방 캐릭터 도트로 즐기는 사천성 퍼즐<br />
           같은 캐릭터 2개를 선택해 연결하세요 (최대 2번 꺾기)
