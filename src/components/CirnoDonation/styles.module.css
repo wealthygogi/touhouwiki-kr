@@ -1,0 +1,700 @@
+/* ===== Layout ===== */
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ===== Timer ===== */
+.timerBar {
+  width: 100%;
+  height: 6px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 3px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.timerFill {
+  height: 100%;
+  background: linear-gradient(90deg, #4fc3f7, #039be5);
+  border-radius: 3px;
+  transition: width 0.1s linear;
+}
+
+.timerFillUrgent {
+  background: linear-gradient(90deg, #ff5252, #d32f2f);
+  animation: timerPulse 0.5s ease-in-out infinite;
+}
+
+@keyframes timerPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.timerText {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 8px;
+  font-family: 'Courier New', monospace;
+}
+
+.timerTextUrgent {
+  color: #d32f2f;
+}
+
+/* ===== Shrine (CSS Art) ===== */
+.shrine {
+  position: relative;
+  width: 200px;
+  height: 180px;
+  margin: 0 auto 16px;
+}
+
+.shrineRoof {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 40px;
+  background: #8b0000;
+  clip-path: polygon(0% 100%, 5% 50%, 15% 0%, 85% 0%, 95% 50%, 100% 100%);
+}
+
+.shrineRoofEdge {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 8px;
+  background: #6b0000;
+  border-radius: 0 0 4px 4px;
+}
+
+.shrineBody {
+  position: absolute;
+  top: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 100px;
+  background: #f5e6d0;
+  border: 2px solid #d4a574;
+}
+
+.shrinePillarLeft,
+.shrinePillarRight {
+  position: absolute;
+  top: 44px;
+  width: 12px;
+  height: 136px;
+  background: #c0392b;
+  border-radius: 2px;
+}
+
+.shrinePillarLeft {
+  left: 14px;
+}
+
+.shrinePillarRight {
+  right: 14px;
+}
+
+/* Donation box */
+.donationBox {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 50px;
+  background: linear-gradient(180deg, #5d3a1a 0%, #4a2d12 100%);
+  border: 2px solid #3e2409;
+  border-radius: 2px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.donationBoxSlot {
+  width: 60px;
+  height: 6px;
+  background: #1a0f05;
+  margin-top: 8px;
+  border-radius: 1px;
+}
+
+.donationBoxGrid {
+  position: absolute;
+  top: 20px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  background:
+    repeating-linear-gradient(0deg, transparent, transparent 8px, #3e2409 8px, #3e2409 10px),
+    repeating-linear-gradient(90deg, transparent, transparent 14px, #3e2409 14px, #3e2409 16px);
+  opacity: 0.5;
+}
+
+/* ===== Characters ===== */
+.characters {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 60px;
+  margin: 16px 0;
+  min-height: 80px;
+}
+
+.characterSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.characterImg {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.characterName {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ===== Speech Bubbles ===== */
+.speechBubble {
+  position: relative;
+  background: var(--ifm-background-surface-color, #fff);
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  max-width: 180px;
+  word-break: keep-all;
+  transition: all 0.3s ease;
+}
+
+.speechBubble::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--ifm-color-emphasis-300);
+}
+
+.speechCirno {
+  border-color: #4fc3f7;
+}
+
+.speechCirno::after {
+  border-top-color: #4fc3f7;
+}
+
+.speechReimu {
+  border-color: #e57373;
+}
+
+.speechReimu::after {
+  border-top-color: #e57373;
+}
+
+/* ===== Amount Display ===== */
+.amountDisplay {
+  margin: 16px 0;
+}
+
+.amountLabel {
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 4px;
+}
+
+.amountValue {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--ifm-color-primary);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  transition: transform 0.1s ease;
+}
+
+.amountBounce {
+  transform: scale(1.1);
+}
+
+.clickCount {
+  font-size: 12px;
+  color: var(--ifm-color-emphasis-500);
+  margin-top: 4px;
+}
+
+/* ===== Donate Button ===== */
+.donateButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(135deg, #4fc3f7 0%, #29b6f6 50%, #039be5 100%);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 4px 15px rgba(79, 195, 247, 0.4);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.donateButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(79, 195, 247, 0.5);
+}
+
+.donateButton:active {
+  transform: translateY(1px) scale(0.97);
+  box-shadow: 0 2px 8px rgba(79, 195, 247, 0.3);
+}
+
+.donateButtonDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ===== Result Screen ===== */
+.resultScreen {
+  padding: 24px 0;
+}
+
+.resultTitle {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--ifm-color-primary);
+  margin-bottom: 16px;
+}
+
+.resultAmount {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--ifm-color-primary);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.resultClicks {
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 24px;
+}
+
+.retryButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 36px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(135deg, #e57373 0%, #ef5350 50%, #d32f2f 100%);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 4px 15px rgba(229, 115, 115, 0.4);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  margin-bottom: 16px;
+}
+
+.retryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(229, 115, 115, 0.5);
+}
+
+.retryButton:active {
+  transform: translateY(1px) scale(0.97);
+}
+
+.bestRecord {
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-500);
+  margin-top: 8px;
+}
+
+/* ===== Milestones ===== */
+.milestones {
+  margin-top: 24px;
+  text-align: left;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milestonesTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 4px;
+}
+
+.milestoneItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-600);
+  animation: milestoneAppear 0.3s ease-out;
+}
+
+.milestoneItem:last-child {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+@keyframes milestoneAppear {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* ===== Coin Animation ===== */
+.coinContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.coin {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle at 35% 35%, #ffd700, #b8860b);
+  border-radius: 50%;
+  border: 1px solid #996515;
+  animation: coinDrop 0.6s ease-in forwards;
+  z-index: 10;
+}
+
+@keyframes coinDrop {
+  0% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
+  70% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(120px) rotate(720deg) scale(0.5); }
+}
+
+/* ===== Milestone Banner (bottom dialogue style) ===== */
+.milestoneBanner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  pointer-events: none;
+  animation: bannerSlideUp 0.3s ease-out forwards;
+}
+
+.bannerInner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px 24px 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 20%);
+}
+
+.bannerText {
+  font-size: 24px;
+  font-weight: 900;
+  color: #4fc3f7;
+  text-shadow: 0 0 12px rgba(79, 195, 247, 0.6);
+  margin-bottom: 6px;
+}
+
+.bannerSub {
+  font-size: 15px;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.bannerSpeaker {
+  font-size: 13px;
+  font-weight: 700;
+  color: #81d4fa;
+  margin-bottom: 2px;
+}
+
+@keyframes bannerSlideUp {
+  0% { opacity: 0; transform: translateY(100%); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Finale Flash ===== */
+.finaleFlash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(79, 195, 247, 0.3), transparent);
+  animation: flashPulse 0.5s ease-out 3;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+@keyframes flashPulse {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* ===== Dark Mode ===== */
+[data-theme='dark'] .shrineBody {
+  background: #3e2c1a;
+  border-color: #8b6914;
+}
+
+[data-theme='dark'] .donationBox {
+  background: linear-gradient(180deg, #3e2409 0%, #2a1805 100%);
+}
+
+[data-theme='dark'] .amountValue {
+  text-shadow: 0 0 20px rgba(79, 195, 247, 0.3);
+}
+
+[data-theme='dark'] .donateButton {
+  box-shadow: 0 4px 15px rgba(79, 195, 247, 0.25);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .container { padding: 16px 12px; }
+  .characters { gap: 40px; }
+  .amountValue { font-size: 28px; }
+  .donateButton { padding: 10px 24px; font-size: 15px; }
+  .bannerText { font-size: 24px; }
+  .resultAmount { font-size: 32px; }
+  .shrine { width: 160px; height: 150px; }
+  .shrineRoof { width: 160px; height: 32px; }
+  .shrineRoofEdge { width: 180px; top: 28px; }
+  .shrineBody { width: 120px; height: 80px; top: 36px; }
+  .shrinePillarLeft, .shrinePillarRight { top: 36px; height: 114px; width: 10px; }
+  .shrinePillarLeft { left: 6px; }
+  .shrinePillarRight { right: 6px; }
+  .donationBox { width: 90px; height: 40px; }
+}
+
+/* ===== Button area ===== */
+.buttonArea {
+  position: relative;
+  display: inline-block;
+  min-height: 60px;
+}
+
+/* ===== Shinmyoumaru (extreme shrink) ===== */
+.buttonShrunk {
+  padding: 2px 4px !important;
+  font-size: 4px !important;
+  border-radius: 3px !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  line-height: 1 !important;
+  transition: all 0.3s ease;
+}
+
+/* ===== Yuyuko (ascend + fade) ===== */
+.buttonYuyuko {
+  animation: yuyukoAscend 2s ease-in forwards !important;
+  pointer-events: none !important;
+}
+
+@keyframes yuyukoAscend {
+  0% { opacity: 1; transform: translateY(0); }
+  30% { opacity: 0.5; }
+  100% { opacity: 0; transform: translateY(-200px); }
+}
+
+/* ===== Bunshin (fake buttons) ===== */
+.fakeButton {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0.9;
+  animation: bunshinAppear 0.3s ease-out;
+}
+
+@keyframes bunshinAppear {
+  from { opacity: 0; transform: scale(0.3); }
+  to { opacity: 0.9; }
+}
+
+/* ===== Tenshi quake ===== */
+.quake {
+  animation: tenshiQuake 0.1s linear infinite;
+}
+
+@keyframes tenshiQuake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-6px, 4px); }
+  50% { transform: translate(4px, -6px); }
+  75% { transform: translate(-4px, -2px); }
+  100% { transform: translate(6px, 2px); }
+}
+
+/* ===== Suwako frogs ===== */
+.frog {
+  position: absolute;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 100;
+  animation: frogBounce 0.5s ease-in-out infinite alternate;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes frogBounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+
+/* ===== Fool Effects ===== */
+.flipped {
+  animation: foolFlip 2s ease-in-out;
+}
+
+@keyframes foolFlip {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(180deg); }
+  80% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.buttonDodge {
+  animation: foolDodge 0.8s ease-in-out;
+}
+
+@keyframes foolDodge {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(80px); }
+  40% { transform: translateX(-60px); }
+  60% { transform: translateX(40px); }
+  80% { transform: translateX(-20px); }
+  100% { transform: translateX(0); }
+}
+
+.buttonFrozen {
+  background: linear-gradient(135deg, #81d4fa 0%, #4fc3f7 50%, #b3e5fc 100%) !important;
+  box-shadow: 0 0 20px rgba(79, 195, 247, 0.6), inset 0 0 10px rgba(255, 255, 255, 0.4) !important;
+  cursor: not-allowed !important;
+  animation: foolFreeze 0.3s ease-out;
+}
+
+@keyframes foolFreeze {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); filter: brightness(1.2); }
+}
+
+.fakeErrorOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  animation: foolErrorIn 0.2s ease-out;
+}
+
+@keyframes foolErrorIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fakeErrorBox {
+  background: #fff;
+  border: 3px solid #d32f2f;
+  border-radius: 12px;
+  padding: 24px 32px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  animation: foolErrorShake 0.5s ease-in-out;
+}
+
+@keyframes foolErrorShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+}
+
+.fakeErrorTitle {
+  font-size: 28px;
+  font-weight: 900;
+  color: #d32f2f;
+  margin-bottom: 8px;
+}
+
+.fakeErrorMsg {
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 12px;
+}
+
+.fakeErrorApril {
+  font-size: 20px;
+  font-weight: 800;
+  color: #4fc3f7;
+  animation: foolAprilPop 0.5s 0.8s ease-out both;
+}
+
+@keyframes foolAprilPop {
+  0% { opacity: 0; transform: scale(0.3); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* ===== Accessibility ===== */
+@media (prefers-reduced-motion: reduce) {
+  .coin,
+  .milestoneBanner,
+  .finaleFlash {
+    animation: none !important;
+  }
+}
